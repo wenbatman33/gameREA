@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+*.log
+*missing-requests.jsonl
+*local-api.jsonl
+
+# Original PG saves contain launch credentials and are not runtime inputs.
+/*.html
+/*_files/
+/analysis/
+
+# Large redundant REA envelopes stay local; runtime bodies and manifests remain.
+/research/playngo/static-analysis.json
+/research/pragmatic/rea-bootstrap-analysis.json
+*.capture.json
+*.evidence.json
+*-evidence.json
+*.runtime.html
+*.dom.txt
+*.direct.html
+*.page.html
+*-dom.html
+*-page.html
+

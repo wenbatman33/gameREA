@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "provider": "playngo",
+  "run_command": "python3 research/playngo/offline-server.py 8766",
+  "local_base_url": "http://127.0.0.1:8766/",
+  "games": [
+    {
+      "provider": "playngo",
+      "slug": "reactoonz",
+      "name": "Reactoonz",
+      "game_id": 333,
+      "official_url": "https://www.playngo.com/games/reactoonz",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=reactoonz&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8766/reactoonz/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=reactoonz&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "status": "local_fixture_replay_two_spins_verified",
+      "build": "9.4.1-reactoonz.450",
+      "asset_files": 65,
+      "asset_bytes": 21022692,
+      "rea_evidence_id": "ev_29874053cdf635f2fc91916f08cb742eccfb59e8ec482798fae82cd1a6442af2",
+      "screenshots": {
+        "remote": "/Users/batman_work/Desktop/pg遊戲/research/playngo/reactoonz/after-space.png",
+        "local": "/Users/batman_work/Desktop/pg遊戲/research/playngo/reactoonz/offline-after-spin.png",
+        "local_second_spin": "/Users/batman_work/Desktop/pg遊戲/research/playngo/reactoonz/offline-after-second-spin.png"
+      },
+      "limitations": [
+        "Only recorded default nonwinning round repeated; game math and RTP not reconstructed",
+        "Bonus rounds, gamble, alternate stakes, persistence and history unverified",
+        "Local server serves captured bytes and performs no upstream requests"
+      ],
+      "verification": {
+        "gid": "reactoonz",
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "websockets": [
+          {
+            "url": "ws://127.0.0.1:8766/reactoonz/o/ascflyp.playngonetwork.com//gamehub",
+            "sent": 6,
+            "received": 6
+          }
+        ]
+      }
+    },
+    {
+      "provider": "playngo",
+      "slug": "bookofdead",
+      "name": "Rich Wilde and the Book of Dead",
+      "game_id": 310,
+      "official_url": "https://www.playngo.com/games/rich-wilde-and-the-book-of-dead",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=bookofdead&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8766/bookofdead/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=bookofdead&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "status": "local_fixture_replay_two_spins_verified",
+      "build": "10.8.1-bookofdead.916",
+      "asset_files": 66,
+      "asset_bytes": 21287645,
+      "rea_evidence_id": "ev_c22414f837b79888bdae165fd3aecc83e5eadf9a5fc73b8c6c35c9c4d658f307",
+      "screenshots": {
+        "remote": "/Users/batman_work/Desktop/pg遊戲/research/playngo/bookofdead/after-space.png",
+        "local": "/Users/batman_work/Desktop/pg遊戲/research/playngo/bookofdead/offline-after-spin.png",
+        "local_second_spin": "/Users/batman_work/Desktop/pg遊戲/research/playngo/bookofdead/offline-after-second-spin.png"
+      },
+      "limitations": [
+        "Only recorded default nonwinning round repeated; game math and RTP not reconstructed",
+        "Bonus rounds, gamble, alternate stakes, persistence and history unverified",
+        "Local server serves captured bytes and performs no upstream requests"
+      ],
+      "verification": {
+        "gid": "bookofdead",
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "websockets": [
+          {
+            "url": "ws://127.0.0.1:8766/bookofdead/o/ascflyp.playngonetwork.com//gamehub",
+            "sent": 6,
+            "received": 6
+          }
+        ]
+      }
+    },
+    {
+      "provider": "playngo",
+      "slug": "wrappinmoregold",
+      "name": "Wrappin’ More Gold",
+      "game_id": 1001,
+      "official_url": "https://www.playngo.com/games/wrappin%27-more-gold",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=wrappinmoregold&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8766/wrappinmoregold/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=wrappinmoregold&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "status": "local_fixture_replay_two_spins_verified",
+      "build": "1.4.2-wrappinmoregold.289",
+      "asset_files": 72,
+      "asset_bytes": 35754976,
+      "rea_evidence_id": "ev_054058dd09101d247410c5c6d9793f9762dfd48b058d52f0fb2f8fa784d8dc04",
+      "screenshots": {
+        "remote": "/Users/batman_work/Desktop/pg遊戲/research/playngo/wrappinmoregold/after-space.png",
+        "local": "/Users/batman_work/Desktop/pg遊戲/research/playngo/wrappinmoregold/offline-after-spin.png",
+        "local_second_spin": "/Users/batman_work/Desktop/pg遊戲/research/playngo/wrappinmoregold/offline-after-second-spin.png"
+      },
+      "limitations": [
+        "Only recorded default nonwinning round repeated; game math and RTP not reconstructed",
+        "Bonus rounds, gamble, alternate stakes, persistence and history unverified",
+        "Local server serves captured bytes and performs no upstream requests"
+      ],
+      "verification": {
+        "gid": "wrappinmoregold",
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "websockets": [
+          {
+            "url": "ws://127.0.0.1:8766/wrappinmoregold/o/ascflyp.playngonetwork.com//gamehub",
+            "sent": 6,
+            "received": 6
+          }
+        ]
+      }
+    }
+  ]
+}

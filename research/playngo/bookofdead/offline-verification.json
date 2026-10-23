@@ -1,0 +1,13 @@
+{
+  "gid": "bookofdead",
+  "errors": [],
+  "failed": [],
+  "external": [],
+  "websockets": [
+    {
+      "url": "ws://127.0.0.1:8766/bookofdead/o/ascflyp.playngonetwork.com//gamehub",
+      "sent": 6,
+      "received": 6
+    }
+  ]
+}

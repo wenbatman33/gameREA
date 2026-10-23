@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-23",
+  "rea_version": "6.7.0",
+  "local_launcher": "http://127.0.0.1:18764",
+  "local_playable": 6,
+  "investigated": 9,
+  "pp": [
+    {
+      "slug": "sweet-bonanza-pop",
+      "externalBlocked": [],
+      "failures": [],
+      "api": [
+        {
+          "request": "action=doInit&symbol=vs10swtbnz&cver=457575&index=1&counter=1&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=2&counter=3&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=3&counter=5&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=4&counter=7&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=5&counter=9&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=6&counter=11&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs10swtbnz&action=doCollect&index=7&counter=13&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=8&counter=15&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=9&counter=17&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs10swtbnz&c=0.2&l=10&sInfo=n&index=10&counter=19&repeat=0&mgckey=stylename@generic~SESSION@93753eeb-39c2-4e4d-aed4-7548ee521756",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "slug": "the-dog-house-slot",
+      "externalBlocked": [],
+      "failures": [],
+      "api": [
+        {
+          "request": "action=doInit&symbol=vs20doghouse&cver=442773&index=1&counter=1&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20doghouse&c=0.1&l=20&sInfo=n&index=2&counter=3&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20doghouse&action=doCollect&index=3&counter=5&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20doghouse&c=0.1&l=20&sInfo=n&index=4&counter=7&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20doghouse&action=doCollect&index=5&counter=9&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20doghouse&c=0.1&l=20&sInfo=n&index=6&counter=11&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20doghouse&action=doCollect&index=7&counter=13&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20doghouse&c=0.1&l=20&sInfo=n&index=8&counter=15&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20doghouse&action=doCollect&index=9&counter=17&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "slug": "gates-of-olympus-2500",
+      "externalBlocked": [],
+      "failures": [],
+      "api": [
+        {
+          "request": "action=doInit&symbol=vs20olympmmd&cver=460518&index=1&counter=1&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=2&counter=3&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=3&counter=5&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20olympmmd&action=doCollect&index=4&counter=7&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=5&counter=9&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=6&counter=11&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20olympmmd&action=doCollect&index=7&counter=13&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=8&counter=15&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=9&counter=17&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20olympmmd&action=doCollect&index=10&counter=19&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=11&counter=21&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=12&counter=23&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        },
+        {
+          "request": "symbol=vs20olympmmd&action=doCollect&index=13&counter=25&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+          "status": 200
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "playngo": [
+    {
+      "slug": "reactoonz",
+      "errors": 0,
+      "failed": 0,
+      "external": 0,
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:8766/reactoonz/o/ascflyp.playngonetwork.com//gamehub",
+          "sent": 6,
+          "received": 6
+        }
+      ],
+      "observed_balances": [
+        "25000.00",
+        "24999.00",
+        "24998.00"
+      ]
+    },
+    {
+      "slug": "bookofdead",
+      "errors": 0,
+      "failed": 0,
+      "external": 0,
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:8766/bookofdead/o/ascflyp.playngonetwork.com//gamehub",
+          "sent": 6,
+          "received": 6
+        }
+      ],
+      "observed_balances": [
+        "25000.00",
+        "24999.00",
+        "24998.00"
+      ]
+    },
+    {
+      "slug": "wrappinmoregold",
+      "errors": 0,
+      "failed": 0,
+      "external": 0,
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:8766/wrappinmoregold/o/ascflyp.playngonetwork.com//gamehub",
+          "sent": 6,
+          "received": 6
+        }
+      ],
+      "observed_balances": [
+        "25000.00",
+        "24999.00",
+        "24998.00"
+      ]
+    }
+  ],
+  "hacksaw": [
+    {
+      "name": "Wanted Dead Or a Wild",
+      "official_url": "https://www.hacksawgaming.com/games/wanted-dead-or-a-wild",
+      "playable_verified": false,
+      "blocker": "CORS preflight missing Access-Control-Allow-Origin on official demo API; no successful authentication, no spin captured",
+      "evidence_id": "ev_b338a4b96a009ceb1ccd388f1c1b9d50307550fd30bf7c98608fb93c781947ca"
+    },
+    {
+      "name": "Le Bandit",
+      "official_url": "https://www.hacksawgaming.com/games/le-bandit",
+      "playable_verified": false,
+      "blocker": "CORS preflight missing Access-Control-Allow-Origin on official demo API; no successful authentication, no spin captured",
+      "evidence_id": "ev_873ec91fd1c7f4f94a45d64605d5d6b42abe5e478b78c5489a4015bd7b3945ef"
+    },
+    {
+      "name": "Chaos Crew",
+      "official_url": "https://www.hacksawgaming.com/games/chaos-crew",
+      "playable_verified": false,
+      "blocker": "CORS preflight missing Access-Control-Allow-Origin on official demo API; no successful authentication, no spin captured",
+      "evidence_id": "ev_a9e6ab752f9d54573e9f955bfcd9c8540ca753836abd08108935c3bd512fbfa6"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "game": "sweet-bonanza-pop",
+    "source_sha256": "526561c50876592fa6f6ffc4997ee517598359b6d0ef1249140ba5bd5eb8a7d6",
+    "original_unchanged": true,
+    "served_bytes": 3225595,
+    "recorded_context_restored": true
+  },
+  {
+    "game": "gates-of-olympus-2500",
+    "source_sha256": "ab30200267f5d925d5cb4fda0a1fc38835255ad55a6b6566816fdfe77c579a1c",
+    "original_unchanged": true,
+    "served_bytes": 4811569,
+    "recorded_context_restored": true
+  },
+  {
+    "game": "the-dog-house-slot",
+    "source_sha256": "7d8eea972f0004842df4ff94daedb261b67582dfeee33382bf9b5b8ef282860d",
+    "original_unchanged": true,
+    "served_bytes": 3131492,
+    "recorded_context_restored": true
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true
+  },
+  "start_url": {
+    "url": "https://www.hacksawgaming.com/games"
+  },
+  "actions": [
+    {
+      "step_id": "load",
+      "action": "wait_for_timeout",
+      "duration_ms": 1000
+    },
+    {
+      "step_id": "select",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "span.js-launch-game[data-gameid=\"1059\"]"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "cookies",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "button[data-consent=\"granted\"]"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "confirm",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": ".js-responsible-approve"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "load-demo",
+      "action": "wait_for_timeout",
+      "duration_ms": 15000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url",
+      "screenshot"
+    ],
+    "events": [
+      "network",
+      "console",
+      "page-errors",
+      "frames"
+    ],
+    "network": {
+      "response_body": true,
+      "request_body": true
+    },
+    "after_each_step": [
+      "screenshot",
+      "dom"
+    ]
+  }
+}

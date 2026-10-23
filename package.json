@@ -1,0 +1,13 @@
+{
+  "name": "game-rea-local-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local captured-demo research lab with fixture backends",
+  "scripts": {
+    "start": "python3 start-local.py",
+    "verify:pp": "node research/pragmatic/verify-local.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
