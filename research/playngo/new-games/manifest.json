@@ -1,0 +1,132 @@
+{
+  "provider": "playngo",
+  "run_command": "python3 research/playngo/new-games/offline-server.py 8767 --mute",
+  "release_command": "python3 research/playngo/new-games/offline-server.py 8767",
+  "games": [
+    {
+      "provider": "playngo",
+      "slug": "legacyofdead",
+      "name": "Legacy of Dead",
+      "game_id": 416,
+      "official_url": "https://www.playngo.com/games/legacy-of-dead",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=legacyofdead&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8767/legacyofdead/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=legacyofdead&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "build": "9.8.1-legacyofdead.537",
+      "status": "local_protocol_three_spins_verified_ui_pending",
+      "asset_files": 99,
+      "asset_bytes": 51183663,
+      "verified": [
+        "loopback websocket init",
+        "3 consecutive local round packets",
+        "stake-based virtual balance debit",
+        "public official asset manifests downloaded"
+      ],
+      "limitations": [
+        "UI rendering/spin completion awaits browser verification",
+        "Only observed complete zero-win base-round fixture replayed",
+        "Original math/RTP, winning rounds, bonuses and histories not reconstructed",
+        "Balance currently per WebSocket session; reload resets to 2500000 credits"
+      ]
+    },
+    {
+      "provider": "playngo",
+      "slug": "firejoker",
+      "name": "Fire Joker",
+      "game_id": 307,
+      "official_url": "https://www.playngo.com/games/fire-joker",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=firejoker&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8767/firejoker/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=firejoker&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "build": "9.6.1-firejoker.432",
+      "status": "local_protocol_three_spins_verified_ui_pending",
+      "asset_files": 105,
+      "asset_bytes": 63155776,
+      "verified": [
+        "loopback websocket init",
+        "3 consecutive local round packets",
+        "stake-based virtual balance debit",
+        "public official asset manifests downloaded"
+      ],
+      "limitations": [
+        "UI rendering/spin completion awaits browser verification",
+        "Only observed complete zero-win base-round fixture replayed",
+        "Original math/RTP, winning rounds, bonuses and histories not reconstructed",
+        "Balance currently per WebSocket session; reload resets to 2500000 credits"
+      ]
+    },
+    {
+      "provider": "playngo",
+      "slug": "riseofolympus",
+      "name": "Rise of Olympus",
+      "game_id": 352,
+      "official_url": "https://www.playngo.com/games/rise-of-olympus",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=riseofolympus&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8767/riseofolympus/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=riseofolympus&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "build": "9.5.1-riseofolympus.373",
+      "status": "local_protocol_three_spins_verified_ui_pending",
+      "asset_files": 107,
+      "asset_bytes": 64452808,
+      "verified": [
+        "loopback websocket init",
+        "3 consecutive local round packets",
+        "stake-based virtual balance debit",
+        "public official asset manifests downloaded"
+      ],
+      "limitations": [
+        "UI rendering/spin completion awaits browser verification",
+        "Only observed complete zero-win base-round fixture replayed",
+        "Original math/RTP, winning rounds, bonuses and histories not reconstructed",
+        "Balance currently per WebSocket session; reload resets to 2500000 credits"
+      ]
+    },
+    {
+      "provider": "playngo",
+      "slug": "moonprincess",
+      "name": "Moon Princess",
+      "game_id": 334,
+      "official_url": "https://www.playngo.com/games/moon-princess",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=moonprincess&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8767/moonprincess/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=moonprincess&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "build": "9.4.1-moonprincess.378",
+      "status": "local_protocol_three_spins_verified_ui_pending",
+      "asset_files": 86,
+      "asset_bytes": 42717091,
+      "verified": [
+        "loopback websocket init",
+        "3 consecutive local round packets",
+        "stake-based virtual balance debit",
+        "public official asset manifests downloaded"
+      ],
+      "limitations": [
+        "UI rendering/spin completion awaits browser verification",
+        "Only observed complete zero-win base-round fixture replayed",
+        "Original math/RTP, winning rounds, bonuses and histories not reconstructed",
+        "Balance currently per WebSocket session; reload resets to 2500000 credits"
+      ]
+    },
+    {
+      "provider": "playngo",
+      "slug": "gemix",
+      "name": "Gemix",
+      "game_id": 286,
+      "official_url": "https://www.playngo.com/games/gemix",
+      "demo_url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=gemix&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "local_url": "http://127.0.0.1:8767/gemix/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=gemix&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "build": "8.5.2-gemix.426",
+      "status": "local_protocol_three_spins_verified_ui_pending",
+      "asset_files": 111,
+      "asset_bytes": 40235578,
+      "verified": [
+        "loopback websocket init",
+        "3 consecutive local round packets",
+        "stake-based virtual balance debit",
+        "public official asset manifests downloaded"
+      ],
+      "limitations": [
+        "UI rendering/spin completion awaits browser verification",
+        "Only observed complete zero-win base-round fixture replayed",
+        "Original math/RTP, winning rounds, bonuses and histories not reconstructed",
+        "Balance currently per WebSocket session; reload resets to 2500000 credits"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "game": {
+      "slug": "big-bass-bonanza",
+      "symbol": "vs10bbbonanza"
+    },
+    "uniqueStatic": 39,
+    "api": 12,
+    "bytes": 32220022,
+    "externalTextures": 2,
+    "errors": [],
+    "browserVerified": "separate main-agent acceptance evidence"
+  },
+  {
+    "game": {
+      "slug": "gates-of-olympus",
+      "symbol": "vs20olympgate"
+    },
+    "uniqueStatic": 66,
+    "api": 11,
+    "bytes": 59495555,
+    "externalTextures": 19,
+    "errors": [],
+    "browserVerified": "separate main-agent acceptance evidence"
+  },
+  {
+    "game": {
+      "slug": "starlight-princess",
+      "symbol": "vs20starlight"
+    },
+    "uniqueStatic": 65,
+    "api": 12,
+    "bytes": 63456138,
+    "externalTextures": 17,
+    "errors": [],
+    "browserVerified": "separate main-agent acceptance evidence"
+  },
+  {
+    "game": {
+      "slug": "sugar-rush",
+      "symbol": "vs20sugarrush"
+    },
+    "uniqueStatic": 73,
+    "api": 12,
+    "bytes": 54064906,
+    "externalTextures": 29,
+    "errors": [],
+    "browserVerified": "separate main-agent acceptance evidence"
+  },
+  {
+    "game": {
+      "slug": "sweet-bonanza",
+      "symbol": "vs20fruitsw"
+    },
+    "uniqueStatic": 46,
+    "api": 11,
+    "bytes": 51398735,
+    "externalTextures": 4,
+    "errors": [],
+    "browserVerified": "separate main-agent acceptance evidence"
+  }
+]

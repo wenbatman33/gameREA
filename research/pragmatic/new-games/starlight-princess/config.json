@@ -1,0 +1,41 @@
+{
+  "accountType": "R",
+  "currency": "USD",
+  "currencyOriginal": "USD",
+  "datapath": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/",
+  "umpcEnabled": false,
+  "lcEnabled": false,
+  "gameService": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+  "lang": "en",
+  "vendor": "T",
+  "showRealCash": "1",
+  "clock": "0",
+  "mgckey": "stylename@generic~SESSION@1babb2e5-66ba-4ec6-9878-3dc05520c12f",
+  "styleName": "generic",
+  "extend_events": "1",
+  "REGULATION": "https://demogamesfree.pragmaticplay.net/gs2c/regulation/process.do?symbol=vs20starlight",
+  "statisticsURL": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do",
+  "jurisdiction": "99",
+  "langSelectorEnabled": "0",
+  "cid": "11111",
+  "demoMode": "1",
+  "manualPayout": [
+    "MRC",
+    "TMC",
+    "TMFS",
+    "MRFS"
+  ],
+  "announcementsUpdateSeconds": 120,
+  "announcementsUpdateSecondsDefault": 120,
+  "LOGOUT": "/gs2c/logout.do",
+  "RELOAD_BALANCE": "/gs2c/reloadBalance.do",
+  "RELOAD_JACKPOT": "/gs2c/jackpot/reload.do",
+  "SETTINGS": "/gs2c/saveSettings.do",
+  "CLOSE_GAME": "/gs2c/closeGame.do?symbol=vs20starlight",
+  "region": "Other",
+  "sessionKeyV2": [
+    "iZwFqMdByRj6Ei8Y8nhU1MXvi4C96sy9jr0opDqwcYWsEBra8RoKw13Y3ks/BNH0fqgB6K5jyerkyI2u56urKOvSHbv0kdBInQvksqXbEkYILC+E1iFA8EL+b965k34SDkWMA41D6dPOuOryze/ytYXwONbBipfm0CpYYkelXSM=",
+    "LEhyQWIUjFi+x2WeqicSvLUwnE/LTMHnI+uu8gkS9sXB5JXScJTwiucrrHMgj10sOpTb4IN/ZlKIeRZt1z4Z1VNQlN2/tDKgkOQVE10yJ1dNfpjG640RFhz/pMfLSmhxTDJ3muEkZZ9T6H7znhag7Blx1S9ZPMqXmPSrntswzVE="
+  ],
+  "mid": "7994576906705411032"
+}

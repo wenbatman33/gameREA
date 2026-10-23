@@ -2,7 +2,7 @@
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.request import urlopen
-import html, signal, socket, subprocess, sys, time
+import html, json, signal, socket, subprocess, sys, time
 
 ROOT = Path(__file__).resolve().parent
 PORT = 18764
@@ -16,6 +16,16 @@ GAMES = [
 GAMES += [('AFA', name, f'http://127.0.0.1:18766/play/{gid}', f'research/havespring/{slug}-local-after.png', True)
           for gid, name, slug in [('CA261119', '草船借箭', 'grass-boat'), ('CA261141', '血戰長坂', 'blood-battle'), ('CA261130', '火燒赤壁', 'red-cliffs')]]
 GAMES += [('ATG', '戰神賽特2 覺醒之力', 'http://127.0.0.1:18767/', 'research/atg/seth2/local-after.png', True)]
+EXTRA_IMAGES=set()
+verification=ROOT/'research/local-20-verification.json'
+if verification.is_file():
+    for item in json.loads(verification.read_text()).get('newBrowserVerified',[]):
+        image='research/'+item['screenshot']
+        if item.get('spins',0)<3 or not (ROOT/image).is_file():continue
+        slug=item['slug']
+        url=(f'http://127.0.0.1:19765/play/{slug}' if item['provider']=='Pragmatic Play' else
+             f'http://127.0.0.1:8767/{slug}/o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid={slug}&lang=en_GB&practice=1&channel=desktop&demo=2')
+        GAMES.append((item['provider'],item['title'],url,image,True));EXTRA_IMAGES.add(image)
 IMAGES = {g[3] for g in GAMES}
 
 def page(static=False):
@@ -23,6 +33,7 @@ def page(static=False):
     for provider, name, url, image, ready in GAMES:
         status = ('可在本機一般抽卡' if provider == 'AFA' else '可在本機試玩') if ready else '研究中，尚未提供本機試玩'
         if provider == 'ATG': status = '本機假後端：一般／自動回合、免費與覺醒樣本；可調中獎機率，非原站數學模型'
+        if image in EXTRA_IMAGES:status='普通回合樣本；已驗證連續三局與結算，完整特殊玩法尚未還原'
         button = '開啟本機遊戲' if ready else '查看官方頁面'
         cards.append(f'<article><img src="{image}" alt="{html.escape(name)} 實測截圖"><div><small>{provider}</small><h2>{html.escape(name)}</h2><p>{status}</p><a href="{html.escape(url)}" target="_blank" rel="noopener">{button} ↗</a></div></article>')
     body = ('''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title>
@@ -35,7 +46,7 @@ def page(static=False):
         body = body.replace('九款可透過本機假後端試玩；', '九款需先啟動本機假後端才能試玩；')
         body = body.replace('<div class="note">', '<div class="note"><strong>GitHub Pages 展示入口</strong><p>請先下載專案，執行 <code>python3 start-local.py</code>，再使用下方本機遊戲連結。這個公開網頁僅提供選單與截圖。</p>')
         body = body.replace('關閉終端機後若無法連線，重新執行 python3 start-local.py。', '<a href="https://github.com/wenbatman33/gameREA">取得專案與啟動說明 ↗</a>。')
-    return body.encode()
+    return body.replace('提供已驗證可操作的本機試作。',f'提供已驗證可操作的 {len(GAMES)} 款本機試作。').encode()
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -76,10 +87,12 @@ if __name__ == '__main__':
         for port, marker, script in [(18765, 'PP 本機研究版', 'research/pragmatic/offline_server.py'),
                                       (8766, 'Play’n GO 本機研究版', 'research/playngo/offline-server.py'),
                                       (18766, 'AFA 本機研究版', 'research/havespring/offline_server.py'),
-                                      (18767, '戰神賽特2 本機模擬版', 'research/atg/seth2/local_server.py')]:
+                                      (18767, '戰神賽特2 本機模擬版', 'research/atg/seth2/local_server.py'),
+                                      (19765, 'PP 本機研究版', 'research/pragmatic/new-games/offline_server.py'),
+                                      (8767, 'Play', 'research/playngo/new-games/offline-server.py')]:
             if not running(port, marker):
                 command=[sys.executable, str(ROOT / script)]
-                if port==18767 and '--mute' in sys.argv:command.append('--mute')
+                if port in (18767,19765,8767) and '--mute' in sys.argv:command.append('--mute')
                 children.append(subprocess.Popen(command, cwd=ROOT))
                 for attempt in range(40):
                     time.sleep(0.1)

@@ -1,0 +1,18 @@
+{
+	"soundBufferId": "mj_sounds",
+	"files": {
+		"ogg": { "url": "mj_sounds_desktop.ogg", "size": 127668 },
+		"mp3": { "url": "mj_sounds_desktop.mp3", "size": 157546 },
+		"fb": { "url": "mj_sounds_desktop_fb.mp3", "size": 142314 }
+	},
+	"sounds":
+	{
+		"empty": { "start": 0, "end": 22050, "unique": false, "priority": 0 },
+		"mjFireworkSmall": { "start": 44100, "end": 110863, "unique": false, "priority": 0 },
+		"mjFireworkMedium": { "start": 154963, "end": 232568, "unique": false, "priority": 0 },
+		"mjFireworkLarge": { "start": 276668, "end": 363927, "unique": false, "priority": 0 },
+		"mjFireworkFly": { "start": 408027, "end": 534622, "unique": false, "priority": 0 },
+		"mjCoinshowerStart": { "start": 578722, "end": 621638, "unique": false, "priority": 0 },
+		"mjCoinshowerLoop": { "start": 665738, "end": 737568, "unique": false, "priority": 0 }
+	 }
+}

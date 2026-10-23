@@ -1,0 +1,41 @@
+{
+  "accountType": "R",
+  "currency": "USD",
+  "currencyOriginal": "USD",
+  "datapath": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/",
+  "umpcEnabled": false,
+  "lcEnabled": false,
+  "gameService": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+  "lang": "en",
+  "vendor": "T",
+  "showRealCash": "1",
+  "clock": "0",
+  "mgckey": "stylename@generic~SESSION@982a8eae-69ab-40ae-b8c4-4705a1c2ce55",
+  "styleName": "generic",
+  "extend_events": "1",
+  "REGULATION": "https://demogamesfree.pragmaticplay.net/gs2c/regulation/process.do?symbol=vs20fruitsw",
+  "statisticsURL": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do",
+  "jurisdiction": "99",
+  "langSelectorEnabled": "0",
+  "cid": "11111",
+  "demoMode": "1",
+  "manualPayout": [
+    "MRC",
+    "TMC",
+    "TMFS",
+    "MRFS"
+  ],
+  "announcementsUpdateSeconds": 120,
+  "announcementsUpdateSecondsDefault": 120,
+  "LOGOUT": "/gs2c/logout.do",
+  "RELOAD_BALANCE": "/gs2c/reloadBalance.do",
+  "RELOAD_JACKPOT": "/gs2c/jackpot/reload.do",
+  "SETTINGS": "/gs2c/saveSettings.do",
+  "CLOSE_GAME": "/gs2c/closeGame.do?symbol=vs20fruitsw",
+  "region": "Other",
+  "sessionKeyV2": [
+    "nEwO09Kr9GdGeZLvpUuvq/chXfFQV90Y//NRnR0oOUFnyi1PXRaHblBMEOKbgTw69tm1m5f4VuhzgAoWOMw2HS2eSwrRF7YmgXl4faH7hI2BdfoIa4AaSNWk+OZSW47aNeuA3Y+ZGsa/ffYiS1ryxCrEh3rGRGWqHMllaKDmilg=",
+    "iIN3t/fQmhKtriaV529hBsAHQUCdv6opg0W/U6oDAFOfFs+TwD/o8McSulqpFlXDREL2Xq0ZPzRCArDbaEvUtG3Buy2xJqrqzezL8F4ivrQZdR2SsgfrOSwfjcXTD5nFTxMkmTZpLcIg7ctT5+68kUOWpvB056cqJ5vmZkdDTD8="
+  ],
+  "mid": "7610758545594446134"
+}

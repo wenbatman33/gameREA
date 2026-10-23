@@ -1,6 +1,9 @@
-"""Generate the static GitHub Pages entry from the local launcher gallery."""
-from pathlib import Path
-import runpy
-root=Path(__file__).resolve().parent
-(root/'index.html').write_bytes(runpy.run_path(str(root/'start-local.py'))['page'](static=True))
-print('Generated index.html')
+"""Compatibility entry: build the complete browser runtime, never localhost links."""
+from build_static import build
+import argparse
+if __name__ == '__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output',default='web-build')
+    parser.add_argument('--mute',action='store_true')
+    args=parser.parse_args()
+    build(args.output,quiet=args.mute)

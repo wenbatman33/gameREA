@@ -1,0 +1,15 @@
+{
+  "gameId": 307,
+  "gId": "firejoker",
+  "name": "Fire Joker",
+  "gameType": "videoslot",
+  "limitsValues": [
+    "game.rtp",
+    "game.denominations",
+    "game.mysteryjackpot",
+    "game.jackpot",
+    "game.gojackpot",
+    "game.leaderboard",
+    "game.minigame"
+  ]
+}

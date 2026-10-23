@@ -1,0 +1,782 @@
+{
+  "files": [
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/games/gemix/gemix_desktop.bundle.js",
+      "file": "bodies/22b4b3978af649a3e0f510972e3cfbed76138e56b6c6b70bcfad59aa562a8cad",
+      "contentType": "application/javascript",
+      "bytes": 2085571,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/config_desktop.json",
+      "file": "bodies/f3df92f49d4dc9fb580ea05ec9cbbb186747af1a1b9b4d34413dce3a1d78c41f",
+      "contentType": "application/json",
+      "bytes": 16828,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/featurepreview_bundle.json",
+      "file": "bodies/4e4d1125f8385be1a46bca26cdcdca177e32ad4a62323259c6c215beeaba19de",
+      "contentType": "application/json",
+      "bytes": 126534,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/game_bundle.json",
+      "file": "bodies/c1fb6a2bfe2c1e068e61524c4d04010b53689a3466495adc1b319d1b814d747e",
+      "contentType": "application/json",
+      "bytes": 427128,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/ui_desktop_bundle.json",
+      "file": "bodies/812e945b268a9213781cbacd82dd710dfabcf5fdb7cbbda0844a17e5e552a9cf",
+      "contentType": "application/json",
+      "bytes": 174337,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/mysteryjackpot_bundle.json",
+      "file": "bodies/c6d7e216bce97fadde956a170175579fca8d61156b5a0b9d739565a6fc0dff7d",
+      "contentType": "application/json",
+      "bytes": 449,
+      "status": 200
+    },
+    {
+      "url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=gemix&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "file": "bodies/fe2ab619509ca3dee69eeb202e9d9430fa9214e66f55eda77adf0bd6904f7c62",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 747,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/oswald_regular.css",
+      "file": "bodies/213dbae94726fbe667dbe6bc8800679f27ac186be1f99ffa3f7ed021175c5cbe",
+      "contentType": "text/css",
+      "bytes": 154,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/oswald_medium.css",
+      "file": "bodies/6b2f57fda90068ea8ca7310ac4d20eb4895ac9158f135777c059b11ca5155116",
+      "contentType": "text/css",
+      "bytes": 152,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.css",
+      "file": "bodies/c018ebfdb84d7f2d5bd527176c9abdc358f9a8153b0835e6886d87bfe2050c4f",
+      "contentType": "text/css",
+      "bytes": 175,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/ROBOTO_CONDENSED_BOLD.css",
+      "file": "bodies/9ecc50c226974dc2c28b27e342de6610403e1c6314e6f1bfe649a41418ea8df4",
+      "contentType": "text/css",
+      "bytes": 169,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/fonts/GXGameFont.css",
+      "file": "bodies/99edcd972aa5626bc77cefd3bdd0a8afb4f055769eaca34206699b68700c8a98",
+      "contentType": "text/css",
+      "bytes": 142,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/britanic_bold.css",
+      "file": "bodies/27bbc6f9126d27f0bcd760b5aadb02bd2499651791299bb8826c70980c074cdd",
+      "contentType": "text/css",
+      "bytes": 243,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/png_mini.css",
+      "file": "bodies/7dff56ff2501b0b85b2d7cc8fb8e87952df69596cfc39db251d8ad0b369705c4",
+      "contentType": "text/css",
+      "bytes": 140,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/ARIAL_ROUNDED_BOLD.css",
+      "file": "bodies/6caf308b1afce2e7156c5d739992fb8f0826b0f87fa4621760b16b49b426ef6b",
+      "contentType": "text/css",
+      "bytes": 163,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/POPPINS_REGULAR.css",
+      "file": "bodies/cd8d63cb7c62dd370c57111a9e116acc7aad832022f14f1f1d0460ffddd47b09",
+      "contentType": "text/css",
+      "bytes": 157,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/bmpfonts/bmpfonts_texture0_level0.png",
+      "file": "bodies/094b453447171ce5837125c3e0ee98d44f269c15b5c0010f93f9fffbbcada60f",
+      "contentType": "image/png",
+      "bytes": 155085,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/bmpfonts/bmpfonts_texture0_level1.png",
+      "file": "bodies/094b453447171ce5837125c3e0ee98d44f269c15b5c0010f93f9fffbbcada60f",
+      "contentType": "image/png",
+      "bytes": 155085,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/bmpfonts/bmpfonts_texture0_level2.png",
+      "file": "bodies/094b453447171ce5837125c3e0ee98d44f269c15b5c0010f93f9fffbbcada60f",
+      "contentType": "image/png",
+      "bytes": 155085,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/fallbackfonts/britanic_bold.css",
+      "file": "bodies/cf4d3f31fdef6b2f2a82a80090cd798974236e0f8bed3097c8831d2f91e72a9e",
+      "contentType": "text/css",
+      "bytes": 168,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/fallbackfonts/GXGameFont.css",
+      "file": "bodies/b2e970895786209fc7b4e88073d93bf7fa1bfa0cc68b67c90799c90289265989",
+      "contentType": "text/css",
+      "bytes": 165,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture1_level0.png",
+      "file": "bodies/8b928a52d957075ee2774a8222ad0b45c0b3a76a9a5f476c5e03dd502ad3eec5",
+      "contentType": "image/png",
+      "bytes": 1317613,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture1_level1.png",
+      "file": "bodies/a9549bbbc87cb67719c023e4d71da232adfbad075689d519f7ad7ec7e4ca7a07",
+      "contentType": "image/png",
+      "bytes": 648831,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture1_level2.png",
+      "file": "bodies/b238159710a2925210a2eb55fcbaf5cbc07367469a6648d83847168caf26a06b",
+      "contentType": "image/png",
+      "bytes": 394470,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture2_level0.jpg",
+      "file": "bodies/1ea7c148e03cdf06288643dc81b26933b2efe95d4ce4b61c6a21572a86365e2d",
+      "contentType": "image/jpeg",
+      "bytes": 393333,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture2_level1.jpg",
+      "file": "bodies/4035b4f32ad8b676f43806689a2fb40552c1f1651061d7b24dd13c5590286ebe",
+      "contentType": "image/jpeg",
+      "bytes": 264955,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture2_level2.jpg",
+      "file": "bodies/77a1f1d00a0b9753826bbe347bf1311774ef9eadf22e57b74e56bd0221d76800",
+      "contentType": "image/jpeg",
+      "bytes": 170525,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture3_level0.png",
+      "file": "bodies/8743d3ec02fe9d686ff7056df822577925882aba15731cf0e88e47f866d9c27d",
+      "contentType": "image/png",
+      "bytes": 7359,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture3_level1.png",
+      "file": "bodies/c64b2d8222047522d95d4e3ba64b3272ab46609a8aedafc73c020be61e6a6967",
+      "contentType": "image/png",
+      "bytes": 4393,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/feature_preview/feature_preview_texture3_level2.png",
+      "file": "bodies/f417286c4e77ebb2f2f4b46594b62f3f1af36b499bdd5cddc74e75073f77975a",
+      "contentType": "image/png",
+      "bytes": 3109,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture0_level0.png",
+      "file": "bodies/e653bf75d973c683b294e83fe6c86edb7f17bb0ea05420f137985ad64dc62e6b",
+      "contentType": "image/png",
+      "bytes": 796776,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture0_level1.png",
+      "file": "bodies/788315b056f057489003af7ed27638b944d84148fca2d9c75bd87b4c851498c2",
+      "contentType": "image/png",
+      "bytes": 384366,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture0_level2.png",
+      "file": "bodies/18df7784955ad12031af7517ab6497fc3ec50d8a81dc66c614eb7720431d8968",
+      "contentType": "image/png",
+      "bytes": 232495,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture1_level0.png",
+      "file": "bodies/ae60c224c383947e8dbb26af21b5691665000614c0ed299d2392f1440bb3f9f3",
+      "contentType": "image/png",
+      "bytes": 1488073,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture1_level1.png",
+      "file": "bodies/0275ec3afda0c9fc41d0f867814dc317965e98c36498ed375c9d4c9712ebf918",
+      "contentType": "image/png",
+      "bytes": 721403,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture1_level2.png",
+      "file": "bodies/6305749da72e88b6cbc65cb451a2417d2b70d119b859dc9cf344ee9ddce5ede0",
+      "contentType": "image/png",
+      "bytes": 427517,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture2_level0.png",
+      "file": "bodies/fe1210904920f3f752e2bb42a6bdc78d88c1ff2572e4ffc67ef64f921beb99eb",
+      "contentType": "image/png",
+      "bytes": 243147,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture2_level1.png",
+      "file": "bodies/8c252c368b34d620a062fc82a98a81a3c632b4196c01c70164659351d1e0de57",
+      "contentType": "image/png",
+      "bytes": 112673,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture2_level2.png",
+      "file": "bodies/4f54aa5b071da781a598600c65e3ed0a053bcc0ec6e3882bc12825a421be0558",
+      "contentType": "image/png",
+      "bytes": 69491,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture3_level0.png",
+      "file": "bodies/55f7617c0d83f07a1d950aae3e360e94bd85bcc58fc021411831f7d3e7fc41a2",
+      "contentType": "image/png",
+      "bytes": 2279417,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture3_level1.png",
+      "file": "bodies/5af32a85fc20441cb91e928def58ca11041b405de3b470efdbc7857d55fb947e",
+      "contentType": "image/png",
+      "bytes": 1108069,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture3_level2.png",
+      "file": "bodies/4888980a946865f4ef5bdc7bdfd634330823e99fd5f820d422b7178010f1a751",
+      "contentType": "image/png",
+      "bytes": 672947,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture4_level0.png",
+      "file": "bodies/f7ce895b25be199f81a868be313211ab9cfb5108f3a0e41385f2029450dcb7e3",
+      "contentType": "image/png",
+      "bytes": 178692,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture4_level1.png",
+      "file": "bodies/4cdf31d80154b8adb0b3fc837bc8ca19de9c4bc0040f759a1a2cd0c8b3a326a4",
+      "contentType": "image/png",
+      "bytes": 91567,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture4_level2.png",
+      "file": "bodies/3248b1784dec8031a00a5bc2be4ae7eb49dd8a274311acd5c3cfe6b5d77fcdb8",
+      "contentType": "image/png",
+      "bytes": 55118,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture5_level0.png",
+      "file": "bodies/be95688b2ae80a6e0f1570838ce326dac7929f0f46a511922be6f05ab1ef9d5e",
+      "contentType": "image/png",
+      "bytes": 546712,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture5_level1.png",
+      "file": "bodies/a21442430050165213423e776fc3eaf41c14f48e02f21ba7bbb1854c6d811d1b",
+      "contentType": "image/png",
+      "bytes": 87860,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture5_level2.png",
+      "file": "bodies/25af4042349171251831fe9710c39a6ad8d2fb128a259fa51a9191daa0b7f5f0",
+      "contentType": "image/png",
+      "bytes": 56267,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture100_level0.jpg",
+      "file": "bodies/dac4f87e2e122254dd7b7859ef2aa36309f6d8d12892aac3ad2709382ab23036",
+      "contentType": "image/jpeg",
+      "bytes": 999033,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture100_level1.jpg",
+      "file": "bodies/80301c149e7d36f7dd44ddd378352f42aa14013cc74bec71101e4e581d182ec2",
+      "contentType": "image/jpeg",
+      "bytes": 642900,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture100_level2.jpg",
+      "file": "bodies/87d0b56de2c93a821ed61050fbb2701c629f65cbca5c940de2c38c09a2c6b3cc",
+      "contentType": "image/jpeg",
+      "bytes": 405138,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture101_level0.jpg",
+      "file": "bodies/411876f662a5ac5f4d7506586060a3e6d43d9fa9b0a0af6ab6957876eb24f183",
+      "contentType": "image/jpeg",
+      "bytes": 1360011,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture101_level1.jpg",
+      "file": "bodies/4de66dcd1e5690cb4fc86a55f3814e09619c556e808dfe269871dc9d8575626e",
+      "contentType": "image/jpeg",
+      "bytes": 860676,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture101_level2.jpg",
+      "file": "bodies/58bfc90cee5e0e50e3c3fd67e960ee7a9595765e4ad3c716d40947a4e16aa17f",
+      "contentType": "image/jpeg",
+      "bytes": 532630,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture102_level0.jpg",
+      "file": "bodies/5dc46d604f87d4b198ee12c729c16521364aa9c6fd5d62004a6c3fe07d03badc",
+      "contentType": "image/jpeg",
+      "bytes": 1163241,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture102_level1.jpg",
+      "file": "bodies/b32c7ab5ff12c9d8983cf66f96c996f8329a684955b92286a354f0a50fc759fc",
+      "contentType": "image/jpeg",
+      "bytes": 749136,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture102_level2.jpg",
+      "file": "bodies/4e1abd097a4d902c2c2dc4c6cb55ef60484c00298ebdcea1a8b25d46c42c8808",
+      "contentType": "image/jpeg",
+      "bytes": 474872,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture103_level0.jpg",
+      "file": "bodies/e421a0349ceb50aface1bb83c8485ade220d0f46c2939c10da33f7f66f154eb5",
+      "contentType": "image/jpeg",
+      "bytes": 14715,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture103_level1.jpg",
+      "file": "bodies/291f3632f125f020a3ce88144868f01f75681e6cd2d3bda85673d6a68f2ded80",
+      "contentType": "image/jpeg",
+      "bytes": 9863,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture103_level2.jpg",
+      "file": "bodies/23a1fec6b64de407a742ba0a8d0e717b43eaedf9623fc0adb9559bd03c7eb2d4",
+      "contentType": "image/jpeg",
+      "bytes": 6181,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture104_level0.jpg",
+      "file": "bodies/4698bcec0711fc45ab98943436548691c5c6f1a05606e059dc2e1df7ca339651",
+      "contentType": "image/jpeg",
+      "bytes": 18806,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture104_level1.jpg",
+      "file": "bodies/a16257df5a46bde098175a674c996feb4a81c3be33174e9c0c15e279f87ebecc",
+      "contentType": "image/jpeg",
+      "bytes": 11976,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/skin/skin_texture104_level2.jpg",
+      "file": "bodies/7d23f6b86e2bf92f5dd27e19c36831575ca025e3962a9447326b4a762d01b4c3",
+      "contentType": "image/jpeg",
+      "bytes": 7336,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/sounds/common_sounds_desktop.json",
+      "file": "bodies/4604c3faafda747dc5cc08afd4ecaba03c3f49b027b838f39b21fe2b05a3c3cd",
+      "contentType": "application/json",
+      "bytes": 651,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/sounds/sounds_desktop.json",
+      "file": "bodies/415ad25b093089fa7a5361f647e75994afe5b9f4b1fa2e9e639094448ddefe31",
+      "contentType": "application/json",
+      "bytes": 5431,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/menu/menu_texture0_level0.png",
+      "file": "bodies/ae39ba5ca10c6165f93581516e137168bd97d0e0ac869dea1c3565aa60d0fdc9",
+      "contentType": "image/png",
+      "bytes": 376607,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/menu/menu_texture0_level1.png",
+      "file": "bodies/4f330c1ed2121ecefc0e590d69d296d4d2575d65b9acfca2e34e9995ff83df1d",
+      "contentType": "image/png",
+      "bytes": 211001,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/menu/menu_texture0_level2.png",
+      "file": "bodies/89004434d7a0654a5278ae9a2159846093645b0769c165c8e0089077692677ea",
+      "contentType": "image/png",
+      "bytes": 126596,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/menu/menu_texture1_level0.png",
+      "file": "bodies/3994f10b8e903b673bb876d2afa325a175e200fa7354aa394264c2ba9623584d",
+      "contentType": "image/png",
+      "bytes": 794515,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/menu/menu_texture1_level1.png",
+      "file": "bodies/be884d037105a837d088d7e2571489e3eaabff801e7db3e2d465fd2442a83028",
+      "contentType": "image/png",
+      "bytes": 560229,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/menu/menu_texture1_level2.png",
+      "file": "bodies/882fbaeecc3de55645edf01316b312af6cb4d065edce7ac97490c48e977e5448",
+      "contentType": "image/png",
+      "bytes": 346220,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/paytable/paytable_texture0_level0.png",
+      "file": "bodies/9d8bd96c112d23703d6fae03f0daaee6b7ff3932ff61077987ebfc902e7bd89b",
+      "contentType": "image/png",
+      "bytes": 1304273,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/paytable/paytable_texture0_level1.png",
+      "file": "bodies/17626116a1052842580593f96ae4bd465c6e0d2958476bab20e3bbae13887f0e",
+      "contentType": "image/png",
+      "bytes": 692934,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/paytable/paytable_texture0_level2.png",
+      "file": "bodies/5489cc82ae9fc5df7ecd3fe24cfa9acad0862f0947dbc193cff7fe20ec04cf07",
+      "contentType": "image/png",
+      "bytes": 414514,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level0.png",
+      "file": "bodies/5ad91ddee6c4008bf48577e3784c71c5984a8cf92ecde62143e9a4d81d907f00",
+      "contentType": "image/png",
+      "bytes": 66681,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level1.png",
+      "file": "bodies/2ece7444295bf05755811719f0742bae67e845d9db1b39a5b3420146aee32fdb",
+      "contentType": "image/png",
+      "bytes": 52938,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level2.png",
+      "file": "bodies/c345fe8386b1032cf5558fcc3606d75c76cd27046824045bfe91329b19a8989e",
+      "contentType": "image/png",
+      "bytes": 36068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/ui/desktop/statusbar/statusbar_texture0_level0.png",
+      "file": "bodies/4cfb88e3d112693900d6079094f74e1b5112efe6a82bae6d98e488e231ba8d72",
+      "contentType": "image/png",
+      "bytes": 11391,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/ui/desktop/statusbar/statusbar_texture0_level1.png",
+      "file": "bodies/e894ad1821e3ffa68075700c63cb31de06b0dd8a03c550b5d5fd091cc7908315",
+      "contentType": "image/png",
+      "bytes": 7605,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/ui/desktop/statusbar/statusbar_texture0_level2.png",
+      "file": "bodies/988950a30e0ea2a5ef30f40e95b9f43fa4a894bae60db96ec6ea837f542ff50b",
+      "contentType": "image/png",
+      "bytes": 4068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/hyperspineffect/hyperspineffect_texture0_level0.png",
+      "file": "bodies/6b34dc68b0d84f35c087098fe7d4e84a025782fafcd74da1da12dbd2ef46ea3c",
+      "contentType": "image/png",
+      "bytes": 18929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/hyperspineffect/hyperspineffect_texture0_level1.png",
+      "file": "bodies/d8bac7b29a881c60c49d131b8d983f79001c97f94ddf63861fbeeeaa5d79cf9a",
+      "contentType": "image/png",
+      "bytes": 4543,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/hyperspineffect/hyperspineffect_texture0_level2.png",
+      "file": "bodies/f98475b09bbf5d705fe6b1ef238df35cbbaec5d246ad27b5d7f21c488d4eac33",
+      "contentType": "image/png",
+      "bytes": 3045,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.json",
+      "file": "bodies/553fbfbe3ad3d86308bd90467d7a4397373a4abfaa5e3a99d63a511c94ec5176",
+      "contentType": "application/json",
+      "bytes": 878,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot_style.json",
+      "file": "bodies/99f6255fe210c2f0c8c76e45a6426d2316aceaaf881615d9999116d9dba6b30c",
+      "contentType": "application/json",
+      "bytes": 1952,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/mysteryjackpot.json",
+      "file": "bodies/bef3710616a8e9c9cb3e9a8c2803b8450ae2ad2914e6b02df0bdf0cf129def64",
+      "contentType": "application/json",
+      "bytes": 49146,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/layout_mysteryjackpot_desktop.json",
+      "file": "bodies/2c8d6ffdf2233794308baea9b65bca39cbdb9a96ec883ebd3e65d2e0aa26452f",
+      "contentType": "application/json",
+      "bytes": 426,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/hera/hera-1.46.0.29/container-launcher/ContainerLauncher_bundle.js",
+      "file": "bodies/af445cfba70e84c719498c585c09ccd6210064054ed614d3fce420fa7e430a35",
+      "contentType": "application/javascript",
+      "bytes": 361857,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/main.js",
+      "file": "bodies/59558ef7d7054397628e684d2d63a12a4411ec2b9832d9ab1502b42f48143f86",
+      "contentType": "application/javascript",
+      "bytes": 40524,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/css/game_history_styles.css",
+      "file": "bodies/ce6a789b3b94252eec4ce36e36e40bfd155fd3a169fecb2894aab60dfe852b99",
+      "contentType": "text/css",
+      "bytes": 9166,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/help.css",
+      "file": "bodies/1f8bc3af2db93e35857cf24eaa0e7e4221987eb7f2d56fefe4b0bf26f39b2897",
+      "contentType": "text/css",
+      "bytes": 2624,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/template1.css",
+      "file": "bodies/805966d08bdb0059949d084aa73172165ef03e4ea8e9ae5719257fff27dc8327",
+      "contentType": "text/css",
+      "bytes": 3913,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/OSWALD-REGULAR.woff",
+      "file": "bodies/c04d481e62e3e19fd151171df3366128fd4b24482810eb96b132f0559bec3967",
+      "contentType": "font/woff",
+      "bytes": 151733,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/OSWALD-MEDIUM.woff",
+      "file": "bodies/de474436f8484e668ee442938136ff8d4619fcc41af8a3b4fa97cb644a1a507c",
+      "contentType": "font/woff",
+      "bytes": 107945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.woff",
+      "file": "bodies/fe233bd33b58cb76eae1bd15098bdd052e705762aa277915f65a63af4164f20a",
+      "contentType": "font/woff",
+      "bytes": 109929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/ROBOTO_CONDENSED_BOLD.woff",
+      "file": "bodies/de19d3ed40dda1ff72f31cc0cbbd3ad9cfc380f45851173365755eadde145807",
+      "contentType": "font/woff",
+      "bytes": 109277,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/fonts/GXGameFont.woff",
+      "file": "bodies/1f4e9bac37e63ce19c491d11e94ca1691ef7bc792722db40ffe5f8b1a1a4d14b",
+      "contentType": "font/woff",
+      "bytes": 22228,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/britanic_bold.woff",
+      "file": "bodies/ae2eb11ca7f87d8af90d48e9a77b2ac7cb5c0a77f3769133fa2523c3c8da5518",
+      "contentType": "font/woff",
+      "bytes": 23884,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/PNG-MINI.woff",
+      "file": "bodies/20682ef345e500ca4f0ef5d3ac0a62204700b53f5e198f0c058dc257b82c23ca",
+      "contentType": "font/woff",
+      "bytes": 114732,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/ARIAL_ROUNDED_BOLD.woff",
+      "file": "bodies/e8faa09d926deb7d5a0fd1a30c1d197a40f8d929e10d3cdf1080f9f9c866e84d",
+      "contentType": "font/woff",
+      "bytes": 27300,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/fonts/POPPINS_REGULAR.woff",
+      "file": "bodies/0d205c202c811f9c82aa8878901757b7a683312bea86ec90d2b1ecdc13424c9d",
+      "contentType": "font/woff",
+      "bytes": 73600,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/sounds/common_sounds_desktop.ogg",
+      "file": "bodies/4a0215237dce76691ef267cd09aa914dd1e151a090e266eedea25e0f06e1e413",
+      "contentType": "audio/ogg",
+      "bytes": 25039,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/sounds/common_sounds_desktop.mp3",
+      "file": "bodies/b4447ee42b8dc43c88012ef67a22390937f86ee17dd6171bc8d1d976a9b2fb21",
+      "contentType": "audio/mpeg",
+      "bytes": 34119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/common/sounds/common_sounds_desktop_fb.mp3",
+      "file": "bodies/3269ae44ab68840db5a7693cd6d0cfd69c4ce4a84af8f915bcf266fd70c7ff1c",
+      "contentType": "audio/mpeg",
+      "bytes": 50990,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/sounds/sounds_desktop.ogg",
+      "file": "bodies/4d7a3eaa59a3130019b29ab8ffa15293050895f204028ca5a9015d16d7a56cdb",
+      "contentType": "audio/ogg",
+      "bytes": 2735656,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/sounds/sounds_desktop.mp3",
+      "file": "bodies/1d51442eed9b69d37d8c8308d6d78d658e487251ded26c15863d6eaa09d32fab",
+      "contentType": "audio/mpeg",
+      "bytes": 3320139,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/games/gridslot/gemix/sounds/sounds_desktop_fb.mp3",
+      "file": "bodies/54df0375a98e5fcc8e1e2fceef02d6dda32aa6c590d671c4226fc5f8b67dfbec",
+      "contentType": "audio/mpeg",
+      "bytes": 2440253,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.ogg",
+      "file": "bodies/e05a2f488ba80fa478b201e676f89905bb41555b461db719f91029ea728036b0",
+      "contentType": "audio/ogg",
+      "bytes": 127668,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.mp3",
+      "file": "bodies/b9f90f27921dc3826d90317fcb555d6f7a166668615b2b9f08f5b0aba3057c51",
+      "contentType": "audio/mpeg",
+      "bytes": 157546,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop_fb.mp3",
+      "file": "bodies/711aebb2c4648cda8a1711f111a723d0525e978e1876516f4063c014297055fc",
+      "contentType": "audio/mpeg",
+      "bytes": 142314,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/8.5.2-gemix.426/resources/lang/en_GB/locale.json",
+      "file": "bodies/962fb8c9f72bd079855f7bb9dcad9c26fd94987c53fa225292b422cffb6787de",
+      "contentType": "application/json",
+      "bytes": 1640132,
+      "status": 200
+    }
+  ],
+  "failed": []
+}

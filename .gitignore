@@ -7,6 +7,8 @@ node_modules/
 *local-api.jsonl
 *local-state.json
 *local-state.tmp
+/web-build/
+/.static-preview/
 
 # Original PG saves contain launch credentials and are not runtime inputs.
 /*.html

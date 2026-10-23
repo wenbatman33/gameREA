@@ -1,0 +1,100 @@
+{
+	"styleInfo": {
+		"name": "textstyles",
+		"textStyles": {
+			"message": {
+				"isWrap": "true"
+			}
+		},
+		"textFields": {
+			"text_congratulations": {
+				"text": "IDS_MSG_CONGRATULATIONS"
+			},
+			"text_youwin": {
+				"text": "IDS_YOUWIN"
+			},
+			"messageText": {
+				"style": "message"
+			}
+		}
+	},
+	"layouts": {
+		"dt": {
+			"cols": "1",
+			"rows": "1",
+			"content": {
+				"grandJP": {
+					"col": "0",
+					"row": "0",
+					"colSpan": "1",
+					"rowSpan": "1",
+					"minBound": "0,0,1200,0",
+					"maxScale": "1.85",
+					"halign": "0",
+					"valign": "0",
+					"node": "jackpot:grandJP"
+				},
+				"minorJP": {
+					"col": "0",
+					"row": "0",
+					"colSpan": "1",
+					"rowSpan": "1",
+					"minBound": "0,-50,1200,0",
+					"maxScale": "1.85",
+					"halign": "0",
+					"valign": "0",
+					"node": "jackpot:minorJP"
+				},
+				"majorJP": {
+					"col": "0",
+					"row": "0",
+					"colSpan": "1",
+					"rowSpan": "1",
+					"minBound": "-1200,0,1200,0",
+					"maxScale": "1.85",
+					"halign": "1",
+					"valign": "0",
+					"node": "jackpot:majorJP"
+				},
+				"miniJP": {
+					"col": "0",
+					"row": "0",
+					"colSpan": "1",
+					"rowSpan": "1",
+					"minBound": "-1200,-50,1200,0",
+					"maxScale": "1.85",
+					"halign": "1",
+					"valign": "0",
+					"node": "jackpot:miniJP"
+				},
+				"message": {
+					"col": "0",
+					"row": "0",
+					"colSpan": "1",
+					"rowSpan": "1",
+					"minBound": "-5,-95,1200,0",
+					"maxScale": "1.8",
+					"halign": "0",
+					"valign": "0",
+					"node": "jackpot:message"
+				},
+				"jackpotPanel": {
+					"col": "0",
+					"row": "0",
+					"colSpan": "1",
+					"rowSpan": "1",
+					"bound": "-740,-630,1480,1480",
+					"maxScale": "1.8",
+					"simpleMode": "cover",
+					"halign": ".5",
+					"valign": ".5",
+					"node": "jackpot:jackpotPanel"
+				}
+			},
+			"visible": [
+			],
+			"hidden": [
+			]
+		}
+	}
+}

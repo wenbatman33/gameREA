@@ -1,0 +1,440 @@
+{
+  "game": {
+    "slug": "big-bass-bonanza",
+    "symbol": "vs10bbbonanza"
+  },
+  "entry": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbbonanza&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobby_url=https%3A%2F%2Fwww.pragmaticplay.com%2Fen%2F&lang=en&cur=USD",
+  "finalUrl": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs10bbbonanza&gname=Big%20Bass%20Bonanza&jurisdictionID=99&mgckey=stylename@generic~SESSION@56e33564-170c-4469-abb7-e38a6bb6e527",
+  "errors": [],
+  "records": [
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs10bbbonanza&gname=Big%20Bass%20Bonanza&jurisdictionID=99&mgckey=stylename@generic~SESSION@56e33564-170c-4469-abb7-e38a6bb6e527",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/html",
+      "sha256": "810b146e8f91739b9bf4980a672a7602918be2bb24b4577a1348ac2180ad777e",
+      "bytes": 95747
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/bootstrap.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "c30d30393741b59dc08778c54d57a5e1828f3a1d03d953e06181b819cad4d2fb",
+      "bytes": 100870
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/build.js?key=9e2dea6ee05f316d9e3913123c1c4b35",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "6d74045dbedc254a664b388a69789993c4fe6db424b5a87b0c105718bee04e5b",
+      "bytes": 3095590
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doInit&symbol=vs10bbbonanza&cver=442871&index=1&counter=1&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "ab30529579a495be7ddcb2e461601074819de6feca32dc5a494ae5d9f288fea1",
+      "bytes": 2811
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=2&counter=3&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "0b4413753ea2bbbf063cfaf093d9dbd15f80744e637252af025bd4dd1f7f9002",
+      "bytes": 303
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=3&counter=5&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "191254bb5b0411f429b9e1dc84ce56df452964bbb1df4bcf9a1a914d09cf5bf2",
+      "bytes": 300
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=4&counter=7&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "3649caff8972c46706734beb7b30bee151aba5ad1a43fade028f8c08346a8312",
+      "bytes": 301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=5&counter=9&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "9ae205d53ab1d22480947f6041d1d348bf440b19d08b0f3c02f98835d1b99e6e",
+      "bytes": 298
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=6&counter=11&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "b3b0da20b1254c25586ae751b34171dcb2ded5484438b2fb260f43a37176cf0d",
+      "bytes": 307
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=7&counter=13&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "48d4e89007ca4d782f2e0a4090385e6bc9bc6e1b68e1bf8244e051bd93a21a80",
+      "bytes": 302
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=8&counter=15&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "3daccd47c5126ab34a33a97e8b6ab1e843ce3038d54159c0fb14061ac6d78c12",
+      "bytes": 308
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=9&counter=17&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "0873e77c4902910366aa50b07750a19f1e5444fee021e2fba15f0f5965fad54f",
+      "bytes": 299
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=10&counter=19&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "5356bf907e77c326656cf095d78f2dc42e43710ec529fb79e4392e4a7aceb3e2",
+      "bytes": 301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=11&counter=21&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "aed80f3beafb81bfb1ba6bc09419165db83670547ec4e31b296544aedce63b1f",
+      "bytes": 297
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs10bbbonanza&cver=442871&index=12&counter=23&repeat=0&mgckey=stylename%40generic~SESSION%407a6131a6-212e-493b-ba8f-b73e01f55007&c=0.20&l=10",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "sha256": "1191a6040bcf80d012630927a30a7967167e2642d02948e38ab712b18d3065ae",
+      "bytes": 299
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/client/game.json?key=4a4e5d2068b8bcfe22bda2f7f66141c5",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "83570ba49ad7b2a23c59e97cfb92f15067fa70d3fa095a5973880e501fc8b762",
+      "bytes": 34507
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources000.json?key=060a5527565d7546d0d49f628fff17c0",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "be1ba9b1c16c44a503e5847da9a97afd5f8b46fa7b3d2197c8b541f33c1f96d9",
+      "bytes": 602996
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/game001.json?key=83f7e42e95ebb3c4064bc77b0825d313",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "cff42535f167e86ded277c6ed83d9d3a6cc4f117caa7f6adeeabd95c2249e5e7",
+      "bytes": 438044
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI004.json?key=3483f13c0a0348320a2b9b4943e02cef",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0b8bdb6086fd1da32137832cd8b32d8a9b0fc754b1417ec562f0332abaea1e42",
+      "bytes": 619607
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources001.json?key=125f6045e3764bbc65984b3193b20574",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "fab1295b690409a9c505e09e6b8f0797678415ac891e0349bfd3aa94cbed8606",
+      "bytes": 588535
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/game000.json?key=88f7d056a79f1665b4225f75654548fd",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6029f839170d76a19901d5e336b4e60f231aa977799e81bae04523a30f7af489",
+      "bytes": 1590494
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/other_resources001.json?key=cac3b3ebb990f47ae215f696237376fe",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "54bc31bac2e8c16c5f7213f0850871ec2375cb7fa2671fc8b01b32079b646126",
+      "bytes": 237308
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources009.json?key=4d1835a4cb7b5ef77e4ec4558a00b35c",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "5d41b60953e2997d5d9197e3bb684d5f0c34a904e7d851efa6cbc59a27d9779b",
+      "bytes": 240595
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI005.json?key=87f60dd52b7b295eb1ab99dc233adb6f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ac5d1fdc6ad81ba0070b72c24e71820c9a48f93ebd1385c34adf3cdf988de1ef",
+      "bytes": 1138882
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources005.json?key=6cc47900f70b69b67ab6150046eeb94c",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "81f8a56b6b21e89e098bacc985c77a56a0e0c9a1abf27960d80073fc7eaafc27",
+      "bytes": 758444
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/client/resources.json?key=4c5758229f7bf28ba59b15f929ce4254",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "57de085762c29fe660081fcc14a8fb0b08baa312d844c5714c7771d544afdb9e",
+      "bytes": 104708
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources004.json?key=c543303cb205e599f6c64cff1048e9e5",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "c0dab46c237aa77c4535779adc8ec074c83a704f956e2b97c85d5cae05d0cad5",
+      "bytes": 638894
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources006.json?key=c44b74a8e7533b3280d34897d9d181d3",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "3b4921d009bd6d49dca41817267a220e9a4c25b4c0e07df7eb328df1d190f8ab",
+      "bytes": 706609
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI000.json?key=a62cea9dfe4ce0ab1733c5a4081b0271",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f82633592af608232cf87d21159c1e39c7b5aa49aa29e241f1a1b437e53afd41",
+      "bytes": 918273
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/other_resources000.json?key=b5c45e9d30baca5aad79a74e59e656cb",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "c8aca42a62934bb2b68cfb46c3f560d8b3a298acafadef8b975ee4b9670b58cc",
+      "bytes": 763259
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources002.json?key=e7b1fe90be641cbc09789380788ee804",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "2957cf4992d3f7e01007d8d7a5d87baf38296748e602c60025d653b9d7deb74c",
+      "bytes": 556198
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources007.json?key=18e1102233155b0d5d293daf54c37c36",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a0dece15c940ccd97f8c0701459939e882b64284a2ba34c40575b043ae5fc4b0",
+      "bytes": 623412
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI_resources001.json?key=6da1fdb5e41c1f7059a5beae25e6fa97",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "3d479a5e84d35185a609e361da7b73c7f33f7730b22abd886ba7c6957b9d48f3",
+      "bytes": 504937
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/MDL_Jackpot.json?key=c5136123b8d780e80e43dd1fa2ae56a8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "3f59b0b8a3c2b5140118d9baedb6ae1b7f565881599ced48b43b2866ef793574",
+      "bytes": 3567234
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI002.json?key=e9dad5b22a8a366d42787180319d4a50",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "d84232492ede4b66ff7a4ce39f0997f6e35872d687c52e40794c4fb203748df1",
+      "bytes": 726768
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI001.json?key=c58cc0971f8e16196b22969d644f9c47",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "37c9cb9665c3bff90f2bb20e4ba168aac4f5c1a3796fd15538a39804817ccf0b",
+      "bytes": 1382993
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI003.json?key=653389168a4a4362d9d0446a0c02e2cf",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "37faaaecbe4894ad63f9f5d17a7d71aa269da8d1314aae5dc3387855c8fa69bc",
+      "bytes": 589344
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources003.json?key=4fa5c0d5178ffe33c7cabcf20078e3cb",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "dee4ebb475e70e63e13b3c64dc7a5de60af90cf981955d67c21cc5ebf50eee8c",
+      "bytes": 978489
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI_resources000.json?key=45645647478304f510035673eb2679c8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "09577ba64e92409ee210e542c64d1f604a1c21e21dfab4867061e9a4d5c84c5c",
+      "bytes": 616503
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI006.json?key=c5d5a360315f18bc20abeae670c2494d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6d5860b019196392e5d5810b38dd7215a07eb99fed6f97da06033062db3d7a76",
+      "bytes": 661962
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/main_resources008.json?key=9094c3e39e6063aca5e157f1dd8f695d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1117ee8db904dac34d5f5ff33f24097361d98f546f70b196d30324dc533bbd20",
+      "bytes": 538515
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/sounds.mp3.json?key=2b4135c9000dccb5a601d21704ba6a7b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "82a18b9f2c191a7a0ec865261627ac700f67829430fc58286a6796b5cf0df37d",
+      "bytes": 2651749
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/style.css",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/css",
+      "sha256": "d339e98f7b517291c347df66ecd331087f7195757149c73c12384c2c6d493100",
+      "bytes": 19631
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/customizations.info",
+      "method": "GET",
+      "status": 200,
+      "contentType": "binary/octet-stream",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/MDL_Jackpot_sounds.ogg.json?key=9d7e3e629249c07686ace51c7ef2021f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4edb731a5f82865e9c7d72d27429fdf27a39c51fdc4dbef781cb647148ac0979",
+      "bytes": 748301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI_sounds.mp3.json?key=ab2b4fbb3b9c1ac97aff806e9bce9473",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "3667efec0978175fe0d1d852313ac11fcf5c6ab69b5342b2c324cfff79ff0b2a",
+      "bytes": 704061
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/sounds.ogg.json?key=d297d27dee4b29d3d5cd193788bf6c5e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6fde722c1ffb37b04bc7c21ad0e7cde108035ed0f4c93c792b425ca14879b78d",
+      "bytes": 2841929
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/GUI_sounds.ogg.json?key=257709b0d6800a5cbd639676483f7caa",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "38709fc772a578d65dde0554a53decb28b8020ccd71ebd030e8de4520955b92d",
+      "bytes": 745657
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/MDL_Jackpot_sounds.mp3.json?key=fbfb85595809a047fd5b8cb7bf03a4d6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "c5513c58d0d2467338fac3c2dfe087cf139bbb404dc483f7f828f1109e04e3d9",
+      "bytes": 708237
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/res/ab28e504aff3f9a4fab2955c2f920234.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "7c95bace2a304251dd64f2b77a0c40fd6c963ba399c6e5cbed0fe6ad78dbccf6",
+      "bytes": 378981,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/desktop/game/res/bac9f53c8c138464992d45086a158efe.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "14d0feacf090de6a5c21a2a01ae438cf441217d7557a422b87788948a992b0e2",
+      "bytes": 1759,
+      "source": "actual image referenced by acquired package"
+    }
+  ],
+  "verification": "HTTP acquisition only; browser playability unverified",
+  "launcherContext": {
+    "win[\"navigator\"][\"userAgent\"]": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "win[\"location\"][\"hostname\"]": "demogamesfree.pragmaticplay.net"
+  }
+}

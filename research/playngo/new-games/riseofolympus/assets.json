@@ -1,0 +1,754 @@
+{
+  "files": [
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/games/riseofolympus/riseofolympus_desktop.bundle.js",
+      "file": "bodies/7030efd70bc21f7a12f54f723eac72f6625cc247a97e07f1514f6501e029dd30",
+      "contentType": "application/javascript",
+      "bytes": 2064158,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/config_desktop.json",
+      "file": "bodies/fc3656fc729c625869e8081936c7cbb9c815cbd055f9df2fd4e099026d3d5ef4",
+      "contentType": "application/json",
+      "bytes": 74532,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/featurepreview_bundle.json",
+      "file": "bodies/ae8fd24790d7c31d2d7a22497da60d9332bc1be6bdb3c6b1663457db056e1801",
+      "contentType": "application/json",
+      "bytes": 44065,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/game_bundle.json",
+      "file": "bodies/b88ca88eea190dfcf0ef7bf03e50581b4594ceb7230565f68e278fcd50ce3ef8",
+      "contentType": "application/json",
+      "bytes": 451758,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/ui_desktop_bundle.json",
+      "file": "bodies/bf5244b6bdf4c9c7e6595a6901edb579c6439ddd9338676685069e78fb33aa5e",
+      "contentType": "application/json",
+      "bytes": 129119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/mysteryjackpot_bundle.json",
+      "file": "bodies/de2729aa6359e23b728e089299b58df3f772f519aade18c10726c72e39d65b46",
+      "contentType": "application/json",
+      "bytes": 1179,
+      "status": 200
+    },
+    {
+      "url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=riseofolympus&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "file": "bodies/fdb3af7618b98d970cbd355f3625f12c6583066b15a95104e0a50f25aed45364",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 747,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/oswald_regular.css",
+      "file": "bodies/213dbae94726fbe667dbe6bc8800679f27ac186be1f99ffa3f7ed021175c5cbe",
+      "contentType": "text/css",
+      "bytes": 154,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/oswald_medium.css",
+      "file": "bodies/6b2f57fda90068ea8ca7310ac4d20eb4895ac9158f135777c059b11ca5155116",
+      "contentType": "text/css",
+      "bytes": 152,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.css",
+      "file": "bodies/c018ebfdb84d7f2d5bd527176c9abdc358f9a8153b0835e6886d87bfe2050c4f",
+      "contentType": "text/css",
+      "bytes": 175,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/ROBOTO_CONDENSED_BOLD.css",
+      "file": "bodies/9ecc50c226974dc2c28b27e342de6610403e1c6314e6f1bfe649a41418ea8df4",
+      "contentType": "text/css",
+      "bytes": 169,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/DALEK.css",
+      "file": "bodies/7f723835c11e8e35ed37585ef060aa118030f61a5688899a0b018a1c28d09d0f",
+      "contentType": "text/css",
+      "bytes": 229,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/PNG_VNTH.css",
+      "file": "bodies/ee3f20cb76541602b885f6ba2daceec872e4e6a2add3e9525f7b76d0ff035603",
+      "contentType": "text/css",
+      "bytes": 117,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/ARIAL_ROUNDED_BOLD.css",
+      "file": "bodies/6caf308b1afce2e7156c5d739992fb8f0826b0f87fa4621760b16b49b426ef6b",
+      "contentType": "text/css",
+      "bytes": 163,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/POPPINS_REGULAR.css",
+      "file": "bodies/cd8d63cb7c62dd370c57111a9e116acc7aad832022f14f1f1d0460ffddd47b09",
+      "contentType": "text/css",
+      "bytes": 157,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture0_level0.png",
+      "file": "bodies/2aab7a4d0cac08e3a2515d5c83ecbb5f17371114e940138a13063bc124dc6075",
+      "contentType": "image/png",
+      "bytes": 117910,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture0_level1.png",
+      "file": "bodies/e8131cacd0029a42c554dede24cd243d26a4ed7db94c8b4bd7addf5651b0399b",
+      "contentType": "image/png",
+      "bytes": 82279,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture0_level2.png",
+      "file": "bodies/0055f9530c8eb699a4ef2be60d51f6dd177a839b0d852e77bf0f2360b692ae1f",
+      "contentType": "image/png",
+      "bytes": 50731,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture1_level0.jpg",
+      "file": "bodies/a72263e5c371a726ba39bf4ac493a6821362bd9da0776b16828fbaeff1698ef0",
+      "contentType": "image/jpeg",
+      "bytes": 113010,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture1_level1.jpg",
+      "file": "bodies/10da47ed18afab234c9fc53c884fcab2cdb6c61eeff5b86ee1ed1c0e5994f7eb",
+      "contentType": "image/jpeg",
+      "bytes": 75739,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture1_level2.jpg",
+      "file": "bodies/def982dc7c1338e795e5df675aeec809771feb7e5e4b4c8028a8c573e91892be",
+      "contentType": "image/jpeg",
+      "bytes": 48619,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture2_level0.jpg",
+      "file": "bodies/e49dd1a49d7215b58e3764a3ed76f239ed8736823e9076c8b872f42080c89982",
+      "contentType": "image/jpeg",
+      "bytes": 213566,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture2_level1.jpg",
+      "file": "bodies/e6ed2193e7c3291bf0718f1b953b9d05ee9ef3b14421ea7fe989c23da617dbdb",
+      "contentType": "image/jpeg",
+      "bytes": 137673,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture2_level2.jpg",
+      "file": "bodies/90a4617d0e7608d76176ded9c50feaa09f8a997ae9bc48ff5a1604cb2d2650fb",
+      "contentType": "image/jpeg",
+      "bytes": 87314,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture3_level0.jpg",
+      "file": "bodies/dd1254765fa554741cef00787496691385930bd2e24a84419e8102510f77da9f",
+      "contentType": "image/jpeg",
+      "bytes": 224069,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture3_level1.jpg",
+      "file": "bodies/883c13dbb2dfcae8a6c6d33fcd24bf8f8f2e289bf9cf535cdac5cb787b888c50",
+      "contentType": "image/jpeg",
+      "bytes": 142782,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture3_level2.jpg",
+      "file": "bodies/425129888aef5cd77f60e884bdc66bc3b6e846acb2f68ca6fefdbb565d566e3a",
+      "contentType": "image/jpeg",
+      "bytes": 89160,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture4_level0.jpg",
+      "file": "bodies/6704ec0a7787cbdbfda2c2323972df0e3b8d68b632fc5288a77228abb9429e64",
+      "contentType": "image/jpeg",
+      "bytes": 182916,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture4_level1.jpg",
+      "file": "bodies/2ddb2a0adcc0967694ba8047c172d695a05ff48b5146a25e5f9ce2f5124f27f5",
+      "contentType": "image/jpeg",
+      "bytes": 126696,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture4_level2.jpg",
+      "file": "bodies/9c34ccd2417d2de81a3b94b1ed170a6ed287aedbf2be0f81a80232f15c459d0b",
+      "contentType": "image/jpeg",
+      "bytes": 85289,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture5_level0.jpg",
+      "file": "bodies/c0e4971dace2b07d8616f0ed4739ee4baf0192dbadf893785c75b57873f8099c",
+      "contentType": "image/jpeg",
+      "bytes": 350780,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture5_level1.jpg",
+      "file": "bodies/94af4feebb3d329b9b3d5c834d4aaaa1a076ceb3eec4609111c29a631d8444cc",
+      "contentType": "image/jpeg",
+      "bytes": 226145,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/common/common_texture5_level2.jpg",
+      "file": "bodies/c6f7c8ac3d7435e2d16cd337863885d05614bb700a6a2b51a0001fd18b52617e",
+      "contentType": "image/jpeg",
+      "bytes": 143654,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/bmpfonts/bmpfonts_texture0_level0.png",
+      "file": "bodies/a2d7acd16e6446f8716a2bfe1c1afb70e9645fc146e34a6ec6329f3d6f368527",
+      "contentType": "image/png",
+      "bytes": 1034795,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/bmpfonts/bmpfonts_texture0_level1.png",
+      "file": "bodies/445d04c65bc87c7ed8c45ce91d4a448ddbbc9e8dee59dbfb004f7aa00ed2adb3",
+      "contentType": "image/png",
+      "bytes": 438674,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/bmpfonts/bmpfonts_texture0_level2.png",
+      "file": "bodies/78e45e423b2b2a1c6904586a805b440dd16f7d0e2229dafae6aa36ca82a71ad8",
+      "contentType": "image/png",
+      "bytes": 272176,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/sounds/sounds_desktop.ogg",
+      "file": "bodies/522139c6055466db1ab7011a6e09355a06c9f663c20a4ccda2b9a019135248cc",
+      "contentType": "audio/ogg",
+      "bytes": 5521398,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/sounds/sounds_desktop.mp3",
+      "file": "bodies/44b7cd560c2611e30320a5e43e2fab4ad37a5728e9a5ef0638767769a974d10a",
+      "contentType": "audio/mpeg",
+      "bytes": 6088876,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/sounds/sounds_desktop_fb.mp3",
+      "file": "bodies/41cf460fcb1c58ae7bec927b770c7616e6b5c5346cd79b810245d1603827e88f",
+      "contentType": "audio/mpeg",
+      "bytes": 4655228,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/sounds/common_sounds_desktop.ogg",
+      "file": "bodies/4a0215237dce76691ef267cd09aa914dd1e151a090e266eedea25e0f06e1e413",
+      "contentType": "audio/ogg",
+      "bytes": 25039,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/sounds/common_sounds_desktop.mp3",
+      "file": "bodies/b4447ee42b8dc43c88012ef67a22390937f86ee17dd6171bc8d1d976a9b2fb21",
+      "contentType": "audio/mpeg",
+      "bytes": 34119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/sounds/common_sounds_desktop_fb.mp3",
+      "file": "bodies/3269ae44ab68840db5a7693cd6d0cfd69c4ce4a84af8f915bcf266fd70c7ff1c",
+      "contentType": "audio/mpeg",
+      "bytes": 50990,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture0_level0.png",
+      "file": "bodies/cb57086ca6780cbb5a17847aee3d573caab6bd168b1efd898de71d0e731d822c",
+      "contentType": "image/png",
+      "bytes": 927999,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture0_level1.png",
+      "file": "bodies/b8e55148e07009eb69d3062e71318062013f996d2b83a573c9d608276e2d3085",
+      "contentType": "image/png",
+      "bytes": 611549,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture0_level2.png",
+      "file": "bodies/7e5ec5dbbe39230e639f0f7ba34c0e7b822619219c0c2b61f1bb8f2fd032a9b7",
+      "contentType": "image/png",
+      "bytes": 375127,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture1_level0.png",
+      "file": "bodies/651bd86ef146692cceab0f55131ff3c6cf37ac478ebef8a08dcc72cb120c8622",
+      "contentType": "image/png",
+      "bytes": 6749,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture1_level1.png",
+      "file": "bodies/3c92fccc7bb31fd50c805152fb94fa291d4fb2aeb7fb2f60d2682c1bdb22726c",
+      "contentType": "image/png",
+      "bytes": 3648,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture1_level2.png",
+      "file": "bodies/61507afa80b49e3a6a6493a2f012c8f11b7f85770d0899312cef14a6b783348f",
+      "contentType": "image/png",
+      "bytes": 1945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture2_level0.png",
+      "file": "bodies/a33f9b014a09bd1204347caf2a52a81d54e7f28656f3dbe5971f2520a856b303",
+      "contentType": "image/png",
+      "bytes": 1157966,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture2_level1.png",
+      "file": "bodies/2154fc092412b05dce18f3b602e4c7e41e7147fc50dbc4ceba3beaabc9f50554",
+      "contentType": "image/png",
+      "bytes": 774057,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/feature_preview/feature_preview_texture2_level2.png",
+      "file": "bodies/10dfd3fda2e7870fdd785e2fa6c3f9f54d352369d6feecb2298d79942824efc9",
+      "contentType": "image/png",
+      "bytes": 479694,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture0_level0.png",
+      "file": "bodies/3e9a10c5ab637019433f2637ab161d3cc1057506d6649677421ccb2e54b85ea4",
+      "contentType": "image/png",
+      "bytes": 3770838,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture0_level1.png",
+      "file": "bodies/d32f544e407c9c3614e9104cc342dcd53bf16d539551ab7db11eac4e529c38fa",
+      "contentType": "image/png",
+      "bytes": 2507657,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture0_level2.png",
+      "file": "bodies/55ce1d83f51f12d9a099f8b9d847aadf0cf53cbc70cac50c4ef0954f6155a499",
+      "contentType": "image/png",
+      "bytes": 1534181,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture1_level0.png",
+      "file": "bodies/11e4fd4d38305b73677f00c80a5e7cc9187e6c6b75a32978409848ff972b9b9b",
+      "contentType": "image/png",
+      "bytes": 2828321,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture1_level1.png",
+      "file": "bodies/8426e3acd4480ca6d1f87a6f30b015971d4934fcb7868dafa3562a565c4eff3f",
+      "contentType": "image/png",
+      "bytes": 1927817,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture1_level2.png",
+      "file": "bodies/99f6de467ee73c57288824d4b0443b1aa97cec65e14e7963b8699aa2cf8c6ab1",
+      "contentType": "image/png",
+      "bytes": 1177385,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture2_level0.png",
+      "file": "bodies/4260a2844201c2d3ec9ea247edf5b547e2f7a30386b5cac5b77075cc3787eac7",
+      "contentType": "image/png",
+      "bytes": 2874141,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture2_level1.png",
+      "file": "bodies/1427cc520f6b184e3483e4fcb9ced3344008436fe0b22a7f004c572c10dc96f2",
+      "contentType": "image/png",
+      "bytes": 533904,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture2_level2.png",
+      "file": "bodies/1b5bed9f1a8ac7adeb1e4b67259d9790e279d176b9c8cbeac2a2e62f53cbaee8",
+      "contentType": "image/png",
+      "bytes": 329052,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture3_level0.jpg",
+      "file": "bodies/376ba3b6dcd90dd4d43c6aab0fb5658b931c21ffc3910ea202672d37fdaf8fba",
+      "contentType": "image/jpeg",
+      "bytes": 244426,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture3_level1.jpg",
+      "file": "bodies/3ac0ebeb51719c97c45eea40b878b110a66573f58ec11c63bd2630e40c748a5d",
+      "contentType": "image/jpeg",
+      "bytes": 175136,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture3_level2.jpg",
+      "file": "bodies/7824e3de353e99a207dd2ffce5b213f68776df3fc5d298a0bee38b76c978d6c0",
+      "contentType": "image/jpeg",
+      "bytes": 121500,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture4_level0.jpg",
+      "file": "bodies/5f3b7edbbd7016638e1e08e5ee3907aed09fe5916138ed0511fa60baf58b93e1",
+      "contentType": "image/jpeg",
+      "bytes": 210572,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture4_level1.jpg",
+      "file": "bodies/5a28449606624d6a2b5fc8e4d2ab619ab3dab748a785016ede33578ce83142e2",
+      "contentType": "image/jpeg",
+      "bytes": 145913,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture4_level2.jpg",
+      "file": "bodies/b64f4e2923dae247db0e85ee2866404be324c6a859b62f4283e19719a44ff3e9",
+      "contentType": "image/jpeg",
+      "bytes": 98854,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture5_level0.png",
+      "file": "bodies/e00392b2c69287f78c1cc6bb1e7b7ce9088b6dfee0b96d6db58dc5f0240fa1ba",
+      "contentType": "image/png",
+      "bytes": 2599309,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture5_level1.png",
+      "file": "bodies/5b49e6774e9277c198d436d72569aca06073890457eed6bd6cf3c3b4b0dd801e",
+      "contentType": "image/png",
+      "bytes": 513432,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture5_level2.png",
+      "file": "bodies/2179bd6baef9ad3517eb197485e713edb76794ab5faeca8796e6cdfe66fdc158",
+      "contentType": "image/png",
+      "bytes": 309728,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture6_level0.png",
+      "file": "bodies/4dfb3881e3dcd2dc35814ebebdc56b8ad73a9c1c4adccb2194e87466b7772da7",
+      "contentType": "image/png",
+      "bytes": 2176440,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture6_level1.png",
+      "file": "bodies/3c80fb91f974f27a7b6ea5cd5257a619b4deb07372e499a6159902e6504598ad",
+      "contentType": "image/png",
+      "bytes": 471797,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture6_level2.png",
+      "file": "bodies/2f6d41eee4cd0406b4d9879bc088ebe2c138d2868054e3e8a6860b68252467dd",
+      "contentType": "image/png",
+      "bytes": 292545,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture7_level0.png",
+      "file": "bodies/206cf5271770f54f42b62729079c7870fc2301a7167ca11047b3e28ce155c04c",
+      "contentType": "image/png",
+      "bytes": 319679,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture7_level1.png",
+      "file": "bodies/cc247ccdb5c3d7027cb1a89667baa291a19c8fa508f08db1b1195294fbe218fa",
+      "contentType": "image/png",
+      "bytes": 60406,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/skin/skin_texture7_level2.png",
+      "file": "bodies/706a2ef0c8858cc0b90d0121f9b5f5781cce13fba99fa721f145dd26e01a7a1d",
+      "contentType": "image/png",
+      "bytes": 40074,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/menu/menu_texture0_level0.png",
+      "file": "bodies/89e332b0fc6a3718c2cc31067d41804644daa2a27d6dc261364cfa43c12fd324",
+      "contentType": "image/png",
+      "bytes": 2209153,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/menu/menu_texture0_level1.png",
+      "file": "bodies/d80d3195ddb75a48de78faa40b7491d0a7918cccab63618a63a24c5828e99a7e",
+      "contentType": "image/png",
+      "bytes": 375832,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/menu/menu_texture0_level2.png",
+      "file": "bodies/94346a1d972e9a788d192a20001cfa83ee2ce149b73af15449079d6dfb338a1f",
+      "contentType": "image/png",
+      "bytes": 224902,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level0.png",
+      "file": "bodies/5ad91ddee6c4008bf48577e3784c71c5984a8cf92ecde62143e9a4d81d907f00",
+      "contentType": "image/png",
+      "bytes": 66681,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level1.png",
+      "file": "bodies/2ece7444295bf05755811719f0742bae67e845d9db1b39a5b3420146aee32fdb",
+      "contentType": "image/png",
+      "bytes": 52938,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level2.png",
+      "file": "bodies/c345fe8386b1032cf5558fcc3606d75c76cd27046824045bfe91329b19a8989e",
+      "contentType": "image/png",
+      "bytes": 36068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/ui/desktop/statusbar/statusbar_texture0_level0.png",
+      "file": "bodies/4cfb88e3d112693900d6079094f74e1b5112efe6a82bae6d98e488e231ba8d72",
+      "contentType": "image/png",
+      "bytes": 11391,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/ui/desktop/statusbar/statusbar_texture0_level1.png",
+      "file": "bodies/e894ad1821e3ffa68075700c63cb31de06b0dd8a03c550b5d5fd091cc7908315",
+      "contentType": "image/png",
+      "bytes": 7605,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/ui/desktop/statusbar/statusbar_texture0_level2.png",
+      "file": "bodies/988950a30e0ea2a5ef30f40e95b9f43fa4a894bae60db96ec6ea837f542ff50b",
+      "contentType": "image/png",
+      "bytes": 4068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/hyperspineffect/hyperspineffect_texture0_level0.png",
+      "file": "bodies/2246f45f7eb8e97104e5e223eb265df1c6141316a05b91d9507d2f60daaa0c66",
+      "contentType": "image/png",
+      "bytes": 3526072,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/hyperspineffect/hyperspineffect_texture0_level1.png",
+      "file": "bodies/5c54b571f2cd0eaf997bce00d0e7d951efbd73a6f008b8502cfa24f5a43bf1f8",
+      "contentType": "image/png",
+      "bytes": 970942,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/hyperspineffect/hyperspineffect_texture0_level2.png",
+      "file": "bodies/c59215acd0796205c505c135c537e52d9a5621f2b2d056728a0b2f40982812ab",
+      "contentType": "image/png",
+      "bytes": 608022,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.ogg",
+      "file": "bodies/e05a2f488ba80fa478b201e676f89905bb41555b461db719f91029ea728036b0",
+      "contentType": "audio/ogg",
+      "bytes": 127668,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.mp3",
+      "file": "bodies/b9f90f27921dc3826d90317fcb555d6f7a166668615b2b9f08f5b0aba3057c51",
+      "contentType": "audio/mpeg",
+      "bytes": 157546,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop_fb.mp3",
+      "file": "bodies/711aebb2c4648cda8a1711f111a723d0525e978e1876516f4063c014297055fc",
+      "contentType": "audio/mpeg",
+      "bytes": 142314,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot_style.json",
+      "file": "bodies/99f6255fe210c2f0c8c76e45a6426d2316aceaaf881615d9999116d9dba6b30c",
+      "contentType": "application/json",
+      "bytes": 1952,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/mysteryjackpot.json",
+      "file": "bodies/bef3710616a8e9c9cb3e9a8c2803b8450ae2ad2914e6b02df0bdf0cf129def64",
+      "contentType": "application/json",
+      "bytes": 49146,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/games/gridslot/riseofolympus/layout_mysteryjackpot_desktop.json",
+      "file": "bodies/a26dba2c8fe0b6cdd2ccddc9f16a678ea98af2eb986ed9c6c83405cc7edb2b82",
+      "contentType": "application/json",
+      "bytes": 589,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/hera/hera-1.46.0.29/container-launcher/ContainerLauncher_bundle.js",
+      "file": "bodies/af445cfba70e84c719498c585c09ccd6210064054ed614d3fce420fa7e430a35",
+      "contentType": "application/javascript",
+      "bytes": 361857,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/main.js",
+      "file": "bodies/59558ef7d7054397628e684d2d63a12a4411ec2b9832d9ab1502b42f48143f86",
+      "contentType": "application/javascript",
+      "bytes": 40524,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/css/game_history_styles.css",
+      "file": "bodies/ce6a789b3b94252eec4ce36e36e40bfd155fd3a169fecb2894aab60dfe852b99",
+      "contentType": "text/css",
+      "bytes": 9166,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/help.css",
+      "file": "bodies/1f8bc3af2db93e35857cf24eaa0e7e4221987eb7f2d56fefe4b0bf26f39b2897",
+      "contentType": "text/css",
+      "bytes": 2624,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/template3.css",
+      "file": "bodies/647f52facdd5dc7a87b785ac15b78fe8ce084c92f55bd81969aedf82fbe9d0a8",
+      "contentType": "text/css",
+      "bytes": 2554,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/OSWALD-REGULAR.woff",
+      "file": "bodies/c04d481e62e3e19fd151171df3366128fd4b24482810eb96b132f0559bec3967",
+      "contentType": "font/woff",
+      "bytes": 151733,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/OSWALD-MEDIUM.woff",
+      "file": "bodies/de474436f8484e668ee442938136ff8d4619fcc41af8a3b4fa97cb644a1a507c",
+      "contentType": "font/woff",
+      "bytes": 107945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.woff",
+      "file": "bodies/fe233bd33b58cb76eae1bd15098bdd052e705762aa277915f65a63af4164f20a",
+      "contentType": "font/woff",
+      "bytes": 109929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/ROBOTO_CONDENSED_BOLD.woff",
+      "file": "bodies/de19d3ed40dda1ff72f31cc0cbbd3ad9cfc380f45851173365755eadde145807",
+      "contentType": "font/woff",
+      "bytes": 109277,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/DALEK.woff",
+      "file": "bodies/94d2278bcf28ea8fa6b2e778bc8faa95a73b048012bd663d8fd315e2dd28c8b7",
+      "contentType": "font/woff",
+      "bytes": 73676,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/PNG_VNTH.woff",
+      "file": "bodies/9fce30ce49873208b850ffffd292cd2315b17fcdea4a69362a08a8e49b614abd",
+      "contentType": "font/woff",
+      "bytes": 184481,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/ARIAL_ROUNDED_BOLD.woff",
+      "file": "bodies/e8faa09d926deb7d5a0fd1a30c1d197a40f8d929e10d3cdf1080f9f9c866e84d",
+      "contentType": "font/woff",
+      "bytes": 27300,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/common/fonts/POPPINS_REGULAR.woff",
+      "file": "bodies/0d205c202c811f9c82aa8878901757b7a683312bea86ec90d2b1ecdc13424c9d",
+      "contentType": "font/woff",
+      "bytes": 73600,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.5.1-riseofolympus.373/resources/lang/en_GB/locale.json",
+      "file": "bodies/7a0bd04e9bc287f289a8afb09caf9f1ec7229edbe8cc8210e867bf40ea79ad56",
+      "contentType": "application/json",
+      "bytes": 1636911,
+      "status": 200
+    }
+  ],
+  "failed": []
+}

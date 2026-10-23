@@ -1,0 +1,944 @@
+{
+  "game": {
+    "slug": "gates-of-olympus",
+    "symbol": "vs20olympgate"
+  },
+  "entry": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympgate&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobby_url=https%3A%2F%2Fwww.pragmaticplay.com%2Fen%2F&lang=en&cur=USD",
+  "finalUrl": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20olympgate&gname=Gates%20of%20Olympus&jurisdictionID=99&mgckey=stylename@generic~SESSION@b3a47f95-bba8-4cd9-9201-e098b4e67bce",
+  "errors": [],
+  "records": [
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20olympgate&gname=Gates%20of%20Olympus&jurisdictionID=99&mgckey=stylename@generic~SESSION@b3a47f95-bba8-4cd9-9201-e098b4e67bce",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/html",
+      "sha256": "da71644143991fc578bb90a30724b314b64ff6b133476b927c62702b26fd029c",
+      "bytes": 95731
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/bootstrap.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "fec9096d90dfe11381125b6e68629d9922d6fa4f7549701dea9cb5474e43f28d",
+      "bytes": 101463
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/build.js?key=c208c69d3d3d1130a580f3b1dd29d66c",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "a922845ece901cebc74c31e76b9e9d8b2899e76ced31a2632bbeed29f2e7b491",
+      "bytes": 3170773
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI005.json?key=c8db6d8524545b94ec902cde28a65f62",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "b0855c3690e0d17e029462cd4bc59bf4374743d3f0edfd180c79c639f353f72d",
+      "bytes": 1164317
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources005.json?key=baa276a33380ae06bac305774c126e23",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ca13647ef22c2bc6588d0e69a89301b92459e635a6df4a85ae5263cb9eaaa497",
+      "bytes": 552411
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources013.json?key=eb27d9107e539ade94cc11d31905374f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1983ca87351f42b51d5474a4be7412ce89b38292d9b4868e664394865f053800",
+      "bytes": 925433
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI003.json?key=e59fb1f948fa5dd4431322b8ce09df70",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f5fb743fcee93411628a058e8e7edfa4c16b2dacc5a6d4e637b960bf7b942eba",
+      "bytes": 589472
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI004.json?key=d0b573ffb9ca28f31726e3289e0c474a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "7a2b965385c899901ecada1ebc6fc6de00e219a9666603fbe8c806a338992388",
+      "bytes": 619621
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/other_resources000.json?key=4b3a7713b1e95f578603feda62423dca",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "343db5d728d10570c9e85078ce81e2007254293ec0ef51547916fed242045d02",
+      "bytes": 548088
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources009.json?key=a7bd270bf370d72cb83183a236b11e20",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "479b7c585ca92db08e26bc675ff4f39f1a0aa53c202355b005eaa97cb074a39d",
+      "bytes": 678953
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/client/resources.json?key=29f7fe610047c4b016b5edf4ace2794e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1575b5cfe574641c75f6a5da8e67f2e15cd89b590428da7d0b9c3f6470ba85d7",
+      "bytes": 76737
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources007.json?key=e0ef941ad6434a0abe982d33091d347a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ecc2b72f916a89ca1c355eee9f21941ecb2d6c2118b964e6908d873718bdb151",
+      "bytes": 828022
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game003.json?key=a353b52bc8ff05a3ac1b8e2ca01b3376",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "48ee1606d2356d9bf0760aff6f5acd52623e501a72ad8b823de253e587a69953",
+      "bytes": 1904076
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/client/game.json?key=70c817752ddf1d0b1a552cbc8b1f406a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "04414837b3b158687e78f7f8487e03aa95cefb7036ffadbe16c75c2843f27bf1",
+      "bytes": 22287
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI006.json?key=b2262449c29df570f7a62ca8de39119f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "68b254c3a239345910f0ebe0e9b4767f773d6dbc36c0d940056ad0a06eb4903d",
+      "bytes": 605903
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources008.json?key=a850c552d43c0fe91f5887d2b2f3bd5e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "66f73e923408f57a1bc8f4305bcd611b10f44095d2a16efa528a636eb6d0342f",
+      "bytes": 705558
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources012.json?key=ce69474fdfbc0eeb4ffa885d59a94798",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "52a2c13603823ab6ecb30b5109127b5eb19a022b8d7a083fcb29713fbbf3d67c",
+      "bytes": 1300846
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources004.json?key=b9a16de1ceab2faf169dc76a2061215e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4fba4f8ba7b7695b6ff861bd2c8d549aeefc3f2f47ae271dc0e7a13440ebd2d6",
+      "bytes": 685245
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game004.json?key=0c811675428c95fe4b22ece2fbf32e61",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "02dcf8c064f6d029790d73d7450bf7a239364f9be1bd506a8b2bf0df7f276b6c",
+      "bytes": 743642
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI000.json?key=bf7186fca2478194d37156022ca58b1b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "69a7033dad8c3d8984d6145ee8153b2a285cd3f94feab50e402840eea5b2062d",
+      "bytes": 918130
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources006.json?key=8e3d9ae2a6b2fdad3e4c080dc0b49d74",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a81b9efc2947afc8545274165814a93556f8061ae5e25eb3b3722f694a3ac911",
+      "bytes": 937523
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources016.json?key=ce4d3c7bc542a7b9dee4d93bdac1c76f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "08674aa1b2b75033983c7772c8b01587f32e5a7c82dde4b7ba1b0366898051b6",
+      "bytes": 91417
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources014.json?key=addafec45f44360ccea0fb33d499afdb",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e68b5528c6aedf50472bf34dcd25c641302024e4d1cb0ee67bfde7bf79aaad87",
+      "bytes": 549023
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game002.json?key=b836fb4f500ab81e55c08218818171c9",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ec01c82c642ec02bf263564f82ec2cb55ea832c8c939aae257c6dac289283112",
+      "bytes": 1005818
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources015.json?key=5702fa749074b8986df7c178e7d6dda0",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "2b8ec02ff66d2155eb809fda5695268a5ed059dbcaf3f80edb4679d037035ae4",
+      "bytes": 780242
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game000.json?key=86a2b0830853d25b6db962000f032e7e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "abeca8105a35fd6effa9df8c0ef5b873757a96ec3840e908606d69146ed7e299",
+      "bytes": 1056546
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game001.json?key=9af81489a501679d3858f32091948722",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4de9b2f269f248776c6feaf84505d81673b72dba107f74db999915a21a8e0567",
+      "bytes": 1760625
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources001.json?key=d9b2948b47dc1f75345f71f06af9ad0b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "04e8cbc8573e080027da5f39c17cdd4f39ef2600f982afabd7b4001ac3e521eb",
+      "bytes": 574720
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources010.json?key=585565ab729b903f116d77384cd3667d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "799baac61f27b77a6832e27236f7b632519f330512d2deb6a95e9c054b22ef38",
+      "bytes": 551205
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI001.json?key=e2b67650c6bb19111fb833c5e9a818a9",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6115ebc0c7b4f84751f9165b03c00056a1e6e84b018a939353c7a3e6fb6dfe7c",
+      "bytes": 1438455
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI_resources001.json?key=5195254a24bb908eca344c4f9be4fa9a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ffbf6cfbc44ba13c5e99ca30a9505424807b9429a9d895fab74553076a94a9ec",
+      "bytes": 409246
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources002.json?key=620099b07ded44cbd0dd84fe82862762",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "8dad4a66e7ea6b42115bfdae1a126a1df828dd82df2f06784f09d57c8fc513ed",
+      "bytes": 609141
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI_resources000.json?key=1572a8bd59e23179529723d8a56a6c31",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0df0677e0d1b74e790f863012cae7ae48a33d0d64cd08c6e51a9dddd32d70d49",
+      "bytes": 550991
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI002.json?key=00696f89a55f8af5baa291cd436d77f8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f8d48662df4cd528334bb42d2b160ad6a336344b9834cb2542cb7f5cc67ecdb2",
+      "bytes": 654397
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/MDL_Jackpot.json?key=9d1cf09f95cc032854c9e5e51f1d9d4d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e5f71d33c81499e7a1ba573211d542b45b21c4569b43b20aa2bf44f1222d5175",
+      "bytes": 3566100
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources011.json?key=b18e030d87c74fdc505218b305b78ee2",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0d8447ba757e530afde5abeeca5e87f8b9c078b44be1f116cf8620b78ad95056",
+      "bytes": 1380538
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/other_resources001.json?key=ed787e8bc2ccfc7f59b9c2585a09a156",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "5733d77739fd01fa7c6293272d174596165b1dde43fa57dfafb058916f3db001",
+      "bytes": 26984
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources000.json?key=f3376632cf098014d18919f9bd37d723",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "16f77c86497c94565cab4722725143c154df24b5a9538e711ae44a0eb745597f",
+      "bytes": 533797
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doInit&symbol=vs20olympgate&cver=442883&index=1&counter=1&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "07173e55e5bfe5410404ec7c5486776194f4e5fa9ed1e6e8bec9711de02186f9",
+      "bytes": 7105
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=2&counter=3&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "d9ab7afcc000376efae827cc81ef6a8cf765da93024a4ad2d7813e8d60a86aa6",
+      "bytes": 408
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=3&counter=5&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "b3302e3e42c12d9025b26e0f69d227b056edbf0213134737a350a687982209e2",
+      "bytes": 326
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=4&counter=7&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "90e5758a02b3ebd7bfb56cd9da06c7f903b45a44b5e07bc9d31df20846d296ca",
+      "bytes": 120
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=5&counter=9&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "c24bc128954b28762658ab4fd58c4d3ce4df1b78d47730745858693405f76513",
+      "bytes": 426
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=6&counter=11&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "7f997bf084142391b2ab4867aec73373326d65377cc84110588d42a86cce8d45",
+      "bytes": 325
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=7&counter=13&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "6e9875db128176d93176553d8bfb9fda12968caa563278a28bcbb41be94e7406",
+      "bytes": 120
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=8&counter=15&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "b540ce82f901c4f2a80dddd783c98fa3a174af8ce808e9a9c73eeb2eed412468",
+      "bytes": 412
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=9&counter=17&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "b6523ba971cdce385643dfbb2cb304624d6742d35c4bf4e59ce85b05d5520fe1",
+      "bytes": 422
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=10&counter=19&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "2f1325845a78800e9b198c2d89109b87a66a150e0b62fcc18bcd39e7a6fd4d10",
+      "bytes": 329
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20olympgate&c=0.10&l=20&sInfo=n&bl=0&index=11&counter=21&repeat=0&mgckey=stylename%40generic~SESSION%403cf88e78-a8cc-447b-8509-f7402cff3970",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "9101cfbb965859cb594427344e143fedaecc5ff2075054bae1d1e5834bb14ce6",
+      "bytes": 122
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game004.json?key=0c811675428c95fe4b22ece2fbf32e61",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "02dcf8c064f6d029790d73d7450bf7a239364f9be1bd506a8b2bf0df7f276b6c",
+      "bytes": 743642
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources008.json?key=a850c552d43c0fe91f5887d2b2f3bd5e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "66f73e923408f57a1bc8f4305bcd611b10f44095d2a16efa528a636eb6d0342f",
+      "bytes": 705558
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources007.json?key=e0ef941ad6434a0abe982d33091d347a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ecc2b72f916a89ca1c355eee9f21941ecb2d6c2118b964e6908d873718bdb151",
+      "bytes": 828022
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources009.json?key=a7bd270bf370d72cb83183a236b11e20",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "479b7c585ca92db08e26bc675ff4f39f1a0aa53c202355b005eaa97cb074a39d",
+      "bytes": 678953
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI006.json?key=b2262449c29df570f7a62ca8de39119f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "68b254c3a239345910f0ebe0e9b4767f773d6dbc36c0d940056ad0a06eb4903d",
+      "bytes": 605903
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources002.json?key=620099b07ded44cbd0dd84fe82862762",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "8dad4a66e7ea6b42115bfdae1a126a1df828dd82df2f06784f09d57c8fc513ed",
+      "bytes": 609141
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/other_resources000.json?key=4b3a7713b1e95f578603feda62423dca",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "343db5d728d10570c9e85078ce81e2007254293ec0ef51547916fed242045d02",
+      "bytes": 548088
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources001.json?key=d9b2948b47dc1f75345f71f06af9ad0b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "04e8cbc8573e080027da5f39c17cdd4f39ef2600f982afabd7b4001ac3e521eb",
+      "bytes": 574720
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources016.json?key=ce4d3c7bc542a7b9dee4d93bdac1c76f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "08674aa1b2b75033983c7772c8b01587f32e5a7c82dde4b7ba1b0366898051b6",
+      "bytes": 91417
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources006.json?key=8e3d9ae2a6b2fdad3e4c080dc0b49d74",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a81b9efc2947afc8545274165814a93556f8061ae5e25eb3b3722f694a3ac911",
+      "bytes": 937523
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game000.json?key=86a2b0830853d25b6db962000f032e7e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "abeca8105a35fd6effa9df8c0ef5b873757a96ec3840e908606d69146ed7e299",
+      "bytes": 1056546
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources011.json?key=b18e030d87c74fdc505218b305b78ee2",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0d8447ba757e530afde5abeeca5e87f8b9c078b44be1f116cf8620b78ad95056",
+      "bytes": 1380538
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources014.json?key=addafec45f44360ccea0fb33d499afdb",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e68b5528c6aedf50472bf34dcd25c641302024e4d1cb0ee67bfde7bf79aaad87",
+      "bytes": 549023
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/client/game.json?key=70c817752ddf1d0b1a552cbc8b1f406a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "04414837b3b158687e78f7f8487e03aa95cefb7036ffadbe16c75c2843f27bf1",
+      "bytes": 22287
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources013.json?key=eb27d9107e539ade94cc11d31905374f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1983ca87351f42b51d5474a4be7412ce89b38292d9b4868e664394865f053800",
+      "bytes": 925433
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources004.json?key=b9a16de1ceab2faf169dc76a2061215e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4fba4f8ba7b7695b6ff861bd2c8d549aeefc3f2f47ae271dc0e7a13440ebd2d6",
+      "bytes": 685245
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI005.json?key=c8db6d8524545b94ec902cde28a65f62",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "b0855c3690e0d17e029462cd4bc59bf4374743d3f0edfd180c79c639f353f72d",
+      "bytes": 1164317
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI003.json?key=e59fb1f948fa5dd4431322b8ce09df70",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f5fb743fcee93411628a058e8e7edfa4c16b2dacc5a6d4e637b960bf7b942eba",
+      "bytes": 589472
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources000.json?key=f3376632cf098014d18919f9bd37d723",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "16f77c86497c94565cab4722725143c154df24b5a9538e711ae44a0eb745597f",
+      "bytes": 533797
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources003.json?key=79ad0c26cee1b73ea2978987912251e1",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "949a2503f203177031186bfa5dd11ebd92c30215ba8267ca5ce90e4d4341dd29",
+      "bytes": 556325
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI_resources001.json?key=5195254a24bb908eca344c4f9be4fa9a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ffbf6cfbc44ba13c5e99ca30a9505424807b9429a9d895fab74553076a94a9ec",
+      "bytes": 409246
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI000.json?key=bf7186fca2478194d37156022ca58b1b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "69a7033dad8c3d8984d6145ee8153b2a285cd3f94feab50e402840eea5b2062d",
+      "bytes": 918130
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game003.json?key=a353b52bc8ff05a3ac1b8e2ca01b3376",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "48ee1606d2356d9bf0760aff6f5acd52623e501a72ad8b823de253e587a69953",
+      "bytes": 1904076
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources015.json?key=5702fa749074b8986df7c178e7d6dda0",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "2b8ec02ff66d2155eb809fda5695268a5ed059dbcaf3f80edb4679d037035ae4",
+      "bytes": 780242
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI002.json?key=00696f89a55f8af5baa291cd436d77f8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f8d48662df4cd528334bb42d2b160ad6a336344b9834cb2542cb7f5cc67ecdb2",
+      "bytes": 654397
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game002.json?key=b836fb4f500ab81e55c08218818171c9",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ec01c82c642ec02bf263564f82ec2cb55ea832c8c939aae257c6dac289283112",
+      "bytes": 1005818
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/client/resources.json?key=29f7fe610047c4b016b5edf4ace2794e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1575b5cfe574641c75f6a5da8e67f2e15cd89b590428da7d0b9c3f6470ba85d7",
+      "bytes": 76737
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI004.json?key=d0b573ffb9ca28f31726e3289e0c474a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "7a2b965385c899901ecada1ebc6fc6de00e219a9666603fbe8c806a338992388",
+      "bytes": 619621
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources005.json?key=baa276a33380ae06bac305774c126e23",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ca13647ef22c2bc6588d0e69a89301b92459e635a6df4a85ae5263cb9eaaa497",
+      "bytes": 552411
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI_resources000.json?key=1572a8bd59e23179529723d8a56a6c31",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0df0677e0d1b74e790f863012cae7ae48a33d0d64cd08c6e51a9dddd32d70d49",
+      "bytes": 550991
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/other_resources001.json?key=ed787e8bc2ccfc7f59b9c2585a09a156",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "5733d77739fd01fa7c6293272d174596165b1dde43fa57dfafb058916f3db001",
+      "bytes": 26984
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI001.json?key=e2b67650c6bb19111fb833c5e9a818a9",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6115ebc0c7b4f84751f9165b03c00056a1e6e84b018a939353c7a3e6fb6dfe7c",
+      "bytes": 1438455
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/MDL_Jackpot.json?key=9d1cf09f95cc032854c9e5e51f1d9d4d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e5f71d33c81499e7a1ba573211d542b45b21c4569b43b20aa2bf44f1222d5175",
+      "bytes": 3566100
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources010.json?key=585565ab729b903f116d77384cd3667d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "799baac61f27b77a6832e27236f7b632519f330512d2deb6a95e9c054b22ef38",
+      "bytes": 551205
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/game001.json?key=9af81489a501679d3858f32091948722",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4de9b2f269f248776c6feaf84505d81673b72dba107f74db999915a21a8e0567",
+      "bytes": 1760625
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/main_resources012.json?key=ce69474fdfbc0eeb4ffa885d59a94798",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "52a2c13603823ab6ecb30b5109127b5eb19a022b8d7a083fcb29713fbbf3d67c",
+      "bytes": 1300846
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/sounds.ogg.json?key=90a2c410fb347f791a9c002d4604bdc7",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "85ef9f9f217eb21b6dd3fd62848e2c6e9d3badcda9e6ce5d08022a89d545478d",
+      "bytes": 8703473
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/sounds.mp3.json?key=bab780f284c9bbf942514f755f92f0d4",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a523b5df7567b1afdb019149e14b19a4a59ab676358406e9bcbb6c86f17ce0ea",
+      "bytes": 8706973
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/MDL_Jackpot_sounds.mp3.json?key=fbfb85595809a047fd5b8cb7bf03a4d6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "c5513c58d0d2467338fac3c2dfe087cf139bbb404dc483f7f828f1109e04e3d9",
+      "bytes": 708237
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/MDL_Jackpot_sounds.ogg.json?key=f3fb4a4bfc69ce589cf5958a72993d1e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "b16db91ac35c0bf3d9cd99726dd4d504508956444d0a9a7a4c44e2a781e1cc03",
+      "bytes": 748301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/style.css",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/css",
+      "sha256": "d339e98f7b517291c347df66ecd331087f7195757149c73c12384c2c6d493100",
+      "bytes": 19631
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/customizations.info",
+      "method": "GET",
+      "status": 200,
+      "contentType": "binary/octet-stream",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI_sounds.ogg.json?key=9f84557c0a28ca7265899e6d5506c310",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "5c7fb698c033de693e7c564ee4051220a60578a7695659c79c032b6659ebe26a",
+      "bytes": 767505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/GUI_sounds.mp3.json?key=6f705e497ef74b955179e54a59338779",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "10cbd74f06d53d704dec8f8fbc5aacf832a6685bcec6dbdf88ca3f824f38f4f3",
+      "bytes": 736317
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/b04d30f857ae6d74ba23577b2c136027.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "4b2aeb38fe414bbdddb7f734ac8ca01fde0c0efb28661e77477086372470df2f",
+      "bytes": 534318,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/0aa6f18c9d1f78b48a6e59450d517ea0.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "0015aea955d53cf50c8e279b274aa4f302825d26f986f1a61a29c5deebbacc62",
+      "bytes": 670767,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/a22aa3fe35415d648ac080a72ae06997.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "0e9d8cdadccab425b544ca76ebddee554746253b3809be44879ddb8f13d21cf8",
+      "bytes": 67643,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/b7a45c001e18b9f41b59da0652632f32.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "9d7c8edb61313ad4c55d3c932d35c9218533970f700235a5027fa6aec7b00af9",
+      "bytes": 503320,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/180e95c7d225a334a86f64315fb341c5.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "a6bfbf096a39c9a227422a0b912cb342ab8f89521b3c5841a9dd4a94106045bc",
+      "bytes": 106181,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/8bdd3f89414676c4185260a958f1431a.jpg",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "659a58d366e27a9b31600617c58e09777c754e4536f367583f2fa7539516ea89",
+      "bytes": 164056,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/71e00837efab8e747ba199cdd9b8f2bc.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "1e1abf6c69c7336770067bc6f73dcd5985ba027319ccdea356c7730b5ac07c0d",
+      "bytes": 227907,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/7aa944b7a495d17439223872fbbf8906.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "0c326dd1a7431450c28bde27b881e9d1a765e31d9cd6a18259e5ddc4b5f9e017",
+      "bytes": 818231,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/0c8ccf7a412ebd54aaa341c3225ba05c.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "0cbd8332d348eabe29ed1c2afeaec1a1c47da35e4c210b5d9659207bfe1ebb18",
+      "bytes": 417222,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/ca6d2c57026ca09449ba8a8c911ac27f.jpg",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "0d01d35368362cf88999931c07f82c98a6d9fc8bd7728435dfa5539552052a6a",
+      "bytes": 142789,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/1d5a911201044874dbc5655289fa8c52.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "fa040671f2586042831a6f675222c873b6d5f9e1b60741aa26e8da24173babfd",
+      "bytes": 36401,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/099c10ba5e2980c4c8d7dece8c8140aa.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "db81a9eceb730c4c7b1cc2a118c7a1c1e465cec57184e564e0aa73aae0e81791",
+      "bytes": 20612,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/77dd8a666c0ac3047a74c4e83376c474.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "081bcd6c31b182a5f8d6dfba0e31af04eeaae975cc098753ba0010116d85b5a8",
+      "bytes": 34196,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/6b1e0d505a2f54a4090fdeb93de7eb2e.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "2333c7ca23d705b22e59384f76b3a3efb1c7f62a159be1844107b5416b304540",
+      "bytes": 78251,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/3237267f46a865641ac884e77a2aca49.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "13dfa49672d5c89322413bc4f67403c1195bf89d5f3cc6115cadc545f0b3365e",
+      "bytes": 993571,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/8ed4301cd5211c04cb300714cf3b8533.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "72102f827346a752097f52e1cdb79ce7c564fc6e5220b7fdd1d45ccb700ddcfd",
+      "bytes": 158772,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/de54e2c54c2e1e345833fa316080ed4c.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "daba561f4b2a9a5b9e2eda374ad80b1607c237c92e8649b2f7743d4feb62b7a8",
+      "bytes": 311312,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/b3e2706c1e4683741a453dec547cf212.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "85d158cda9277670a6e6b6372fe196b67b04d15318ffee67bf69bec378c1bb82",
+      "bytes": 31445,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/desktop/game/res/932c6349ed296644fa2c4a7c7bcf1acd.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "16ddc66262374ca86b8f8fc8c02eaf62b85ac342e4d49d1d67073816f1522892",
+      "bytes": 518323,
+      "source": "actual image referenced by acquired package"
+    }
+  ],
+  "verification": "HTTP virtual demo fixtures acquired; browser playability unverified",
+  "launcherContext": {
+    "win[\"navigator\"][\"userAgent\"]": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "win[\"location\"][\"hostname\"]": "demogamesfree.pragmaticplay.net"
+  }
+}

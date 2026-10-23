@@ -1,0 +1,45 @@
+{
+  "target": 20,
+  "date": "2026-10-23",
+  "runtime": "Static files + browser fake backend; no Python API/WebSocket runtime",
+  "previewBase": "/gameREA/",
+  "quiet": true,
+  "publicDeploymentVerified": false,
+  "games": [
+    {
+      "provider": "pp",
+      "slug": "gates-of-olympus",
+      "rounds": 1,
+      "settlement": true,
+      "screenshot": "static-gates-first-round.png"
+    },
+    {
+      "provider": "png",
+      "slug": "firejoker",
+      "rounds": 3,
+      "balanceBefore": 25000,
+      "balanceAfter": 24997,
+      "settlement": true,
+      "screenshot": "static-firejoker-three-spins.png"
+    },
+    {
+      "provider": "afa",
+      "slug": "CA261119",
+      "rounds": 3,
+      "balanceBefore": 25000,
+      "balanceAfter": 24967,
+      "settlement": true,
+      "screenshot": "static-afa-ca261119-three-draws.png"
+    },
+    {
+      "provider": "seth",
+      "slug": "seth2",
+      "rounds": 3,
+      "balanceBefore": 10000,
+      "balanceAfter": 10001,
+      "settlement": true,
+      "screenshot": "static-seth-three-spins.png",
+      "note": "socket_url marker fixed original client startup guard"
+    }
+  ]
+}

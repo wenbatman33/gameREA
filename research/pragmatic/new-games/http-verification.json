@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "sugar-rush",
+    "symbol": "vs20sugarrush",
+    "coin": "0.10",
+    "lines": "20",
+    "totalBet": 2.0,
+    "threeLoopsRequests": 36,
+    "apiFixtures": 12,
+    "assetErrors": 0,
+    "mutedScriptBeforeBootstrap": true
+  },
+  {
+    "slug": "big-bass-bonanza",
+    "symbol": "vs10bbbonanza",
+    "coin": "0.20",
+    "lines": "10",
+    "totalBet": 2.0,
+    "threeLoopsRequests": 36,
+    "apiFixtures": 12,
+    "assetErrors": 0,
+    "mutedScriptBeforeBootstrap": true
+  },
+  {
+    "slug": "starlight-princess",
+    "symbol": "vs20starlight",
+    "coin": "0.10",
+    "lines": "20",
+    "totalBet": 2.0,
+    "threeLoopsRequests": 36,
+    "apiFixtures": 12,
+    "assetErrors": 0,
+    "mutedScriptBeforeBootstrap": true
+  },
+  {
+    "slug": "sweet-bonanza",
+    "symbol": "vs20fruitsw",
+    "coin": "0.10",
+    "lines": "20",
+    "totalBet": 2.0,
+    "threeLoopsRequests": 33,
+    "apiFixtures": 11,
+    "assetErrors": 0,
+    "mutedScriptBeforeBootstrap": true
+  },
+  {
+    "slug": "gates-of-olympus",
+    "symbol": "vs20olympgate",
+    "coin": "0.10",
+    "lines": "20",
+    "totalBet": 2.0,
+    "threeLoopsRequests": 33,
+    "apiFixtures": 11,
+    "assetErrors": 0,
+    "mutedScriptBeforeBootstrap": true
+  }
+]

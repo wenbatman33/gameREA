@@ -1,0 +1,40 @@
+{
+  "target": 20,
+  "scope": "本機啟動、普通回合連續操作及結算；完整特殊玩法另列，不當作全部還原。",
+  "previousLocalPrototypes": 10,
+  "newBrowserVerified": [
+    {
+      "provider": "Play’n GO",
+      "slug": "firejoker",
+      "title": "Fire Joker",
+      "spins": 3,
+      "stake": 1,
+      "balanceBefore": 25000,
+      "balanceAfter": 24997,
+      "screenshot": "playngo/new-games/firejoker/local-after-three-spins.png",
+      "limitation": "固定觀察的非贏普通回合；特殊模式未還原。"
+    },
+    {
+      "provider": "Pragmatic Play",
+      "slug": "gates-of-olympus",
+      "title": "Gates of Olympus",
+      "spins": 3,
+      "stake": 2,
+      "balanceBefore": 100000,
+      "balanceAfter": 100000.3,
+      "screenshot": "pragmatic/new-games/gates-of-olympus.local-after-three-spins.png",
+      "limitation": "固定普通回合/連消/領獎樣本，免費與購買未還原。"
+    },
+    {
+      "provider": "Play’n GO",
+      "slug": "legacyofdead",
+      "title": "Legacy of Dead",
+      "spins": 3,
+      "stake": 1,
+      "balanceBefore": 25000,
+      "balanceAfter": 24997,
+      "screenshot": "playngo/new-games/legacyofdead/local-after-three-spins.png",
+      "limitation": "固定觀察的非贏普通回合；特殊模式未還原。"
+    }
+  ]
+}

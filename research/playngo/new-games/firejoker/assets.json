@@ -1,0 +1,740 @@
+{
+  "files": [
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/games/firejoker/firejoker_desktop.bundle.js",
+      "file": "bodies/d31eb0953030a354f796175a13b709fc0153d95e9f6ac00f81c6d7859a34fe35",
+      "contentType": "application/javascript",
+      "bytes": 1881531,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/config_desktop.json",
+      "file": "bodies/dab6524019e7fcfae8384acb3a5511c64acaf550078adb021c5fc8b10022d3fd",
+      "contentType": "application/json",
+      "bytes": 123739,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/featurepreview_bundle.json",
+      "file": "bodies/a9b16f6aa6c29fccf5b0249a6eaaa80d51370a8915a75710c4f490765dc2d781",
+      "contentType": "application/json",
+      "bytes": 9707,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/game_bundle.json",
+      "file": "bodies/1de4318821e98726feb90ab817c028e9bcdbdbf36258997bf60a3acf1c21da35",
+      "contentType": "application/json",
+      "bytes": 71,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/ui_desktop_bundle.json",
+      "file": "bodies/a67ff37359afd3ef3f7c40c7d262097d3ad283eae76bfeb0fad142279dd655c8",
+      "contentType": "application/json",
+      "bytes": 98785,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/mysteryjackpot_bundle.json",
+      "file": "bodies/2b520b01d2c1d635d21cb5ec0e354eb42574c6f339dad57e937d05f771d1967c",
+      "contentType": "application/json",
+      "bytes": 3826,
+      "status": 200
+    },
+    {
+      "url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=firejoker&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "file": "bodies/11c7c2f385b01e4cc92c5d9fae60e9e92c332e8eba5556ca9b83daba5a301422",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 747,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/oswald_regular.css",
+      "file": "bodies/213dbae94726fbe667dbe6bc8800679f27ac186be1f99ffa3f7ed021175c5cbe",
+      "contentType": "text/css",
+      "bytes": 154,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/oswald_medium.css",
+      "file": "bodies/6b2f57fda90068ea8ca7310ac4d20eb4895ac9158f135777c059b11ca5155116",
+      "contentType": "text/css",
+      "bytes": 152,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/ROBOTO_CONDENSED_BOLD.css",
+      "file": "bodies/9ecc50c226974dc2c28b27e342de6610403e1c6314e6f1bfe649a41418ea8df4",
+      "contentType": "text/css",
+      "bytes": 169,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.css",
+      "file": "bodies/c018ebfdb84d7f2d5bd527176c9abdc358f9a8153b0835e6886d87bfe2050c4f",
+      "contentType": "text/css",
+      "bytes": 175,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/PNG_VNTH.css",
+      "file": "bodies/ee3f20cb76541602b885f6ba2daceec872e4e6a2add3e9525f7b76d0ff035603",
+      "contentType": "text/css",
+      "bytes": 117,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/Dontpanic.css",
+      "file": "bodies/9ea4916155c01defba789404fd6ff8efe2325b28739a7e5745d0771458e07518",
+      "contentType": "text/css",
+      "bytes": 119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/ARIAL_ROUNDED_BOLD.css",
+      "file": "bodies/6caf308b1afce2e7156c5d739992fb8f0826b0f87fa4621760b16b49b426ef6b",
+      "contentType": "text/css",
+      "bytes": 163,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/POPPINS_REGULAR.css",
+      "file": "bodies/cd8d63cb7c62dd370c57111a9e116acc7aad832022f14f1f1d0460ffddd47b09",
+      "contentType": "text/css",
+      "bytes": 157,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture0_level0.jpg",
+      "file": "bodies/1d6553f144aa78cd19bacd7ce7efb9a36e000bfab34aa524b4ae050b3e4a21e8",
+      "contentType": "image/jpeg",
+      "bytes": 1954165,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture0_level1.jpg",
+      "file": "bodies/1d6553f144aa78cd19bacd7ce7efb9a36e000bfab34aa524b4ae050b3e4a21e8",
+      "contentType": "image/jpeg",
+      "bytes": 1954165,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture0_level2.jpg",
+      "file": "bodies/dfaca044f06f51970f00e6c84a58e5aeb0daa2a9c3c8f8c88beba570b424caf5",
+      "contentType": "image/jpeg",
+      "bytes": 1066197,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture0_level3.jpg",
+      "file": "bodies/dfaca044f06f51970f00e6c84a58e5aeb0daa2a9c3c8f8c88beba570b424caf5",
+      "contentType": "image/jpeg",
+      "bytes": 1066197,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture1_level0.png",
+      "file": "bodies/5a9fda97928d731a6e9f5a4227e0f84486c120163e21951ee388a0344148929b",
+      "contentType": "image/png",
+      "bytes": 147482,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture1_level1.png",
+      "file": "bodies/5a9fda97928d731a6e9f5a4227e0f84486c120163e21951ee388a0344148929b",
+      "contentType": "image/png",
+      "bytes": 147482,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture1_level2.png",
+      "file": "bodies/f1ffbbecd63e0a2ac409886749cacebb3c2f43ab8020e1898ec9a92f3b8ddf5a",
+      "contentType": "image/png",
+      "bytes": 72179,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/background/background_texture1_level3.png",
+      "file": "bodies/f1ffbbecd63e0a2ac409886749cacebb3c2f43ab8020e1898ec9a92f3b8ddf5a",
+      "contentType": "image/png",
+      "bytes": 72179,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/logo/logo_texture0_level0.png",
+      "file": "bodies/33792d5f1eae464e78c8e2a3649f12a36a4abe42a7873c0459e7774728112647",
+      "contentType": "image/png",
+      "bytes": 2001318,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/logo/logo_texture0_level1.png",
+      "file": "bodies/0c517851455645bb39f6dfc92011a33c1c2bfae462c0af7e687ee8ccfd308395",
+      "contentType": "image/png",
+      "bytes": 649366,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/logo/logo_texture0_level2.png",
+      "file": "bodies/07676ddbf4ee76c5aceb8ef18f312d995e933160db5b2593440417c21761c3be",
+      "contentType": "image/png",
+      "bytes": 396977,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/logo/logo_texture0_level3.png",
+      "file": "bodies/07676ddbf4ee76c5aceb8ef18f312d995e933160db5b2593440417c21761c3be",
+      "contentType": "image/png",
+      "bytes": 396977,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/bmpfonts/bmpfonts_texture0_level0.png",
+      "file": "bodies/777f62c6f4d346f5c07c49c4678f6c9d9e1e3525185cdcf026d9c6fc48408e24",
+      "contentType": "image/png",
+      "bytes": 474833,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/bmpfonts/bmpfonts_texture0_level1.png",
+      "file": "bodies/777f62c6f4d346f5c07c49c4678f6c9d9e1e3525185cdcf026d9c6fc48408e24",
+      "contentType": "image/png",
+      "bytes": 474833,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/bmpfonts/bmpfonts_texture0_level2.png",
+      "file": "bodies/777f62c6f4d346f5c07c49c4678f6c9d9e1e3525185cdcf026d9c6fc48408e24",
+      "contentType": "image/png",
+      "bytes": 474833,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/bmpfonts/bmpfonts_texture0_level3.png",
+      "file": "bodies/777f62c6f4d346f5c07c49c4678f6c9d9e1e3525185cdcf026d9c6fc48408e24",
+      "contentType": "image/png",
+      "bytes": 474833,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture0_level0.png",
+      "file": "bodies/3a613413799a38e71ace56192bc3d99abcffcef856e87b293d20a717025a4c9b",
+      "contentType": "image/png",
+      "bytes": 537874,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture0_level1.png",
+      "file": "bodies/3a613413799a38e71ace56192bc3d99abcffcef856e87b293d20a717025a4c9b",
+      "contentType": "image/png",
+      "bytes": 537874,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture0_level2.png",
+      "file": "bodies/80b2776f201d870a96f37f077c672f4ed5f221063ea1951a386de7070c213842",
+      "contentType": "image/png",
+      "bytes": 237161,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture1_level0.png",
+      "file": "bodies/5ffd8652a58758f9c8848bf933f9e299b119290cf42c9193607f6e555b5c7db2",
+      "contentType": "image/png",
+      "bytes": 2373178,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture1_level1.png",
+      "file": "bodies/5ffd8652a58758f9c8848bf933f9e299b119290cf42c9193607f6e555b5c7db2",
+      "contentType": "image/png",
+      "bytes": 2373178,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture1_level2.png",
+      "file": "bodies/3841dad7ce713d86f14f1c3ef84b54a721dd40ca46f93ad54ece09a3021a70f0",
+      "contentType": "image/png",
+      "bytes": 982164,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture2_level0.jpg",
+      "file": "bodies/42644a1173eb80b17e356fd05e50616c8ee20c0eee430fa083f125daf64fa7c6",
+      "contentType": "image/jpeg",
+      "bytes": 553312,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture2_level1.jpg",
+      "file": "bodies/42644a1173eb80b17e356fd05e50616c8ee20c0eee430fa083f125daf64fa7c6",
+      "contentType": "image/jpeg",
+      "bytes": 553312,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/multiplier/multiplier_texture2_level2.jpg",
+      "file": "bodies/b4d4d985c6a4d7dc632690cc760c0bfbe883cda94bf436d6076345d8a090d512",
+      "contentType": "image/jpeg",
+      "bytes": 248877,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/sounds/common_sounds_desktop.ogg",
+      "file": "bodies/4a0215237dce76691ef267cd09aa914dd1e151a090e266eedea25e0f06e1e413",
+      "contentType": "audio/ogg",
+      "bytes": 25039,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/sounds/common_sounds_desktop.mp3",
+      "file": "bodies/b4447ee42b8dc43c88012ef67a22390937f86ee17dd6171bc8d1d976a9b2fb21",
+      "contentType": "audio/mpeg",
+      "bytes": 34119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/sounds/common_sounds_desktop_fb.mp3",
+      "file": "bodies/3269ae44ab68840db5a7693cd6d0cfd69c4ce4a84af8f915bcf266fd70c7ff1c",
+      "contentType": "audio/mpeg",
+      "bytes": 50990,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/sounds/sounds_desktop.ogg",
+      "file": "bodies/133c085dd55c1637ead04dca5a6dc7c74ce88dc0855ac9f43bf6cf23703be196",
+      "contentType": "audio/ogg",
+      "bytes": 2882734,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/sounds/sounds_desktop.mp3",
+      "file": "bodies/8981072151a90f2307ef407b275cb782b0c0f95756dfb990c5a7cf0742928420",
+      "contentType": "audio/mpeg",
+      "bytes": 3385034,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/sounds/sounds_desktop_fb.mp3",
+      "file": "bodies/a194a4d78c9207055eaee7e0c7c9cb183d4e639ab363c32960e44ee3597ee012",
+      "contentType": "audio/mpeg",
+      "bytes": 2322598,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/features/features_texture0_level0.png",
+      "file": "bodies/0f70cc3bda896272fccc4d6987fa1c8a3bcbdb3792f067755840c921b1d3c5d0",
+      "contentType": "image/png",
+      "bytes": 838240,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/features/features_texture0_level1.png",
+      "file": "bodies/0f70cc3bda896272fccc4d6987fa1c8a3bcbdb3792f067755840c921b1d3c5d0",
+      "contentType": "image/png",
+      "bytes": 838240,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/features/features_texture0_level2.png",
+      "file": "bodies/a484e42c01937e883e5825623fce8dde1d111d0da603eb67e3c153cffab63696",
+      "contentType": "image/png",
+      "bytes": 353777,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/features/features_texture0_level3.png",
+      "file": "bodies/a484e42c01937e883e5825623fce8dde1d111d0da603eb67e3c153cffab63696",
+      "contentType": "image/png",
+      "bytes": 353777,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/feature_preview/feature_preview_texture0_level0.png",
+      "file": "bodies/3fe0c62fb3087e035af5232453fc66bde1ff0f3515ae511f8117e199d6bf6e45",
+      "contentType": "image/png",
+      "bytes": 49329,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/feature_preview/feature_preview_texture0_level1.png",
+      "file": "bodies/3fe0c62fb3087e035af5232453fc66bde1ff0f3515ae511f8117e199d6bf6e45",
+      "contentType": "image/png",
+      "bytes": 49329,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/feature_preview/feature_preview_texture0_level2.png",
+      "file": "bodies/d9a272cb3d75dcc5bd3d8eb804b5f8293d190d5b60e6e8c4c9fb23a2787fe76e",
+      "contentType": "image/png",
+      "bytes": 18761,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/feature_preview/feature_preview_texture0_level3.png",
+      "file": "bodies/d9a272cb3d75dcc5bd3d8eb804b5f8293d190d5b60e6e8c4c9fb23a2787fe76e",
+      "contentType": "image/png",
+      "bytes": 18761,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/game_desktop_bundle.json",
+      "file": "bodies/517ea9065a032d5b06b09e8909a673689275cce8226c7e26727cf4966228f65f",
+      "contentType": "application/json",
+      "bytes": 189603,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture0_level0.png",
+      "file": "bodies/370d20294b184e6bf40125e7b798d8c89707a1f66610035b4fa4ad6d67c889f5",
+      "contentType": "image/png",
+      "bytes": 270410,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture0_level1.png",
+      "file": "bodies/370d20294b184e6bf40125e7b798d8c89707a1f66610035b4fa4ad6d67c889f5",
+      "contentType": "image/png",
+      "bytes": 270410,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture0_level2.png",
+      "file": "bodies/c68f65ee1c7ac2d3b8806e5d28853a73a8051cee73bb6bf7a48902a7db60fbd5",
+      "contentType": "image/png",
+      "bytes": 123897,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture1_level0.png",
+      "file": "bodies/69b28583f4aacb2718c91ba0922c7f9b11bee996b9981fa849c8498e25be1f43",
+      "contentType": "image/png",
+      "bytes": 895507,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture1_level1.png",
+      "file": "bodies/69b28583f4aacb2718c91ba0922c7f9b11bee996b9981fa849c8498e25be1f43",
+      "contentType": "image/png",
+      "bytes": 895507,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture1_level2.png",
+      "file": "bodies/227f089c2e1d8541e8f0318e5e0e577f65ce2c1a576281472ca6f249e3f119e8",
+      "contentType": "image/png",
+      "bytes": 331820,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture2_level0.png",
+      "file": "bodies/be626bba40b8f2cf125423ca6c17b8f6fe54918eedb195c77bb5778124fc9bc4",
+      "contentType": "image/png",
+      "bytes": 125015,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture2_level1.png",
+      "file": "bodies/be626bba40b8f2cf125423ca6c17b8f6fe54918eedb195c77bb5778124fc9bc4",
+      "contentType": "image/png",
+      "bytes": 125015,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/menu/menu_texture2_level2.png",
+      "file": "bodies/52b7c13d8502471eef53ae929f1aa10eb5db6955922519c008ad34c551bd4282",
+      "contentType": "image/png",
+      "bytes": 52092,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level0.png",
+      "file": "bodies/5ad91ddee6c4008bf48577e3784c71c5984a8cf92ecde62143e9a4d81d907f00",
+      "contentType": "image/png",
+      "bytes": 66681,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level1.png",
+      "file": "bodies/2ece7444295bf05755811719f0742bae67e845d9db1b39a5b3420146aee32fdb",
+      "contentType": "image/png",
+      "bytes": 52938,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level2.png",
+      "file": "bodies/c345fe8386b1032cf5558fcc3606d75c76cd27046824045bfe91329b19a8989e",
+      "contentType": "image/png",
+      "bytes": 36068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/ui/desktop/statusbar/statusbar_texture0_level0.png",
+      "file": "bodies/4cfb88e3d112693900d6079094f74e1b5112efe6a82bae6d98e488e231ba8d72",
+      "contentType": "image/png",
+      "bytes": 11391,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/ui/desktop/statusbar/statusbar_texture0_level1.png",
+      "file": "bodies/e894ad1821e3ffa68075700c63cb31de06b0dd8a03c550b5d5fd091cc7908315",
+      "contentType": "image/png",
+      "bytes": 7605,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/ui/desktop/statusbar/statusbar_texture0_level2.png",
+      "file": "bodies/988950a30e0ea2a5ef30f40e95b9f43fa4a894bae60db96ec6ea837f542ff50b",
+      "contentType": "image/png",
+      "bytes": 4068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/hyperspineffect/hyperspineffect_texture0_level0.png",
+      "file": "bodies/6b34dc68b0d84f35c087098fe7d4e84a025782fafcd74da1da12dbd2ef46ea3c",
+      "contentType": "image/png",
+      "bytes": 18929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/hyperspineffect/hyperspineffect_texture0_level1.png",
+      "file": "bodies/d8bac7b29a881c60c49d131b8d983f79001c97f94ddf63861fbeeeaa5d79cf9a",
+      "contentType": "image/png",
+      "bytes": 4543,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/hyperspineffect/hyperspineffect_texture0_level2.png",
+      "file": "bodies/f98475b09bbf5d705fe6b1ef238df35cbbaec5d246ad27b5d7f21c488d4eac33",
+      "contentType": "image/png",
+      "bytes": 3045,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.json",
+      "file": "bodies/553fbfbe3ad3d86308bd90467d7a4397373a4abfaa5e3a99d63a511c94ec5176",
+      "contentType": "application/json",
+      "bytes": 878,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot_style.json",
+      "file": "bodies/99f6255fe210c2f0c8c76e45a6426d2316aceaaf881615d9999116d9dba6b30c",
+      "contentType": "application/json",
+      "bytes": 1952,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/mysteryjackpot.json",
+      "file": "bodies/bef3710616a8e9c9cb3e9a8c2803b8450ae2ad2914e6b02df0bdf0cf129def64",
+      "contentType": "application/json",
+      "bytes": 49146,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/hera/hera-1.46.0.29/container-launcher/ContainerLauncher_bundle.js",
+      "file": "bodies/af445cfba70e84c719498c585c09ccd6210064054ed614d3fce420fa7e430a35",
+      "contentType": "application/javascript",
+      "bytes": 361857,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/main.js",
+      "file": "bodies/59558ef7d7054397628e684d2d63a12a4411ec2b9832d9ab1502b42f48143f86",
+      "contentType": "application/javascript",
+      "bytes": 40524,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/css/game_history_styles.css",
+      "file": "bodies/ce6a789b3b94252eec4ce36e36e40bfd155fd3a169fecb2894aab60dfe852b99",
+      "contentType": "text/css",
+      "bytes": 9166,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/help.css",
+      "file": "bodies/1f8bc3af2db93e35857cf24eaa0e7e4221987eb7f2d56fefe4b0bf26f39b2897",
+      "contentType": "text/css",
+      "bytes": 2624,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/template1b.css",
+      "file": "bodies/805966d08bdb0059949d084aa73172165ef03e4ea8e9ae5719257fff27dc8327",
+      "contentType": "text/css",
+      "bytes": 3913,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/OSWALD-REGULAR.woff",
+      "file": "bodies/c04d481e62e3e19fd151171df3366128fd4b24482810eb96b132f0559bec3967",
+      "contentType": "font/woff",
+      "bytes": 151733,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/OSWALD-MEDIUM.woff",
+      "file": "bodies/de474436f8484e668ee442938136ff8d4619fcc41af8a3b4fa97cb644a1a507c",
+      "contentType": "font/woff",
+      "bytes": 107945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/ROBOTO_CONDENSED_BOLD.woff",
+      "file": "bodies/de19d3ed40dda1ff72f31cc0cbbd3ad9cfc380f45851173365755eadde145807",
+      "contentType": "font/woff",
+      "bytes": 109277,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.woff",
+      "file": "bodies/fe233bd33b58cb76eae1bd15098bdd052e705762aa277915f65a63af4164f20a",
+      "contentType": "font/woff",
+      "bytes": 109929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/PNG_VNTH.woff",
+      "file": "bodies/9fce30ce49873208b850ffffd292cd2315b17fcdea4a69362a08a8e49b614abd",
+      "contentType": "font/woff",
+      "bytes": 184481,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/Dontpanic.woff",
+      "file": "bodies/f2b6e50af255a2819d281e48bd105d3f5a8fe7f428cae035e061655dd544e4e6",
+      "contentType": "font/woff",
+      "bytes": 14049,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/ARIAL_ROUNDED_BOLD.woff",
+      "file": "bodies/e8faa09d926deb7d5a0fd1a30c1d197a40f8d929e10d3cdf1080f9f9c866e84d",
+      "contentType": "font/woff",
+      "bytes": 27300,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/common/fonts/POPPINS_REGULAR.woff",
+      "file": "bodies/0d205c202c811f9c82aa8878901757b7a683312bea86ec90d2b1ecdc13424c9d",
+      "contentType": "font/woff",
+      "bytes": 73600,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture0_level0.png",
+      "file": "bodies/737805422c641e27a6ae9b0b9eff3202a393517352d11c7521ce839d930e6639",
+      "contentType": "image/png",
+      "bytes": 457884,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture0_level1.png",
+      "file": "bodies/737805422c641e27a6ae9b0b9eff3202a393517352d11c7521ce839d930e6639",
+      "contentType": "image/png",
+      "bytes": 457884,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture0_level2.png",
+      "file": "bodies/f17f6c5cc09dabd6b1cbd91fd6b64f7c2dc27a7f73a4ca53ad181abc6d37453f",
+      "contentType": "image/png",
+      "bytes": 192440,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture1_level0.png",
+      "file": "bodies/f1c9f7f054ca265abc9efc7177505743cdb468e83a71c142c09ba1db0173e9fa",
+      "contentType": "image/png",
+      "bytes": 5800081,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture1_level1.png",
+      "file": "bodies/f1c9f7f054ca265abc9efc7177505743cdb468e83a71c142c09ba1db0173e9fa",
+      "contentType": "image/png",
+      "bytes": 5800081,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture1_level2.png",
+      "file": "bodies/24a6fc5fc10c8d67c54580b8dd17ff3814dab3da48fbb96ea44bb9e9fb52161c",
+      "contentType": "image/png",
+      "bytes": 2334529,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture2_level0.png",
+      "file": "bodies/2a91b26c0541c822ab0929b9307783b91c3eeb2ae01a1b88eca41a8e4da4c457",
+      "contentType": "image/png",
+      "bytes": 2143965,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture2_level1.png",
+      "file": "bodies/2a91b26c0541c822ab0929b9307783b91c3eeb2ae01a1b88eca41a8e4da4c457",
+      "contentType": "image/png",
+      "bytes": 2143965,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture2_level2.png",
+      "file": "bodies/2eeb1867dd1de857fbf0c6adcf40064a96bfa058a20a738264ccb884db6c6e8c",
+      "contentType": "image/png",
+      "bytes": 891808,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture3_level0.jpg",
+      "file": "bodies/0ddcb89e273a2aca8ca93b679331a6051cff744e13e8df538ad25526e2ace13f",
+      "contentType": "image/jpeg",
+      "bytes": 1045996,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture3_level1.jpg",
+      "file": "bodies/0ddcb89e273a2aca8ca93b679331a6051cff744e13e8df538ad25526e2ace13f",
+      "contentType": "image/jpeg",
+      "bytes": 1045996,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/games/videoslot/firejoker/skin/skin_texture3_level2.jpg",
+      "file": "bodies/f605d8fa1164a3841b92a75086c11590c55a90b8bf1e249b49c22f2a5ef28c06",
+      "contentType": "image/jpeg",
+      "bytes": 482504,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.ogg",
+      "file": "bodies/e05a2f488ba80fa478b201e676f89905bb41555b461db719f91029ea728036b0",
+      "contentType": "audio/ogg",
+      "bytes": 127668,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.mp3",
+      "file": "bodies/b9f90f27921dc3826d90317fcb555d6f7a166668615b2b9f08f5b0aba3057c51",
+      "contentType": "audio/mpeg",
+      "bytes": 157546,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop_fb.mp3",
+      "file": "bodies/711aebb2c4648cda8a1711f111a723d0525e978e1876516f4063c014297055fc",
+      "contentType": "audio/mpeg",
+      "bytes": 142314,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.6.1-firejoker.432/resources/lang/en_GB/locale.json",
+      "file": "bodies/7a0bd04e9bc287f289a8afb09caf9f1ec7229edbe8cc8210e867bf40ea79ad56",
+      "contentType": "application/json",
+      "bytes": 1636911,
+      "status": 200
+    }
+  ],
+  "failed": []
+}

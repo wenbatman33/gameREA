@@ -1,0 +1,250 @@
+@import "help.css";
+.layout1-svg {
+  width: 80vw;
+  height: auto;
+}
+.layout1-1 {
+  stroke-width: 0px;
+}
+.layout1-2,
+.layout1-2_en_GB,
+.layout1-5_en_GB {
+  font-size: 17px;
+}
+.layout1-2_fr_FR,
+.layout1-2_es_ES,
+.layout1-2_pt_BR
+{
+  font-size: 15px;
+}
+
+.layout1-5_es_ES
+{
+	font-size: 11px
+}
+.layout1-5_fr_FR
+{
+  font-size: 9px;
+}
+.layout1-5_pt_BR
+{
+  font-size: 14px;
+}
+.layout1-2_en_GB,
+.layout1-2_fr_FR,
+.layout1-2_es_ES,
+.layout1-2_pt_BR,
+.layout1-5_en_GB,
+.layout1-5_fr_FR,
+.layout1-5_es_ES,
+.layout1-5_pt_BR,
+.layout1-3,
+.layout1-4,
+.layout1-2 {
+  font-family: Arial-BoldMT, Arial;
+  font-weight: 700;
+  isolation: isolate;
+}
+.layout1-3 {
+  font-size: 25.41px;
+}
+.layout1-4 {
+  font-size: 20.74px;
+}
+
+.startBtn-svg {
+  width: 80%;
+  height: auto;
+}
+.startBtn-1_en_GB,
+.startBtn-1_es_ES,
+.startBtn-1_fr_FR,
+.startBtn-1_pt_BR {
+  font-family: Arial-BoldMT, Arial;
+  font-weight: 700;
+  isolation: isolate;
+}
+.startBtn-2 {
+  stroke-width: 0px;
+}
+.startBtn-1_en_GB,
+.startBtn-1_es_ES,
+.startBtn-1_fr_FR,
+.startBtn-1_pt_BR {
+  font-size: 19.67px;
+}
+.paytableBtn-svg {
+  width: 80%;
+}
+.paytableBtn-1_en_GB,
+.paytableBtn-1_es_ES,
+.paytableBtn-1_fr_FR,
+.paytableBtn-1_pt_BR {
+  font-family: Arial-BoldMT, Arial;
+  font-weight: 700;
+  isolation: isolate;
+}
+.paytableBtn-2 {
+  stroke-width: 0px;
+}
+.paytableBtn-1_en_GB {
+  font-size: 19.67px;
+}
+.paytableBtn-1_es_ES {
+  font-size: 12px;
+}
+.paytableBtn-1_fr_FR {
+  font-size: 10px;
+}
+.paytableBtn-1_pt_BR {
+  font-size: 14px;
+}
+
+[id="autoPlayBtn"] {
+  width: 80%;
+}
+.autoPlayBtn-1 {
+  stroke-width: 0px;
+}
+.autoPlayBtn-2_en_GB,
+.autoPlayBtn-2_fr_FR,
+.autoPlayBtn-2_es_ES,
+.autoPlayBtn-2_pt_BR {
+  font-family: Arial-BoldMT, Arial;
+  font-weight: 700;
+  isolation: isolate;
+}
+.autoPlayBtn-2_en_GB,
+.autoPlayBtn-2_fr_FR {
+  font-size: 18.83px;
+}
+.autoPlayBtn-2_es_ES,
+.autoPlayBtn-2_pt_BR {
+  font-size: 17px;
+}
+
+.betBtn-svg {
+  width: 80%;
+}
+.betBtn-1 {
+  stroke-width: 0px;
+}
+
+[id="minusBtn"] {
+  width: 30%;
+}
+.minusBtn-1 {
+  stroke-width: 0px;
+}
+.minusBtn-2 {
+  font-family: Arial-BoldMT, Arial;
+  font-size: 19.37px;
+  font-weight: 700;
+  isolation: isolate;
+}
+
+.plusBtn-svg {
+  width: 30%;
+}
+.betPlusBtn-1 {
+  stroke-width: 0px;
+}
+.betPlusBtn-2 {
+  font-family: Arial-BoldMT, Arial;
+  font-size: 15.66px;
+  font-weight: 700;
+  isolation: isolate;
+}
+
+.statusbar-settingsBtn-svg {
+  width: 30%;
+}
+.statusbar-settingsBtn-1 {
+  stroke-width: 0px;
+}
+
+.statusbar-historyBtn-svg {
+  width: 30%;
+}
+.statusbar-historyBtn-1,
+.statusbar-historyBtn-2 {
+  stroke-width: 0px;
+}
+.statusbar-historyBtn-2 {
+  fill: #fff;
+}
+
+.statusbar-infosBtn-svg {
+  width: 30%;
+}
+.statusbar-infosBtn-1 {
+  stroke-width: 0px;
+}
+.statusbar-infosBtn-2 {
+  fill: #fff;
+  font-family: Arial-BoldMT, Arial;
+  font-size: 14.8px;
+  font-weight: 700;
+  isolation: isolate;
+}
+
+.statusbar-fastplayBtn-on-svg {
+  width: 30%;
+}
+.statusbar-fastplayBtn-on-1,
+.statusbar-fastplayBtn-on-2 {
+  stroke-width: 0px;
+}
+.statusbar-fastplayBtn-on-2 {
+  fill: #fff;
+}
+
+.statusbar-fastplayBtn-off-svg {
+  width: 30%;
+}
+.statusbar-fastplayBtn-off-1,
+.statusbar-fastplayBtn-off-2 {
+  stroke-width: 0px;
+}
+.statusbar-fastplayBtn-off-2 {
+  fill: #fff;
+}
+
+.statusbar-soundsBtn-on-svg {
+  width: 30%;
+}
+.soundonbtn-1,
+.soundonbtn-2 {
+  stroke-width: 0px;
+}
+.soundonbtn-2 {
+  fill: #fff;
+}
+
+.statusbar-soundsBtn-off-svg {
+  width: 30%;
+}
+.soundoffbtn-1,
+.soundoffbtn-2 {
+  stroke-width: 0px;
+}
+.soundoffbtn-2,
+.soundoffbtn-3 {
+  fill: #fff;
+}
+.soundoffbtn-3 {
+  font-family: Arial-BoldMT, Arial;
+  font-size: 7.63px;
+  font-weight: 700;
+  isolation: isolate;
+}
+[id="statusbar-exitBtn"] {
+  width: 30%;
+}
+.exitbtn-1,
+.exitbtn-2 {
+  stroke-width: 0px;
+}
+.exitbtn-2 {
+  fill: #fff;
+}

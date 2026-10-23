@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "sugar-rush",
+    "requests": 34,
+    "collects": 6,
+    "loops": 3,
+    "balance": "100,004.80"
+  },
+  {
+    "slug": "big-bass-bonanza",
+    "requests": 34,
+    "collects": 0,
+    "loops": 3,
+    "balance": "99,934.00"
+  },
+  {
+    "slug": "starlight-princess",
+    "requests": 34,
+    "collects": 9,
+    "loops": 3,
+    "balance": "99,986.50"
+  },
+  {
+    "slug": "sweet-bonanza",
+    "requests": 31,
+    "collects": 3,
+    "loops": 3,
+    "balance": "99,970.90"
+  },
+  {
+    "slug": "gates-of-olympus",
+    "requests": 31,
+    "collects": 9,
+    "loops": 3,
+    "balance": "100,000.90"
+  }
+]

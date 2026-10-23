@@ -1,0 +1,14 @@
+{
+  "init": "d=104 1\r\n54 16 1 2 3 4 5 10 20 25 50 75 100 150 200 300 400 500 1\r\n57 \"<custom><RTP Value=\\\"96\\\" /></custom>\"\r\n60 96 0 0 1\r\n52 2500000 0 0\r\n83 0\r\n56 0\r\n109\r\n\r\n",
+  "rounds": [
+    [
+      {
+        "request": "1 20 1 5 1",
+        "response": "d=1 20 1 5 3 0 1 5 6 0 0 1 0 1 2 3 3 2 1 1 2 5 0 5 0 0 1 0 1 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499900 0 0\r\n\r\n"
+      }
+    ]
+  ],
+  "currency": "DEMO",
+  "noAccount": true,
+  "status": "observed_not_browser_verified"
+}

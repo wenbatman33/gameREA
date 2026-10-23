@@ -1,0 +1,663 @@
+{
+  "game": {
+    "slug": "starlight-princess",
+    "symbol": "vs20starlight"
+  },
+  "entry": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20starlight&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobby_url=https%3A%2F%2Fwww.pragmaticplay.com%2Fen%2F&lang=en&cur=USD",
+  "finalUrl": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20starlight&gname=Starlight%20Princess&jurisdictionID=99&mgckey=stylename@generic~SESSION@1babb2e5-66ba-4ec6-9878-3dc05520c12f",
+  "errors": [],
+  "records": [
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20starlight&gname=Starlight%20Princess&jurisdictionID=99&mgckey=stylename@generic~SESSION@1babb2e5-66ba-4ec6-9878-3dc05520c12f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/html",
+      "sha256": "bb11acf7f755c9713e23b8928344b20a054f6c00875c03fc3e056d456538d83d",
+      "bytes": 95733
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/bootstrap.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "26ab7d1742b3d2d533a4c66daae2ec1cae3d0295c1809ce23edada5e54b54726",
+      "bytes": 101522
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/build.js?key=16ae6a4d39816f0ab2f359ba78b9b32d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "1dbf4a759d7cbf88c4da5f6c0d06912f8d3d0fd7f3a5f1d5d6ec30f6a910e502",
+      "bytes": 3170773
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources004.json?key=b73113c607d7a41ff3e8111c0a33724a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "efcb324a23b90fdbbf755a0ebcd26d8e50671c4ab5cda7ab32992ff88d749d62",
+      "bytes": 573923
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI001.json?key=91079398b00e450e4d4fcf2e6d6ba6e6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "fb749520d2d9b6f77dd391e79c94e8736034e772daf9d6427f5ef0411fe83481",
+      "bytes": 1438456
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/MDL_Jackpot.json?key=703d480be5800ec118a1d7625afff7c8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f901cbba44f9b2b562886ef0abdb32bbe23cd099651baac7e001ea36c0b03f27",
+      "bytes": 3566119
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources000.json?key=f35394a25a160d10322e44992dee6604",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "45ac893626c7911136f9db552a6d93505bc41d26608b7267457cb326b77fc38d",
+      "bytes": 619777
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/game002.json?key=6fd7074a34b49f130f6f5450af2fc1d6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "9c75f87b78fe635f5fdb0e7a2b0c19c1614d589cb5fb2475e0952d9c2e9f4085",
+      "bytes": 1096216
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources008.json?key=cdb6af109e23153e0a01ac85e9aec4a7",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a6078fb91ac4e8cea93e64670849aa4f3dac5200751eb1b140f94affbbe457fa",
+      "bytes": 664476
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/game000.json?key=8871529c2adc74e982105d65e998989b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "b71d8774a2372afbe167a337986937cf983a8fe7c7b5e27a7b54bfdec64d57df",
+      "bytes": 1101802
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI_resources001.json?key=5195254a24bb908eca344c4f9be4fa9a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ffbf6cfbc44ba13c5e99ca30a9505424807b9429a9d895fab74553076a94a9ec",
+      "bytes": 409246
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources009.json?key=cc58444d378ebec707d644f625e40650",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f3a77bc64df39140e80846dbbae5e4b5d6fc7480c8e317d4635b4a9efdd04cb6",
+      "bytes": 584976
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources005.json?key=eaa7e1d8517ddb883cfc7ae63c0aaa67",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ab371c29d9641068e0bee2a78a42362281312428844ec9b97d433e2fcf283e4a",
+      "bytes": 901814
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources001.json?key=2bc7fc55046c79dd30b3c65ea1694d6d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "7d400cbc2d4fa37dcdbaab5737a0eaec16888adc1c00fe44c22a17e45d9da544",
+      "bytes": 618143
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI002.json?key=21f8c3a2f7bdbc3c4894229fd6e08ae7",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "fc1cf8c2ac2c13f219c689e5b969934c8235bf464fd6d44dbcdb33a4dc7fd887",
+      "bytes": 654368
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/client/resources.json?key=29f7fe610047c4b016b5edf4ace2794e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1575b5cfe574641c75f6a5da8e67f2e15cd89b590428da7d0b9c3f6470ba85d7",
+      "bytes": 76737
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/client/game.json?key=1e14029b6b8674dd4aebcc80eecef690",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "cccd68c3e15c62d6b485b0359a0ecf7165a88b47e1bb70ff81e3cc9ec9e6ef62",
+      "bytes": 22283
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources014.json?key=d73d3fad0173bb5c4b5fb9e14ab00652",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "77fe62dbbda088f45d00ae00448aa094cf57db3d71fac0a426b8a0240ef8f8a5",
+      "bytes": 653698
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources006.json?key=783aeaaedb8106300068581ded1cb6c6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e34df4fb4a71113e31ace76070b3dfb1cd10dbb1eae56323bb71a97438e59ccf",
+      "bytes": 613454
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/other_resources000.json?key=e255096b1516c69590c4896efcda46e6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "c36fead96b6af595818fc5f74b1abb1e1e0d30186269b484c119b8dc86330ad7",
+      "bytes": 547920
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI003.json?key=f5f605581ebaea4eb52e8786fab74eb8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "33b0f523e9cbba314ceb76adfc94f1bbd366af4f79f8d53901f777d3bde2a9a4",
+      "bytes": 589442
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources002.json?key=cf6e80ecea887ccc2db1d5f2d72e895e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "b35b4be2383b714cecbe4b219f67b5395118bfbe5b6073e59207b5e5b05bdec7",
+      "bytes": 594787
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI006.json?key=cf200dbf2de2d59cc25ce420c40136b9",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "f2e93843acee5d4e23536e9305a14e973a241bfdabdcbcf33f3080ffc2cc72e0",
+      "bytes": 605888
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources010.json?key=aaf3701aadf297fc0a283f5ba218ac6d",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a8c5958938e75efdf8f2ef95b5fcc448b5095df1f27acee704503f876f792165",
+      "bytes": 754962
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources015.json?key=65c3546cd34a03b6be8f92f9005e9535",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "960490aa4e209089b69cd485c772602f078f63978e590814a030f72118044dc6",
+      "bytes": 670783
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources013.json?key=21cd4cd67b4226d72d9bc2d35c7d71da",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "90e761443e52e5c4877c30693f67e7eba6bfd39db6dc50c23910c54f69d5f436",
+      "bytes": 729349
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/game004.json?key=7d6284f5748c12ec6cb277f2e290a8c3",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "22033d64ee1e0b10a9f46c53b6d47b19b4bf9d2589be61cc6200156f706faa78",
+      "bytes": 812635
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources003.json?key=931e9ae4cfb7a87cf70e5d2ec32532a5",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "43824ca3631b8c74eef6ab44f4d7b9ee5d5731c163a332999ecf62306bff2058",
+      "bytes": 571396
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/game003.json?key=73dceeb419129431c973e3f340dc5146",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e901684d54ec85cf2776c8291d793d68885f25be85ce2e5e33280c943cf15a94",
+      "bytes": 1891836
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI004.json?key=d5ae3715eff19e54049abe691a4f1c54",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "521b2904f4a1a6485baf592f3dbb02f0f2ff21a43cb2b3b965b9ce89c45c6f1f",
+      "bytes": 619617
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/other_resources001.json?key=ed787e8bc2ccfc7f59b9c2585a09a156",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "5733d77739fd01fa7c6293272d174596165b1dde43fa57dfafb058916f3db001",
+      "bytes": 26984
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI005.json?key=9258d2c7ea7f9992e2f434a52611c62e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "df89f5f504a3664b9a87d15518629db4c43af644b202bb76a6d4ba23a79dc647",
+      "bytes": 1164274
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI000.json?key=1b56ff66920cea80f82521cf27ede2fc",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "d3b06c9e908e8ed5974079fb986ce10b4337e285691318056290176e5ffc1dde",
+      "bytes": 918070
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources016.json?key=cb1676cc231f3a8a6b5be36601690e11",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "08d19dd605fc704bdf6cd2ddd872e24365b93eaf2bcc0e1fd81e5884f30f08df",
+      "bytes": 555733
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources007.json?key=824a77fd5905ad53922fb1bc27228f39",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "62f0df7b17fcea7c3e6173557b3f6c534c073cf83af54698ebb80232a470e7e7",
+      "bytes": 571725
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources011.json?key=19ead256e860c772913e7499b8868eb6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "8a32b75f210c37ab9b1a5fa0ca89c5f7165ed79d0ce02f5494f2fac3cac1b499",
+      "bytes": 898335
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources012.json?key=55372c0de9a4126b0a6e2c52a3d1eb28",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "ed2dc86b29f565d649b08ea31062f7bd6e4e9c5cee7a073046a9cc7e0f87183e",
+      "bytes": 1002490
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI_resources000.json?key=1572a8bd59e23179529723d8a56a6c31",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0df0677e0d1b74e790f863012cae7ae48a33d0d64cd08c6e51a9dddd32d70d49",
+      "bytes": 550991
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/main_resources017.json?key=aa5a00105a7c21060bbaa52c5bf01d22",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "90c8f87578d78219449c4f39611f1564e20345686d5ed9d2db7677c49ef36395",
+      "bytes": 542341
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/game001.json?key=a7e3a6a2002deea20ef22da4988d1ed2",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "8557a24a4b5efc01979b82607d2ae22610865f07651e7523a1554da6052a426a",
+      "bytes": 1792907
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doInit&symbol=vs20starlight&cver=439368&index=1&counter=1&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "40eeb18c7abbc1b9d69de0f3b5888c91ff013fe043dd99ce876c877f6cda9f49",
+      "bytes": 7105
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=2&counter=3&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "9ff879ba762359077d59cd510382ea94f0695ddcb45adc04953524c591e4cf55",
+      "bytes": 294
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=3&counter=5&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "bdb7bea134eb9ed3f5b783dc69b217674797b302a7144710ae97e764e385d66b",
+      "bytes": 411
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=4&counter=7&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "0fb9b63d3d5881109b9196233aa57af9f3421a7389a0b485d5cc982c9f2ba131",
+      "bytes": 329
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=5&counter=9&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "9364461b47a918e20a71d93b66eb9569b8645e80a4fa23640c48fc0173435a3a",
+      "bytes": 120
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=6&counter=11&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "5b60365dde282ea47e5be5c3cd52843c50c7f0b9931fa1c3c2a89d3e05d97dee",
+      "bytes": 415
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=7&counter=13&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "64de6fc5ddcc8b46c982adc53f31d1d235389fa6eb04609a927abbe3a24eef8c",
+      "bytes": 326
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=8&counter=15&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "a960e353c764141ea657c67967f04fdc59c55d33649a6d320d7a1d53f86ecc78",
+      "bytes": 120
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=9&counter=17&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "36269dad6150cd8f07a95fdaa3eb13e6859e9df246789cbff98107d9375a43a6",
+      "bytes": 297
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=10&counter=19&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "9dedbb3a16e1b30a758f9d3b0f3475be38b4b38f0d622f865fe0a285c9f275e9",
+      "bytes": 491
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=11&counter=21&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "a140f6aa17fb47c1e5b8635c25112b8dbdb6da641fd56666669e307427c5285e",
+      "bytes": 328
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20starlight&c=0.10&l=20&sInfo=n&bl=0&index=12&counter=23&repeat=0&mgckey=stylename%40generic~SESSION%40aadb45f8-80df-488f-9d0a-1eb3c3632fa3",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "d9cd076621cc315b4353405f6137ae14798bd6dd03c7423c6d947f62fbdc6821",
+      "bytes": 121
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI_sounds.mp3.json?key=235d05b5fdafb207148b030c9ad7da3b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4d36dc3d051648ab636164d4adcd88d2ad184b709406cab1bc0a5e5894009de2",
+      "bytes": 736317
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/style.css",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/css",
+      "sha256": "d339e98f7b517291c347df66ecd331087f7195757149c73c12384c2c6d493100",
+      "bytes": 19631
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/GUI_sounds.ogg.json?key=e02fd8093076a7b44106a66e722e0a13",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "833160f884be156788b51d18522ca7d47e981b48a85cf86725fabd9fc52e3792",
+      "bytes": 767505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/MDL_Jackpot_sounds.mp3.json?key=9dbed166add84a16edcb3bef9bd957d7",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4857b1ad1a0ad9dec0d09c094e8dee50f4b21435e389370181ce1e06be5bb98e",
+      "bytes": 708237
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/MDL_Jackpot_sounds.ogg.json?key=14353361fe6c346e228629340a87fb21",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "39dd7b4e570bca7acf3b2fba8c3059ca1dba8bf7a6a2d24a21a15284cac2704e",
+      "bytes": 748301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/sounds.ogg.json?key=78a2a6c500a77f8390b306ce1f238335",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "00f9bc79db94320c85a3a66ef4229b7c092b93be3197ae164773d5180fad8739",
+      "bytes": 9588953
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/customizations.info",
+      "method": "GET",
+      "status": 200,
+      "contentType": "binary/octet-stream",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/sounds.mp3.json?key=62beba47de60700c8f1b52b3d388c534",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "582f59b01b607f7da3955bb130c880f99c29304aeed190e45d549ff99203e70b",
+      "bytes": 9878797
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/7809e171994ab6141a452e34e8752e96.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "547fabced6b835843e34cdda2f86d7074f220ebfb30175f71b1b91d7afcd804a",
+      "bytes": 957523,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/80229f78b9f3f3e40a927109d25f7e66.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "770a77e49f5b002f95ac429c1db2c4ec70b6082f0b9476915c9afd93baad79de",
+      "bytes": 110397,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/169aad31ca9c2d140ad6b82ec84a7714.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "eafd849515d943edd1bef204e2567c358988becc8920d0834d69e8d37be0e0c0",
+      "bytes": 582885,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/fc7eb74432c4681429a59ed019cf9991.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "47b323bb118466099f3296f37d740feca0099b75c310ca48820dd46f16782e99",
+      "bytes": 23291,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/932c6349ed296644fa2c4a7c7bcf1acd.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "16ddc66262374ca86b8f8fc8c02eaf62b85ac342e4d49d1d67073816f1522892",
+      "bytes": 518323,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/4e33cf0c426e29a4b812eabf6dc6189c.jpg",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "d6402e1b6eb653a53e9ec07376a69c3f5f2e268b70da28f001c316e1b1beaf82",
+      "bytes": 112373,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/c925bf88e0329e242bf36857c563585b.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "99f5afe37cb2453395639aff8c633cb8f86d621e8a9dfca5bfc54fbbb80cbaa2",
+      "bytes": 146063,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/e26e80f5280d7e1499446b6b00f065c3.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "3b08ee0039daaba9ace393b99b00800488b96de5acb499de2636a21d366b965c",
+      "bytes": 1139249,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/3e599f58f082d174db919819f801484c.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "bd631f904e5785e5128385c4ade3c896e003f6090b6a3cb6c08738038f80c238",
+      "bytes": 449849,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/8bb5a0dd5b5c49b46beea4537cbdcf86.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "d6eb46059225818a529edc062bc7caff5bb5c10f7690c9f1037d6e91514709a8",
+      "bytes": 895022,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/bf69934449b68c749ad5f9bc0219b2dd.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "90b06931f0ab7154b597ee1fada34bd65e1159afc0513981126ccba3c82462a7",
+      "bytes": 322046,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/7ee3aec14663e734e9c0441172a0520e.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "7812f6c6324b97532736d8d8c23759bbd65e3c558424854227273e91333e19b3",
+      "bytes": 797865,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/0f9671399d936954ea1f8f03ba73085f.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "1d9f4049d4c3ae4055f84239412e699565209b7bb02a4cfd3fc7fb5e690d3caa",
+      "bytes": 265541,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/1c014c55434a813409a8737a676c5a51.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "693ca6c87d1209741fce64e700e637dc7fce560af04885f4c2bafe8570db7861",
+      "bytes": 340448,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/d99678e5228a54e449f9f542e22a222f.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "ec94339b1f7776421cb9cdd92df81d68a76c8ad8e4be6cb82e0ef789c1b825d7",
+      "bytes": 23803,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/90af7ff4335fd514391b84aed923daaa.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "0c775d84eb748c2d7c8291386c4d9365acd35f7417893f46c05010c6272e2bee",
+      "bytes": 804949,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20starlight/desktop/game/res/ca6d2c57026ca09449ba8a8c911ac27f.jpg",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "0d01d35368362cf88999931c07f82c98a6d9fc8bd7728435dfa5539552052a6a",
+      "bytes": 142789,
+      "source": "actual image referenced by acquired package"
+    }
+  ],
+  "verification": "HTTP virtual demo fixtures acquired; browser playability unverified",
+  "launcherContext": {
+    "win[\"navigator\"][\"userAgent\"]": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "win[\"location\"][\"hostname\"]": "demogamesfree.pragmaticplay.net"
+  }
+}
