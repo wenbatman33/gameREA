@@ -1,0 +1,206 @@
+[
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/style.css",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/style.css",
+    "bytes": 4987,
+    "sha256": "43e2c5250565bbc780d8956b494f54c0867d67cc2566cf456ec6935199ba749e"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/polyfills.bundle.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/polyfills.bundle.js",
+    "bytes": 14750,
+    "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/system.bundle.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/system.bundle.js",
+    "bytes": 12259,
+    "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/import-map.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/import-map.json",
+    "bytes": 40,
+    "sha256": "2be73d8f2e7e1d814627714ace691b6e1a9d445c779426a224e7f3685f0fa278"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/index.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/index.js",
+    "bytes": 820,
+    "sha256": "03d0a2ce6a9d464c5a57c755d6ffc6b95d5619f2624a2ca346152255d666434e"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/application.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/application.js",
+    "bytes": 81245,
+    "sha256": "b509ef0e67c519efd8ffc7830ea03b35e63b393f80ea7b30f3c9974afe44f4e9"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/cocos-js/cc.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/cocos-js/cc.js",
+    "bytes": 1967717,
+    "sha256": "b044d0bd78b0b79a31092c4aaacd0b3a44dad0f381b268d2f6e5bcf703c73184"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/header/km_header.png",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/header/km_header.png",
+    "bytes": 31729,
+    "sha256": "93c17fb2727e3f4538bafee0b6f45fea3b28f2515dfc01eac015f730dcd9b801"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/background/background.jpg",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/background/background.jpg",
+    "bytes": 35722,
+    "sha256": "15e207f31c33abb5b5e4bf6c9ffb476105ac5b52506e0475b23be1ddf96a5b41"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/settings.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/settings.json",
+    "bytes": 27969,
+    "sha256": "a94ee5134c6c9bc1ae96e48aee4529b07f33722b141da1c0918d3bccd4a96812"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/splash/splash_hant.jpg",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/splash/splash_hant.jpg",
+    "bytes": 244585,
+    "sha256": "b15a810027d7dd1ad0122ed5e8eb2552ad3c638f8edcb6f8a44058726a78889e"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/config.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/config.json",
+    "bytes": 2074,
+    "sha256": "22661deeca3140a15332a2825fb222992c956b7cec3c2055ad570149afb26c2f"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/index.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/index.js",
+    "bytes": 602,
+    "sha256": "4f8d904ed3a667ba5ec59301a47c6b9e4f22ab954aae5abd02d9094db95586ef"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/import/08/0846c28f0.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/import/08/0846c28f0.json",
+    "bytes": 213207,
+    "sha256": "b8363c0bcdb0f9c8c3c02cc9ec21e9b39c2ec7a79ed37a876846c21e84c9d242"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/locale/hant/l10n.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/locale/hant/l10n.json",
+    "bytes": 80,
+    "sha256": "c43637c93809835ec900ded5684f95a380771877511d6ae1f3892389a5314f3f"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/chunks/bundle.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/chunks/bundle.js",
+    "bytes": 363954,
+    "sha256": "6c69a35a4b4d9f24308ee8fe02cde75f899b3b0a0b5731f7e7e7ea89cb64d542"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/img/land_to_port.png",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/img/land_to_port.png",
+    "bytes": 8171,
+    "sha256": "fa0c0d548779f41772ebb3208791169302afb916bd2f20567a68960075c11b3c"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/config.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/config.json",
+    "bytes": 83405,
+    "sha256": "ab9eaa25f961adff0680c58f113bc1ef2196a0d9e2b8d6c0a1f19550e78c5f44"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/config.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/config.json",
+    "bytes": 890,
+    "sha256": "ae9b12c51036bf78a841c0ec6e4339f7bee7fbcdf280b9aeb6650337fee4b720"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/index.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/index.js",
+    "bytes": 2474949,
+    "sha256": "1763f4849c8a595000e7934703e88899747c40c76fbe050037977695ad80a4c0"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/index.js",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/index.js",
+    "bytes": 5416,
+    "sha256": "1448eb3ba35092f14fca5131a1382747fef767a13d25dafe8c1f59fdc1d7c01d"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/import/a7/a70cb7ff-28c6-476d-a3ba-18804b4bc2cc.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/import/a7/a70cb7ff-28c6-476d-a3ba-18804b4bc2cc.json",
+    "bytes": 943,
+    "sha256": "7acae9cb8376a17727bd13a9a0ccc3d86c27245c11f0b895a3791c618a2a2f1d"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-common0.zip",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-common0.zip",
+    "bytes": 287944,
+    "sha256": "860c4b6e476434ed78738d89f03053d18e1d7113979a539ba6a2eec148d58e85"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-common1.zip",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-common1.zip",
+    "bytes": 92812,
+    "sha256": "83b5515799edc81161c6d2278f30bfc36b2327e4319ff4a2c9ec5bc6e9e6f853"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc0.zip",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc0.zip",
+    "bytes": 1344994,
+    "sha256": "8216a44edabe3d858f63ad990ef9f66158dea2ddd60e93e535bb57ba1b329afb"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc1.zip",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc1.zip",
+    "bytes": 742852,
+    "sha256": "c78c5bc4b075c361d212a0ed8424859eaf8fb6c6f2e5503fb6fbf42508ad74f1"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc2.zip",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc2.zip",
+    "bytes": 1314173,
+    "sha256": "c9537b14fafb22574bd18f6f0247ccfcba20bc911e1d94640b6557492184db9c"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc3.zip",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc3.zip",
+    "bytes": 71045,
+    "sha256": "9116da7f436241b36539cfadc6ca754ca3f148f26a9fa9e239b3da4be2a34dc0"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png",
+    "bytes": 82,
+    "sha256": "83c9b8ce1937570a40bcedde29457a4ab7865ca1db23a46d2d68e6b1949f3c28"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/fb/fbfb5346-9d70-4482-83e5-a12fe8d7ba17.webp",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/fb/fbfb5346-9d70-4482-83e5-a12fe8d7ba17.webp",
+    "bytes": 23588,
+    "sha256": "093002e67c80f487fa04dc3b7f80cc8198c02d34da4f78ba955e754d998d3152"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/95/951249e0-9f16-456d-8b85-a6ca954da16b.png",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/95/951249e0-9f16-456d-8b85-a6ca954da16b.png",
+    "bytes": 1050,
+    "sha256": "44b670047e5d34fc09f3e8538e8945445bc1bb913d6f21d7ac4e06b18c2e172b"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/20/20835ba4-6145-4fbc-a58a-051ce700aa3e.png",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/20/20835ba4-6145-4fbc-a58a-051ce700aa3e.png",
+    "bytes": 1082,
+    "sha256": "5e3e931db260d0f43c2f5fd0ea791fbdc25923a8c14fcd6b0912581cd893f96d"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/54/544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/54/544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png",
+    "bytes": 1114,
+    "sha256": "132fda6a4b38333dcb471f09be05aed43d01b83dcc7a09c168b5629cdee31865"
+  },
+  {
+    "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/lobby/baseconfig.json",
+    "path": "queenmaker-public/games/qm7/flame-of-fortune/2026-10-19-05-58-38/lobby/baseconfig.json",
+    "bytes": 57,
+    "sha256": "5dc0f5f091459486d9a1a24991a09c663c4b8fea90b27864774522a2e113f680"
+  }
+]

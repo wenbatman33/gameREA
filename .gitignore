@@ -24,3 +24,6 @@ node_modules/
 *-dom.html
 *-page.html
 
+
+# Static entry for GitHub Pages.
+!/index.html

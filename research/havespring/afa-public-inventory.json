@@ -1,0 +1,755 @@
+{
+  "page": "https://game.afagaming.cc/ca2501/",
+  "assets": [
+    {
+      "kind": "stylesheet",
+      "url": "https://game.afagaming.cc/ca2501/style.3c663.css",
+      "name": "style.3c663.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://game.afagaming.cc/ca2501/brand/brand.css",
+      "name": "brand.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://game.afagaming.cc/ca2501/iosGesture/IOSGesture.css",
+      "name": "IOSGesture.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/application.6b4f5.js",
+      "name": "application.6b4f5.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/cocos-js/cc.66575.js",
+      "name": "cc.66575.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/index.27093.js",
+      "name": "index.27093.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/assets/internal/index.3a982.js",
+      "name": "index.3a982.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/index.f8304.js",
+      "name": "index.f8304.js"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/iosGesture/btn_close.png",
+      "name": "btn_close.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/iosGesture/icon_gesture.png",
+      "name": "icon_gesture.png"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/src/polyfills.bundle.5adbf.js",
+      "name": "polyfills.bundle.5adbf.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/src/system.bundle.692e9.js",
+      "name": "system.bundle.692e9.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/src/settings.dffed.json",
+      "name": "settings.dffed.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/config.27093.json",
+      "name": "config.27093.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/import/0c/0c933cc2d.d3c08.json",
+      "name": "0c933cc2d.d3c08.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/import/0d/0dbe74145.2a308.json",
+      "name": "0dbe74145.2a308.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/config.f8304.json",
+      "name": "config.f8304.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/internal/config.3a982.json",
+      "name": "config.3a982.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/internal/import/02/02e4946a7.53d2c.json",
+      "name": "02e4946a7.53d2c.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/cocos-js/instantiated-0e2a838c.js",
+      "name": "instantiated-0e2a838c.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/cocos-js/bullet.wasm-35725efa.js",
+      "name": "bullet.wasm-35725efa.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/cocos-js/assets/bullet.wasm-c98527b6.wasm",
+      "name": "bullet.wasm-c98527b6.wasm"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/internal/cconlist.3a982.json",
+      "name": "cconlist.3a982.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/src/internal/plugins/4.2.36bfc.js",
+      "name": "4.2.36bfc.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/src/chunks/bundle.9ad11.js",
+      "name": "bundle.9ad11.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/cconlist.27093.json",
+      "name": "cconlist.27093.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/cconlist.f8304.json",
+      "name": "cconlist.f8304.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/15/156f94d43.09593.webp",
+      "name": "156f94d43.09593.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/1a/1a2eefe16.dd13d.webp",
+      "name": "1a2eefe16.dd13d.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/favicon.ico",
+      "name": "favicon.ico"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/config.961b2.json",
+      "name": "config.961b2.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/index.961b2.js",
+      "name": "index.961b2.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/cconlist.961b2.json",
+      "name": "cconlist.961b2.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/import/01/0118e0b6c.2c587.json",
+      "name": "0118e0b6c.2c587.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/15/155bc16ff.6c19d.webp",
+      "name": "155bc16ff.6c19d.webp"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/86/86f25d5c-9de5-454f-a5f9-ee16603e6701.06fad.plist",
+      "name": "86f25d5c-9de5-454f-a5f9-ee16603e6701.06fad.plist"
+    },
+    {
+      "kind": "video",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/f2/f2944ab3-6a19-4a9b-983b-6832bd4ba55f.65cd3.mp4",
+      "name": "f2944ab3-6a19-4a9b-983b-6832bd4ba55f.65cd3.mp4"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/f2/f2da9df0-fa8d-4592-b861-1e0382c0efaf.a8146.webp",
+      "name": "f2da9df0-fa8d-4592-b861-1e0382c0efaf.a8146.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/e8/e8e67deb-9445-4792-996c-4257cd331db8.2350e.webp",
+      "name": "e8e67deb-9445-4792-996c-4257cd331db8.2350e.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/35/35fe687a-012f-4d90-8633-ffb0131e7cb5.2956d.webp",
+      "name": "35fe687a-012f-4d90-8633-ffb0131e7cb5.2956d.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/95/95296aac-538f-4002-ba85-1efa91b2c263.76e28.webp",
+      "name": "95296aac-538f-4002-ba85-1efa91b2c263.76e28.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/f1/f14ef5a8-eb1b-4d3a-bbcc-5ff9da78b6f6.41652.webp",
+      "name": "f14ef5a8-eb1b-4d3a-bbcc-5ff9da78b6f6.41652.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/da/dac34095-47e5-403a-8ab1-c8eac77f2b17.fe651.webp",
+      "name": "dac34095-47e5-403a-8ab1-c8eac77f2b17.fe651.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/51/51a2a90a-8e58-4031-be86-a88de3a6e4b8.94505.webp",
+      "name": "51a2a90a-8e58-4031-be86-a88de3a6e4b8.94505.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/fc/fc66f937-0afe-41f9-a7ba-f324bdd12b74.b80e8.webp",
+      "name": "fc66f937-0afe-41f9-a7ba-f324bdd12b74.b80e8.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/49/49b14777-aed9-4bc9-84a3-328be378cd4b.ac85b.webp",
+      "name": "49b14777-aed9-4bc9-84a3-328be378cd4b.ac85b.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/0b/0b406851-5919-4281-8a67-d1812e8c1b52.d7bc8.webp",
+      "name": "0b406851-5919-4281-8a67-d1812e8c1b52.d7bc8.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/8a/8a2af1aa-b918-47bb-833e-2324d446c732.d2046.webp",
+      "name": "8a2af1aa-b918-47bb-833e-2324d446c732.d2046.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/6e/6e8041ea-baa9-445a-821f-834388583086.3d76f.webp",
+      "name": "6e8041ea-baa9-445a-821f-834388583086.3d76f.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/02/02113936-2dcc-495a-87f0-c68b5913f0ef.d5fc1.webp",
+      "name": "02113936-2dcc-495a-87f0-c68b5913f0ef.d5fc1.webp"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/tch/config.1c2d6.json",
+      "name": "config.1c2d6.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://game.afagaming.cc/ca2501/assets/tch/index.1c2d6.js",
+      "name": "index.1c2d6.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/tch/cconlist.1c2d6.json",
+      "name": "cconlist.1c2d6.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/bc/bc7dab02-6b0a-4b55-aa63-c7b13e967ee6.383b0.webp",
+      "name": "bc7dab02-6b0a-4b55-aa63-c7b13e967ee6.383b0.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/76/76852c16-f6b6-48fe-b503-f9d902fc52b8.81f4f.webp",
+      "name": "76852c16-f6b6-48fe-b503-f9d902fc52b8.81f4f.webp"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/01/016b38b3-c9b9-4777-b3b9-3958bf2830ea.9b898.mp3",
+      "name": "016b38b3-c9b9-4777-b3b9-3958bf2830ea.9b898.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/03/037d5293-c601-4c40-9ee5-11bea3ad8677.839cb.mp3",
+      "name": "037d5293-c601-4c40-9ee5-11bea3ad8677.839cb.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/07/079d68aa-f17a-4fe5-bd84-7b1515724958.b5202.mp3",
+      "name": "079d68aa-f17a-4fe5-bd84-7b1515724958.b5202.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/08/08690e91-30fd-4085-a343-7bd8860dd6db.9c482.mp3",
+      "name": "08690e91-30fd-4085-a343-7bd8860dd6db.9c482.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/0e/0eb66144-1e1f-401a-bc7f-697d2f7ecf4d.b89fc.mp3",
+      "name": "0eb66144-1e1f-401a-bc7f-697d2f7ecf4d.b89fc.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/0b/0b08a41d-bd49-4a53-bbbb-8efe09447e3d.0f117.mp3",
+      "name": "0b08a41d-bd49-4a53-bbbb-8efe09447e3d.0f117.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/10/109d57b8-f7a5-4704-8b3b-cad2efd348b4.5e2e3.mp3",
+      "name": "109d57b8-f7a5-4704-8b3b-cad2efd348b4.5e2e3.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/13/13360b52-0e53-4f39-b86e-253efa4cb3f7.b751f.mp3",
+      "name": "13360b52-0e53-4f39-b86e-253efa4cb3f7.b751f.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/1b/1b5504df-11d9-453f-8c63-b3d791824f05.1a660.mp3",
+      "name": "1b5504df-11d9-453f-8c63-b3d791824f05.1a660.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/1a/1adffab0-5d4e-4c43-aef3-12129691b0a9.79c10.mp3",
+      "name": "1adffab0-5d4e-4c43-aef3-12129691b0a9.79c10.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/1b/1bc59274-5f20-4932-9177-6a4f6bbb7f7c.36fac.mp3",
+      "name": "1bc59274-5f20-4932-9177-6a4f6bbb7f7c.36fac.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/20/2047b098-1b73-4c1a-a8ff-94075da9e97a.1b742.mp3",
+      "name": "2047b098-1b73-4c1a-a8ff-94075da9e97a.1b742.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/28/2811c392-30f2-496e-a674-4815de4e4854.9a8d4.mp3",
+      "name": "2811c392-30f2-496e-a674-4815de4e4854.9a8d4.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/2c/2caa59ab-ee7a-41b3-8d27-99f5308d281f.a4d9e.mp3",
+      "name": "2caa59ab-ee7a-41b3-8d27-99f5308d281f.a4d9e.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/32/320cd469-d915-4daa-993a-7613fa1dcb8e.1e869.mp3",
+      "name": "320cd469-d915-4daa-993a-7613fa1dcb8e.1e869.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/49/497942c2-8ef3-41d3-95ea-a17a9780a654.91303.mp3",
+      "name": "497942c2-8ef3-41d3-95ea-a17a9780a654.91303.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/69/69750eb3-7b4b-42ab-b957-69dde746916f.d57ee.mp3",
+      "name": "69750eb3-7b4b-42ab-b957-69dde746916f.d57ee.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/50/50ce1c56-17d4-4ae6-8ecb-612067b7bfe1.5b826.mp3",
+      "name": "50ce1c56-17d4-4ae6-8ecb-612067b7bfe1.5b826.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/61/6112d276-e86a-4265-9020-bb7aa710a407.0c68d.mp3",
+      "name": "6112d276-e86a-4265-9020-bb7aa710a407.0c68d.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/6d/6d0188e2-b204-4511-9989-3c56466388d1.3f4d6.mp3",
+      "name": "6d0188e2-b204-4511-9989-3c56466388d1.3f4d6.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/74/741acf76-3c05-4683-a856-c3cec6bc2930.275dd.mp3",
+      "name": "741acf76-3c05-4683-a856-c3cec6bc2930.275dd.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/6f/6fd6d7d8-b45b-438c-9df6-44b49742f082.bf509.mp3",
+      "name": "6fd6d7d8-b45b-438c-9df6-44b49742f082.bf509.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/96/965a3769-c502-40cc-becd-97358f4361c4.e7945.mp3",
+      "name": "965a3769-c502-40cc-becd-97358f4361c4.e7945.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/83/830275ef-341e-4da1-8d37-9b0504bd38c2.6809b.mp3",
+      "name": "830275ef-341e-4da1-8d37-9b0504bd38c2.6809b.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/96/96db0ab6-3115-4e13-be29-d1b58f2dbc8c.59a89.mp3",
+      "name": "96db0ab6-3115-4e13-be29-d1b58f2dbc8c.59a89.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/85/854f97c7-016c-4cc9-ac33-04932bcd25df.bcc73.mp3",
+      "name": "854f97c7-016c-4cc9-ac33-04932bcd25df.bcc73.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/98/98564daa-56ac-4459-9f34-0e8cd9e8c2d7.fd064.mp3",
+      "name": "98564daa-56ac-4459-9f34-0e8cd9e8c2d7.fd064.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/9a/9a6500b4-dbd0-4cc0-9b4e-70c8524a07af.e85d7.mp3",
+      "name": "9a6500b4-dbd0-4cc0-9b4e-70c8524a07af.e85d7.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/9c/9cdabd4c-a439-400a-9741-6e6d60d052c8.976e4.mp3",
+      "name": "9cdabd4c-a439-400a-9741-6e6d60d052c8.976e4.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/a3/a30e025a-017c-4edf-820f-c1455a2e565e.3275a.mp3",
+      "name": "a30e025a-017c-4edf-820f-c1455a2e565e.3275a.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/a8/a8202b6d-e5e6-43ee-8dcb-a29e05717307.8da4d.mp3",
+      "name": "a8202b6d-e5e6-43ee-8dcb-a29e05717307.8da4d.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/a3/a3e4564c-d744-42dc-be95-bb2ea77ce024.20ea0.mp3",
+      "name": "a3e4564c-d744-42dc-be95-bb2ea77ce024.20ea0.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/b6/b6f9910f-7828-439d-930a-f52affc7eb01.3637f.mp3",
+      "name": "b6f9910f-7828-439d-930a-f52affc7eb01.3637f.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/b1/b14ab493-4dc6-474f-a6b1-60782c8c5fce.1c233.mp3",
+      "name": "b14ab493-4dc6-474f-a6b1-60782c8c5fce.1c233.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/9d/9db55fe3-ddb2-43e4-8289-61a5acce10ca.0bc65.mp3",
+      "name": "9db55fe3-ddb2-43e4-8289-61a5acce10ca.0bc65.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/b8/b8b49641-46f1-4a22-bfba-a55781a56244.a6858.mp3",
+      "name": "b8b49641-46f1-4a22-bfba-a55781a56244.a6858.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/bc/bca1a2f8-c03d-4cb4-97b3-4c84758aaca0.d54c1.mp3",
+      "name": "bca1a2f8-c03d-4cb4-97b3-4c84758aaca0.d54c1.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/c3/c3467fc9-9ea2-4861-a4ca-d14b77ef1011.62025.mp3",
+      "name": "c3467fc9-9ea2-4861-a4ca-d14b77ef1011.62025.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/d3/d3f13c7a-d702-495b-ad79-cf94d5b4cdc8.579d7.mp3",
+      "name": "d3f13c7a-d702-495b-ad79-cf94d5b4cdc8.579d7.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/d4/d464bbe7-cf82-4777-b86e-36534cd4b7dc.8cfea.mp3",
+      "name": "d464bbe7-cf82-4777-b86e-36534cd4b7dc.8cfea.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/dc/dcb84806-c285-4df2-a44b-f69e602c497a.92409.mp3",
+      "name": "dcb84806-c285-4df2-a44b-f69e602c497a.92409.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/dd/dd013f70-9648-4151-9956-855a430a24ec.da232.mp3",
+      "name": "dd013f70-9648-4151-9956-855a430a24ec.da232.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/f8/f89f0305-c621-4061-bd2d-84cc681d3454.deeed.mp3",
+      "name": "f89f0305-c621-4061-bd2d-84cc681d3454.deeed.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/fd/fd97390e-e697-468d-b33a-9bb688ab2789.159ab.mp3",
+      "name": "fd97390e-e697-468d-b33a-9bb688ab2789.159ab.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/f5/f53c7d7e-35d5-448f-ba0c-1921e0bff771.0b464.mp3",
+      "name": "f53c7d7e-35d5-448f-ba0c-1921e0bff771.0b464.mp3"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/resources/native/ee/ee6abb41-299c-4c77-92b4-eb56a97c7f5c.be7b6.mp3",
+      "name": "ee6abb41-299c-4c77-92b4-eb56a97c7f5c.be7b6.mp3"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/b5/b5b27ab1-e740-4398-b407-848fc2b2c897.fe95e.webp",
+      "name": "b5b27ab1-e740-4398-b407-848fc2b2c897.fe95e.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/3f/3f6ae278-5d24-4ed5-ab94-a704f904c3b1.c9be4.webp",
+      "name": "3f6ae278-5d24-4ed5-ab94-a704f904c3b1.c9be4.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/70/70b57e83-0c15-4610-8554-cad78f8a0ebf.64fca.webp",
+      "name": "70b57e83-0c15-4610-8554-cad78f8a0ebf.64fca.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/e3/e3a69fcd-ca08-4f25-a90d-0111acd2e2cc.b5b0a.webp",
+      "name": "e3a69fcd-ca08-4f25-a90d-0111acd2e2cc.b5b0a.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/cc/ccc4e1ec-c31a-4138-967c-b67ecb2f7b40.54c18.webp",
+      "name": "ccc4e1ec-c31a-4138-967c-b67ecb2f7b40.54c18.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/61/6109b95d-b9fd-4397-8bb5-38d97fb131e1.d4284.webp",
+      "name": "6109b95d-b9fd-4397-8bb5-38d97fb131e1.d4284.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/d0/d00500ce-a1e4-46d2-a64a-96ad804f633d.e3072.webp",
+      "name": "d00500ce-a1e4-46d2-a64a-96ad804f633d.e3072.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/fe/fe7d88bd-00dd-40a4-b426-a19cff228691.0a4df.webp",
+      "name": "fe7d88bd-00dd-40a4-b426-a19cff228691.0a4df.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/dc/dc7e06c8-5db3-41b8-9fd1-1c0ffec31158.28e9f.webp",
+      "name": "dc7e06c8-5db3-41b8-9fd1-1c0ffec31158.28e9f.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/c8/c8969b54-68c2-4b7b-9735-6a31e0f605f4.ed2a1.webp",
+      "name": "c8969b54-68c2-4b7b-9735-6a31e0f605f4.ed2a1.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/a2/a2f5c41c-0a81-41db-9e0c-7802ce3b4724.81e36.webp",
+      "name": "a2f5c41c-0a81-41db-9e0c-7802ce3b4724.81e36.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/e1/e1e5fa07-7448-4fec-b3b2-5f8117618724.a4522.webp",
+      "name": "e1e5fa07-7448-4fec-b3b2-5f8117618724.a4522.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/0d/0d4e6be5-12bd-435f-af56-d34110baccbe.d3b19.webp",
+      "name": "0d4e6be5-12bd-435f-af56-d34110baccbe.d3b19.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/03/0397c47e-fe3d-43c0-8dcf-d7821b66ab36.73d71.webp",
+      "name": "0397c47e-fe3d-43c0-8dcf-d7821b66ab36.73d71.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/3c/3c9b563a-9c09-414d-b645-5c6b42212d20.1f9db.webp",
+      "name": "3c9b563a-9c09-414d-b645-5c6b42212d20.1f9db.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/46/46f09250-840f-4828-aa11-c0fad2c4bf6a.a8297.webp",
+      "name": "46f09250-840f-4828-aa11-c0fad2c4bf6a.a8297.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/df/df59cb0a-d68e-4247-afeb-ad6c934525a5.af095.webp",
+      "name": "df59cb0a-d68e-4247-afeb-ad6c934525a5.af095.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/2d/2ddb9b29-724b-4ab1-b0fe-2769e235503e.bf583.webp",
+      "name": "2ddb9b29-724b-4ab1-b0fe-2769e235503e.bf583.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/69/699be36c-9e36-4b2e-b702-968c1b7b290a.ed167.webp",
+      "name": "699be36c-9e36-4b2e-b702-968c1b7b290a.ed167.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/a9/a9eb2eab-83be-48df-9680-314c3c968ffb.7ac90.webp",
+      "name": "a9eb2eab-83be-48df-9680-314c3c968ffb.7ac90.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/e5/e550b941-a44f-42af-bedf-70d860658d36.d65a3.webp",
+      "name": "e550b941-a44f-42af-bedf-70d860658d36.d65a3.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/be/bea48097-7e56-4137-be21-eaef07f17e63.6f628.webp",
+      "name": "bea48097-7e56-4137-be21-eaef07f17e63.6f628.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/89/8942a4a3-099d-4d3b-ae05-fee1bb049310.444c1.webp",
+      "name": "8942a4a3-099d-4d3b-ae05-fee1bb049310.444c1.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/fa/fa10c0b3-2f2c-4e0f-801a-4e9b0c0b79b9.726e5.webp",
+      "name": "fa10c0b3-2f2c-4e0f-801a-4e9b0c0b79b9.726e5.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/3f/3f785366-61d5-463b-b540-608ffb28397b.89a6c.webp",
+      "name": "3f785366-61d5-463b-b540-608ffb28397b.89a6c.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/b4/b451c30c-1783-4fa0-8b1e-6b283d07448f.ae13e.webp",
+      "name": "b451c30c-1783-4fa0-8b1e-6b283d07448f.ae13e.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/91/9121edaa-acba-4e0b-8eb3-df38a3694382.5dc59.webp",
+      "name": "9121edaa-acba-4e0b-8eb3-df38a3694382.5dc59.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/0a/0a2fd5cc-f7c9-438c-bd96-855ab0abb373.c650f.webp",
+      "name": "0a2fd5cc-f7c9-438c-bd96-855ab0abb373.c650f.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/cf/cff640b5-7de9-4f4f-b3a9-6ec752ac9ec7.59be4.webp",
+      "name": "cff640b5-7de9-4f4f-b3a9-6ec752ac9ec7.59be4.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/a5/a5645531-a5c3-40e1-9e6e-d988f7a81c72.43ba5.webp",
+      "name": "a5645531-a5c3-40e1-9e6e-d988f7a81c72.43ba5.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/53/534ac999-79fa-4365-af22-10ebab43ecc6.fe2c9.webp",
+      "name": "534ac999-79fa-4365-af22-10ebab43ecc6.fe2c9.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/ac/acba65e2-6f04-4405-b3b5-965bebdb0dfe.683ac.webp",
+      "name": "acba65e2-6f04-4405-b3b5-965bebdb0dfe.683ac.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/80/80e7ab89-1826-43d4-9271-a41abe8498e9.bd81a.webp",
+      "name": "80e7ab89-1826-43d4-9271-a41abe8498e9.bd81a.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/90/907f0f0d-db1f-4844-854a-1e1399f09427.d3961.webp",
+      "name": "907f0f0d-db1f-4844-854a-1e1399f09427.d3961.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/68/68e6f0fd-9eb8-4d3f-9e50-107b949cc965.aabc2.webp",
+      "name": "68e6f0fd-9eb8-4d3f-9e50-107b949cc965.aabc2.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/f6/f6c4e647-c5ed-4501-88a1-b8a564f51165.c9869.webp",
+      "name": "f6c4e647-c5ed-4501-88a1-b8a564f51165.c9869.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/97/97ca22e8-31c0-4e62-bb36-34cf060c2ad4.c77d6.webp",
+      "name": "97ca22e8-31c0-4e62-bb36-34cf060c2ad4.c77d6.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/73/734ef0e1-1de4-4507-b1c3-420d8fa526e5.f54fb.webp",
+      "name": "734ef0e1-1de4-4507-b1c3-420d8fa526e5.f54fb.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/88/88a8bf32-0443-421f-8065-2f76c8312954.1405a.webp",
+      "name": "88a8bf32-0443-421f-8065-2f76c8312954.1405a.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/72/72cbcfae-281f-4b2c-986c-a2ff83cf3694.becd8.webp",
+      "name": "72cbcfae-281f-4b2c-986c-a2ff83cf3694.becd8.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/5a/5a844e20-97a7-4a24-89b5-42341ef72f8d.c196f.webp",
+      "name": "5a844e20-97a7-4a24-89b5-42341ef72f8d.c196f.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/f6/f6ec491e-3c65-4b05-9811-1540baf9c526.f56bc.webp",
+      "name": "f6ec491e-3c65-4b05-9811-1540baf9c526.f56bc.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/1a/1ae8aed5-ea66-4839-b983-3a0f788e67d0.c5fee.webp",
+      "name": "1ae8aed5-ea66-4839-b983-3a0f788e67d0.c5fee.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/d5/d552f22b-1804-4eeb-a360-fe059c1eeac5.9a270.webp",
+      "name": "d552f22b-1804-4eeb-a360-fe059c1eeac5.9a270.webp"
+    },
+    {
+      "kind": "other",
+      "url": "https://game.afagaming.cc/ca2501/assets/tch/import/07/07828554f.a5555.json",
+      "name": "07828554f.a5555.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/19/190e2284c.5cdeb.webp",
+      "name": "190e2284c.5cdeb.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/4e/4e2f3bd7-6182-4463-804a-59b21e29a505.60c85.webp",
+      "name": "4e2f3bd7-6182-4463-804a-59b21e29a505.60c85.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/main/native/75/75497b7b-cd11-490c-a462-06ad369b8b11.4d971.webp",
+      "name": "75497b7b-cd11-490c-a462-06ad369b8b11.4d971.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://game.afagaming.cc/ca2501/assets/tch/native/14/14be758e5.e9544.webp",
+      "name": "14be758e5.e9544.webp"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Full REA graphs remain local; rea-summary.json retains digests and limitations.
+rea-afa-analysis.json
+rea-launcher-analysis.json
+rea-public-analysis.json
+rea-queenmaker-analysis.json
+*.har

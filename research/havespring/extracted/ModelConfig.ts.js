@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/ModelConfig.ts",["cc"],(function(e){"use strict";var t;return{setters:[function(e){t=e.cclegacy}],execute:function(){var o;e("ModelName",void 0),t._RF.push({},"b3c16uPw55CwoGHhZlgs7ot","ModelConfig",void 0),function(e){e.User="User",e.Game="Game",e.AutoPlay="AutoPlay",e.Setting="Setting",e.History="History",e.Debug="Debug"}(o||(o=e("ModelName",{}))),t._RF.pop()}}}));
+

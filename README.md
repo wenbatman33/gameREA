@@ -1,6 +1,6 @@
-# 九款遊戲的逆向試作
+# 遊戲逆向研究室
 
-已用 REA 6.7.0 調查三家各三款遊戲。六款有可在本機旋轉的研究版本；Hacksaw 三款在官方 Demo 驗證階段受阻，尚無可玩的本機還原。
+已用 REA 6.7.0 調查五家供應商共十四款遊戲。PP、Play’n GO 共六款可在本機旋轉，AFA 三款可用假後端一般抽卡；Hacksaw 三款與 Queenmaker 兩款尚未提供本機可玩版本。
 
 ## 開始遊玩
 
@@ -57,7 +57,7 @@ Hacksaw 僅成功載入啟動外殼與部分公開程式；三款官方 API 均�
 - `research/playngo/offline-server.py`：Play’n GO 本機假後端，127.0.0.1:8766。
 - `research/*/`：REA scenario／完整 evidence、公開靜態程式、素材 bytes 與 SHA256、獨立瀏覽器捕獲及驗證結果。
 
-原始下載素材與程式保留各供應商的版權。本次沒有部署、上傳或公開發布。
+原始下載素材與程式保留各供應商的版權。GitHub Pages 僅提供靜態選單；遊戲的 Python 假後端仍需在本機執行。
 
 ## PP 載入相容性修正
 
@@ -68,3 +68,16 @@ Hacksaw 僅成功載入啟動外殼與部分公開程式；三款官方 API 均�
 Git 保留本機啟動器、假後端、遊玩所需的原始 bytes、索引、報告與驗證截圖。原始 PG HTML／追蹤腳本及舊分析目錄未提交，避免包含原站連線憑證。大型重複 REA evidence 與 140MB 靜態分析輸出留在本機，列於 .gitignore；報告保留其識別碼與限制。沒有將第三方素材重新授權為本專案的開源素材。
 
 只啟動遊戲不需要 Node.js。若要重新執行可選的捕獲／驗證腳本，使用 npm ci 安裝 Playwright；腳本目前以 macOS 的 Google Chrome 路徑為預設。
+
+## 有春銀幣廳新增五款
+
+- AFA 草船借箭、血戰長坂、火燒赤壁：原版 Cocos 客戶端及已下載的實際素材，接至 127.0.0.1:18766 的合成一般抽卡後端。初始本機虛擬餘額 25,000；血戰長坂每輪十張，按一輪扣點。
+- Queenmaker 烈焰一路發、奧林帕斯財運：已保存公開客戶端、入口鏈與部分素材，仍待初始化協定與完整遊戲資源。尚未提供本機試玩。
+
+AFA 不會連回原站帳務；特殊降臨／連勝模式、SSR 特殊操作、購買獎勵與原版 RTP 尚未還原。其一般抽卡結果由假後端產生，不是原站回合重播。新開本機遊戲連結會建立獨立虛擬餘額；重新啟動 AFA 服務會重設所有本機工作階段。
+
+詳細報告：`research/havespring/README.md`。驗證假後端：`python3 research/havespring/test_backend.py`（先啟動服務）。
+
+## GitHub Pages 首頁
+
+根目錄 `index.html` 是網頁選單，`.nojekyll` 關閉 README 的 Jekyll 建置流程。修改選單後執行 `python3 build-home.py` 重新產生靜態首頁。首頁圖片採相對路徑，可部署於 `/gameREA/`。GitHub Pages 無法執行 Python；網頁中的本機遊戲連結需先執行 `python3 start-local.py`。

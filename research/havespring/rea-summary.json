@@ -1,0 +1,285 @@
+[
+  {
+    "file": "rea-afa-analysis.json",
+    "sha256": "7bb12ddf4304314e405a63fae72b9f0d0656a90eea1f3f051c07019718b403b6",
+    "evidence_id": "ev_2cba2c2c5b2ff624e2716c86a5659bac01bccb905add7c0d9dad8df52ea7c635",
+    "provider": {
+      "id": "rea-javascript-application",
+      "name": "REA JavaScript application analyzer",
+      "version": "1"
+    },
+    "parameters": {
+      "format": "auto",
+      "integrity_policy": "fail",
+      "max_semantic_nodes": 15000,
+      "max_semantic_nodes_per_file": 12000,
+      "max_semantic_unknowns": 3000,
+      "source_paths": [
+        "assets/main/index.f8304.js",
+        "application.6b4f5.js"
+      ],
+      "analysis_timeout_ms": 120000
+    },
+    "summary": {
+      "browser_windows": 0,
+      "explicit_web_preferences": 0,
+      "preload_entrypoints": 0,
+      "context_bridge_apis": 0,
+      "exposed_api_members": 0,
+      "ipc": {
+        "operations": 0,
+        "literal_channels": 0,
+        "dynamic_channel_operations": 0,
+        "renderer_transmissions": 0,
+        "renderer_listeners": 0,
+        "main_handlers": 0,
+        "paired_renderer_transmissions": 0,
+        "ambiguous_renderer_transmissions": 0,
+        "unpaired_literal_renderer_transmissions": 0
+      },
+      "sender_validation_observations": 0,
+      "utility_processes": 0,
+      "resolved_utility_entrypoints": 0,
+      "native_addon_bindings": 0,
+      "resolved_native_addon_bindings": 0
+    },
+    "statistics": {
+      "relevant_files": 29,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 1469410,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 2,
+      "skipped_javascript_files": 0,
+      "visited_ast_nodes": 406222,
+      "findings": 29,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "limitations": [
+      "Caller-selected source analysis leaves 27 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+      "Caller-selected source analysis leaves 27 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+    ]
+  },
+  {
+    "file": "rea-launcher-analysis.json",
+    "sha256": "91372eb6d4a4b3f2dd2c9e1f85d20ed2312cb43a75f8c88d72aecaa143a7d759",
+    "evidence_id": "ev_6c3b54808823982e7dd3039aa7ee29fd219968e706a7e92c7b5f1b294e4676fe",
+    "provider": {
+      "id": "rea-javascript-application",
+      "name": "REA JavaScript application analyzer",
+      "version": "1"
+    },
+    "parameters": {
+      "format": "auto",
+      "integrity_policy": "fail",
+      "max_semantic_nodes": 1500,
+      "max_semantic_nodes_per_file": 1500,
+      "source_paths": [
+        "new-game-store.Ck_txGav.js"
+      ],
+      "analysis_timeout_ms": 20000
+    },
+    "summary": {
+      "browser_windows": 0,
+      "explicit_web_preferences": 0,
+      "preload_entrypoints": 0,
+      "context_bridge_apis": 0,
+      "exposed_api_members": 0,
+      "ipc": {
+        "operations": 0,
+        "literal_channels": 0,
+        "dynamic_channel_operations": 0,
+        "renderer_transmissions": 0,
+        "renderer_listeners": 0,
+        "main_handlers": 0,
+        "paired_renderer_transmissions": 0,
+        "ambiguous_renderer_transmissions": 0,
+        "unpaired_literal_renderer_transmissions": 0
+      },
+      "sender_validation_observations": 0,
+      "utility_processes": 0,
+      "resolved_utility_entrypoints": 0,
+      "native_addon_bindings": 0,
+      "resolved_native_addon_bindings": 0
+    },
+    "statistics": {
+      "relevant_files": 2,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 130778,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 1,
+      "skipped_javascript_files": 0,
+      "visited_ast_nodes": 39394,
+      "findings": 301,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "limitations": [
+      "Caller-selected source analysis leaves 1 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+      "Caller-selected source analysis leaves 1 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+    ]
+  },
+  {
+    "file": "rea-public-analysis.json",
+    "sha256": "2662597e9029c8eeac1ef5e93179f2dc054f0cf2d617385f127dddc7037933cd",
+    "evidence_id": "ev_865ae654fa1c4d92b50b6f8e3ac98a1f228431b7620ee0c8eccc520f0f99de25",
+    "provider": {
+      "id": "rea-javascript-application",
+      "name": "REA JavaScript application analyzer",
+      "version": "1"
+    },
+    "parameters": {
+      "format": "auto",
+      "integrity_policy": "fail",
+      "max_semantic_nodes": 2000,
+      "max_semantic_nodes_per_file": 2000,
+      "analysis_timeout_ms": 20000
+    },
+    "summary": {
+      "browser_windows": 0,
+      "explicit_web_preferences": 0,
+      "preload_entrypoints": 0,
+      "context_bridge_apis": 0,
+      "exposed_api_members": 0,
+      "ipc": {
+        "operations": 0,
+        "literal_channels": 0,
+        "dynamic_channel_operations": 0,
+        "renderer_transmissions": 0,
+        "renderer_listeners": 0,
+        "main_handlers": 0,
+        "paired_renderer_transmissions": 0,
+        "ambiguous_renderer_transmissions": 0,
+        "unpaired_literal_renderer_transmissions": 0
+      },
+      "sender_validation_observations": 0,
+      "utility_processes": 0,
+      "resolved_utility_entrypoints": 0,
+      "native_addon_bindings": 0,
+      "resolved_native_addon_bindings": 0
+    },
+    "statistics": {
+      "relevant_files": 1,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 355624,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 1,
+      "skipped_javascript_files": 0,
+      "visited_ast_nodes": 118934,
+      "findings": 807,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "limitations": [
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+    ]
+  },
+  {
+    "file": "rea-queenmaker-analysis.json",
+    "sha256": "79f8382f8a17ed6e2ec90419b3ba7fe6b1edd2b7cfb7de33b0a3abfb29a78004",
+    "evidence_id": "ev_d9aa738b09f12ea2aca1343d0eb79b4087ba308e17ddcca178353ba479ad7fb4",
+    "provider": {
+      "id": "rea-javascript-application",
+      "name": "REA JavaScript application analyzer",
+      "version": "1"
+    },
+    "parameters": {
+      "format": "auto",
+      "integrity_policy": "fail",
+      "max_semantic_nodes": 18000,
+      "max_semantic_nodes_per_file": 9000,
+      "max_semantic_unknowns": 2000,
+      "source_paths": [
+        "games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/index.js",
+        "games/qm7/olympus-fortune/2026-10-07-01-59-07/assets/main/index.js"
+      ],
+      "analysis_timeout_ms": 120000
+    },
+    "summary": {
+      "browser_windows": 0,
+      "explicit_web_preferences": 0,
+      "preload_entrypoints": 0,
+      "context_bridge_apis": 0,
+      "exposed_api_members": 0,
+      "ipc": {
+        "operations": 0,
+        "literal_channels": 0,
+        "dynamic_channel_operations": 0,
+        "renderer_transmissions": 0,
+        "renderer_listeners": 0,
+        "main_handlers": 0,
+        "paired_renderer_transmissions": 0,
+        "ambiguous_renderer_transmissions": 0,
+        "unpaired_literal_renderer_transmissions": 0
+      },
+      "sender_validation_observations": 0,
+      "utility_processes": 0,
+      "resolved_utility_entrypoints": 0,
+      "native_addon_bindings": 0,
+      "resolved_native_addon_bindings": 0
+    },
+    "statistics": {
+      "relevant_files": 38,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 4768287,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 2,
+      "skipped_javascript_files": 0,
+      "visited_ast_nodes": 1399942,
+      "findings": 14,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "limitations": [
+      "Caller-selected source analysis leaves 36 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+      "Caller-selected source analysis leaves 36 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+    ]
+  }
+]

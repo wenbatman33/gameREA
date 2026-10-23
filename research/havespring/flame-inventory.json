@@ -1,0 +1,141 @@
+{
+  "game": "flame_of_fortune",
+  "assets": [
+    {
+      "kind": "stylesheet",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/style.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/polyfills.bundle.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/system.bundle.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/import-map.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/index.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/application.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/cocos-js/cc.js"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/header/km_header.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/background/background.jpg"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/settings.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/splash/splash_hant.jpg"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/config.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/index.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/internal/import/08/0846c28f0.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/locale/hant/l10n.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/src/chunks/bundle.js"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/img/land_to_port.png"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/config.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/config.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/index.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/index.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/main/import/a7/a70cb7ff-28c6-476d-a3ba-18804b4bc2cc.json"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-common0.zip"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-common1.zip"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc0.zip"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc1.zip"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc2.zip"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/wzbResCache-astc3.zip"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/fb/fbfb5346-9d70-4482-83e5-a12fe8d7ba17.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/95/951249e0-9f16-456d-8b85-a6ca954da16b.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/20/20835ba4-6145-4fbc-a58a-051ce700aa3e.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/assets/resources/native/54/544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdn.funsadim521.net/games/qm7/flame-of-fortune/2026-10-19-05-58-38/lobby/baseconfig.json"
+    }
+  ]
+}
