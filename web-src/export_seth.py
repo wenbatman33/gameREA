@@ -21,12 +21,13 @@ def export(root: Path, out: Path, put_asset):
         if not file.is_file():
             continue
         relative = file.relative_to(mirror).as_posix()
-        if not (relative.startswith(GAME) or relative.startswith(FRAMEWORK)):
+        if not (relative.startswith(GAME) or relative.startswith(FRAMEWORK) or relative == 'slotFramework/manifest.json'):
             continue
         actual = patched if relative == FRAMEWORK + 'index.js' else file
         if file.name == 'socket.io.js':
             actual = root / 'web-src/seth-socket.js'
         assets['/' + relative] = {'file': put_asset(actual), 'mime': mimetypes.guess_type(file.name)[0] or 'application/octet-stream'}
+    assert '/slotFramework/manifest.json' in assets, 'Missing domain-mode framework manifest'
     assert '/' + GAME + 'src/settings.json' in assets, 'Missing Cocos runtime settings'
     fixtures = {}
     for file in (mirror / GAME / 'assets/g1005/import').glob('*/*.json'):

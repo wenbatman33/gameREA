@@ -44,6 +44,12 @@ function allFiles(folder){let list=[];for(const entry of fs.readdirSync(folder,{
   const files=allFiles(OUTPUT),bytes=files.reduce((sum,file)=>sum+fs.statSync(file).size,0);assert.ok(bytes<1024**3,'Package is '+bytes+' bytes');assert.ok(!files.some(file=>/local-state(?:\.json|\.tmp)$/.test(file)));
   console.log('  '+refs.size+' referenced unique assets; '+bytes+' package bytes.');
  });
+ await check('all 20 gallery cards have real packaged raster cover images',()=>{
+  const home=fs.readFileSync(path.join(OUTPUT,'index.html'),'utf8');
+  const images=[...home.matchAll(/<img src="([^"]+)"/g)];assert.equal(images.length,20);
+  for(const match of images){const bytes=fs.readFileSync(path.join(OUTPUT,match[1]));assert.ok(bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))||bytes[0]===255&&bytes[1]===216,'Expected original raster cover');}
+  assert.ok(home.includes('固定未中獎結果 · 協定試作'));
+ });
  await check('metadata uses local test tokens and no identifiable private launch credentials',()=>{
   function scan(value,label='catalog'){
    if(Array.isArray(value)){value.forEach((v,i)=>scan(v,label+'['+i+']'));return;}

@@ -42,6 +42,11 @@ async function api(event,data={},session='test'){
  }
  r=await api('initial',{},'buy');await api('configure',{winRate:0},'buy');r=await api('spin',{action:'buyFeature'},'buy');assert.equal(r.platform.player.balance.amount,9900);const buy=r.engine.gameState.spinId;r=await api('spin',{spinId:buy},'buy');assert.equal(r.platform.player.balance.amount,9900);await api('closeSpin',{spinId:buy},'buy');r=await api('getBetRecords',{},'buy');assert.equal(r.data[0].totalStake,100);
  const invalid=await api('spin',{stakeIndex:99});assert.equal(invalid.status,400);
+ // A real hostname takes the client's domain branch instead of its IP branch.
+ const manifest=await(await provider.handle(new Request('https://example.test/slotFramework/manifest.json'),'/slotFramework/manifest.json?cache=1',ctx)).json();
+ assert.equal(manifest.hash,'14ee78206168302dd5e294aaa97f5c0b21de68f5');
+ const framework=await provider.handle(new Request('https://example.test/slotFramework/'+manifest.hash+'/config.json'),'/slotFramework/'+manifest.hash+'/config.json',ctx);
+ assert.ok(framework&&framework.ok,'Domain framework bundle must resolve');
  const html=await(await provider.handle(new Request(ctx.virtualBase+meta.entry.slice(1)),meta.entry,ctx)).text();assert.ok(html.includes('window.__SETH_BASE__="https://example.test/gameREA/v/seth/seth2/"'));assert.ok(!html.includes('127.0.0.1:18767'));
  const bootstrap=html.match(/<script>(window\.__SETH_BASE__[\s\S]*?)<\/script>/)[1];let repaired='';
  vm.runInNewContext(bootstrap,{window:{},URL,location:{href:ctx.virtualBase+'egames/example/game/?t=browser-local'},history:{replaceState:(_state,_title,url)=>repaired=url}});

@@ -39,18 +39,18 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
     sw='self.BUILD_ID='+json.dumps(build_id)+';self.PROVIDER_SCRIPTS='+json.dumps(scripts)+';\n'+(SOURCE/'sw.js').read_text()
     (output/'sw.js').write_text(sw)
     (output/'games.json').write_text(json.dumps(dict(buildId=build_id,quiet=quiet,games=games),ensure_ascii=False,separators=(',',':')))
-    verified_path=ROOT/'research/local-20-verification.json'
-    verified=json.loads(verified_path.read_text()).get('newBrowserVerified',[])if verified_path.is_file()else[]
+    covers=json.loads((SOURCE/'gallery-covers.json').read_text())
+    statuses={'pp':'有限回合重播 · 結果會重複','png':'固定未中獎結果 · 協定試作','afa':'一般抽卡模擬 · 特殊玩法未完成','seth':'合成回合 · 部分特殊流程'}
     cards=[]
     import html
     for game in games:
-        preview=next((ROOT/'research'/g['screenshot']for g in verified if g['slug']==game['slug']),None)
-        image=''
-        if preview and preview.is_file():
-            rel=put_asset(preview);image=f'<img src="{rel}" alt="{html.escape(game["title"])} 實測畫面">'
+        preview=ROOT/covers[game['slug']]
+        if not preview.is_file():raise FileNotFoundError(f'Missing real cover image: {preview}')
+        rel=put_asset(preview)
+        image=f'<img src="{rel}" alt="{html.escape(game["title"])} 原始封面或研究截圖" width="640" height="360" loading="lazy">'
         href=f'launch.html?provider={game["provider"]}&amp;game={game["slug"]}'
-        cards.append(f'<article>{image}<small>{html.escape(game["provider"])}</small><h2>{html.escape(game["title"])}</h2><p>普通回合試玩 · 虛擬點數</p><a href="{href}">開始試玩 ↗</a></article>')
-    page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;aspect-ratio:16/9;object-fit:cover}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>直接在瀏覽器試玩，無需安裝或啟動本機服務。使用原版前端與有限回合樣本／模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>普通回合樣本會重複。PP 請保持預設下注；不支援的購買及特殊模式尚未驗證。</footer></main></html>'''
+        cards.append(f'<article>{image}<small>{html.escape(game["provider"])}</small><h2>{html.escape(game["title"])}</h2><p>{html.escape(statuses[game["provider"]])}</p><a href="{href}">開啟試作 ↗</a></article>')
+    page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;background:#080b10;border-radius:6px}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>20 款研究試作，完整玩法尚未驗收完成。可直接在瀏覽器開啟，無需安裝或啟動本機服務。使用原版前端與有限回合樣本／模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>普通回合樣本會重複。PP 請保持預設下注；不支援的購買及特殊模式尚未驗證。</footer></main></html>'''
     (output/'index.html').write_text(page)
     shutil.rmtree(output/'.staging',ignore_errors=True)
     total=sum(copied.values())
