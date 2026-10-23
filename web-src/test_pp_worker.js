@@ -22,6 +22,8 @@ const fs=require('node:fs/promises');const vm=require('node:vm');const assert=re
   for(let i=0;i<3;i++)for(const record of chain){const response=await send(record.action);assert.equal(response.status,200,game.slug+' '+record.action);assert(!(await response.text()).includes('frozen='));tested++;}
   const isolated=await(await send('doInit','independent')).text();assert(isolated.includes('balance=100,000.00'));
   assert.equal((await send('doSpin',ctx.clientId,{c:'999'})).status,422);
+  const operatorPath=Object.keys(game.static).find(p=>p.endsWith('/operator_logos/logo_info.js'));
+  const operator=await(await handler(new Request('https://example.test'+operatorPath),operatorPath,ctx)).text();assert(!operator.includes('var useRUM = true;'),'local demos do not start third-party telemetry');
   const buildPath=Object.keys(game.static).find(p=>p.endsWith('/build.js'));
   const build=await(await handler(new Request('https://example.test'+buildPath),buildPath,ctx)).text();assert(!/win\[(?:'[^']*'\+)*'[^']*'\]=eval\(atob\(/.test(build),game.slug+' context cached expressions');
  }

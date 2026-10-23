@@ -1,0 +1,483 @@
+{
+  "releaseCommit": "1ef85ec",
+  "developmentMuted": true,
+  "pendingLocalChanges": "Play’n GO sampled-round engine, re-spin acknowledgements, launcher update polling and PP telemetry suppression; not published",
+  "games": [
+    {
+      "provider": "pp",
+      "slug": "gates-of-olympus-2500",
+      "title": "Gates of Olympus 2500",
+      "completeSamples": 24,
+      "winningSamples": 10,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/gates-2500-local-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 100010.5,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "sweet-bonanza-pop",
+      "title": "Sweet Bonanza POP",
+      "completeSamples": 24,
+      "winningSamples": 6,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/sweet-pop-local-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 99999.2,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "the-dog-house-slot",
+      "title": "The Dog House",
+      "completeSamples": 24,
+      "winningSamples": 5,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/dog-house-local-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 99999.3,
+        "scope": "ordinary winning sample, not bonus game"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "big-bass-bonanza",
+      "title": "Big Bass Bonanza",
+      "completeSamples": 24,
+      "winningSamples": 4,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/big-bass-local-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 100002,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "gates-of-olympus",
+      "title": "Gates of Olympus",
+      "completeSamples": 24,
+      "winningSamples": 6,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pp-local-controlled-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 100000.3,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "starlight-princess",
+      "title": "Starlight Princess",
+      "completeSamples": 24,
+      "winningSamples": 9,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/starlight-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 100010.9,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "sugar-rush",
+      "title": "Sugar Rush",
+      "completeSamples": 20,
+      "winningSamples": 5,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/sugar-rush-local-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 100003.5,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "pp",
+      "slug": "sweet-bonanza",
+      "title": "Sweet Bonanza",
+      "completeSamples": 24,
+      "winningSamples": 11,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 20,
+      "inference": "Complete ordinary round samples selected locally. Bet scaling and virtual ledger are our implementation, not original RNG/RTP.",
+      "observedProtocol": [
+        "doInit",
+        "doSpin with cascades",
+        "doCollect with retry identifiers"
+      ],
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/pragmatic/sweet-bonanza-local-win.png",
+        "completedRounds": 1,
+        "balanceAfter": 100022.3,
+        "scope": "selected ordinary winning samples; not all features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "reactoonz",
+      "title": "Reactoonz",
+      "completeSamples": 11,
+      "winningSamples": 6,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/reactoonz-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 24993.7,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "bookofdead",
+      "title": "Book of Dead",
+      "completeSamples": 24,
+      "winningSamples": 9,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/bookofdead-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 24997.5,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "wrappinmoregold",
+      "title": "Wrappin’ More Gold",
+      "completeSamples": 24,
+      "winningSamples": 7,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/wrappinmoregold-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 25006.25,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "legacyofdead",
+      "title": "Legacy of Dead",
+      "completeSamples": 24,
+      "winningSamples": 7,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/legacyofdead-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 24994.5,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "firejoker",
+      "title": "Fire Joker",
+      "completeSamples": 40,
+      "winningSamples": 14,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/firejoker-local-respin.png",
+        "completedRounds": 1,
+        "balanceAfter": 24999.8,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "riseofolympus",
+      "title": "Rise of Olympus",
+      "completeSamples": 10,
+      "winningSamples": 5,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/riseofolympus-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 25000.65,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "moonprincess",
+      "title": "Moon Princess",
+      "completeSamples": 31,
+      "winningSamples": 11,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/moonprincess-local-20-wins.png",
+        "completedRounds": 20,
+        "balanceAfter": 25002.35,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features",
+        "balanceBefore": 24999.15
+      }
+    },
+    {
+      "provider": "png",
+      "slug": "gemix",
+      "title": "Gemix",
+      "completeSamples": 14,
+      "winningSamples": 10,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "protocolValidatedRounds": 30,
+      "observedProtocol": [
+        "1: stake and reels",
+        "2 4: animation ack",
+        "2 6: summary",
+        "4: collect",
+        "52: wallet cents"
+      ],
+      "inference": "Sample selection and bet scaling are our own simulation; captured events do not restore original RNG or long term feature meters.",
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "screenshot": "research/playngo/gemix-local-10-wins.png",
+        "completedRounds": 10,
+        "balanceAfter": 24994.4,
+        "scope": "selected ordinary winning samples; Fire includes native re-spin handshake; not all special features"
+      }
+    },
+    {
+      "provider": "afa",
+      "slug": "CA261119",
+      "title": "草船借箭",
+      "completeSamples": 0,
+      "winningSamples": 0,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "browserVerification": {
+        "source": "prior pure-static browser verification, unchanged ordinary draw backend",
+        "completedRounds": 3,
+        "balanceBefore": 25000,
+        "balanceAfter": 24967,
+        "screenshot": "research/static-afa-ca261119-three-draws.png",
+        "scope": "ordinary card draws; special modes not restored"
+      }
+    },
+    {
+      "provider": "afa",
+      "slug": "CA261141",
+      "title": "血戰長坂",
+      "completeSamples": 0,
+      "winningSamples": 0,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "browserVerification": {
+        "source": "pure static localhost:18768; zero-gain development mute",
+        "completedRounds": 1,
+        "cardsDrawn": 10,
+        "balanceBefore": 25000,
+        "balanceAfter": 24724,
+        "screenshot": "research/afa-ca261141-local-ten-draw.png",
+        "scope": "ordinary ten-card draw; divine feature not restored"
+      }
+    },
+    {
+      "provider": "afa",
+      "slug": "CA261130",
+      "title": "火燒赤壁",
+      "completeSamples": 0,
+      "winningSamples": 0,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "browserVerification": {
+        "source": "pure static localhost:18768; zero-gain development mute",
+        "completedRounds": 1,
+        "cardsDrawn": 1,
+        "balanceBefore": 25000,
+        "balanceAfter": 24976,
+        "screenshot": "research/afa-ca261130-local-draw.png",
+        "scope": "ordinary card draw; streak special mode not restored"
+      }
+    },
+    {
+      "provider": "seth",
+      "slug": "seth2",
+      "title": "戰神賽特2 覺醒之力",
+      "completeSamples": 0,
+      "winningSamples": 0,
+      "runtime": "same-origin local assets and fake backend",
+      "originalMathRestored": false,
+      "specialFeaturesComplete": false,
+      "browserVerification": {
+        "source": "pure static localhost:18768; muted",
+        "completedRounds": 3,
+        "balanceBefore": 10000,
+        "balanceAfter": 9999,
+        "screenshot": "research/atg/seth2/random-board-round-3-win.png",
+        "scope": "two different losing boards plus one controlled 2x winning round; not all special features"
+      }
+    }
+  ],
+  "verificationScope": "All provider contract tests pass. Browser evidence covers selected ordinary rounds; it does not prove full feature completion or original RNG/RTP."
+}

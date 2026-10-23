@@ -50,7 +50,12 @@ def png_rounds(root, slug):
     if acquired.is_file():
         value = json.loads(acquired.read_text())
         assert value['noAccount'] and value['currency'] == 'DEMO'
-        samples.extend(value['rounds'])
+        # The coarse HTTP driver can receive multiple reel headers in one
+        # response. The native client still requests command 7 between those
+        # re-spins; only client-observed chains preserve that handshake.
+        samples.extend(r for r in value['rounds'] if not any(
+            len(re.findall(r'(?m)^(?:d=)?1 ', s['response'])) > 1
+            for s in r['stages']))
     observed = root / 'research/playngo/observed-rounds' / (slug + '.json')
     if observed.is_file():
         value = json.loads(observed.read_text())

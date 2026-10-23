@@ -2,7 +2,7 @@
 self.GAME_PROVIDERS=self.GAME_PROVIDERS||{};
 (()=>{'use strict';
 const sessions=new Map(),queues=new Map(),counts=[1,3,5,10,15,20,30,50,100];
-const quiet=`<script>(()=>{const A=window.AudioContext||window.webkitAudioContext;if(A){A.prototype.resume=function(){return Promise.resolve()};const B=class extends A{constructor(...a){super(...a);this.suspend()}};window.AudioContext=B;window.webkitAudioContext=B}const p=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(...a){this.muted=true;this.volume=0;return p.apply(this,a)}})()</script>`;
+
 function localArt(o,base){if(Array.isArray(o))return o.map(x=>localArt(x,base));if(o&&typeof o==='object')return Object.fromEntries(Object.entries(o).map(([k,v])=>[k,localArt(v,base)]));if(typeof o==='string'&&o.startsWith('https://storge.afagaming.cc/'))return base+'remote-assets/storge.afagaming.cc/'+new URL(o).pathname.replace(/^\//,'');return o}
 function table(pack){return{ArcadeID:pack.PackInfo.ID,AgentID:0,Number:1,TableNumber:'LOCAL',PlayerLimit:10,PlayerCount:0,BurstRate:0,URNoDraw:0,SSRNoDraw:0,SSRAvgDraw:0,Popularity:0}}
 // Serialize each browser client/game before reading or writing its durable fake wallet.
@@ -55,7 +55,7 @@ self.GAME_PROVIDERS.afa={async handle(request,pathWithQuery,ctx){
   const begin=body.indexOf('System.register("chunks:///_virtual/GameInfoPopup.ts"');if(begin>=0){let end=body.indexOf('System.register(',begin+16);if(end<0)end=body.length;const needle='{key:"_tryToOpen",value:function(){';const part=body.slice(begin,end).replace(needle,needle+'return;');body=body.slice(0,begin)+part+body.slice(end)}
  }
  else if(route==='ca2501/index.html'){
-  body=body.replace(/<script\s+async\s+src="https:\/\/txlobby[^"]+"\s*><\/script>/g,'').replace('<title>AFA Gaming</title>','<title>AFA 瀏覽器假後端研究版</title>').replace('<body>','<body><div style="position:fixed;top:0;left:0;z-index:9999;color:white;background:#17212b;padding:3px 8px;font:12px sans-serif">瀏覽器假資料 · 一般抽卡試作</div>');if(ctx.quiet)body=quiet+body;
+  body=body.replace(/<script\s+async\s+src="https:\/\/txlobby[^"]+"\s*><\/script>/g,'').replace('<title>AFA Gaming</title>','<title>AFA 瀏覽器假後端研究版</title>').replace('<body>','<body><div style="position:fixed;top:0;left:0;z-index:9999;color:white;background:#17212b;padding:3px 8px;font:12px sans-serif">瀏覽器假資料 · 一般抽卡試作</div>');if(ctx.quiet)body=`<script src="${new URL('development-mute.js',ctx.base).href}"></script>`+body;
  }
  body=body.split('https://storge.afagaming.cc/').join(ctx.virtualBase+'remote-assets/storge.afagaming.cc/');
  return ctx.reply(body,mime);

@@ -1,8 +1,32 @@
 /* Acquired Play'n GO frontend routing; no upstream fetch is permitted. */
+importScripts('png-engine.js');
+const pngLocks=new Map();
+async function pngTransaction(ctx,work){
+ const key=new URL('__png-state/'+encodeURIComponent(ctx.clientId||'default')+'/'+ctx.metadata.slug,ctx.base).href;
+ const pending=(pngLocks.get(key)||Promise.resolve()).catch(()=>{}).then(async()=>{
+  const cache=await caches.open('game-rea-png-virtual-state-v1');
+  const saved=await cache.match(key),engine=new self.PNG_ENGINE(ctx.metadata.protocol,saved?await saved.json():null);
+  const result=work(engine);
+  await cache.put(key,new Response(JSON.stringify(engine.state),{headers:{'Content-Type':'application/json'}}));
+  return result;
+ });
+ pngLocks.set(key,pending);try{return await pending;}finally{if(pngLocks.get(key)===pending)pngLocks.delete(key);}
+}
 self.GAME_PROVIDERS=self.GAME_PROVIDERS||{};
 self.GAME_PROVIDERS.png={async handle(request,pathWithQuery,ctx){
  const m=ctx.metadata;let path=String(pathWithQuery).replace(/^\//,'');
- if(path==='_local/protocol.json')return ctx.reply(JSON.stringify(m.protocol),'application/json');
+ const localEngine=m.protocol?.samples?.some(r=>r.win>0)&&m.protocol.samples.some(r=>r.win===0);
+ if(path==='_local/protocol.json')return ctx.reply(JSON.stringify({...m.protocol,engine:!!localEngine,api:ctx.virtualBase+'_local/packet'}),'application/json');
+ if(path==='_local/packet'||path==='_local/configure'){
+  if(!localEngine)return ctx.reply('Complete mixed round samples unavailable','text/plain',409);
+  if(request.method!=='POST')return ctx.reply('POST required','text/plain',405);
+  try{
+   const input=await request.json();
+   if(path==='_local/configure')return ctx.reply(JSON.stringify(await pngTransaction(ctx,e=>e.configure(input))),'application/json');
+   if(typeof input.command!=='string'||input.command.length>4096||!/^\d+(?:\s|$)/.test(input.command)||typeof input.id!=='string'||input.id.length>100)throw Error('Invalid local protocol packet');
+   return ctx.reply(await pngTransaction(ctx,e=>e.process(input.command,input.id)),'text/plain');
+  }catch(error){return ctx.reply(error.message,'text/plain',422);}
+ }
  let parsed=new URL(path,'https://virtual.invalid/');let match=parsed.pathname.match(/^\/o\/([^/]+)(\/.*)?$/);
  let host=match?match[1]:'released.playngonetwork.com',original=match?(match[2]||'/'):parsed.pathname;
  if(original.endsWith('/gamehub/negotiate'))return ctx.reply(JSON.stringify({negotiateVersion:1,connectionId:'LOCAL',connectionToken:'LOCAL',availableTransports:[{transport:'WebSockets',transferFormats:['Text','Binary']}]}),'application/json');
@@ -31,7 +55,8 @@ self.GAME_PROVIDERS.png={async handle(request,pathWithQuery,ctx){
   const base=new URL(ctx.base);const script=new URL('png-socket.js',base).href;
   const config=ctx.virtualBase+'_local/protocol.json';
   const quiet=ctx.quiet?`<script>(()=>{const A=window.AudioContext||window.webkitAudioContext;if(A){A.prototype.resume=function(){return Promise.resolve()};const B=class extends A{constructor(...a){super(...a);this.suspend()}};window.AudioContext=B;window.webkitAudioContext=B}const p=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(...a){this.muted=true;this.volume=0;return p.apply(this,a)}})()</script>`:'';
-  body=quiet+`<script src="${script}" data-png-config="${config}"></script>`+body;
+  const controls=localEngine?`<script>window.__LOCAL_SIMULATION__=${JSON.stringify({configure:ctx.virtualBase+'_local/configure',winRate:35,respin:m.slug==='firejoker'})}</script><script src="${new URL('simulation-controls.js',base).href}"></script>`:'';
+  body=quiet+controls+`<script src="${script}" data-png-config="${config}"></script>`+body;
  }
  return ctx.reply(body,mime);
 }};

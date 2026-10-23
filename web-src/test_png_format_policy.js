@@ -1,6 +1,6 @@
 // Regression: forcing PNG broke already captured AVIF client resources.
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const scope={self:{},URL,structuredClone,Response,Request};
+const scope={self:{},URL,structuredClone,Response,Request,importScripts:()=>{}};
 vm.runInNewContext(fs.readFileSync(__dirname+'/png-worker.js','utf8'),scope);
 (async()=>{
  const handler=scope.self.GAME_PROVIDERS.png.handle;

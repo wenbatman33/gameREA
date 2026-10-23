@@ -30,11 +30,11 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
         games.extend(rows)
         scripts.append(f'{provider}-worker.js')
         shutil.copyfile(SOURCE/f'{provider}-worker.js',output/f'{provider}-worker.js')
-    for name in ['launch.html','launch.js','png-socket.js','seth-socket.js','simulation-controls.js','development-mute.js']:
+    for name in ['launch.html','launch.js','png-socket.js','png-engine.js','seth-socket.js','simulation-controls.js','development-mute.js']:
         source=SOURCE/name
         if source.is_file():shutil.copyfile(source,output/name)
     identity=json.dumps(dict(quiet=quiet,games=games),ensure_ascii=False,separators=(',',':'))
-    source_bytes=b''.join((SOURCE/name).read_bytes()for name in scripts+['sw.js','launch.js','png-socket.js','seth-socket.js','simulation-controls.js','development-mute.js']if(SOURCE/name).is_file())
+    source_bytes=b''.join((SOURCE/name).read_bytes()for name in scripts+['sw.js','launch.js','png-socket.js','png-engine.js','seth-socket.js','simulation-controls.js','development-mute.js']if(SOURCE/name).is_file())
     build_id=hashlib.sha256(identity.encode()+source_bytes).hexdigest()[:20]
     sw='self.BUILD_ID='+json.dumps(build_id)+';self.PROVIDER_SCRIPTS='+json.dumps(scripts)+';\n'+(SOURCE/'sw.js').read_text()
     (output/'sw.js').write_text(sw)
@@ -48,10 +48,10 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
         if not preview.is_file():raise FileNotFoundError(f'Missing real cover image: {preview}')
         rel=put_asset(preview)
         image=f'<img src="{rel}" alt="{html.escape(game["title"])} 原始封面或研究截圖" width="640" height="360" loading="lazy">'
-        status='本機隨機抽樣 · 可控中獎比例'if game.get('roundSamples')else statuses[game['provider']]
+        status='本機隨機抽樣 · 可控中獎比例'if game.get('roundSamples')or(game.get('protocol',{}).get('samples')and any(r['win']>0 for r in game['protocol']['samples']))else statuses[game['provider']]
         href=f'launch.html?provider={game["provider"]}&amp;game={game["slug"]}'
         cards.append(f'<article>{image}<small>{html.escape(game["provider"])}</small><h2>{html.escape(game["title"])}</h2><p>{html.escape(status)}</p><a href="{href}">開啟試作 ↗</a></article>')
-    page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;background:#080b10;border-radius:6px}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>20 款研究試作，完整玩法尚未驗收完成。可直接在瀏覽器開啟，無需安裝或啟動本機服務。使用原版前端與有限回合樣本／模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>普通回合樣本會重複。PP 請保持預設下注；不支援的購買及特殊模式尚未驗證。</footer></main></html>'''
+    page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;background:#080b10;border-radius:6px}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>20 款研究試作，完整玩法尚未驗收完成。可直接在瀏覽器開啟，無需安裝或啟動本機服務。使用原版前端與有限回合樣本／模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>普通回合樣本仍可能重複。購買、賭倍及完整免費玩法尚未完成。</footer></main></html>'''
     (output/'index.html').write_text(page)
     shutil.rmtree(output/'.staging',ignore_errors=True)
     # Rebuilds must not keep obsolete generated assets in the deployment.

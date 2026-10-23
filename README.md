@@ -13,7 +13,7 @@ Service Worker 回傳模擬 HTTP 資料；Play’n GO 與賽特2另以瀏覽器�
 | 供應商 | 遊戲 | 範圍 |
 | --- | --- | --- |
 | Pragmatic Play | Sweet Bonanza POP、Gates of Olympus 2500、The Dog House、Gates of Olympus、Starlight Princess、Big Bass Bonanza、Sugar Rush、Sweet Bonanza | 由本機完整普通回合樣本隨機抽樣、連消及領獎；左上角可控中獎比例；完整特殊玩法尚未還原 |
-| Play’n GO | Reactoonz、Book of Dead、Wrappin’ More Gold、Legacy of Dead、Fire Joker、Rise of Olympus、Moon Princess、Gemix | 初始化與普通未中獎回合，虛擬餘額扣點 |
+| Play’n GO | Reactoonz、Book of Dead、Wrappin’ More Gold、Legacy of Dead、Fire Joker、Rise of Olympus、Moon Princess、Gemix | 本機普通回合隨機抽樣、中獎連消、領獎及虛擬帳務；完整特殊玩法尚未還原 |
 | AFA | 草船借箭、血戰長坂、火燒赤壁 | 合成一般抽卡；特殊模式尚未還原 |
 | ATG | 戰神賽特2 覺醒之力 | 普通回合、部分免費與公開覺醒樣本；可調整合成結果，不代表原版機率 |
 
@@ -37,15 +37,26 @@ python3 build_static.py --output web-build
 python3 test_static.py web-build
 ```
 
-建置使用 Python 標準函式庫；合約測試另需 Node.js 22。輸出只包含執行資源，約 859 MiB；研究封包、登入資料及 Python 服務不會隨 Pages artifact 發布。請勿直接將整個研究目錄當作 Pages 網站。
+建置使用 Python 標準函式庫；合約測試另需 Node.js 22。輸出只包含執行資源，約 867 MiB；研究封包、登入資料及 Python 服務不會隨 Pages artifact 發布。請勿直接將整個研究目錄當作 Pages 網站。
 
-`web-src/` 保存匯出器、Service Worker、瀏覽器假後端及測試。`research/static-browser-verification.json` 記錄實際靜態版 UI 驗證；`research/local-20-verification.json` 記錄較早的本機後端驗證。合約測試不等於每款所有功能都已經過瀏覽器驗收。
+`web-src/` 保存匯出器、Service Worker、瀏覽器假後端及測試。`research/self-hosted-progress.json` 逐款記錄抽樣數量、原始機率未還原的限制、協定驗證及瀏覽器結算截圖。開發靜音保留音效引擎運作，只把輸出音量降為零。`research/static-browser-verification.json` 記錄實際靜態版 UI 驗證；`research/local-20-verification.json` 記錄較早的本機後端驗證。合約測試不等於每款所有功能都已經過瀏覽器驗收。
 
 舊版多服務開發入口仍可使用 `python3 start-local.py --mute`，但 GitHub Pages 不使用這個入口。`build-home.py` 是新靜態建置器的相容入口，不再產生 localhost 遊戲連結。
 
+## 自有假後端的修改位置
+
+- `web-src/pp-worker.js`：PP 的樣本選擇、下注縮放、連消與收款狀態。
+- `web-src/png-engine.js`：Play’n GO 的樣本選擇、逐指令狀態機、虛擬錢包與重試；完全不執行上游請求。
+- `web-src/png-worker.js`：同源 `_local/packet`、`_local/configure`，以及 CacheStorage 持久化與同工作階段序列處理。
+- `web-src/png-socket.js`：原始 SignalR／MessagePack 客戶端與自有 HTTP API 之間的傳輸相容層。
+- `web-src/simulation-controls.js`：左上角的假後端設定，控制中獎回合比例及下一局樣本。
+- `research/*/round-samples/`：普通回合資料；Play’n GO 另合併 `observed-rounds/` 中由原始客戶端完成的 DEMO 指令。取得資料的工具與上游網路呼叫均不包含在發布執行環境。
+
+Play’n GO 的下注單位為 `1 coins lines denomination` 三者乘積（分），`52` 為虛擬餘額（分）。回合中 `2 4 i` 是動畫確認，`2 6` 取得結算摘要，`4 0` 收款；部分遊戲另使用 `7` 事件。單一封包可包含多個指令。錢包先保存再回覆；傳輸識別碼用於去重。這些是已觀察的協定及自有實作假設，不是供應商伺服器原始碼。
+
 ## 已知限制
 
-PP 的抽樣選擇、回合狀態、扣點與派彩由 `web-src/pp-worker.js` 控制，可從左上角設定中獎比例或下一局中獎／未中獎。資料來自每款約 20–24 組已下載的完整普通回合；它是有限樣本抽樣，盤面仍可能重複，並非原版機率引擎。特殊下注、購買及免費遊戲尚未完整還原。Play’n GO 尚無完整中獎與獎勵邏輯。AFA 未完成 SSR 特殊操作、降臨／連勝與購買獎勵。賽特2仍有未觀察的特殊模式與重觸發流程。原版 RNG、RTP、伺服器原始碼均未取得。
+PP 的抽樣選擇、回合狀態、扣點與派彩由 `web-src/pp-worker.js` 控制，可從左上角設定中獎比例或下一局中獎／未中獎。資料來自每款約 20–24 組已下載的完整普通回合；它是有限樣本抽樣，盤面仍可能重複，並非原版機率引擎。特殊下注、購買及免費遊戲尚未完整還原。Play’n GO 已接普通中獎樣本、連消確認及領獎；免費遊戲、賭倍及跨回合累積狀態尚未完整還原。AFA 未完成 SSR 特殊操作、降臨／連勝與購買獎勵。賽特2仍有未觀察的特殊模式與重觸發流程。原版 RNG、RTP、伺服器原始碼均未取得。
 
 瀏覽器資料只在本機儲存，沒有跨裝置帳戶；清除網站資料會重設。首次載入、瀏覽器相容性及全部特殊玩法仍需逐款測試，不能保證永遠不會卡住。
 

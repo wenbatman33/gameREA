@@ -11,6 +11,7 @@
     const rate=document.createElement('input');rate.type='number';rate.min='0';rate.max='100';rate.step='1';rate.value=String(config.winRate??35);rate.style.width='65px';label.append(rate);panel.append(label,document.createElement('br'));
     const next=document.createElement('select');
     for(const[value,text]of [['auto','下一局：依比例抽樣'],['win','下一局：中獎樣本'],['lose','下一局：未中獎樣本']]){const option=document.createElement('option');option.value=value;option.textContent=text;next.append(option);}
+    if(config.respin){const option=document.createElement('option');option.value='respin';option.textContent='下一局：重轉樣本';next.append(option);}
     const apply=document.createElement('button');apply.textContent='套用';apply.style.margin='8px';
     const status=document.createElement('p');status.setAttribute('role','status');status.textContent='只影響虛擬回合；進行中的動畫會先完成。';
     apply.addEventListener('click',async()=>{

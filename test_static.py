@@ -16,8 +16,10 @@ def main(output):
             path=temporary/(provider+'.json')
             path.write_text(json.dumps(metadata[0]if provider=='seth'else metadata,ensure_ascii=False))
             subprocess.run(['node',str(SOURCE/name),str(path)],check=True,cwd=ROOT)
-        for name in ['test_png_socket.js','test_png_format_policy.js','test_afa_protocol.js']:
+        for name in ['test_png_socket.js','test_png_format_policy.js','test_launch_update.js','test_development_audio.js','test_afa_protocol.js']:
             subprocess.run(['node',str(SOURCE/name)],check=True,cwd=ROOT)
+        for name in ['test_png_engine.js','test_png_backend.js']:
+            subprocess.run(['node',str(SOURCE/name),str(Path(output).resolve()/'games.json')],check=True,cwd=ROOT)
         subprocess.run(['node',str(SOURCE/'test_static_routing.js'),str(Path(output).resolve())],check=True,cwd=ROOT)
 
 if __name__=='__main__':

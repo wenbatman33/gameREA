@@ -7,17 +7,20 @@
     await registration.update();
     await navigator.serviceWorker.ready;
     await new Promise((resolve,reject) => {
-      const timer=setTimeout(()=>reject(new Error('試玩環境啟動逾時，請重新整理。')),20000);
+      let polling;
+      const cleanup=()=>{clearTimeout(timer);clearInterval(polling);navigator.serviceWorker.removeEventListener('controllerchange',check);};
+      const timer=setTimeout(()=>{cleanup();reject(new Error('試玩環境啟動逾時，請重新整理。'));},60000);
       const check=()=>{
         if(!navigator.serviceWorker.controller)return;
         const channel=new MessageChannel();
         channel.port1.onmessage=event=>{
           channel.port1.close();
-          if(event.data===catalog.buildId){clearTimeout(timer);navigator.serviceWorker.removeEventListener('controllerchange',check);resolve();}
+          if(event.data===catalog.buildId){cleanup();resolve();}
         };
         navigator.serviceWorker.controller.postMessage('build-id',[channel.port2]);
       };
       navigator.serviceWorker.addEventListener('controllerchange',check);
+      polling=setInterval(check,500);
       check();
     });
     const params=new URLSearchParams(location.search);

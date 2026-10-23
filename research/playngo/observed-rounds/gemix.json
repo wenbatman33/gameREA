@@ -1,0 +1,228 @@
+{
+  "slug": "gemix",
+  "noAccount": true,
+  "currency": "DEMO",
+  "source": "public practice API, driven by original client",
+  "transactions": [
+    {
+      "request": "104 286 0 %22%3croot%3e%3csettings%3e%3cDenominations%3e%3cdenom+Value%3d%220.01%22+%2f%3e%3cdenom+Value%3d%220.02%22+%2f%3e%3cdenom+Value%3d%220.03%22+%2f%3e%3cdenom+Value%3d%220.04%22+%2f%3e%3cdenom+Value%3d%220.05%22+%2f%3e%3cdenom+Value%3d%220.07%22+%2f%3e%3cdenom+Value%3d%220.1%22+%2f%3e%3cdenom+Value%3d%220.15%22+%2f%3e%3cdenom+Value%3d%220.2%22+%2f%3e%3cdenom+Value%3d%220.3%22+%2f%3e%3cdenom+Value%3d%220.5%22+%2f%3e%3cdenom+Value%3d%220.75%22+%2f%3e%3cdenom+Value%3d%221%22+%2f%3e%3cdenom+Value%3d%221.5%22+%2f%3e%3cdenom+Value%3d%222%22+%2f%3e%3cdenom+Value%3d%223%22+%2f%3e%3cdenom+Value%3d%224%22+%2f%3e%3cdenom+Value%3d%225%22+%2f%3e%3cdenom+Value%3d%227%22+%2f%3e%3cdenom+Value%3d%2210%22+%2f%3e%3c%2fDenominations%3e%3c%2fsettings%3e%3c%2froot%3e%22",
+      "response": "d=104 1\r\n54 20 1 2 3 4 5 7 10 15 20 30 50 75 100 150 200 300 400 500 700 1000 1\r\n57 \"<custom><RTP Value=\\\"96\\\" /></custom>\"\r\n60 96 0 0 1\r\n52 2500000 0 0\r\n83 0\r\n56 1 0 1 0 313467426189681\r\n109\r\n\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 7 7 0 1 2 1 2 7 3 1 1 3 1 0 3 4 0 6 4 0 0 4 2 1 0 2 0 2 7 7 6 1 2 0 0 7 0 6 2 4 2 6 3 0 2 0 0 2 6 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 0 0 2 6 20 13 19 26 33 34 0 0 0 0 0 3 5 3 0 3 1 1 2\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 2 20 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 2\r\n6 20\r\n52 2499920 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 2 1 3 7 0 0 5 2 6 1 1 4 6 1 3 5 3 2 0 6 3 2 5 2 2 1 2 0 2 1 2 0 0 2 1 0 3 0 0 1 6 0 0 2 3 1 0 3 1 1\r\n2 0 0 6 0 0\r\n2 2 1 1\r\n2 2 13 5 7 11 24 39 45\r\n2 2 6 1\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 0 0 1 1\r\n1 10 1 10 2 1 3 7 0 0 5 8 6 1 1 8 6 1 3 5 3 2 0 6 3 2 5 2 8 1 2 0 2 1 2 0 0 2 1 0 3 0 0 8 6 0 0 2 3 8 0 3 1 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 0 3 4 8 24 31 32 39 46 45 38 37 0 0 1 5 4 6 0 2 0 3 2 1 1 0 0\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "7 0",
+      "response": "d=83 0\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 4 40 0 1\r\n\r\n"
+    },
+    {
+      "request": "7 1",
+      "response": "d=83 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 4\r\n6 40\r\n52 2499860 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 0 3 3 0 3 3 5 2 1 0 1 1 4 0 3 2 7 4 2 1 1 3 4 7 4 0 0 4 1 4 2 0 2 2 2 1 3 1 0 0 5 1 1 4 3 2 0 1 5 1\r\n2 0 0 6 0 0\r\n2 2 1 1\r\n2 2 13 4 20 23 45 46\r\n2 2 6 1\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 0 0 1 1\r\n1 10 1 10 0 3 3 0 3 3 5 2 1 0 1 1 4 0 3 2 7 4 2 1 8 3 4 8 4 0 0 4 1 4 2 0 2 2 2 1 3 1 0 0 5 1 1 4 3 8 8 1 5 1\r\n2 0 0 0 1 0\r\n2 2 8 1 2 4 1 10 5 24 17 23 22 29 0 2 1 5 38 31 39 46 45 0 2 5 1 1 1 5 1 6 0 0 1 2 0 3 0 0\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "7 0",
+      "response": "d=83 0\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 11 110 0 1\r\n\r\n"
+    },
+    {
+      "request": "7 1",
+      "response": "d=83 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 11\r\n6 110\r\n52 2499870 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 0 6 5 6 0 1 1 1 3 5 2 3 2 3 4 3 0 1 0 4 1 2 1 5 2 7 4 2 1 6 6 0 5 3 2 5 0 0 0 1 4 7 0 1 3 0 1 4 7 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 0 0 1 5 38 31 45 37 36 0 1 2 1 0 3 3 2 2 0 0 0\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 1 10 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 1\r\n6 10\r\n52 2499780 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 3 5 1 4 5 1 1 4 1 1 4 1 7 2 2 0 0 0 2 3 2 4 6 4 0 0 6 4 5 0 7 2 6 2 0 3 3 4 5 5 0 4 4 1 0 5 0 0 2 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 0 0 1 5 16 17 24 25 15 0 1 0 1 0 2 0 2 1 2 0 0\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 1 10 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 1\r\n6 10\r\n52 2499690 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 4 0 3 2 6 1 6 0 6 4 0 0 4 1 0 6 5 1 0 6 0 1 0 2 3 1 0 0 2 4 7 3 1 1 1 2 4 0 0 0 0 7 4 0 0 0 4 4 3 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 0 0 3 7 38 39 40 45 44 37 43 0 1 3 2 2 6 2 6 2 1 2 1 0 0\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 3 30 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 3\r\n6 30\r\n52 2499620 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 1 0 0 4 0 0 2 0 5 4 0 0 6 1 6 5 2 0 5 1 1 6 1 2 2 5 0 1 3 4 0 4 4 2 3 6 1 4 4 1 1 0 3 1 0 0 5 0 2 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 0 0 1 5 5 4 11 10 17 0 0 0 2 1 4 2 4 3 1 6 0\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 1 10 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 1\r\n6 10\r\n52 2499530 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 0 2 6 3 2 2 2 1 7 0 5 2 2 7 4 0 3 1 4 4 7 2 0 3 0 0 5 1 1 1 0 7 4 4 7 5 2 0 7 0 5 0 0 0 2 3 4 2 0 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 2 0 3 5 5 6 12 11 4 0 0 0 0 2 3 4 2 3 3 1 2\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 3 30 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 3\r\n6 30\r\n52 2499460 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 0 4 5 1 3 1 0 0 6 0 2 2 2 6 2 0 0 0 0 2 2 7 1 4 1 7 0 1 4 0 2 1 2 0 1 1 4 2 3 0 7 1 3 3 0 3 1 1 3 1\r\n2 0 0 0 1 0\r\n2 2 8 1 2 0 0 1 5 16 9 17 18 15 2 0 3 5 11 12 19 20 10 0 1 1 2 7 5 2 6 0 2 2 3 2 0 1 1 3\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 4 40 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 4\r\n6 40\r\n52 2499400 0 0\r\n\r\n"
+    },
+    {
+      "request": "1 10 1 10 1",
+      "response": "d=1 10 1 10 5 1 4 1 1 6 1 0 2 1 6 3 6 1 3 0 4 0 4 0 0 2 6 4 0 1 1 0 2 5 2 1 0 0 0 0 0 3 0 2 3 0 0 5 3 1 5 3 4 1\r\n2 0 0 0 2 0\r\n2 2 8 1 1 0 0 3 7 20 27 34 41 33 32 19 0 0 0 0 1 2 2 1 1 4 0 6 6 0\r\n2 2 8 2 1 1 0 2 5 32 33 34 41 31 0 0 0 1 1 1 2 1 0 2 0 2\r\n2 5 1\r\n\r\n"
+    },
+    {
+      "request": "2 4 0",
+      "response": "d=2 4 0\r\n\r\n"
+    },
+    {
+      "request": "2 4 1",
+      "response": "d=2 4 1\r\n\r\n"
+    },
+    {
+      "request": "2 6",
+      "response": "d=2 6\r\n3 0 5 50 0 1\r\n\r\n"
+    },
+    {
+      "request": "4 0",
+      "response": "d=5 5\r\n6 50\r\n52 2499350 0 0\r\n\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    },
+    {
+      "request": "0",
+      "response": "d=\r\n"
+    }
+  ]
+}

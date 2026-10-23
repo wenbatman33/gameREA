@@ -24,6 +24,8 @@ const reply=(body,mime,status=200)=>new Response(body,{status,headers:{'Content-
  c=boot();assert.strictEqual((await api('auth/balance')).Data.Balance,settled);assert.strictEqual((await api('auth/balance',{},'B')).Data.Balance,250000000);
  const other=await c.self.GAME_PROVIDERS.afa.handle(new Request('https://local/balance'),'api/v1/auth/balance',{...ctx,base:'https://local/other/'});assert.strictEqual((await other.json()).Data.Balance,250000000);
  const settings='ca2501/src/settings.dffed.json';ctx.metadata.files[settings]={file:settings,mime:'application/json'};ctx.text=async()=>JSON.stringify({settings:{ServerHttp:'https://remote',Encrypt:true}});const patched=await(await c.self.GAME_PROVIDERS.afa.handle(new Request('https://local/settings'),settings,ctx)).json();assert.strictEqual(patched.settings.ServerHttp,ctx.virtualBase+'api/v1');assert.strictEqual(patched.settings.Encrypt,false);
+ ctx.metadata.files['ca2501/index.html']={file:'index.html',mime:'text/html'};ctx.text=async()=>'<html><head><title>AFA Gaming</title></head><body></body></html>';
+ for(const quiet of [false,true]){const page=await c.self.GAME_PROVIDERS.afa.handle(new Request(ctx.virtualBase+'ca2501/'),'ca2501/',{...ctx,quiet});const html=await page.text();assert.strictEqual(html.includes('development-mute.js'),quiet);assert(!html.includes('this.suspend()'));}
  console.log(gid+': single/ten draw; worker restart persistence; serialized concurrent draws; storage failure rollback; client/scope isolation PASS');
 }
 })().catch(e=>{console.error(e);process.exitCode=1});

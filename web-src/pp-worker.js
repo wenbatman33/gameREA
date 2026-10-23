@@ -63,6 +63,7 @@
         if(/javascript|json|text\/|xml/i.test(mime)) {
           let body=rewrite(await ctx.text(record),ctx);
           if(path.endsWith('/build.js'))body=contextBuild(body,game.context);
+          if(path.endsWith('/operator_logos/logo_info.js'))body=body.replace('var useRUM = true;','var useRUM = false;');
           return ctx.reply(body,mime);
         }
         return ctx.read(record);

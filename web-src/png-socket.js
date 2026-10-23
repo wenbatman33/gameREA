@@ -20,6 +20,14 @@ class LocalSocket extends EventTarget{
   const text=decoder.decode(b);
   if(text.includes('"protocol"')){this._message('{}\x1e');return}
   if(b.length===3&&b[0]===2&&b[1]===0x91&&b[2]===6){this._message(b.slice().buffer);return}
+  if(this._cfg.engine&&text.includes('ProcessPacket')){
+   const start=text.indexOf('d=');if(start<0)throw Error('Missing local protocol packet');
+   const packet=text.slice(start).split(/\r?\n/),sequence=packet[0].slice(2);
+   const command=packet.slice(2).join('\r\n').replace(/[\r\n\u0090\ufffd]+$/,'');
+   const response=await fetch(this._cfg.api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({command,id:(this._connection||(this._connection=crypto.randomUUID()))+':'+sequence})});
+   if(!response.ok)throw Error(await response.text());
+   this._message(pack(await response.text()));return;
+  }
   if(/\b104 /.test(text)){this._message(pack(this._cfg.init));return}
   if(!text.includes('ProcessPacket'))return;
   const spin=text.match(/\r?\n1 (\d+) (\d+) (\d+)/);
