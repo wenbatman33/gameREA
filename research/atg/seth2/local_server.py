@@ -2,7 +2,7 @@
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
-import copy, json, mimetypes, random, re, threading, time, uuid
+import copy, json, mimetypes, random, re, threading, time, uuid, sys
 
 ROOT = Path(__file__).resolve().parent
 MIRROR = ROOT / 'mirror' / 'play.godeezone1.com'
@@ -11,6 +11,7 @@ PORT = 18767
 STATE_FILE=ROOT/'local-state.json'
 SESSIONS = json.loads(STATE_FILE.read_text())if STATE_FILE.is_file()else{}
 LOCK = threading.Lock()
+DEVELOPMENT_MUTE = '--mute' in sys.argv
 
 def fixtures():
     result = {}
@@ -35,14 +36,20 @@ def state():
     value['view'] = [[1+(r*6+c)%9 for c in range(6)] for r in range(5)]
     return value
 
+def default_settings():
+    return dict(advancedSettings=dict(sounds=dict(backgroundVolume=0.5,effectVolume=0.8),notify=False,turbo=False),
+                autoPlay=dict(numberOfPlays=[10,50,100,-1],stopOnWinMultiplier=False,stopOnBalance=False,stopOnFreeSpin=True,stopOnJackpot=True),
+                stakeIndex=0,ratioIndex=0)
+
 def platform(s):
-    return dict(game=dict(stakeValues=[1,2,5,10,20,50],ratioValues=[0.05,0.1,0.5,1],
+    result = dict(game=dict(stakeValues=[1,2,5,10,20,50],ratioValues=[0.05,0.1,0.5,1],
                           stakeList=[],superMgRealStakeLimit=0),
                 player=dict(name='LOCAL',displayName='本機假資料',id='LOCAL',uid='LOCAL',avatar='0',avatarUrl='',
                             balance=dict(currency='TWD',amount=s['balance'],gemAmount=0),
-                            settings=s.get('settings')or dict(advancedSettings=dict(sounds=dict(backgroundVolume=0,effectVolume=0),notify=False,turbo=False),
-                                          autoPlay=dict(numberOfPlays=[10,50,100,-1],stopOnWinMultiplier=False,stopOnBalance=False,stopOnFreeSpin=True,stopOnJackpot=True),
-                                          stakeIndex=0,ratioIndex=0)),disableRotate=False)
+                            settings=copy.deepcopy(s.get('settings'))or default_settings()),disableRotate=False)
+    if DEVELOPMENT_MUTE:
+        result['player']['settings']['advancedSettings']['sounds']=dict(backgroundVolume=0,effectVolume=0)
+    return result
 
 def definition():
     return dict(winlineDefs=[dict(order=str(i),line=[]) for i in range(20)],
@@ -104,8 +111,14 @@ def bonus_stages(bet,golden,rate=30,multiplier=2):
 
 def respond(name, data, key):
     s = SESSIONS.setdefault(key,dict(balance=10000.0,round=0,pending={},history=[],winRate=30,payoutMultiplier=2,nextFeature='normal',settings=None))
+    if s['settings']is None:s['settings']=default_settings()
+    if not s.get('audioDefaultsVersion'):
+        # Earlier builds stored development mute as the release default.
+        sounds=s['settings']['advancedSettings']['sounds']
+        if sounds==dict(backgroundVolume=0,effectVolume=0):
+            s['settings']['advancedSettings']['sounds']=default_settings()['advancedSettings']['sounds']
+        s['audioDefaultsVersion']=2
     reply = dict(status=200,message='LOCAL SYNTHETIC',eventName=name,token=key,platform=platform(s))
-    if s['settings']is None:s['settings']=copy.deepcopy(reply['platform']['player']['settings'])
     if name == 'initial':
         for old_id in list(s['pending'])[:-1]:close_round(s,old_id)
         pending=next(reversed(s['pending'].values()),None)
@@ -156,9 +169,9 @@ def respond(name, data, key):
             for k in ['stakeIndex','ratioIndex']:
                 if k in changed:s['settings'][k]=changed[k]
             for k in ['turbo','notify','sounds']:
-                if k in changed:s['settings']['advancedSettings'][k]=changed[k]
+                if k in changed and (k!='sounds'or not DEVELOPMENT_MUTE):s['settings']['advancedSettings'][k]=changed[k]
             for k in ['backgroundVolume','effectVolume']:
-                if k in changed:s['settings']['advancedSettings']['sounds'][k]=changed[k]
+                if k in changed and not DEVELOPMENT_MUTE:s['settings']['advancedSettings']['sounds'][k]=changed[k]
     elif name in ['getSlotTables','getSlotTableDetail']:
         reply.update(number=1,roomId='LOCAL',status='available',bet=0,win=0,tables=[],slotTables=[],total=0,page=1)
     elif name=='getBetRecords':

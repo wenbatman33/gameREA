@@ -24,11 +24,11 @@
   "gameAssetsObtained": true,
   "gameProtocolObtained": "Client-side method names and public shipped fixtures analyzed; original server initialization and RNG not captured.",
   "localPlayable": true,
-  "remotePublicationPerformed": false,
+  "remotePublicationPerformed": true,
   "completeOriginalGameRestored": false,
-  "localBackend": "Synthetic loopback JSON, virtual money, default music/effects zero",
+  "localBackend": "Synthetic loopback JSON, virtual money. Release defaults: music 0.5/effects 0.8; development --mute overrides response only.",
   "tests": {
-    "unitTests": 6,
+    "unitTests": 7,
     "auto10": {
       "mode": "turbo",
       "winRate": 0,
@@ -76,7 +76,8 @@
       "music": 0,
       "effects": 0,
       "browserVerified": true
-    }
+    },
+    "releaseAudio": "Unit verified 0.5/0.8 defaults; --mute response 0/0 without persisting development mute."
   },
   "limitations": [
     "Original server RNG/RTP and full mathematical model are not restored.",
@@ -92,5 +93,6 @@
     "local-history.png",
     "local-awakening-locks.png",
     "local-awakening-after.png"
-  ]
+  ],
+  "baselinePublicationCommit": "ae2e5467da7849094882c39c5ace470afe18210c"
 }

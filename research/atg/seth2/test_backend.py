@@ -70,7 +70,7 @@ class LocalRounds(unittest.TestCase):
         self.assertEqual(result['status'],400)
     def test_free_round_count_audio_history_and_force_close(self):
         initial=server.respond('initial',{},'local-extra')
-        self.assertEqual(initial['platform']['player']['settings']['advancedSettings']['sounds'],dict(backgroundVolume=0,effectVolume=0))
+        self.assertEqual(initial['platform']['player']['settings']['advancedSettings']['sounds'],dict(backgroundVolume=0.5,effectVolume=0.8))
         for golden in [False,True]:
             states=server.bonus_stages(1,golden,100,2)
             remaining={x['freeGameCount']for x in states if x['action']=='freeSpin'}
@@ -89,5 +89,15 @@ class LocalRounds(unittest.TestCase):
             item=server.respond('spin',{},'local-extra')['engine']['gameState'][0]
             self.assertGreater(item['totalWinnings'],0)
             self.assertTrue(item['isJp']if feature=='jackpot'else item['noWinReward'])
+    def test_development_mute_does_not_change_release_defaults(self):
+        try:
+            server.DEVELOPMENT_MUTE=True
+            muted=server.respond('initial',{},'local-dev')
+            self.assertEqual(muted['platform']['player']['settings']['advancedSettings']['sounds'],dict(backgroundVolume=0,effectVolume=0))
+            server.respond('updateSettings',{'type':'game','data':{'backgroundVolume':0,'effectVolume':0}},'local-dev')
+            self.assertEqual(server.SESSIONS['local-dev']['settings']['advancedSettings']['sounds'],dict(backgroundVolume=0.5,effectVolume=0.8))
+        finally:server.DEVELOPMENT_MUTE=False
+        normal=server.respond('initial',{},'local-release')
+        self.assertEqual(normal['platform']['player']['settings']['advancedSettings']['sounds'],dict(backgroundVolume=0.5,effectVolume=0.8))
 
 if __name__=='__main__':unittest.main()
