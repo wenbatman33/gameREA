@@ -1,6 +1,7 @@
 const fs=require('node:fs/promises');const vm=require('node:vm');const assert=require('node:assert/strict');
 (async()=>{
- const games=JSON.parse(await fs.readFile(process.argv[2]||'/tmp/pp-worker-test-metadata.json','utf8'));
+ const exportedGames=JSON.parse(await fs.readFile(process.argv[2]||'/tmp/pp-worker-test-metadata.json','utf8'));
+ const games=exportedGames.map(g=>({...g,roundSamples:undefined}));
  const stores=new Map();
  const caches={open:async name=>{
   if(!stores.has(name))stores.set(name,new Map());const map=stores.get(name);
@@ -43,6 +44,40 @@ const fs=require('node:fs/promises');const vm=require('node:vm');const assert=re
  const duplicate=await handler(collectRequest.clone(),route,ctx);assert.equal(duplicate.status,200);assert.equal(await duplicate.text(),credited,'retry after restart credits exactly once');
  const next=chain[collectIndex+1]||chain[0];assert.equal((await handler(request(next.action),route,ctx)).status,200,'next action continues after restored collect');
  const otherBase={...ctx,base:'https://example.test/other-site/'};assert.equal((await handler(request('doCollect'),route,otherBase)).status,409,'base namespaces cannot borrow pending state');
+ for(const game of exportedGames){
+  assert.ok(game.roundSamples.length>=3,game.slug+' complete samples');
+  const ctx={metadata:game,base:'https://example.test/gameREA/',virtualBase:'https://example.test/gameREA/v/pp/'+game.slug+'/',clientId:'random-'+game.slug,quiet:true,
+   text:r=>fs.readFile(r.asset,'utf8'),read:async r=>new Response(await fs.readFile(r.asset)),reply:(b,m,s=200)=>new Response(b,{status:s,headers:{'Content-Type':m}})};
+  let sequence=0,balance=100000;const layouts=new Set();
+  const send=async(action,coin=game.defaultCoin)=>{const i=++sequence,request=new Request(ctx.virtualBase+'gs2c/ge/v5/gameService',{method:'POST',body:new URLSearchParams({action,symbol:game.symbol,c:String(coin),l:String(game.defaultLines),index:String(i),counter:String(i*2-1)})});const response=await handler(request.clone(),'/gs2c/ge/v5/gameService',ctx);assert.equal(response.status,200,game.slug+' '+action);const raw=await response.text();return{data:Object.fromEntries(raw.split('&').map(x=>{const j=x.indexOf('=');return[x.slice(0,j),x.slice(j+1)]})),raw,request};};
+  await send('doInit');
+  for(let round=0;round<20;round++){
+   const win=round%2===0;
+   const configured=await handler(new Request(ctx.virtualBase+'_local/configure',{method:'POST',body:JSON.stringify({nextOutcome:win?'win':'lose'})}),'/_local/configure',ctx);assert.equal(configured.status,200);
+   let result=await send('doSpin'),data=result.data,total=Number(data.tw||0);layouts.add(data.s);
+   assert.equal(Number(data.balance.replace(/,/g,'')),Math.round((balance-2)*100)/100,'debit once at round start');
+   let count=0;
+   while(data.na==='c'||Number(data.w||0)>0){
+    assert.ok(++count<60,'bounded ordinary chain');
+    const next=data.na==='c'?'doCollect':'doSpin';if(count===1)handler=boot();
+    result=await send(next);data=result.data;if(next==='doSpin')total=Number(data.tw||0);
+    if(next==='doCollect'){
+     const duplicate=await handler(result.request.clone(),'/gs2c/ge/v5/gameService',ctx);assert.equal(await duplicate.text(),result.raw,'collect retry is idempotent');break;
+    }
+   }
+   balance=Math.round((balance-2+total)*100)/100;
+   assert.equal(Number(data.balance.replace(/,/g,'')),balance,'debit/credit ledger matches displayed settlement');
+   assert.equal(total>0,win,'requested local outcome class');
+  }
+  await send('doInit');
+  await handler(new Request(ctx.virtualBase+'_local/configure',{method:'POST',body:JSON.stringify({nextOutcome:'win'})}),'/_local/configure',ctx);
+  const coin=Math.round(game.defaultCoin*150)/100,bet=coin*game.defaultLines;
+  let scaled=await send('doSpin',coin),scaledData=scaled.data,award=Number(scaledData.tw||0),guard=0;
+  while(scaledData.na==='c'||Number(scaledData.w||0)>0){assert.ok(++guard<60);const next=scaledData.na==='c'?'doCollect':'doSpin';scaled=await send(next,coin);scaledData=scaled.data;if(next==='doSpin')award=Number(scaledData.tw||0);if(next==='doCollect')break;}
+  assert.equal(Number(scaledData.balance.replace(/,/g,'')),Math.round((100000-bet+award)*100)/100,'changed coin value retains exact settlement');
+  assert.ok(layouts.size>=3,game.slug+' varied ordinary outcomes');
+  console.log('PASS',game.slug,'20 mixed sampled rounds; varied layouts, own outcome control, debit/credit, retry and worker restart');
+ }
  console.log('PASS restart before collect, restart after collect, duplicate-credit protection, next action and scope isolation');
  console.log('PASS',games.length,'PP games;',tested,'consecutive fixture requests; HTML/context rewrite, release/development audio, session isolation and invalid stake');
 })().catch(e=>{console.error(e);process.exitCode=1;});

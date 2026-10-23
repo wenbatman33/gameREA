@@ -12,7 +12,7 @@ Service Worker 回傳模擬 HTTP 資料；Play’n GO 與賽特2另以瀏覽器�
 
 | 供應商 | 遊戲 | 範圍 |
 | --- | --- | --- |
-| Pragmatic Play | Sweet Bonanza POP、Gates of Olympus 2500、The Dog House、Gates of Olympus、Starlight Princess、Big Bass Bonanza、Sugar Rush、Sweet Bonanza | 有限普通旋轉、連消及領獎樣本；保持預設下注 |
+| Pragmatic Play | Sweet Bonanza POP、Gates of Olympus 2500、The Dog House、Gates of Olympus、Starlight Princess、Big Bass Bonanza、Sugar Rush、Sweet Bonanza | 由本機完整普通回合樣本隨機抽樣、連消及領獎；左上角可控中獎比例；完整特殊玩法尚未還原 |
 | Play’n GO | Reactoonz、Book of Dead、Wrappin’ More Gold、Legacy of Dead、Fire Joker、Rise of Olympus、Moon Princess、Gemix | 初始化與普通未中獎回合，虛擬餘額扣點 |
 | AFA | 草船借箭、血戰長坂、火燒赤壁 | 合成一般抽卡；特殊模式尚未還原 |
 | ATG | 戰神賽特2 覺醒之力 | 普通回合、部分免費與公開覺醒樣本；可調整合成結果，不代表原版機率 |
@@ -45,7 +45,7 @@ python3 test_static.py web-build
 
 ## 已知限制
 
-PP 使用有限回合樣本，普通回合會重複；特殊下注、購買及免費遊戲尚未完整還原。Play’n GO 尚無完整中獎與獎勵邏輯。AFA 未完成 SSR 特殊操作、降臨／連勝與購買獎勵。賽特2仍有未觀察的特殊模式與重觸發流程。原版 RNG、RTP、伺服器原始碼均未取得。
+PP 的抽樣選擇、回合狀態、扣點與派彩由 `web-src/pp-worker.js` 控制，可從左上角設定中獎比例或下一局中獎／未中獎。資料來自每款約 20–24 組已下載的完整普通回合；它是有限樣本抽樣，盤面仍可能重複，並非原版機率引擎。特殊下注、購買及免費遊戲尚未完整還原。Play’n GO 尚無完整中獎與獎勵邏輯。AFA 未完成 SSR 特殊操作、降臨／連勝與購買獎勵。賽特2仍有未觀察的特殊模式與重觸發流程。原版 RNG、RTP、伺服器原始碼均未取得。
 
 瀏覽器資料只在本機儲存，沒有跨裝置帳戶；清除網站資料會重設。首次載入、瀏覽器相容性及全部特殊玩法仍需逐款測試，不能保證永遠不會卡住。
 

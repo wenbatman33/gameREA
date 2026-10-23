@@ -1,0 +1,173 @@
+{
+  "slug": "riseofolympus",
+  "noAccount": true,
+  "currency": "DEMO",
+  "source": "bounded public practice command observations; animation ack echo derived from browser trace",
+  "init": "d=104 1\r\n54 16 1 2 3 4 5 10 20 25 50 75 100 150 200 300 400 500 1\r\n57 \"<custom><RTP Value=\\\"96\\\" /></custom>\"\r\n60 96 0 0 1\r\n52 2500000 0 0\r\n83 0\r\n56 0\r\n109\r\n\r\n",
+  "rounds": [
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 0 2 2 0 0 3 4 0 1 2 0 3 3 3 5 1 4 2 1 1 1 4 3 0 5 0 1\r\n2 0 0 0 2 0\r\n2 2 8 1 1 3 11 3 0 3 1\r\n2 2 8 2 1 4 11 3 1 12 2\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 15 75 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 15\r\n6 75\r\n52 2499975 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2500000,
+      "balanceAfter": 2499975,
+      "sourceStake": 100,
+      "win": 75
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 2 4 4 1 6 1 0 1 2 0 3 2 1 3 1 3 4 0 5 4 0 3 0 1 0 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499875 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499975,
+      "balanceAfter": 2499875,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 5 0 2 4 3 6 1 2 2 2 1 2 1 5 3 4 0 0 3 3 6 1 1 4 1 0 1\r\n2 0 0 0 2 0\r\n2 2 8 1 1 2 7 3 0 3 1\r\n2 2 8 2 2 8 3 3 1 8 3 9 3 1 6 2\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 17 85 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 17\r\n6 85\r\n52 2499860 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499875,
+      "balanceAfter": 2499860,
+      "sourceStake": 100,
+      "win": 85
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 1 1 1 0 0 2 1 2 1 5 3 5 2 2 0 0 2 1 0 0 1 5 2 1 1 0 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 1 0 3 0 2 1\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 2 10 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 2\r\n6 10\r\n52 2499770 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499860,
+      "balanceAfter": 2499770,
+      "sourceStake": 100,
+      "win": 10
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 6 0 2 0 1 1 3 3 6 1 3 0 3 1 3 1 1 2 2 0 0 1 2 0 1 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499670 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499770,
+      "balanceAfter": 2499670,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 5 2 6 5 3 4 4 1 1 5 2 1 2 3 2 4 3 4 4 2 2 1 1 0 0 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499570 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499670,
+      "balanceAfter": 2499570,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 6 0 0 5 0 0 1 0 2 0 2 3 1 2 3 2 6 2 4 2 3 3 1 1 5 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499470 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499570,
+      "balanceAfter": 2499470,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 4 0 2 2 0 0 1 0 1 0 0 2 3 2 0 0 6 4 0 5 3 2 3 1 1 0 1\r\n2 0 0 0 5 0\r\n2 2 8 1 2 0 5 3 1 2 0 4 3 1 2 1\r\n2 2 8 2 1 8 15 3 0 8 2\r\n2 2 8 3 1 2 11 3 1 9 3\r\n2 2 8 4 1 3 20 3 0 12 4\r\n2 2 8 5 1 2 12 3 0 15 5\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 48 240 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 48\r\n6 240\r\n52 2499610 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499470,
+      "balanceAfter": 2499610,
+      "sourceStake": 100,
+      "win": 240
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 3 3 2 0 6 0 4 6 1 1 1 2 2 0 3 1 3 1 1 1 0 4 2 0 0 0 1\r\n2 0 0 0 2 0\r\n2 2 8 1 1 1 17 3 0 2 1\r\n2 2 8 2 1 0 13 3 1 4 2\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 6 30 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 6\r\n6 30\r\n52 2499540 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499610,
+      "balanceAfter": 2499540,
+      "sourceStake": 100,
+      "win": 30
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 1 3 6 4 3 1 0 2 0 3 2 2 3 5 2 4 0 5 2 6 2 3 0 2 1 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499440 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499540,
+      "balanceAfter": 2499440,
+      "sourceStake": 100,
+      "win": 0
+    }
+  ],
+  "unresolved": [
+    "d=111 \"Game module failed\"\r\n\r\n",
+    "Incomplete or unsupported feature chain"
+  ]
+}

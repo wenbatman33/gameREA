@@ -1,0 +1,130 @@
+{
+  "slug": "the-dog-house-slot",
+  "currency": "DEMO",
+  "noAccount": true,
+  "source": "bounded public practice API observations",
+  "defaultCoin": 0.1,
+  "defaultLines": 20,
+  "transactions": [
+    {
+      "action": "doInit",
+      "raw": "def_s=9,3,2,3,9,10,4,1,4,10,9,3,2,3,9&balance=100,000.00&cfgs=1&ver=2&index=1&balance_cash=100,000.00&reel_set_size=2&def_sb=8,10,8,11,7&def_sa=8,9,10,11,12&balance_bonus=0.00&na=s&scatters=1~0,0,5,0,0~0,0,0,0,0~1,1,1,1,1&gmb=0,0,0&mbri=1,2,3&rt=d&stime=1792740920696&sa=8,9,10,11,12&sb=8,10,8,11,7&sc=0.01,0.02,0.03,0.04,0.05,0.10,0.20,0.30,0.40,0.50,0.75,1.00,2.00,3.00,4.00,5.00,6.00,7.00,8.00,9.00,10.00,11.00,12.00&defc=0.10&sh=3&wilds=2~0,0,0,0,0~1,1,1,1,1&bonuses=0&fsbonus=&c=0.10&sver=5&n_reel_set=0&counter=2&ntp=0.00&paytable=0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;750,150,50,0,0;500,100,35,0,0;300,60,25,0,0;200,40,20,0,0;150,25,12,0,0;100,20,8,0,0;50,10,5,0,0;50,10,5,0,0;25,5,2,0,0;25,5,2,0,0;25,5,2,0,0&l=20&rtp=96.51&reel_set0=9,8,12,8,10,7,5,11,4,1,3,7,10,13,1,6,9,13,6,11,12~3,6,8,13,7,10,9,11,10,9,6,5,12,2,4,8,11,12,13,7~4,9,13,12,13,7,8,12,6,1,2,10,11,7,5,11,3,10,8,9,6~2,6,10,7,11,13,12,5,9,3,6,7,12,9,13,8,10,11,4,8~8,11,7,6,13,9,10,5,1,12,6,3,8,4,7,10,13,12,11,9&s=9,3,2,3,9,10,4,1,4,10,9,3,2,3,9&reel_set1=12,5,11,9,13,8,13,3,3,3,10,12,11,10,13,11,8,8,9,6,9,10,12,6,3,7,4,7,5~13,11,7,9,4,12,7,3,10,9,8,13,11,10,13,5,6,9,2,7,6,10,12,8,11~6,12,10,13,7,12,5,10,8,7,2,13,3,6,9,8,11,8,5,12,9,4,11,10,9,13~13,9,5,7,13,6,12,11,6,10,13,12,9,7,8,10,4,2,8,7,5,9,11,3,12,8,6,10,11~13,12,11,7,10,11,7,13,4,9,12,6,10,3,3,3,8,6,11,8,9,13,7,9,5,8,12&mbr=1,1,1"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=1.30&balance=99,998.00&index=2&balance_cash=99,998.00&balance_bonus=0.00&na=c&mbri=1,2,3&l0=10~0.80~5~1~7&l1=19~0.50~0~11~12&stime=1792740920963&sa=6,6,10,2,5&sb=10,5,7,6,13&sh=3&c=0.10&sver=5&n_reel_set=0&counter=4&ntp=-2.00&l=20&s=10,8,6,10,8,8,9,8,12,6,9,10,10,7,11&w=1.30&mbr=3,3,2"
+    },
+    {
+      "action": "doCollect",
+      "raw": "balance=99,999.30&index=3&balance_cash=99,999.30&balance_bonus=0.00&na=s&stime=1792740921233&sver=5&counter=6&ntp=-0.70"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=2&tw=0.00&balance=99,997.30&index=4&balance_cash=99,997.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740921501&sa=6,3,9,8,6&sb=9,10,2,5,12&sh=3&c=0.10&sver=5&n_reel_set=0&counter=8&ntp=-2.70&l=20&s=8,9,12,12,8,10,11,6,10,11,4,2,13,7,6&w=0.00&mbp=11&mbr=2,2,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=3&tw=7.50&balance=99,995.30&index=5&balance_cash=99,995.30&balance_bonus=0.00&na=c&mbri=1,2,3&l0=3~7.50~0~6~12&stime=1792740921763&sa=9,6,5,7,5&sb=7,13,12,8,6&sh=3&c=0.10&sver=5&n_reel_set=0&counter=10&ntp=-4.70&l=20&s=5,11,9,4,11,8,5,10,13,8,10,12,2,6,1&w=7.50&mbp=12&mbr=3,3,2"
+    },
+    {
+      "action": "doCollect",
+      "raw": "balance=100,002.80&index=6&balance_cash=100,002.80&balance_bonus=0.00&na=s&stime=1792740922036&sver=5&counter=12&ntp=2.80"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=100,000.80&index=7&balance_cash=100,000.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740922309&sa=11,12,4,12,5&sb=11,6,3,10,6&sh=3&c=0.10&sver=5&n_reel_set=0&counter=14&ntp=0.80&l=20&s=7,8,6,9,11,10,3,7,3,8,6,10,11,7,1&w=0.00&mbr=2,2,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,998.80&index=8&balance_cash=99,998.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740922587&sa=3,11,11,10,8&sb=8,9,2,6,11&sh=3&c=0.10&sver=5&n_reel_set=0&counter=16&ntp=-1.20&l=20&s=13,6,13,12,1,5,12,5,4,6,10,4,12,9,13&w=0.00&mbr=2,2,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,996.80&index=9&balance_cash=99,996.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740922855&sa=6,11,8,8,6&sb=4,2,7,2,12&sh=3&c=0.10&sver=5&n_reel_set=0&counter=18&ntp=-3.20&l=20&s=10,5,1,11,10,9,12,4,9,3,7,13,6,5,13&w=0.00&mbr=3,2,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,994.80&index=10&balance_cash=99,994.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740923125&sa=6,2,7,2,6&sb=13,11,13,6,12&sh=3&c=0.10&sver=5&n_reel_set=0&counter=20&ntp=-5.20&l=20&s=7,9,9,10,8,10,12,12,12,11,3,7,6,7,6&w=0.00&mbr=2,2,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=3&tw=0.00&balance=99,992.80&index=11&balance_cash=99,992.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740923397&sa=9,10,7,5,12&sb=12,4,10,7,13&sh=3&c=0.10&sver=5&n_reel_set=0&counter=22&ntp=-7.20&l=20&s=10,5,1,2,9,7,12,5,10,7,11,13,9,12,5&w=0.00&mbp=3&mbr=3,2,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,990.80&index=12&balance_cash=99,990.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740923669&sa=9,3,6,12,9&sb=6,5,7,6,5&sh=3&c=0.10&sver=5&n_reel_set=0&counter=24&ntp=-9.20&l=20&s=11,10,11,13,5,7,6,5,5,11,10,11,8,11,10&w=0.00&mbr=2,3,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,988.80&index=13&balance_cash=99,988.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740923952&sa=8,9,7,5,11&sb=7,10,13,6,3&sh=3&c=0.10&sver=5&n_reel_set=0&counter=26&ntp=-11.20&l=20&s=4,7,9,11,6,9,13,12,8,12,11,8,6,9,10&w=0.00&mbr=3,3,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=2&tw=0.00&balance=99,986.80&index=14&balance_cash=99,986.80&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740924222&sa=5,9,8,4,3&sb=11,8,7,11,4&sh=3&c=0.10&sver=5&n_reel_set=0&counter=28&ntp=-13.20&l=20&s=8,11,1,13,7,10,2,4,6,9,7,10,6,8,12&w=0.00&mbp=6&mbr=2,2,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=3&tw=1.50&balance=99,984.80&index=15&balance_cash=99,984.80&balance_bonus=0.00&na=c&mbri=1,2,3&l0=15~1.50~5~6~2&stime=1792740924490&sa=8,12,13,11,1&sb=5,13,12,7,8&sh=3&c=0.10&sver=5&n_reel_set=0&counter=30&ntp=-15.20&l=20&s=7,4,2,8,6,9,9,11,12,13,11,7,5,10,11&w=1.50&mbp=2&mbr=2,3,2"
+    },
+    {
+      "action": "doCollect",
+      "raw": "balance=99,986.30&index=16&balance_cash=99,986.30&balance_bonus=0.00&na=s&stime=1792740924760&sver=5&counter=32&ntp=-13.70"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=2&tw=0.00&balance=99,984.30&index=17&balance_cash=99,984.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740925026&sa=13,6,1,9,13&sb=13,9,2,13,11&sh=3&c=0.10&sver=5&n_reel_set=0&counter=34&ntp=-15.70&l=20&s=11,13,5,3,7,1,4,9,8,9,12,7,10,2,5&w=0.00&mbp=13&mbr=3,3,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=3&tw=0.00&balance=99,982.30&index=18&balance_cash=99,982.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740925300&sa=11,8,7,4,9&sb=6,4,10,5,10&sh=3&c=0.10&sver=5&n_reel_set=0&counter=36&ntp=-17.70&l=20&s=1,11,5,2,7,12,6,6,12,5,13,12,1,13,13&w=0.00&mbp=3&mbr=3,3,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,980.30&index=19&balance_cash=99,980.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740925568&sa=6,10,6,6,10&sb=10,12,8,9,7&sh=3&c=0.10&sver=5&n_reel_set=0&counter=38&ntp=-19.70&l=20&s=9,6,4,12,3,7,11,10,5,13,6,5,1,7,12&w=0.00&mbr=2,2,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,978.30&index=20&balance_cash=99,978.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740925836&sa=9,13,13,7,11&sb=11,12,1,3,7&sh=3&c=0.10&sver=5&n_reel_set=0&counter=40&ntp=-21.70&l=20&s=11,4,6,5,8,5,7,4,13,9,8,9,10,9,13&w=0.00&mbr=2,2,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,976.30&index=21&balance_cash=99,976.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740926117&sa=12,8,13,10,5&sb=9,7,1,6,1&sh=3&c=0.10&sver=5&n_reel_set=0&counter=42&ntp=-23.70&l=20&s=9,9,6,12,11,8,10,4,4,10,7,5,10,9,5&w=0.00&mbr=2,3,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,974.30&index=22&balance_cash=99,974.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740926388&sa=12,6,12,11,11&sb=8,12,4,7,7&sh=3&c=0.10&sver=5&n_reel_set=0&counter=44&ntp=-25.70&l=20&s=1,8,10,8,8,13,10,8,12,9,6,5,1,10,13&w=0.00&mbr=3,3,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=3&tw=0.00&balance=99,972.30&index=23&balance_cash=99,972.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740926655&sa=11,12,6,5,13&sb=12,2,11,4,11&sh=3&c=0.10&sver=5&n_reel_set=0&counter=46&ntp=-27.70&l=20&s=12,7,13,7,7,1,11,10,9,9,13,8,2,11,5&w=0.00&mbp=12&mbr=2,3,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=2&tw=0.00&balance=99,970.30&index=24&balance_cash=99,970.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740926929&sa=5,13,4,2,8&sb=1,7,13,10,7&sh=3&c=0.10&sver=5&n_reel_set=0&counter=48&ntp=-29.70&l=20&s=8,2,9,13,10,11,9,7,11,4,12,12,11,8,13&w=0.00&mbp=1&mbr=2,3,3"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=2&tw=2.00&balance=99,968.30&index=25&balance_cash=99,968.30&balance_bonus=0.00&na=c&mbri=1,2,3&l0=15~2.00~5~6~2~8&stime=1792740927197&sa=13,2,11,11,3&sb=13,5,10,13,13&sh=3&c=0.10&sver=5&n_reel_set=0&counter=50&ntp=-31.70&l=20&s=5,9,10,4,8,10,10,6,2,1,8,6,8,12,6&w=2.00&mbp=8&mbr=2,2,2"
+    },
+    {
+      "action": "doCollect",
+      "raw": "balance=99,970.30&index=26&balance_cash=99,970.30&balance_bonus=0.00&na=s&stime=1792740927472&sver=5&counter=52&ntp=-29.70"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=2&tw=0.00&balance=99,968.30&index=27&balance_cash=99,968.30&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740927742&sa=10,13,3,11,13&sb=1,2,10,13,1&sh=3&c=0.10&sver=5&n_reel_set=0&counter=54&ntp=-31.70&l=20&s=6,3,11,4,10,11,9,6,2,3,12,11,13,12,8&w=0.00&mbp=8&mbr=2,2,2"
+    },
+    {
+      "action": "doSpin",
+      "raw": "mbv=3&tw=0.20&balance=99,966.30&index=28&balance_cash=99,966.30&balance_bonus=0.00&na=c&mbri=1,2,3&l0=15~0.20~5~6~2&stime=1792740928016&sa=11,7,5,12,9&sb=6,10,1,9,6&sh=3&c=0.10&sver=5&n_reel_set=0&counter=56&ntp=-33.70&l=20&s=1,11,12,7,12,12,12,10,10,4,13,2,8,11,10&w=0.20&mbp=11&mbr=3,2,2"
+    },
+    {
+      "action": "doCollect",
+      "raw": "balance=99,966.50&index=29&balance_cash=99,966.50&balance_bonus=0.00&na=s&stime=1792740928285&sver=5&counter=58&ntp=-33.50"
+    },
+    {
+      "action": "doSpin",
+      "raw": "tw=0.00&balance=99,964.50&index=30&balance_cash=99,964.50&balance_bonus=0.00&na=s&mbri=1,2,3&stime=1792740928560&sa=7,6,8,5,12&sb=9,12,5,11,13&sh=3&c=0.10&sver=5&n_reel_set=0&counter=60&ntp=-35.50&l=20&s=6,8,11,11,8,10,10,12,6,10,8,5,7,13,4&w=0.00&mbr=2,3,3"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "slug": "bookofdead",
+  "noAccount": true,
+  "currency": "DEMO",
+  "source": "bounded public practice command observations; animation ack echo derived from browser trace",
+  "init": "d=104 1\r\n54 15 1 2 3 4 5 7 10 20 30 40 50 70 100 150 200 1\r\n57 \"<custom><RTP Value=\\\"96\\\" /></custom>\"\r\n60 96 0 0 1\r\n52 2500000 0 0\r\n83 0\r\n109\r\n\r\n",
+  "rounds": [
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 3 1 7 5 2 7 7 0 2 3 8 1 0 5 2 0 2 2 7 2 0 25 8 7 2 0 25 2 2 0 1 6 1 4 2 7 4\r\n3 1 50 100 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 50\r\n6 100\r\n52 2500000 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2500000,
+      "balanceAfter": 2500000,
+      "sourceStake": 100,
+      "win": 100
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 5 8 4 5 3 1 2 0 5 3 6 2 4 1 2 0 2 1 5 2 0 25 7 5 2 0 25 3 2 4 6 9 4 2 0 2 3\r\n3 1 50 100 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 50\r\n6 100\r\n52 2500000 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2500000,
+      "balanceAfter": 2500000,
+      "sourceStake": 100,
+      "win": 100
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 7 2 4 2 0 3 2 4 1 3 6 2 2 6 7 0 1 5 2 3 0 25 0 3 3 1 0 2 2 0 1 1\r\n3 1 25 50 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 25\r\n6 50\r\n52 2499950 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2500000,
+      "balanceAfter": 2499950,
+      "sourceStake": 100,
+      "win": 50
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 4 1 3 0 3 2 4 5 6 4 2 9 2 3 1 0 0 3 8 4 0 6 0 3 1 1 5\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499850 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499950,
+      "balanceAfter": 2499850,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 6 1 0 2 5 0 7 1 3 4 5 2 0 6 1 0 0 3 4 0 1 4 6 0 7 3 3\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499750 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499850,
+      "balanceAfter": 2499750,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 1 5 4 4 8 2 5 6 0 4 3 8 9 5 4 0 0 0 2 0 4 4 2 2 1 3 2\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499650 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499750,
+      "balanceAfter": 2499650,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 0 4 2 3 1 0 3 5 1 3 6 2 3 1 5 0 0 1 3 4 5 7 3 2 0 2 0\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499550 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499650,
+      "balanceAfter": 2499550,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 0 3 4 4 3 0 0 8 1 3 6 0 0 5 2 0 0 6 1 1 6 4 3 1 2 7 4\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499450 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499550,
+      "balanceAfter": 2499450,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 4 3 6 3 1 4 0 2 1 1 6 0 4 7 0 0 0 2 0 2 3 7 0 7 2 0 5\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499350 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499450,
+      "balanceAfter": 2499350,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 1 0 4 0 3 2 4 5 6 6 2 0 4 1 2 0 0 6 2 4 0 6 0 3 5 2 3\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499250 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499350,
+      "balanceAfter": 2499250,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 4 2 6 9 4 5 6 4 5 0 2 4 0 7 2 0 1 7 4 4 1 200 5 0 3 3 2 6 3 3 4 3\r\n3 1 200 400 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 200\r\n6 400\r\n52 2499550 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499250,
+      "balanceAfter": 2499550,
+      "sourceStake": 100,
+      "win": 400
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 8 4 2 9 4 5 5 4 3 4 3 8 3 9 5 0 3 0 4 3 0 25 1 8 2 1 50 7 8 2 1 50 5 0 3 3 0 0 5 0 2 4\r\n3 1 125 250 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 125\r\n6 250\r\n52 2499700 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499550,
+      "balanceAfter": 2499700,
+      "sourceStake": 100,
+      "win": 250
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 0 3 4 3 2 0 4 6 5 4 3 8 3 6 4 0 0 6 1 0 3 2 3 2 1 0 8\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499600 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499700,
+      "balanceAfter": 2499600,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 2 3 5 5 0 3 2 5 7 6 0 2 0 4 7 0 0 8 8 1 9 6 2 1 8 5 0\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499500 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499600,
+      "balanceAfter": 2499500,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 0 7 2 3 2 1 5 9 2 8 1 2 7 2 3 0 0 6 4 1 5 1 0 3 6 0 9\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499400 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499500,
+      "balanceAfter": 2499400,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 4 1 3 1 3 2 7 2 3 6 0 2 0 7 2 0 0 3 8 7 1 5 8 3 7 4 3\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499300 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499400,
+      "balanceAfter": 2499300,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 6 0 3 6 0 4 1 3 6 4 3 0 5 4 2 0 2 1 6 2 0 25 7 6 2 0 25 3 4 1 8 7 7 5 2 9 0\r\n3 1 50 100 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 50\r\n6 100\r\n52 2499300 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499300,
+      "balanceAfter": 2499300,
+      "sourceStake": 100,
+      "win": 100
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 2 3 1 4 3 1 2 3 8 0 2 8 6 1 3 0 1 0 3 3 0 25 4 7 1 0 7 5 6 1 0 5\r\n3 1 25 50 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 25\r\n6 50\r\n52 2499250 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499300,
+      "balanceAfter": 2499250,
+      "sourceStake": 100,
+      "win": 50
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 0 7 2 1 4 3 7 3 5 3 8 0 1 5 0 0 0 6 4 6 1 0 1 4 4 3 2\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499150 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499250,
+      "balanceAfter": 2499150,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 3 6 0 0 3 9 3 7 5 0 2 4 2 4 1 0 2 6 6 2 1 25 9 6 2 1 25 4 3 5 4 1 2 3 3 5 2\r\n3 1 50 100 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 50\r\n6 100\r\n52 2499150 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499150,
+      "balanceAfter": 2499150,
+      "sourceStake": 100,
+      "win": 100
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 2 4 3 2 7 1 0 6 1 2 0 5 2 3 1 0 0 7 6 5 3 2 5 6 4 1 5\r\n3 1 0 0 0 1\r\n6 0\r\n52 2499050 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499150,
+      "balanceAfter": 2499050,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 4 2 3 5 2 7 3 0 4 4 2 9 3 4 6 0 0 0 1 0 1 4 2 3 1 8 1\r\n3 1 0 0 0 1\r\n6 0\r\n52 2498950 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499050,
+      "balanceAfter": 2498950,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 2 0 1 4 3 1 5 1 3 4 3 8 0 6 1 0 1 8 1 3 0 25 4 5 1 0 3 7 2 1 3 3\r\n3 1 25 50 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 25\r\n6 50\r\n52 2498900 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2498950,
+      "balanceAfter": 2498900,
+      "sourceStake": 100,
+      "win": 50
+    },
+    {
+      "stages": [
+        {
+          "request": "1 5 10 2 1",
+          "response": "d=1 5 10 2 3 6 0 3 1 0 5 2 4 2 7 1 9 5 4 0 0 4 3 0 2 7 8 0 6 3 2\r\n3 1 0 0 0 1\r\n6 0\r\n52 2498800 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2498900,
+      "balanceAfter": 2498800,
+      "sourceStake": 100,
+      "win": 0
+    }
+  ],
+  "unresolved": []
+}

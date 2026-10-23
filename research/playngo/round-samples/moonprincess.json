@@ -1,0 +1,185 @@
+{
+  "slug": "moonprincess",
+  "noAccount": true,
+  "currency": "DEMO",
+  "source": "bounded public practice command observations; animation ack echo derived from browser trace",
+  "init": "d=104 1\r\n54 16 1 2 3 4 5 10 20 25 50 75 100 150 200 300 400 500 1\r\n57 \"<custom><RTP Value=\\\"96\\\" /></custom>\"\r\n60 96 0 0 1\r\n52 2500000 0 0\r\n83 0\r\n56 1\r\n109\r\n\r\n",
+  "rounds": [
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 0 6 2 3 6 1 0 1 3 0 0 4 1 0 4 1 0 2 2 5 0 0 1 1 0 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499900 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2500000,
+      "balanceAfter": 2499900,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 4 1 2 6 0 0 1 3 0 0 3 2 2 6 3 1 6 0 4 2 1 0 2 0 1 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499800 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499900,
+      "balanceAfter": 2499800,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 2 4 5 2 6 0 1 1 3 3 6 3 2 2 4 2 5 2 2 4 4 1 1 3 5 0 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 8 14 3 1 4 1\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 4 20 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 4\r\n6 20\r\n52 2499720 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499800,
+      "balanceAfter": 2499720,
+      "sourceStake": 100,
+      "win": 20
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 0 6 2 2 5 0 2 3 1 4 1 1 2 0 0 3 4 0 4 2 1 1 2 2 5 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499620 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499720,
+      "balanceAfter": 2499620,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 0 6 2 0 0 3 3 3 6 1 4 3 2 0 3 1 0 3 5 0 3 3 2 6 1 0 1\r\n2 0 0 0 1 0\r\n2 2 8 1 1 3 5 3 0 3 1\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 3 15 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 3\r\n6 15\r\n52 2499535 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499620,
+      "balanceAfter": 2499535,
+      "sourceStake": 100,
+      "win": 15
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 0 2 6 2 6 2 0 5 1 1 2 3 2 3 2 6 3 0 5 5 0 3 1 1 0 0 1\r\n2 0 0 0 3 0\r\n2 2 8 1 1 3 11 3 1 3 1\r\n2 2 8 2 2 2 10 3 0 6 1 21 3 0 4 2\r\n2 2 8 3 1 0 20 3 0 6 3\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 19 95 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 19\r\n6 95\r\n52 2499530 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499535,
+      "balanceAfter": 2499530,
+      "sourceStake": 100,
+      "win": 95
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 6 2 2 2 3 3 0 3 1 5 5 3 3 1 3 2 4 2 6 0 0 3 2 2 2 0 1\r\n2 0 0 0 4 0\r\n2 2 8 1 2 2 1 3 0 3 2 22 3 0 3 1\r\n2 2 8 2 1 3 7 3 1 6 2\r\n2 2 8 3 1 8 16 3 0 12 3\r\n2 2 8 4 1 1 13 3 1 8 4\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 32 160 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 32\r\n6 160\r\n52 2499590 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499530,
+      "balanceAfter": 2499590,
+      "sourceStake": 100,
+      "win": 160
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 3 4 1 5 2 0 1 0 1 1 2 3 2 3 2 1 4 5 0 0 2 0 3 5 3 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499490 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499590,
+      "balanceAfter": 2499490,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 2 5 3 0 4 0 2 2 2 3 0 1 3 0 6 3 1 0 3 2 0 6 2 4 4 0 1\r\n2 0 0 0 2 0\r\n2 2 8 1 1 2 6 3 0 3 1\r\n2 2 8 2 1 3 2 3 1 6 2\r\n2 5 1\r\n\r\n"
+        },
+        {
+          "request": "2 6",
+          "response": "d=2 6\r\n3 0 9 45 0 1\r\n\r\n"
+        },
+        {
+          "request": "4 0",
+          "response": "d=5 9\r\n6 45\r\n52 2499435 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499490,
+      "balanceAfter": 2499435,
+      "sourceStake": 100,
+      "win": 45
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 5 3 2 4 3 5 0 1 0 6 1 3 0 0 1 6 3 1 5 1 0 0 2 4 2 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499335 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499435,
+      "balanceAfter": 2499335,
+      "sourceStake": 100,
+      "win": 0
+    },
+    {
+      "stages": [
+        {
+          "request": "1 20 1 5 1",
+          "response": "d=1 20 1 5 3 4 2 0 4 0 3 3 1 0 2 3 2 3 5 1 5 3 1 4 1 6 2 0 0 0 0\r\n3 0 0 0 0 1\r\n6 0\r\n52 2499235 0 0\r\n\r\n"
+        }
+      ],
+      "balanceBefore": 2499335,
+      "balanceAfter": 2499235,
+      "sourceStake": 100,
+      "win": 0
+    }
+  ],
+  "unresolved": [
+    "d=111 \"Game module failed\"\r\n\r\n",
+    "Incomplete or unsupported feature chain"
+  ]
+}

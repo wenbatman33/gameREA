@@ -24,7 +24,7 @@ self.GAME_PROVIDERS.png={async handle(request,pathWithQuery,ctx){
   if(!/(javascript|json|html|css|text\/)/.test(mime))return ctx.read(record);
   body=await ctx.text(record);
  }
- body=body.replace(/"has(?:Avif|Webp|Jp2)"\s*:\s*true/g,x=>x.replace(/true$/,'false'));
+ if(m.forceRasterFallback!==false)body=body.replace(/"has(?:Avif|Webp|Jp2)"\s*:\s*true/g,x=>x.replace(/true$/,'false'));
  const hosts=['cdn.playngonetwork.com','released.playngonetwork.com','ascflyp.playngonetwork.com','asccw.playngonetwork.com','pc-prod-eu.playngonetwork.com'];
  for(const h of hosts)for(const proto of ['https://','http://','//'])body=body.split(proto+h).join(ctx.virtualBase+'o/'+h);
  if(/html/.test(mime)){

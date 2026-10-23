@@ -22,7 +22,7 @@
   function fresh(meta) {
     const value = clone(meta.fixtures.spin1.engine.gameState.at(-1));
     Object.assign(value,{action:'spin',totalStake:1,freeGameCount:0,superMainGameCount:0,isGoldenFg:false,isJp:'',currentTimes:0,roundWinnings:0,totalWinnings:0,totalViews:1,currentView:0,startFreeGame:false,noWinReward:0,winSymbols:[],timesSymbols:[],newTimesSymbols:[],splitList:[],posTransform:[],maleTotemLevel:0,femaleTotemLevel:0});
-    value.view=Array.from({length:5},(_,r)=>Array.from({length:6},(_,c)=>1+(r*6+c)%9));
+    const bag=Array.from({length:30},(_,i)=>1+i%9);for(let i=29;i>0;i--){const j=Math.floor(Math.random()*(i+1));[bag[i],bag[j]]=[bag[j],bag[i]];}value.view=Array.from({length:5},(_,r)=>bag.slice(r*6,r*6+6));
     return value;
   }
   function platform(s,quiet) {
@@ -32,7 +32,7 @@
   }
   function definition(){return {winlineDefs:Array.from({length:20},(_,i)=>({order:String(i),line:[]})),winDefs:[],symbolDefs:Array.from({length:19},(_,i)=>({symbol:String(i+1),displayName:'symbol_'+(i+1),isWild:false})),digital:2,winOddsTypes:{big:20,super:50,mega:100,ultra:200,legendary:500},extraFgRounds:5,buyFeature:[{feature:'freeSpin',featureIndex:0,featureRate:100}],prizeAutoNextDelay:2,autoConfirmTime:2,autoSpinInterval:0.3,smallPrizeDelay:0,bigPrizeDelay:1.2,viewDefs:{type:'grid',view:Array.from({length:5},(_,r)=>Array.from({length:6},(_,c)=>String(r*6+c)))}};}
   function close(s,id){const p=s.pending[id];if(p){delete s.pending[id];s.balance=money(s.balance+p.win);p.endTime=Date.now();s.history.push(p);}}
-  function ordinary(meta,bet,hit,mult){const first=fresh(meta);first.totalStake=bet;if(!hit)return[first];const amount=money(bet*mult);for(let p=0;p<8;p++)first.view[Math.floor(p/6)][p%6]=6;Object.assign(first,{winSymbols:[{symbol:6,winnings:amount,symbolPos:[0,1,2,3,4,5,6,7]}],roundWinnings:amount,totalWinnings:amount,totalViews:2});const last=fresh(meta);Object.assign(last,{totalStake:bet,roundWinnings:amount,totalWinnings:amount,totalViews:2,currentView:1});return[first,last];}
+  function ordinary(meta,bet,hit,mult){const first=fresh(meta);first.totalStake=bet;if(!hit)return[first];const amount=money(bet*mult);const positions=Array.from({length:30},(_,i)=>i);for(let i=29;i>0;i--){const j=Math.floor(Math.random()*(i+1));[positions[i],positions[j]]=[positions[j],positions[i]];}const winners=positions.slice(0,8);first.view=first.view.map(row=>row.map(v=>v===6?7:v));for(const p of winners)first.view[Math.floor(p/6)][p%6]=6;Object.assign(first,{winSymbols:[{symbol:6,winnings:amount,symbolPos:winners}],roundWinnings:amount,totalWinnings:amount,totalViews:2});const last=fresh(meta);Object.assign(last,{totalStake:bet,roundWinnings:amount,totalWinnings:amount,totalViews:2,currentView:1});return[first,last];}
   function bonus(meta,bet,golden,rate,mult){
     const intro=fresh(meta);Object.assign(intro,{totalStake:bet,startFreeGame:true,freeGameCount:15,isGoldenFg:golden});for(let p=0;p<4;p++)intro.view[Math.floor(p/6)][p%6]=golden&&p===3?16:15;
     const stages=[intro];let remaining=14;

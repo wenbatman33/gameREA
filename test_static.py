@@ -1,9 +1,10 @@
 """Exercise provider contracts and the generated static package without a backend."""
 from pathlib import Path
-import argparse, importlib.util, json, subprocess, tempfile
+import argparse, importlib.util, json, subprocess, tempfile, sys
 
 ROOT=Path(__file__).resolve().parent
 SOURCE=ROOT/'web-src'
+sys.path.insert(0,str(SOURCE))
 
 def main(output):
     with tempfile.TemporaryDirectory(prefix='game-rea-tests-')as directory:
@@ -15,7 +16,7 @@ def main(output):
             path=temporary/(provider+'.json')
             path.write_text(json.dumps(metadata[0]if provider=='seth'else metadata,ensure_ascii=False))
             subprocess.run(['node',str(SOURCE/name),str(path)],check=True,cwd=ROOT)
-        for name in ['test_png_socket.js','test_afa_protocol.js']:
+        for name in ['test_png_socket.js','test_png_format_policy.js','test_afa_protocol.js']:
             subprocess.run(['node',str(SOURCE/name)],check=True,cwd=ROOT)
         subprocess.run(['node',str(SOURCE/'test_static_routing.js'),str(Path(output).resolve())],check=True,cwd=ROOT)
 

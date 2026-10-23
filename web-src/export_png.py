@@ -1,5 +1,6 @@
 """Export eight acquired Play'n GO clients without runtime upstream dependencies."""
 import base64,json,re
+from round_samples import png_rounds
 from pathlib import Path
 from urllib.parse import urlsplit
 GAMES=['reactoonz','bookofdead','wrappinmoregold','legacyofdead','firejoker','riseofolympus','moonprincess','gemix']
@@ -16,7 +17,7 @@ def export(root:Path,out:Path,put_asset):
  for old in GAMES[:3]:
   p=source/old
   for row in json.loads((p/'network.json').read_text())['responses']:
-   if row.get('method')=='GET'and row.get('file'):shared.append((p,row))
+   if row.get('method')=='GET'and row.get('file')and row.get('phase'):shared.append((p,row))
  for slug in GAMES:
   files={};configuration=None;prelaunch=None;lookup=None
   def add(folder,row):
@@ -32,7 +33,7 @@ def export(root:Path,out:Path,put_asset):
   if slug in GAMES[:3]:
    folder=source/slug;cap=json.loads((folder/'network.json').read_text())
    for row in cap['responses']:
-    if row.get('method')=='GET'and row.get('file'):add(folder,row)
+    if row.get('method')=='GET'and row.get('file')and row.get('phase'):add(folder,row)
    frames=next(w['frames']for w in cap['websockets']if'gamehub'in w['url'])
    init=next(_packet(f)for f in frames if f['direction']=='received'and f['phase']=='load'and len(f['payload'])>40)
    rounds=[[_packet(f)]for f in frames if f['direction']=='received'and f['phase']=='spin'and len(f['payload'])>40]
@@ -53,7 +54,7 @@ def export(root:Path,out:Path,put_asset):
   complete=[text]+complete[1:]
   result.append(dict(provider='png',slug=slug,title=NAMES[slug],
    entry=f'o/released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid={slug}&lang=en_GB&practice=1&channel=desktop&demo=2',
-   files=files,configuration=configuration,prelaunch=prelaunch,lookup=lookup,
-   protocol=dict(init=init,rounds=[complete],balance=2500000),
+   forceRasterFallback=slug not in GAMES[:3],files=files,configuration=configuration,prelaunch=prelaunch,lookup=lookup,
+   protocol=dict(init=init,rounds=[complete],balance=2500000,samples=png_rounds(root,slug)),
    scope='observed nonwinning base-round fixture with local virtual balance; bonuses/math not restored'))
  return result

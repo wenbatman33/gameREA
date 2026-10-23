@@ -1,5 +1,6 @@
 """Export captured PP runtime dependencies and finite virtual-demo fixtures."""
 import json
+from round_samples import pp_rounds
 from pathlib import Path
 from urllib.parse import urlsplit,parse_qs
 TITLES={'sweet-bonanza-pop':'Sweet Bonanza POP','gates-of-olympus-2500':'Gates of Olympus 2500','the-dog-house-slot':'The Dog House','gates-of-olympus':'Gates of Olympus','starlight-princess':'Starlight Princess','big-bass-bonanza':'Big Bass Bonanza','sugar-rush':'Sugar Rush','sweet-bonanza':'Sweet Bonanza'}
@@ -35,8 +36,9 @@ def export(root:Path,out:Path,put_asset):
         if entry is None or init is None:raise ValueError(f'Missing PP initial runtime: {p}')
         fields=dict(x.split('=',1)for x in init.split('&')if'='in x)
         uri=urlsplit(entry['url'])
+        stake=float(fields.get('c',fields.get('defc','0.1')))*int(fields.get('l','20'))
         games.append(dict(provider='pp',slug=game['slug'],title=TITLES.get(game['slug'],game['slug']),symbol=game['symbol'],entry=uri.path+'?'+uri.query,
             entryRecord=packed(folder,entry),static={path:packed(f,r)for path,(f,r)in static.items()},fixtures=fixtures,
-            context=context,defaultCoin=float(fields.get('c',fields.get('defc','0.1'))),defaultLines=int(fields.get('l','20')),
+            roundSamples=pp_rounds(root,game['slug'],stake),allowedCoins=[float(x)for x in fields.get('cs',str(float(fields.get('c',fields.get('defc','0.1'))))).split(',')],simulation={'winRate':35},context=context,defaultCoin=float(fields.get('c',fields.get('defc','0.1'))),defaultLines=int(fields.get('l','20')),
             quietScript=put_asset(new/'development-mute.js'),limitations='有限普通回合樣本循環；固定預設下注；未還原原版機率與完整獎勵模式'))
     return games
