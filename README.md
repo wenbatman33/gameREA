@@ -21,14 +21,22 @@ Hacksaw 與 Queenmaker 的失敗項目只保留研究檔案，不列入遊玩首
 
 ## 開發及驗證
 
-建置靜音開發版並以純靜態伺服器預覽，刻意使用 `/gameREA/` 子路徑模擬 GitHub Pages：
+使用者驗證入口保留正常聲音，刻意使用 `/gameREA/` 子路徑模擬 GitHub Pages：
 
 ```sh
-python3 build_static.py --output .static-preview/gameREA --mute
+python3 build_static.py --output .static-preview/gameREA
 python3 -m http.server 18768 --bind 127.0.0.1 --directory .static-preview
 ```
 
 開啟 <http://127.0.0.1:18768/gameREA/>。這個 HTTP 伺服器僅提供檔案，不處理遊戲 API 或 WebSocket。
+
+代理自行測試時，另外建置獨立靜音入口；不得將使用者驗證入口改成靜音：
+
+```sh
+python3 build_static.py --output .static-preview/development-muted --mute
+```
+
+靜音入口為 <http://127.0.0.1:18768/development-muted/>，具有獨立 Service Worker 範圍。音訊模式變更後，須重新從首頁開啟遊戲，讓啟動器更新 Service Worker 並重新載入遊戲。
 
 發布版預設正常音量：
 

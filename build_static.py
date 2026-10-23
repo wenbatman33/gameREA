@@ -52,6 +52,8 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
         href=f'launch.html?provider={game["provider"]}&amp;game={game["slug"]}'
         cards.append(f'<article>{image}<small>{html.escape(game["provider"])}</small><h2>{html.escape(game["title"])}</h2><p>{html.escape(status)}</p><a href="{href}">開啟試作 ↗</a></article>')
     page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;background:#080b10;border-radius:6px}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>20 款研究試作，完整玩法尚未驗收完成。可直接在瀏覽器開啟，無需安裝或啟動本機服務。使用原版前端與有限回合樣本／模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>普通回合樣本仍可能重複。購買、賭倍及完整免費玩法尚未完成。</footer></main></html>'''
+    audio_mode='代理開發測試：強制靜音' if quiet else '使用者試玩：正常聲音（進入遊戲後可調整音效）'
+    page=page.replace('</header>',f'<p data-audio-mode="{"muted" if quiet else "normal"}">{audio_mode}</p></header>')
     (output/'index.html').write_text(page)
     shutil.rmtree(output/'.staging',ignore_errors=True)
     # Rebuilds must not keep obsolete generated assets in the deployment.
