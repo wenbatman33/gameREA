@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Taipei",
+  "target": "戰神賽特2 覺醒之力",
+  "officialProductPage": "https://www.atg-games.com/games/slot/storm-of-seth-2-awakening",
+  "ageConfirmation": "User explicitly confirmed 18+ and authorized the confirmation. Modal no longer visible.",
+  "demoEntry": "https://demo-api.godeebxp.com/trail/golden-seth?lang=en&brand=rgs",
+  "demoObservations": [
+    {
+      "action": "Click official DEMO",
+      "visiblePage": "502 Bad Gateway",
+      "serverText": "nginx/1.27.5"
+    },
+    {
+      "action": "Reload demo once",
+      "visiblePage": "502 Bad Gateway",
+      "serverText": "nginx/1.27.5"
+    }
+  ],
+  "statusEvidence": "Browser-rendered error page; not a retained HTTP-header capture.",
+  "screenshot": "official-demo-502.png",
+  "havespringEntry": "User completed phone verification; client intro and machine selection loaded from an authenticated launch. No real wager placed.",
+  "gameClientObtained": true,
+  "gameAssetsObtained": true,
+  "gameProtocolObtained": "Client-side method names and public shipped fixtures analyzed; original server initialization and RNG not captured.",
+  "localPlayable": true,
+  "remotePublicationPerformed": false,
+  "completeOriginalGameRestored": false,
+  "localBackend": "Synthetic loopback JSON, virtual money, default music/effects zero",
+  "tests": {
+    "unitTests": 6,
+    "auto10": {
+      "mode": "turbo",
+      "winRate": 0,
+      "balanceBefore": 10000,
+      "balanceAfter": 9990,
+      "returnedToMain": true
+    },
+    "normalHit": {
+      "winRate": 100,
+      "payoutMultiplier": 2,
+      "balanceBefore": 9990,
+      "balanceAfter": 9991
+    },
+    "jackpotMini": "Synthetic prize 2; original MINI animation and click confirmation returned to main, balance 9992.",
+    "treasure": "Synthetic prize 2; round settled and main remained operable, balance 9993; animation not retained.",
+    "buyFree": {
+      "cost": 100,
+      "balanceBefore": 10000,
+      "balanceAfter": 9900,
+      "freeSpins": 15,
+      "returnedToMain": true,
+      "continuationUsesSameSpinId": true
+    },
+    "records": "Browser showed one buy-free round: stake 100, profit -100.",
+    "history": "Browser showed bet 100, win 0, profit -100, count 1.",
+    "awakening": {
+      "countFixRetested": true,
+      "balanceBefore": 9900,
+      "stake": 1,
+      "prize": 2675,
+      "balanceAfter": 12574,
+      "returnedToMain": true,
+      "scope": "Public shipped lock/split sample followed by synthetic free rounds; not all original combinations."
+    },
+    "mute": "Original settings UI visibly showed music 0 and effects 0 again after page reload.",
+    "postAwakeningNextSpin": {
+      "balanceBefore": 12574,
+      "balanceAfter": 12573,
+      "returnedToMain": true
+    },
+    "reloadIdle": {
+      "balance": 12573,
+      "winRate": 30,
+      "payoutMultiplier": 2,
+      "music": 0,
+      "effects": 0,
+      "browserVerified": true
+    }
+  },
+  "limitations": [
+    "Original server RNG/RTP and full mathematical model are not restored.",
+    "Definition and payouts are synthetic; awakening sample prize is not controlled by normal hit rate.",
+    "Full machine hall, rankings, replay, date filters and all bonus combinations are not validated.",
+    "Pending-round persistence has backend tests; full browser resume not yet validated."
+  ],
+  "screenshots": [
+    "local-muted.png",
+    "local-auto10.png",
+    "local-buy-free-after.png",
+    "local-records.png",
+    "local-history.png",
+    "local-awakening-locks.png",
+    "local-awakening-after.png"
+  ]
+}

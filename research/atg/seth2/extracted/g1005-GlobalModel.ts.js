@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/GlobalModel.ts",["cc"],(function(e){"use strict";var t;return{setters:[function(e){t=e.cclegacy}],execute:function(){t._RF.push({},"42f90NVoY9ILa2yvM+nUK5q","GlobalModel",void 0);var n=e("GlobalModel",function(){function e(){}return e.GetCurrSpinData=function(){return e.GameStates&&e.GameStates.length>0&&e.GameStates[e.currSpinIndex]||null},e}());n.InitialResponse=void 0,n.GameStates=[],n.Platform=void 0,n.SpinResponse=void 0,n.currSpinIndex=0,n.isInit=!1,t._RF.pop()}}}));
+

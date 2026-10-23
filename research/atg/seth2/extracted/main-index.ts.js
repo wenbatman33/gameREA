@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/index.ts",["cc","./state.ts","./fsm.ts"],(function(t){"use strict";var n;return{setters:[function(t){n=t.cclegacy},function(n){t("isState",n.isState)},function(n){var i={};i.InvalidConstructor=n.InvalidConstructor,i.InvalidTransition=n.InvalidTransition,i.StateMachine=n.StateMachine,i.randomUUID=n.randomUUID,t(i)}],execute:function(){n._RF.push({},"f39b9vVhDNKqKjZS2C/2qc7","index",void 0),n._RF.pop()}}}));
+

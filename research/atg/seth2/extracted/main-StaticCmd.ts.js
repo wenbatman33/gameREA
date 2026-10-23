@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/StaticCmd.ts",["cc","./StaticConfig.ts"],(function(t){"use strict";var n,i,c;return{setters:[function(t){n=t.cclegacy},function(t){i=t.initial,c=t.spin}],execute:function(){n._RF.push({},"fe94ax4zHxIAKBHy5c0OFVK","StaticCmd",void 0);t("default",function(){function t(){}return t.getInitial=function(){return i},t.getSpin=function(){return c},t}());n._RF.pop()}}}));
+

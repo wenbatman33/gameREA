@@ -5,6 +5,8 @@ node_modules/
 *.log
 *missing-requests.jsonl
 *local-api.jsonl
+*local-state.json
+*local-state.tmp
 
 # Original PG saves contain launch credentials and are not runtime inputs.
 /*.html

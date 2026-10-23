@@ -1,0 +1,1266 @@
+{
+  "assets": [
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/game.css",
+      "name": "game.css",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/style.css",
+      "name": "style.css",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/public/atg.png",
+      "name": "atg.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/system.bundle.js",
+      "name": "system.bundle.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/polyfills.bundle.js",
+      "name": "polyfills.bundle.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/app.js",
+      "name": "app.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/atg.json",
+      "name": "atg.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/public/bg_blur.jpg",
+      "name": "bg_blur.jpg",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/images/logos/atg.png",
+      "name": "atg.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/import-map.json",
+      "name": "import-map.json",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/index.js",
+      "name": "index.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/application.js",
+      "name": "application.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/cocos-js/cc.js",
+      "name": "cc.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/settings.json",
+      "name": "settings.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/public/favicon.ico",
+      "name": "favicon.ico",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/internal/config.json",
+      "name": "config.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/internal/index.js",
+      "name": "index.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/internal/import/09/0993db64b.json",
+      "name": "0993db64b.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/CryptoJS.js",
+      "name": "CryptoJS.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/MotionPathPlugin.min.js",
+      "name": "MotionPathPlugin.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/forge.min.js",
+      "name": "forge.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/gsap.min.js",
+      "name": "gsap.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/mobile-detect.min.js",
+      "name": "mobile-detect.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/pako.min.js",
+      "name": "pako.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/protobuf.min.js",
+      "name": "protobuf.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/framework/plugin/Extentions.js",
+      "name": "Extentions.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/bundles/slotFramework/assets/vendor/mpg123-decoder.min.js",
+      "name": "mpg123-decoder.min.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/framework/core/net/socketIO/socket.io.js",
+      "name": "socket.io.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/chunks/bundle.js",
+      "name": "bundle.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/config.json",
+      "name": "config.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/index.js",
+      "name": "index.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/config.json",
+      "name": "config.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/index.js",
+      "name": "index.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/import/ed/ed1c7a5d-01d8-4ed0-9393-741fe7f675a0.json",
+      "name": "ed1c7a5d-01d8-4ed0-9393-741fe7f675a0.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/06/06d8faba7.json",
+      "name": "06d8faba7.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/01/01b2083ae.json",
+      "name": "01b2083ae.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/import/09/096be1ab4.json",
+      "name": "096be1ab4.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/b8/b80e1fc4-38ad-41cb-8a13-ed36ad54ac24.json",
+      "name": "b80e1fc4-38ad-41cb-8a13-ed36ad54ac24.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/7d/7dfe24c9-4465-4059-a762-11bf13c7fac1.json",
+      "name": "7dfe24c9-4465-4059-a762-11bf13c7fac1.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/7f/7fcfc232-ceb2-4b95-8c23-5ad30ed31bee.json",
+      "name": "7fcfc232-ceb2-4b95-8c23-5ad30ed31bee.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/3e/3e8965eb-cf9e-4542-b1f5-93891a50a8c9.json",
+      "name": "3e8965eb-cf9e-4542-b1f5-93891a50a8c9.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/0a/0a2e11c5b.json",
+      "name": "0a2e11c5b.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/81/8139f8bd-a152-4bb4-8128-738ff137f4fe.json",
+      "name": "8139f8bd-a152-4bb4-8128-738ff137f4fe.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/0f/0fd5de922.json",
+      "name": "0fd5de922.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/38/38fa38b4-bda9-4e6b-9406-c33c4f73b3de.json",
+      "name": "38fa38b4-bda9-4e6b-9406-c33c4f73b3de.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/import/01/01bdf3eac.json",
+      "name": "01bdf3eac.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/45/459ab307-ecdc-45d1-8801-f32e2c814063@f9941.json",
+      "name": "459ab307-ecdc-45d1-8801-f32e2c814063@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/f1/f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.cconb",
+      "name": "f1c9ecd3-0c2e-483d-b7aa-dfb1fd120ae2.cconb",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/02/02eccb599.json",
+      "name": "02eccb599.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/e1/e12af973-80aa-4fd8-9c83-e21a1c14b9a6.cconb",
+      "name": "e12af973-80aa-4fd8-9c83-e21a1c14b9a6.cconb",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/native/38/38fa38b4-bda9-4e6b-9406-c33c4f73b3de.pem",
+      "name": "38fa38b4-bda9-4e6b-9406-c33c4f73b3de.pem",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/import/0e/0e9049185.json",
+      "name": "0e9049185.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/0c/0cbb11310.json",
+      "name": "0cbb11310.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/native/b7/b730527c-3233-41c2-aaf7-7cdab58f9749.png",
+      "name": "b730527c-3233-41c2-aaf7-7cdab58f9749.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/native/20/20835ba4-6145-4fbc-a58a-051ce700aa3e.png",
+      "name": "20835ba4-6145-4fbc-a58a-051ce700aa3e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/native/95/951249e0-9f16-456d-8b85-a6ca954da16b.png",
+      "name": "951249e0-9f16-456d-8b85-a6ca954da16b.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/native/54/544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png",
+      "name": "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/native/11/11bdc4b0-64a8-4eb7-a2a7-9fb9e233e977.png",
+      "name": "11bdc4b0-64a8-4eb7-a2a7-9fb9e233e977.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/main/native/15/158e7e52-3220-4cd7-9694-713e0e6e8278.png",
+      "name": "158e7e52-3220-4cd7-9694-713e0e6e8278.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/native/19/199a3e420.png",
+      "name": "199a3e420.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png",
+      "name": "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/native/45/459ab307-ecdc-45d1-8801-f32e2c814063.png",
+      "name": "459ab307-ecdc-45d1-8801-f32e2c814063.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/manifest.json?1792731536894",
+      "name": "manifest.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/config.json",
+      "name": "config.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/index.js",
+      "name": "index.js",
+      "kind": "script"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/03/03cff9250.json",
+      "name": "03cff9250.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0b/0baa46b8c.json",
+      "name": "0baa46b8c.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/05/05fe2c850.json",
+      "name": "05fe2c850.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0f/0f8da33cb.json",
+      "name": "0f8da33cb.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/2c/2c2ab6a2-0211-490a-9340-22003322452b.json",
+      "name": "2c2ab6a2-0211-490a-9340-22003322452b.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/92/92625a3d-f5c7-47c9-b718-7079402c36f1.json",
+      "name": "92625a3d-f5c7-47c9-b718-7079402c36f1.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/09/094d3e975.json",
+      "name": "094d3e975.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0d/0deb22f78.json",
+      "name": "0deb22f78.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/import/09/09f9ae430.json",
+      "name": "09f9ae430.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/1b/1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.cconb",
+      "name": "1b88e54c-9cc7-4dfc-9d1a-2c2ccde2079c.cconb",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/87/8725a5c0-9e04-44d9-b234-eb5cf8ccb422.json",
+      "name": "8725a5c0-9e04-44d9-b234-eb5cf8ccb422.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/f3/f3a02d52-64f8-496b-ac78-7581fa77ad0e.json",
+      "name": "f3a02d52-64f8-496b-ac78-7581fa77ad0e.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/05/059451ebf.json",
+      "name": "059451ebf.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/assets/resources/native/57/57520716-48c8-4a19-8acf-41c9f8777fb0.png",
+      "name": "57520716-48c8-4a19-8acf-41c9f8777fb0.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/06/067ae0238.json",
+      "name": "067ae0238.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/62/62661cda-ac85-43b7-861d-64268860bfcf.json",
+      "name": "62661cda-ac85-43b7-861d-64268860bfcf.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/6c/6c842c60-fda1-4e71-8cd7-f7eedcb26a4e.json",
+      "name": "6c842c60-fda1-4e71-8cd7-f7eedcb26a4e.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/2a/2aa8a6ad-556d-4ba1-9de5-d4e5558a0775.json",
+      "name": "2aa8a6ad-556d-4ba1-9de5-d4e5558a0775.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/9f/9fd900dd-221b-4f89-8f2c-fba34243c835.png",
+      "name": "9fd900dd-221b-4f89-8f2c-fba34243c835.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/38/38baa838-b158-435c-b3c7-01fb615ac655.png",
+      "name": "38baa838-b158-435c-b3c7-01fb615ac655.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/01/010fa5430.json",
+      "name": "010fa5430.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/df/df805c52-964c-4f5f-bcb9-734862fff19a.png",
+      "name": "df805c52-964c-4f5f-bcb9-734862fff19a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/eb/eb98cb5f-eb38-4f11-b88c-4328cb395407.png",
+      "name": "eb98cb5f-eb38-4f11-b88c-4328cb395407.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ae/ae777c4d-8d4a-42bb-981d-fc1a0dcac120.png",
+      "name": "ae777c4d-8d4a-42bb-981d-fc1a0dcac120.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/dd/ddabce16-0ffd-4aa6-b56f-c8f7992cad53.png",
+      "name": "ddabce16-0ffd-4aa6-b56f-c8f7992cad53.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ea/eac9821a-9218-4556-a5fb-da0cb605253d.png",
+      "name": "eac9821a-9218-4556-a5fb-da0cb605253d.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/67/674a7f1f-eaf3-4ba0-8fc2-c2ab82303f97.png",
+      "name": "674a7f1f-eaf3-4ba0-8fc2-c2ab82303f97.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/a7/a7b587b4-38d6-43dd-85f3-85b21fb623e4.png",
+      "name": "a7b587b4-38d6-43dd-85f3-85b21fb623e4.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/06/06f0422d-775c-4382-9330-22f1f3a01a8a.png",
+      "name": "06f0422d-775c-4382-9330-22f1f3a01a8a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/5e/5e43654e-59dc-4959-be4a-06e7976d4a3b.png",
+      "name": "5e43654e-59dc-4959-be4a-06e7976d4a3b.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/80/80336bb4-8d91-4e50-9339-28010ff05232.png",
+      "name": "80336bb4-8d91-4e50-9339-28010ff05232.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/2f/2f3ad8a1-6ab1-4bc1-885b-e456063caf5a.png",
+      "name": "2f3ad8a1-6ab1-4bc1-885b-e456063caf5a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/40/408e9524-98b5-491f-8951-859a5e9b9769.png",
+      "name": "408e9524-98b5-491f-8951-859a5e9b9769.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/76/765d4cb9-3774-427d-a5d8-b3fadd07f70f.png",
+      "name": "765d4cb9-3774-427d-a5d8-b3fadd07f70f.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/6e/6e28b0b6-4398-4313-bbe8-0131a65f6f14.png",
+      "name": "6e28b0b6-4398-4313-bbe8-0131a65f6f14.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/39/3972de67-fd6f-4e9d-a217-23ee3ae10481.png",
+      "name": "3972de67-fd6f-4e9d-a217-23ee3ae10481.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/24/247aae02-071e-46be-b801-783f7ebb5ce6.png",
+      "name": "247aae02-071e-46be-b801-783f7ebb5ce6.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/fd/fd0c7ff0-1f11-423d-b136-258082f7936d.png",
+      "name": "fd0c7ff0-1f11-423d-b136-258082f7936d.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/24/24a704da-2867-446d-8d1a-5e920c75e09d.png",
+      "name": "24a704da-2867-446d-8d1a-5e920c75e09d.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/65/65665f79-9c03-49cb-a0cc-0f11f56debe9.png",
+      "name": "65665f79-9c03-49cb-a0cc-0f11f56debe9.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ed/ed1d1cfa-efc6-41ce-bbb9-64cf5cae5221.png",
+      "name": "ed1d1cfa-efc6-41ce-bbb9-64cf5cae5221.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/c9/c9df3540-c710-4d14-b6fb-125376a0c724.png",
+      "name": "c9df3540-c710-4d14-b6fb-125376a0c724.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/40/40d3dd20-e2a1-4529-ae04-d4b16764dd1e.png",
+      "name": "40d3dd20-e2a1-4529-ae04-d4b16764dd1e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/94/94910fe2-a839-480a-a4e9-d5a8017156e3.png",
+      "name": "94910fe2-a839-480a-a4e9-d5a8017156e3.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/33/33627ee3-a646-4d6f-bcf6-8c8312ab49ca.png",
+      "name": "33627ee3-a646-4d6f-bcf6-8c8312ab49ca.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/7e/7ec16bb9-1b4a-40fe-b5de-65f851d1a4ce.png",
+      "name": "7ec16bb9-1b4a-40fe-b5de-65f851d1a4ce.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/7e/7e31c33c-f05f-4440-91fa-8e0bce5e8b5f.png",
+      "name": "7e31c33c-f05f-4440-91fa-8e0bce5e8b5f.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/d2/d23cc902-31fb-4dd9-a1e6-223cbf048190.png",
+      "name": "d23cc902-31fb-4dd9-a1e6-223cbf048190.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/b9/b97130b4-9019-490a-9d82-6dcc92679832.png",
+      "name": "b97130b4-9019-490a-9d82-6dcc92679832.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/81/81963400-7f03-44a0-b801-0d045f91cad2.png",
+      "name": "81963400-7f03-44a0-b801-0d045f91cad2.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/86/86553409-11cf-4b06-a5b1-0ea52b9cb75c.png",
+      "name": "86553409-11cf-4b06-a5b1-0ea52b9cb75c.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/f2/f2d99a5c-26a8-43c4-a9dc-235203c02905.png",
+      "name": "f2d99a5c-26a8-43c4-a9dc-235203c02905.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/b7/b79c7a3f-4b40-42c2-bb0e-4a54ce159485.png",
+      "name": "b79c7a3f-4b40-42c2-bb0e-4a54ce159485.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/d6/d6004d49-0e95-4384-ad67-3815540c7dd1.png",
+      "name": "d6004d49-0e95-4384-ad67-3815540c7dd1.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/65/658e8159-a777-43d1-9aac-166723542175.png",
+      "name": "658e8159-a777-43d1-9aac-166723542175.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/a0/a0595af3-e5ce-4419-a670-987c9d65fe7e.png",
+      "name": "a0595af3-e5ce-4419-a670-987c9d65fe7e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/4b/4be87f12-96d0-47a5-af76-772b3353140f.png",
+      "name": "4be87f12-96d0-47a5-af76-772b3353140f.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/65/65f4f7fa-f86d-4f56-8500-43f19fa78b51.png",
+      "name": "65f4f7fa-f86d-4f56-8500-43f19fa78b51.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/c5/c5b9c136-aa69-439f-8883-874d400e0f12.png",
+      "name": "c5b9c136-aa69-439f-8883-874d400e0f12.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/98/98e15dd4-c0c0-4345-80e6-2d1bf1f2f284.png",
+      "name": "98e15dd4-c0c0-4345-80e6-2d1bf1f2f284.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/56/560398a6-4fb8-43c2-b25c-30fa9bc187c6.png",
+      "name": "560398a6-4fb8-43c2-b25c-30fa9bc187c6.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/dd/dd6c1a3f-b790-4611-a9f1-8a1e77c4c76b.png",
+      "name": "dd6c1a3f-b790-4611-a9f1-8a1e77c4c76b.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/76/768cac02-440b-459d-bc08-ac5e8b873312.png",
+      "name": "768cac02-440b-459d-bc08-ac5e8b873312.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/dd/dda74569-cd42-4079-b914-e3d6bc85e480.png",
+      "name": "dda74569-cd42-4079-b914-e3d6bc85e480.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/a9/a9ccf109-81c8-4ad0-9f2f-10db20d1bb80.png",
+      "name": "a9ccf109-81c8-4ad0-9f2f-10db20d1bb80.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/bb/bbbe6fbc-9a38-48c9-8765-2722bbe852fd.png",
+      "name": "bbbe6fbc-9a38-48c9-8765-2722bbe852fd.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/a3/a3d74e89-4f11-4aae-944a-7e9fa855fd0d.png",
+      "name": "a3d74e89-4f11-4aae-944a-7e9fa855fd0d.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/d0/d001e635-2d3f-4b6c-9e25-5468b70df143.png",
+      "name": "d001e635-2d3f-4b6c-9e25-5468b70df143.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/c7/c71ce26f-ba81-49f7-9406-c8278a1ed214.png",
+      "name": "c71ce26f-ba81-49f7-9406-c8278a1ed214.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/b6/b69e96b6-4de5-4be8-84f9-b4a12e25fbdd.png",
+      "name": "b69e96b6-4de5-4be8-84f9-b4a12e25fbdd.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/76/7625fa55-48c8-44f4-bba2-66309771a0a4.png",
+      "name": "7625fa55-48c8-44f4-bba2-66309771a0a4.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/12/12f78a07-23d2-470c-beb9-5604261b10ab.png",
+      "name": "12f78a07-23d2-470c-beb9-5604261b10ab.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/8e/8ef157ae-3945-463e-8e37-f366c3465c4e.png",
+      "name": "8ef157ae-3945-463e-8e37-f366c3465c4e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/9b/9be12071-8dc9-47d8-aa91-7f1c87e2f4b7.png",
+      "name": "9be12071-8dc9-47d8-aa91-7f1c87e2f4b7.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/0f/0f5ed7a9-ce21-45c9-a8d4-e22144672c1a.png",
+      "name": "0f5ed7a9-ce21-45c9-a8d4-e22144672c1a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/eb/eb842c82-1d5c-48dd-99c7-0a0579a50600.png",
+      "name": "eb842c82-1d5c-48dd-99c7-0a0579a50600.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/56/56865294-3b92-47a4-94e1-9157dbd4d7f2.png",
+      "name": "56865294-3b92-47a4-94e1-9157dbd4d7f2.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/e0/e0a28f99-4a63-432b-9dbf-54aac4c0e11f.png",
+      "name": "e0a28f99-4a63-432b-9dbf-54aac4c0e11f.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/2e/2e3a454b-e299-4cd1-bb8a-b79b51259edf.png",
+      "name": "2e3a454b-e299-4cd1-bb8a-b79b51259edf.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ae/ae819a6d-e30a-47a6-b730-84f3c99245fa.png",
+      "name": "ae819a6d-e30a-47a6-b730-84f3c99245fa.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/01/012d54e7-6f7a-408a-8563-df58ae7cd0a0.png",
+      "name": "012d54e7-6f7a-408a-8563-df58ae7cd0a0.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/9d/9d6e8a53-e142-49f6-88e0-04f7da0c73a0.png",
+      "name": "9d6e8a53-e142-49f6-88e0-04f7da0c73a0.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/48/487eef01-8fc8-4d8c-8786-e2995cc9fe01.png",
+      "name": "487eef01-8fc8-4d8c-8786-e2995cc9fe01.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/25/25a8a0ee-cab0-4635-be38-3ae591340720.png",
+      "name": "25a8a0ee-cab0-4635-be38-3ae591340720.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ad/adc19f74-2c4d-4347-8750-305cd2ddd34b.png",
+      "name": "adc19f74-2c4d-4347-8750-305cd2ddd34b.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/83/83ba3b15-bfa5-4d22-8593-cd17ddcf6357.png",
+      "name": "83ba3b15-bfa5-4d22-8593-cd17ddcf6357.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/e7/e74fd7dc-4af1-4d30-b0b2-defe4759e8fa.png",
+      "name": "e74fd7dc-4af1-4d30-b0b2-defe4759e8fa.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/c4/c4f10250-9252-4948-b4a0-efa237bf87a2.png",
+      "name": "c4f10250-9252-4948-b4a0-efa237bf87a2.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/5c/5ccaef12-d577-4d80-ae51-ed25f621f90e.png",
+      "name": "5ccaef12-d577-4d80-ae51-ed25f621f90e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/d6/d66c7c92-1621-4e75-9c1d-a97b44e65cf2.png",
+      "name": "d66c7c92-1621-4e75-9c1d-a97b44e65cf2.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/48/48ccc0a8-a2c0-4e2c-98b6-75c1609117fe.png",
+      "name": "48ccc0a8-a2c0-4e2c-98b6-75c1609117fe.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/56/566f1aca-83e0-41b0-bdfe-b405c33ed44a.png",
+      "name": "566f1aca-83e0-41b0-bdfe-b405c33ed44a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/56/56e3b4b5-d999-455e-abe4-c67ae25cc4ab.png",
+      "name": "56e3b4b5-d999-455e-abe4-c67ae25cc4ab.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/d8/d840e70b-4b9a-4fec-b901-1a462d7a2dc8.png",
+      "name": "d840e70b-4b9a-4fec-b901-1a462d7a2dc8.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/70/70b21ee2-30fa-48cc-af80-8b5a976803eb.png",
+      "name": "70b21ee2-30fa-48cc-af80-8b5a976803eb.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/6a/6aa9ad3e-56b5-4815-aecd-5e03c6ea7aed.png",
+      "name": "6aa9ad3e-56b5-4815-aecd-5e03c6ea7aed.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ca/ca893669-816f-447a-8180-7841382a1b12.png",
+      "name": "ca893669-816f-447a-8180-7841382a1b12.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/34/345986be-1d87-4382-a65b-043e1dcf8df3.png",
+      "name": "345986be-1d87-4382-a65b-043e1dcf8df3.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/52/52da1748-f17e-45c1-bb1e-cfc7719b799e.png",
+      "name": "52da1748-f17e-45c1-bb1e-cfc7719b799e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/09/09c4e98be.json",
+      "name": "09c4e98be.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/26/26bc71e4-57c0-4ea5-9147-ecb7cc6014cb.json",
+      "name": "26bc71e4-57c0-4ea5-9147-ecb7cc6014cb.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/e3/e3b131a9-8ad9-4aa2-8a2e-e79c9c5fa93e.json",
+      "name": "e3b131a9-8ad9-4aa2-8a2e-e79c9c5fa93e.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/bf/bfbccd51-e8e2-4a09-9f89-b75c05789634.png",
+      "name": "bfbccd51-e8e2-4a09-9f89-b75c05789634.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/77/77807125-6e58-44f2-ba7d-0ba845a17fc5.png",
+      "name": "77807125-6e58-44f2-ba7d-0ba845a17fc5.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/17/177b92f2-798b-403a-b6a6-dfb06d4eec5c.png",
+      "name": "177b92f2-798b-403a-b6a6-dfb06d4eec5c.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/4b/4bd650c4-a874-404c-8d3c-97d210e912cf.png",
+      "name": "4bd650c4-a874-404c-8d3c-97d210e912cf.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/6f/6f6daaf6-f9cf-4177-8c40-b3485418aab4.png",
+      "name": "6f6daaf6-f9cf-4177-8c40-b3485418aab4.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/f6/f6c5ca8a-a0ff-4752-b84f-db11117042c3.png",
+      "name": "f6c5ca8a-a0ff-4752-b84f-db11117042c3.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ad/ad7b6208-72f6-4d93-b47c-1b0e64d00127.png",
+      "name": "ad7b6208-72f6-4d93-b47c-1b0e64d00127.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/79/793a9145-3f7c-48ea-8120-89dc4b2b85c3.png",
+      "name": "793a9145-3f7c-48ea-8120-89dc4b2b85c3.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/84/84ad7e1c-c7f6-4fc2-9092-55e99cdc1daa.png",
+      "name": "84ad7e1c-c7f6-4fc2-9092-55e99cdc1daa.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/17/173ea891-bb7c-49ec-85eb-3d30578453b4.png",
+      "name": "173ea891-bb7c-49ec-85eb-3d30578453b4.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/4a/4ab68cf7-57d6-42bb-9ebd-25353ebc54c6.png",
+      "name": "4ab68cf7-57d6-42bb-9ebd-25353ebc54c6.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/94/94d4ddae-ee5a-473d-a554-cea9583f9635.cconb",
+      "name": "94d4ddae-ee5a-473d-a554-cea9583f9635.cconb",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/1e/1e568be1-5fd5-472c-94d3-fdc5fe31809c.cconb",
+      "name": "1e568be1-5fd5-472c-94d3-fdc5fe31809c.cconb",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/87/87437ac5-15a9-468c-8974-ad7ee656a3a0.png",
+      "name": "87437ac5-15a9-468c-8974-ad7ee656a3a0.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/a3/a36036ae-fb15-406c-9475-4d32c869e752.png",
+      "name": "a36036ae-fb15-406c-9475-4d32c869e752.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/b0/b0dd5c7e-0e51-4290-b47e-9f4e51b96f4f.png",
+      "name": "b0dd5c7e-0e51-4290-b47e-9f4e51b96f4f.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/e4/e45db480-c673-4d46-b2e9-efc2fd2a76d4.png",
+      "name": "e45db480-c673-4d46-b2e9-efc2fd2a76d4.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/bc/bcb614a1-1676-4353-b20d-f19beafd7e5e.json",
+      "name": "bcb614a1-1676-4353-b20d-f19beafd7e5e.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/85/85a9d35c-473c-4463-93e0-cfbe13157587@f9941.json",
+      "name": "85a9d35c-473c-4463-93e0-cfbe13157587@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0d/0df3bad89.json",
+      "name": "0df3bad89.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0a/0a78bf522.json",
+      "name": "0a78bf522.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0f/0f19b77b-67af-4ba8-8811-99ef42ae3dc3@f9941.json",
+      "name": "0f19b77b-67af-4ba8-8811-99ef42ae3dc3@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/9f/9f8ec612-ed5c-49a3-b6c8-73516fb159b1.jpg",
+      "name": "9f8ec612-ed5c-49a3-b6c8-73516fb159b1.jpg",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0c/0c5b4f9f-d4bd-41b4-a604-4d9e387acaf5@f9941.json",
+      "name": "0c5b4f9f-d4bd-41b4-a604-4d9e387acaf5@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/0f/0f19b77b-67af-4ba8-8811-99ef42ae3dc3.png",
+      "name": "0f19b77b-67af-4ba8-8811-99ef42ae3dc3.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/40/40cddf0c-1891-4fcf-ba71-2425021727ad.png",
+      "name": "40cddf0c-1891-4fcf-ba71-2425021727ad.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/0f/0f1484e0-81db-459a-8c13-271b494048c2.png",
+      "name": "0f1484e0-81db-459a-8c13-271b494048c2.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/85/85a9d35c-473c-4463-93e0-cfbe13157587.png",
+      "name": "85a9d35c-473c-4463-93e0-cfbe13157587.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/0c/0c5b4f9f-d4bd-41b4-a604-4d9e387acaf5.jpg",
+      "name": "0c5b4f9f-d4bd-41b4-a604-4d9e387acaf5.jpg",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0a/0a859806e.json",
+      "name": "0a859806e.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/07/07421163-4ece-40b6-a95b-9f5c8f823c1e.png",
+      "name": "07421163-4ece-40b6-a95b-9f5c8f823c1e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/62/62cdcef2-2ab3-47dc-9ec6-66bd19e2508e.png",
+      "name": "62cdcef2-2ab3-47dc-9ec6-66bd19e2508e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/88/8846f7ef-3b9a-45b7-9ad8-eacec894a51f.jpg",
+      "name": "8846f7ef-3b9a-45b7-9ad8-eacec894a51f.jpg",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/dd/ddda0a21-6493-4479-bc30-319875d77c0a@f9941.json",
+      "name": "ddda0a21-6493-4479-bc30-319875d77c0a@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/ce/ce9f80c4-5e0b-4635-b94d-5ab4942176f4@f9941.json",
+      "name": "ce9f80c4-5e0b-4635-b94d-5ab4942176f4@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/9a/9a371ce8-2695-4907-b35b-feb40de79622@f9941.json",
+      "name": "9a371ce8-2695-4907-b35b-feb40de79622@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/ce/cee8f85d-312b-44a1-ab0e-c61ca0c627ee@f9941.json",
+      "name": "cee8f85d-312b-44a1-ab0e-c61ca0c627ee@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/c5/c5c79f7f-4e74-4112-ae8b-a126a7cb07bc@f9941.json",
+      "name": "c5c79f7f-4e74-4112-ae8b-a126a7cb07bc@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/dd/ddda0a21-6493-4479-bc30-319875d77c0a.png",
+      "name": "ddda0a21-6493-4479-bc30-319875d77c0a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/9a/9a371ce8-2695-4907-b35b-feb40de79622.png",
+      "name": "9a371ce8-2695-4907-b35b-feb40de79622.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ce/ce9f80c4-5e0b-4635-b94d-5ab4942176f4.png",
+      "name": "ce9f80c4-5e0b-4635-b94d-5ab4942176f4.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/bf/bfe9529c-4c87-497c-973c-0c33cdc6f500@f9941.json",
+      "name": "bfe9529c-4c87-497c-973c-0c33cdc6f500@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/bf/bfe9529c-4c87-497c-973c-0c33cdc6f500.png",
+      "name": "bfe9529c-4c87-497c-973c-0c33cdc6f500.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/c5/c5c79f7f-4e74-4112-ae8b-a126a7cb07bc.png",
+      "name": "c5c79f7f-4e74-4112-ae8b-a126a7cb07bc.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/ce/cee8f85d-312b-44a1-ab0e-c61ca0c627ee.png",
+      "name": "cee8f85d-312b-44a1-ab0e-c61ca0c627ee.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/89/89744eb7-c911-4e19-bb13-be7c848a3f7b@f9941.json",
+      "name": "89744eb7-c911-4e19-bb13-be7c848a3f7b@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/76/7615745a-e909-4684-8d3e-3236c5b02f7a@f9941.json",
+      "name": "7615745a-e909-4684-8d3e-3236c5b02f7a@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/50/502b397d-d2b0-47ea-a781-dc8750e127e8@f9941.json",
+      "name": "502b397d-d2b0-47ea-a781-dc8750e127e8@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/89/89744eb7-c911-4e19-bb13-be7c848a3f7b.png",
+      "name": "89744eb7-c911-4e19-bb13-be7c848a3f7b.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/50/502b397d-d2b0-47ea-a781-dc8750e127e8.png",
+      "name": "502b397d-d2b0-47ea-a781-dc8750e127e8.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/76/7615745a-e909-4684-8d3e-3236c5b02f7a.png",
+      "name": "7615745a-e909-4684-8d3e-3236c5b02f7a.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/33/3324faf7-f350-422b-a254-4d67ca0457f9@f9941.json",
+      "name": "3324faf7-f350-422b-a254-4d67ca0457f9@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/01/010196aa-574c-4a70-853c-332da418cd3e@f9941.json",
+      "name": "010196aa-574c-4a70-853c-332da418cd3e@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/df/dfd5f6c9-6d95-4731-b7d9-65a14403156b@f9941.json",
+      "name": "dfd5f6c9-6d95-4731-b7d9-65a14403156b@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/01/010196aa-574c-4a70-853c-332da418cd3e.png",
+      "name": "010196aa-574c-4a70-853c-332da418cd3e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/df/dfd5f6c9-6d95-4731-b7d9-65a14403156b.png",
+      "name": "dfd5f6c9-6d95-4731-b7d9-65a14403156b.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/b7/b7fd3040-6c17-4b4d-94b4-8aa4076bde53@f9941.json",
+      "name": "b7fd3040-6c17-4b4d-94b4-8aa4076bde53@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/91/91aba00f-9cea-4abe-a64c-4924cb471ff7@f9941.json",
+      "name": "91aba00f-9cea-4abe-a64c-4924cb471ff7@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/33/3324faf7-f350-422b-a254-4d67ca0457f9.png",
+      "name": "3324faf7-f350-422b-a254-4d67ca0457f9.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/56/56bef76a-6595-4e24-a3ec-9b2859e0c1cc@f9941.json",
+      "name": "56bef76a-6595-4e24-a3ec-9b2859e0c1cc@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/91/91aba00f-9cea-4abe-a64c-4924cb471ff7.png",
+      "name": "91aba00f-9cea-4abe-a64c-4924cb471ff7.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/56/56bef76a-6595-4e24-a3ec-9b2859e0c1cc.png",
+      "name": "56bef76a-6595-4e24-a3ec-9b2859e0c1cc.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0c/0c3a2bfb5.json",
+      "name": "0c3a2bfb5.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/56/56a4fda6-9494-4b0c-aff2-9c8d648a9f10@f9941.json",
+      "name": "56a4fda6-9494-4b0c-aff2-9c8d648a9f10@f9941.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/b7/b7fd3040-6c17-4b4d-94b4-8aa4076bde53.png",
+      "name": "b7fd3040-6c17-4b4d-94b4-8aa4076bde53.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/08/084f252d9.json",
+      "name": "084f252d9.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/56/56a4fda6-9494-4b0c-aff2-9c8d648a9f10.png",
+      "name": "56a4fda6-9494-4b0c-aff2-9c8d648a9f10.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0a/0a5025235.json",
+      "name": "0a5025235.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/e7/e7c2a752-fdb5-4e2e-bcfc-2bc91b377544.png",
+      "name": "e7c2a752-fdb5-4e2e-bcfc-2bc91b377544.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/0d/0d0a1aed2.json",
+      "name": "0d0a1aed2.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/import/05/051483027.json",
+      "name": "051483027.json",
+      "kind": "other"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/d9/d9a19d32-dc41-4869-bb66-bf8d7a87a648.png",
+      "name": "d9a19d32-dc41-4869-bb66-bf8d7a87a648.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/4b/4bc658a9-9807-47b3-ab78-84de9812215c.png",
+      "name": "4bc658a9-9807-47b3-ab78-84de9812215c.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/42/429a099b-0b95-4ddc-a368-ef3a1e9ef296.png",
+      "name": "429a099b-0b95-4ddc-a368-ef3a1e9ef296.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/df/dfc90f57-2d8e-407e-be5f-904f6ce726dc.png",
+      "name": "dfc90f57-2d8e-407e-be5f-904f6ce726dc.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/c1/c1b79fb6-f379-4d1f-8525-7a819fad18ca.png",
+      "name": "c1b79fb6-f379-4d1f-8525-7a819fad18ca.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/88/88a7a286-4f15-4702-b3ab-58700d22dd73.png",
+      "name": "88a7a286-4f15-4702-b3ab-58700d22dd73.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/45/4546303b-69c5-493c-a288-d3b06d61bec8.png",
+      "name": "4546303b-69c5-493c-a288-d3b06d61bec8.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/55/55faeb2c-5722-4fbd-8504-ff9575b1bdd7.png",
+      "name": "55faeb2c-5722-4fbd-8504-ff9575b1bdd7.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/43/431ec6e7-827b-495e-ae0b-19cc5337122f.png",
+      "name": "431ec6e7-827b-495e-ae0b-19cc5337122f.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/54/548655d3-7123-4ebe-9a61-9364ac05d87e.png",
+      "name": "548655d3-7123-4ebe-9a61-9364ac05d87e.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/8c/8c094490-20fa-4b77-b7b7-462289310c60.png",
+      "name": "8c094490-20fa-4b77-b7b7-462289310c60.png",
+      "kind": "image"
+    },
+    {
+      "url": "https://play.godeezone1.com/slotFramework/14ee78206168302dd5e294aaa97f5c0b21de68f5/native/7f/7fec6894-0040-4fd4-af66-900587769968.png",
+      "name": "7fec6894-0040-4fd4-af66-900587769968.png",
+      "kind": "image"
+    }
+  ],
+  "summary": {
+    "byKind": {
+      "font": 0,
+      "image": 147,
+      "other": 79,
+      "script": 22,
+      "stylesheet": 2,
+      "video": 0
+    },
+    "inlineSvgCount": 0,
+    "totalCount": 250
+  }
+}

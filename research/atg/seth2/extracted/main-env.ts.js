@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/env.ts",["cc","./Config.ts"],(function(e){"use strict";var r,t;return{setters:[function(e){r=e.cclegacy},function(e){t=e.EEnv}],execute:function(){var s,n;e("ENV",void 0),r._RF.push({},"0b8ef08Ar9CNape5zymCeww","env",void 0),s||(s=e("ENV",{})),(n=s||(s=e("ENV",{}))).local={env:t.LOCAL,apiUrl:"",socketUrl:"",baseUrl:"https://play.riversense.tw"},n.dev={env:t.DEV,apiUrl:"",socketUrl:"",baseUrl:""},n.prod={env:t.PROD,apiUrl:"",socketUrl:"",baseUrl:""},r._RF.pop()}}}));
+

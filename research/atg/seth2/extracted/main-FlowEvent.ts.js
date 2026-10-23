@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/FlowEvent.ts",["./rollupPluginModLoBabelHelpers.js","cc","./BaseEvent.ts"],(function(e){"use strict";var t,n,o;return{setters:[function(e){t=e.inheritsLoose},function(e){n=e.cclegacy},function(e){o=e.BaseEvent}],execute:function(){n._RF.push({},"b115ctfVDBOXI3fhj1Fquw9","FlowEvent",void 0);e("FlowEvent",function(e){function n(t,n,o){var u;return(u=e.call(this,t,n)||this).autoComplete=!1,u.delay=void 0,o?(u.autoComplete=o.autoComplete,u.delay=o.delay):u.delay=0,u}return t(n,e),n}(o));n._RF.pop()}}}));
+

@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/Net.ts",["cc"],(function(t){"use strict";var e;return{setters:[function(t){e=t.cclegacy}],execute:function(){var o,n,r,c;t("Net",void 0),e._RF.push({},"5d6ecXdPidA1pmDJolUfMzo","Net",void 0),n=o||(o=t("Net",{})),function(t){t[t.Unknown=0]="Unknown",t[t.Json=1]="Json",t[t.Proto=2]="Proto",t[t.BinaryStream=3]="BinaryStream"}(r||(r={})),n.ServiceType=r,c||(c=n.Proto||(n.Proto={})),e._RF.pop()}}}));
+

@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/AdapterEvent.ts",["cc"],(function(t){"use strict";var e;return{setters:[function(t){e=t.cclegacy}],execute:function(){var n;t("EOrientationType",void 0),e._RF.push({},"d9a7aD7569KrqVOg8LRk4nF","AdapterEvent",void 0),t("AdapterEvent",(function(){})).ORIENTATION="AdapterEvent:ORIENTATION",function(t){t[t.LANDSCAPE=0]="LANDSCAPE",t[t.PORTRAIT=1]="PORTRAIT"}(n||(n=t("EOrientationType",{}))),e._RF.pop()}}}));
+

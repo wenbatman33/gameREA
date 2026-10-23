@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/Message.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(e){"use strict";var t,n;return{setters:[function(e){t=e.inheritsLoose},function(e){n=e.cclegacy}],execute:function(){n._RF.push({},"9cc72ae641Axan45m+M6GpV","Message",void 0);var s=e("IMessage",(function(){this.buffer=void 0}));e("Codec",function(e){function n(){return e.apply(this,arguments)||this}return t(n,e),n}(s)),e("Message",function(e){function n(){return e.apply(this,arguments)||this}return t(n,e),n}(s));n._RF.pop()}}}));
+

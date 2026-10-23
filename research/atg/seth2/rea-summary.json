@@ -1,0 +1,34 @@
+{
+  "evidence_id": "ev_b35e272bbc2c03c3e6e920d8f3dc37e0cca22cc35d081844a91e6242a23191b8",
+  "subject": {
+    "name": "play.godeezone1.com",
+    "digest": {
+      "sha256": "c61f802ea5106221e73c98c634ca1a0f747314f92ed3bd198b1d851119d1f025"
+    },
+    "local_path": "/Users/batman_work/Desktop/pg遊戲/research/atg/seth2/mirror/play.godeezone1.com",
+    "format": "directory",
+    "architecture": null
+  },
+  "provider": {
+    "id": "rea-javascript-application",
+    "name": "REA JavaScript application analyzer",
+    "version": "1"
+  },
+  "operation": "analyze_javascript_application",
+  "parameters": {
+    "format": "auto",
+    "integrity_policy": "fail"
+  },
+  "confidence": "derived",
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/forge.min.js: Resource constraint during analyze_javascript_application: Semantic graph for egames/22020103b31b7390f07b1551e8538589b5e51967/game/src/assets/scripts/plugin/forge.min.js exceeds the parent's remaining result budget; static and module facts were retained"
+  ],
+  "relationship_coverage": null,
+  "scope": "Static pre-mirror analysis of 97 inventoried application sources; not proof of runtime play or complete assets."
+}

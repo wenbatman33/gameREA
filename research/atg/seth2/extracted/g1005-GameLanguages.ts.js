@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/GameLanguages.ts",["cc"],(function(a){"use strict";var e;return{setters:[function(a){e=a.cclegacy}],execute:function(){e._RF.push({},"81245kTwHZKeorW+mlZYtcM","GameLanguages",void 0);a("ZH_TW",{language:"zh-tw",data:{confirm:"確定",cancel:"取消"}}),a("ZH_CN",{language:"zh-cn",data:{confirm:"确定",cancel:"取消"}}),a("EN",{language:"en",data:{confirm:"Sure",cancel:"Cancel"}}),a("VN",{language:"vn",data:{confirm:"",cancel:""}});e._RF.pop()}}}));
+

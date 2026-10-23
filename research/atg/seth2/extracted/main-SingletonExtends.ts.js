@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/SingletonExtends.ts",["cc"],(function(n){"use strict";var t;return{setters:[function(n){t=n.cclegacy}],execute:function(){t._RF.push({},"1dadeUDcThH8oh7TgbXHTJ/","SingletonExtends",void 0);n("SingletonExtends",function(){function n(){}return n.instance=function(){return this._instance||(this._instance=new this),this._instance},n.destory=function(){this._instance=null},n}());t._RF.pop()}}}));
+
