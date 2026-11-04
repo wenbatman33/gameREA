@@ -1,0 +1,3 @@
+,zh-tw,zh-cn,en,vn
+confirm,確定,确定,Sure,
+cancel,取消,取消,Cancel,

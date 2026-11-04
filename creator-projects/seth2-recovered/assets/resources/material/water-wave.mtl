@@ -1,0 +1,40 @@
+{
+  "__type__": "cc.Material",
+  "_name": "water-wave",
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_defines": [
+    {
+      "SAMPLE_FROM_RT": true,
+      "USE_WAVE": true,
+      "USE_TEXTURE": true
+    }
+  ],
+  "_props": [
+    {
+      "waveFactor": {
+        "__type__": "cc.Vec4",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 100
+      }
+    }
+  ],
+  "_effectAsset": {
+    "__uuid__": "6d18abbd-7952-47b2-b392-637ebf3bb9c0",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_objFlags": 0,
+  "_native": ""
+}

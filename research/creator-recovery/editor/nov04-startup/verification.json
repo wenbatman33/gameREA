@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-04",
+  "engine": "Cocos Creator 3.8.8",
+  "project": "seth2-recovered",
+  "entryScene": "assets/recovered/main/mainPortrait.scene",
+  "failure": "Missing gn caused fallback to g1001, which is not part of Seth2",
+  "fix": "Local bootstrap supplies missing launch parameters; no captured round replay",
+  "observed": [
+    "Creator live preview entered intro and main game",
+    "native spin and closeSpin local-1",
+    "native spin and closeSpin local-2"
+  ],
+  "audio": "agent reaDevelopmentMute=1; user default quiet=false",
+  "limits": [
+    "Not a revalidation of every special feature",
+    "Spine 3.7.94/3.8.99 compatibility warnings remain",
+    "Original RNG and RTP not restored"
+  ]
+}

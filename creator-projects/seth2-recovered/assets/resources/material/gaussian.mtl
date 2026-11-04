@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.Material",
+  "_name": "gaussian",
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_defines": [
+    {
+      "SAMPLE_FROM_RT": true,
+      "USE_TEXTURE": true,
+      "ENABLE_GAUSSIAN_BLUR": true
+    }
+  ],
+  "_props": [
+    {
+      "textureSize": {
+        "__type__": "cc.Vec2",
+        "x": 720,
+        "y": 1280
+      }
+    }
+  ],
+  "_effectAsset": {
+    "__uuid__": "73ccf79f-d9a2-47db-8656-61da5abdfd37",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_objFlags": 0,
+  "_native": ""
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@babel/generator": "^7.29.8",
+    "@babel/parser": "^7.29.9",
+    "@babel/traverse": "^7.29.10",
+    "@babel/types": "^7.29.8"
+  },
+  "name": "seth2-recovery-tools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test ../test_seth_module_recovery.cjs ../test_seth_vendor_guard.cjs ../test_seth_recovery_cli.cjs test-feature-definitions.mjs",
+    "restore": "node ../restore_seth_modules.cjs",
+    "test:local": "cd ../.. && npm run test:local"
+  }
+}

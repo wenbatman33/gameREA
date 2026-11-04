@@ -9,17 +9,18 @@ sys.path.insert(0,str(SOURCE))
 def main(output):
     with tempfile.TemporaryDirectory(prefix='game-rea-tests-')as directory:
         temporary=Path(directory)
-        for provider,name in [('pp','test_pp_worker.js'),('seth','test_seth_worker.js')]:
+        for provider,name in [('seth','test_seth_worker.js')]:
             spec=importlib.util.spec_from_file_location('test_export_'+provider,SOURCE/f'export_{provider}.py')
             module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
             metadata=module.export(ROOT,temporary,lambda p:str(Path(p).resolve()))
             path=temporary/(provider+'.json')
             path.write_text(json.dumps(metadata[0]if provider=='seth'else metadata,ensure_ascii=False))
             subprocess.run(['node',str(SOURCE/name),str(path)],check=True,cwd=ROOT)
-        for name in ['test_png_socket.js','test_png_format_policy.js','test_launch_update.js','test_development_audio.js','test_afa_protocol.js']:
+        for name in ['test_launch_update.js','test_development_audio.js']:
             subprocess.run(['node',str(SOURCE/name)],check=True,cwd=ROOT)
-        for name in ['test_png_engine.js','test_png_backend.js']:
-            subprocess.run(['node',str(SOURCE/name),str(Path(output).resolve()/'games.json')],check=True,cwd=ROOT)
+        subprocess.run(['node',str(ROOT/'tools/seth-recovery/test-creator-launch.mjs')],check=True,cwd=ROOT)
+        catalog=json.loads((Path(output)/'games.json').read_text())
+        assert [(g['provider'],g['slug']) for g in catalog['games']]==[('seth','seth2')]
         subprocess.run(['node',str(SOURCE/'test_static_routing.js'),str(Path(output).resolve())],check=True,cwd=ROOT)
 
 if __name__=='__main__':

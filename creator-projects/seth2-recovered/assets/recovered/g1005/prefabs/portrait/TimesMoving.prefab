@@ -1,0 +1,118 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "TimesMoving",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "TimesMoving",
+    "_layer": 33554432,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -45.004,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "f66206a3-c710-546a-a6fa-bce6fd5629ec"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 5
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "537d82a8-a733-5859-835d-c98dedbbdcab"
+  },
+  {
+    "__type__": "cc.ParticleSystem2D",
+    "_dstBlendFactor": 1,
+    "emissionRate": 2000,
+    "life": 0.4,
+    "angle": 50,
+    "angleVar": 50,
+    "startSizeVar": 70,
+    "startSpin": 30,
+    "speed": 1,
+    "speedVar": 5,
+    "tangentialAccel": -5,
+    "radialAccel": -2,
+    "rotationIsDir": true,
+    "_custom": true,
+    "_totalParticles": 2000,
+    "__prefab": {
+      "__id__": 6
+    },
+    "posVar": {
+      "__type__": "cc.Vec2",
+      "x": 20,
+      "y": 15
+    },
+    "gravity": {
+      "__type__": "cc.Vec2",
+      "x": 50,
+      "y": 0
+    },
+    "_startColor": {
+      "__type__": "cc.Color",
+      "r": 216,
+      "g": 128,
+      "b": 59,
+      "a": 163
+    },
+    "_endColor": {
+      "__type__": "cc.Color",
+      "r": 165,
+      "g": 0,
+      "b": 0,
+      "a": 214
+    },
+    "_file": {
+      "__uuid__": "49171646-7fa5-4980-a7f2-b0ae0d4a9fbb"
+    },
+    "_spriteFrame": {
+      "__uuid__": "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941"
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "5fc6cafe-b9bb-55b2-b3a1-92bc25fb01f0"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "23BHuubZNDe6GEoOF1JIKz",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "63Zy4amzdIG49CgT/zh8jM"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c21SUAgkNOMZi5qi5CV1VN"
+  }
+]

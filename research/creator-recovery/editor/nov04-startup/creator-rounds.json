@@ -1,0 +1,32 @@
+[
+  {
+    "level": "info",
+    "message": "[Seth local backend] {\"event\":\"initial\",\"status\":200,\"spinId\":\"local-initial\",\"stake\":1,\"totalWinnings\":0,\"purchaseAcknowledgement\":false,\"mode\":null,\"cost\":0,\"featureSummary\":null,\"stageCount\":1,\"winningStageCount\":0,\"balanceBefore\":10000,\"balanceAfter\":10000,\"generated\":false,\"localBackend\":true}",
+    "timestamp": "2026-11-04T04:46:38.862Z",
+    "url": "http://localhost:7457/scripting/x/chunks/44/447ee98a4f92507a2ce327d5cc5b7475f96fb2b8.js"
+  },
+  {
+    "level": "info",
+    "message": "[Seth local backend] {\"event\":\"spin\",\"status\":200,\"spinId\":\"local-1\",\"stake\":1,\"totalWinnings\":0,\"purchaseAcknowledgement\":false,\"mode\":\"ordinary\",\"cost\":1,\"featureSummary\":{\"jpStageIndex\":-1,\"originalRngRestored\":false,\"originalRtpRestored\":false,\"mode\":\"ordinary\",\"scenario\":null,\"method\":\"new generated public-paytable rules with explicit local distributions\",\"localAssumptions\":[\"multiplier buckets and probabilities\",\"upgrade steps\",\"split targets and copies\",\"lock duration and fixed-cell gravity\",\"golden free-round cap\",\"super-main round count\",\"feature payout cent rounding\"],\"config\":{\"multiplierChance\":0.018,\"scatterChance\":0.024,\"goldenScatterChance\":0.001,\"totemChance\":0.012,\"multiplierValues\":[2,3,4,5,6,8,10,20,50,100,500],\"multiplierWeights\":[30,25,20,15,10,8,5,3,1,0.2,0.02],\"upgradeChance\":0.08,\"lockChance\":0.35,\"splitChance\":0.35,\"retriggerChance\":0,\"lockRounds\":3,\"splitCopies\":2,\"superRounds\":3,\"goldenMaxRounds\":100,\"maxCascades\":100,\"maxStages\":12000,\"scenario\":\"\",\"jackpotSymbolCount\":0},\"rounds\":[{\"index\":1,\"action\":\"spin\",\"baseWinnings\":0,\"multiplier\":1,\"roundWinnings\":0,\"cumulativeTimes\":0,\"scatters\":3,\"goldenScatters\":0}],\"jackpotPools\":{\"jp-mini\":100,\"jp-minor\":500,\"jp-major\":2500,\"jp-grand\":10000},\"jpSymbolCount\":0,\"playedRounds\":1,\"freeRoundsAwarded\":0,\"retriggeredRounds\":0,\"totalMultiplier\":0,\"remainingLockedSymbols\":[],\"jackpot\":{\"tier\":\"\",\"awardCents\":0,\"count\":0}},\"stageCount\":1,\"winningStageCount\":0,\"balanceBefore\":10000,\"balanceAfter\":9999,\"generated\":true,\"localBackend\":true}",
+    "timestamp": "2026-11-04T04:47:44.108Z",
+    "url": "http://localhost:7457/scripting/x/chunks/44/447ee98a4f92507a2ce327d5cc5b7475f96fb2b8.js"
+  },
+  {
+    "level": "info",
+    "message": "[Seth local backend] {\"event\":\"closeSpin\",\"status\":200,\"spinId\":\"local-1\",\"stake\":1,\"totalWinnings\":0,\"purchaseAcknowledgement\":false,\"mode\":null,\"cost\":0,\"featureSummary\":null,\"stageCount\":1,\"winningStageCount\":0,\"balanceBefore\":9999,\"balanceAfter\":9999,\"generated\":false,\"localBackend\":true}",
+    "timestamp": "2026-11-04T04:47:46.629Z",
+    "url": "http://localhost:7457/scripting/x/chunks/44/447ee98a4f92507a2ce327d5cc5b7475f96fb2b8.js"
+  },
+  {
+    "level": "info",
+    "message": "[Seth local backend] {\"event\":\"spin\",\"status\":200,\"spinId\":\"local-2\",\"stake\":1,\"totalWinnings\":0,\"purchaseAcknowledgement\":false,\"mode\":\"ordinary\",\"cost\":1,\"featureSummary\":{\"jpStageIndex\":-1,\"originalRngRestored\":false,\"originalRtpRestored\":false,\"mode\":\"ordinary\",\"scenario\":null,\"method\":\"new generated public-paytable rules with explicit local distributions\",\"localAssumptions\":[\"multiplier buckets and probabilities\",\"upgrade steps\",\"split targets and copies\",\"lock duration and fixed-cell gravity\",\"golden free-round cap\",\"super-main round count\",\"feature payout cent rounding\"],\"config\":{\"multiplierChance\":0.018,\"scatterChance\":0.024,\"goldenScatterChance\":0.001,\"totemChance\":0.012,\"multiplierValues\":[2,3,4,5,6,8,10,20,50,100,500],\"multiplierWeights\":[30,25,20,15,10,8,5,3,1,0.2,0.02],\"upgradeChance\":0.08,\"lockChance\":0.35,\"splitChance\":0.35,\"retriggerChance\":0,\"lockRounds\":3,\"splitCopies\":2,\"superRounds\":3,\"goldenMaxRounds\":100,\"maxCascades\":100,\"maxStages\":12000,\"scenario\":\"\",\"jackpotSymbolCount\":0},\"rounds\":[{\"index\":1,\"action\":\"spin\",\"baseWinnings\":0,\"multiplier\":1,\"roundWinnings\":0,\"cumulativeTimes\":0,\"scatters\":1,\"goldenScatters\":0}],\"jackpotPools\":{\"jp-mini\":100,\"jp-minor\":500,\"jp-major\":2500,\"jp-grand\":10000},\"jpSymbolCount\":0,\"playedRounds\":1,\"freeRoundsAwarded\":0,\"retriggeredRounds\":0,\"totalMultiplier\":0,\"remainingLockedSymbols\":[],\"jackpot\":{\"tier\":\"\",\"awardCents\":0,\"count\":0}},\"stageCount\":1,\"winningStageCount\":0,\"balanceBefore\":9999,\"balanceAfter\":9998,\"generated\":true,\"localBackend\":true}",
+    "timestamp": "2026-11-04T04:48:23.449Z",
+    "url": "http://localhost:7457/scripting/x/chunks/44/447ee98a4f92507a2ce327d5cc5b7475f96fb2b8.js"
+  },
+  {
+    "level": "info",
+    "message": "[Seth local backend] {\"event\":\"closeSpin\",\"status\":200,\"spinId\":\"local-2\",\"stake\":1,\"totalWinnings\":0,\"purchaseAcknowledgement\":false,\"mode\":null,\"cost\":0,\"featureSummary\":null,\"stageCount\":1,\"winningStageCount\":0,\"balanceBefore\":9998,\"balanceAfter\":9998,\"generated\":false,\"localBackend\":true}",
+    "timestamp": "2026-11-04T04:48:25.964Z",
+    "url": "http://localhost:7457/scripting/x/chunks/44/447ee98a4f92507a2ce327d5cc5b7475f96fb2b8.js"
+  }
+]

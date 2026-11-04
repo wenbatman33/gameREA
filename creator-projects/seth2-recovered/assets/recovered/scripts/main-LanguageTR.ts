@@ -1,0 +1,72 @@
+// @ts-nocheck
+// Recovered runtime JavaScript; not original TypeScript.
+// Source: research/atg/seth2/extracted/main-LanguageTR.ts.js
+// SHA256: 1f542fbeaa3c739bda29c97946eac40acb63436d1472d27ea4ba68ec53e29987
+import * as __dependency_0 from "cc";
+var __export_0;
+export { __export_0 as LanguageTR };
+function __publish(name, value) {
+  if (typeof name === 'object') {
+    for (const key of Object.keys(name)) __publish(key, name[key]);
+    return name;
+  }
+  switch (name) {
+    case "LanguageTR":
+      __export_0 = value;
+      break;
+    default:
+      throw Error('Unknown recovered export ' + name);
+  }
+  return value;
+}
+(function (e) {
+  void 0, void 0;
+})(__dependency_0);
+__dependency_0.cclegacy._RF.push({}, "f910bkPTfNJ1avW7KHugg1G", "LanguageTR", void 0);
+__publish("LanguageTR", {
+  language: __dependency_0.sys.Language.TURKISH,
+  data: {
+    alert_title: "Tips",
+    alert_confirm: "Confirm",
+    alert_cancel: "Cancel",
+    loading: "正在載入...",
+    updateFaild: "Update {0} Faild",
+    updatingtips: ["人家正在努力載入中噢~", "對局中牌的順序都是隨機的，不用擔心被人猜中！", "聽說下雨天更適合打牌喲~~~", "三五好友，一起相約來“鬥地主”~"],
+    newVersion: "A new version is detected, do you want to update?",
+    noFindManifest: "No find Manifest!!!",
+    downloadFailManifest: "Download Fail Manifest!!!",
+    manifestError: "Manifest decode error!!!",
+    checkingUpdate: "Checking update...",
+    alreadyRemoteVersion: "{0}已升级到最新",
+    restartApp: "{0}更新完成，需要重启游戏",
+    reconnect: "Reconnect ... ",
+    warningReconnect: "{0}網路已斷開，是否重新連線？",
+    tryReconnect: "{0}網路:正在嘗試第{1}次連線...",
+    quitGame: "您確定要退出遊戲？",
+    loading_game_resources: "正在載入遊戲資源...",
+    mainPackVersionIsTooLow: "版本過低，請更新。",
+    loadVersions: "正在載入遠端版本資訊",
+    warnNetBad: "您的網路已斷開，請重試!!",
+    downloadFailed: "下載檔案失敗，請重試!!!",
+    loadFailed: "{0}載入失敗!!",
+    loadingProgress: "載入資源中({0}%)...",
+    capture_save_success: "儲存圖片成功",
+    capture_save_failed: "儲存圖片失敗",
+    capture_success: "截圖成功",
+    capture_failed: "截圖成功",
+    capture_save_photo_album: "成功儲存到裝置相簿",
+    capture_save_local_success1: "成功儲存在裝置目錄並載入成功: {0}",
+    capture_save_local_success2: "成功儲存在裝置目錄: {0}",
+    jp_grand: "GRAND",
+    jp_major: "MAJOR",
+    jp_minor: "MINOR",
+    jp_mini: "MINI",
+    pic_background: "common/images/com_bg_start2",
+    richtext: "<color=#00ff00>Rich</c><color=#0fffff>Text</color>",
+    pic_atlas: ["common/images/lobby_texture"],
+    pic_key: "update_status_new",
+    pic_remote: "https://www.baidu.com/img/flexible/logo/pc/index_gray.png",
+    bundles: {}
+  }
+});
+__dependency_0.cclegacy._RF.pop();

@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.Material",
+  "_name": "shake-wave",
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_defines": [
+    {
+      "USE_TEXTURE": true,
+      "USE_NOISETEX": true
+    }
+  ],
+  "_props": [
+    {
+      "speedFactor": 0,
+      "strengthFactor": 0.03,
+      "waveFactor": {
+        "__type__": "cc.Vec4",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 100
+      },
+      "noisetex": {
+        "__uuid__": "74cbe3fb-4fba-42f0-a519-25bdc724beff@6c48a"
+      }
+    }
+  ],
+  "_effectAsset": {
+    "__uuid__": "9e7814b5-509b-40ea-80f3-762e7c10078b",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_objFlags": 0,
+  "_native": ""
+}

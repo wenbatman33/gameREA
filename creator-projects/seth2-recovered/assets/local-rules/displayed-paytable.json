@@ -1,0 +1,205 @@
+{
+  "status": "Manually transcribed displayed rules; not server RNG or RTP recovery",
+  "sourceImage": "creator-projects/seth2-recovered/assets/recovered/g1005/assets/texture/locale/landscape/en/rules_08.png",
+  "sourceSha256": "f773666475f646069d6e49d8c2da72ffe1bbc70f4f664ba9e66eb0cd72535b3a",
+  "symbolMappingSource": "research/atg/seth2/extracted/g1005-GameSymbolID.ts.js",
+  "payFormulaSource": "rules_01.png: totalBet / 20 * displayedPayValue",
+  "betDivisor": 20,
+  "symbols": [
+    {
+      "id": 1,
+      "name": "EYE",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 200
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 500
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 1000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "SNAKE",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 50
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 200
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "BOW",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 40
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 100
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 300
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "MACHETE",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 30
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 40
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 240
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ORANGE_GEM",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 20
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 30
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 200
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "RED_GEM",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 16
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 24
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 160
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "PURPLE_GEM",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 10
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 20
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 100
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "BLUE_GEM",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 8
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 18
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 80
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "GREEN_GEM",
+      "tiers": [
+        {
+          "minCount": 8,
+          "maxCount": 9,
+          "payValue": 5
+        },
+        {
+          "minCount": 10,
+          "maxCount": 11,
+          "payValue": 15
+        },
+        {
+          "minCount": 12,
+          "maxCount": 30,
+          "payValue": 40
+        }
+      ]
+    }
+  ],
+  "unknown": [
+    "original symbol weights",
+    "original RNG",
+    "RTP distribution",
+    "maximum-win cap and rounding policy"
+  ]
+}

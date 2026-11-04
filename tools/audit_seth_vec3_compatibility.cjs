@@ -1,0 +1,20 @@
+// Inspect captured/installed engine source and literal-null constructor sites.
+// No engine or game input is executed.
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const parser=require('./seth-recovery/node_modules/@babel/parser'),traverse=require('./seth-recovery/node_modules/@babel/traverse').default,generate=require('./seth-recovery/node_modules/@babel/generator').default,t=require('./seth-recovery/node_modules/@babel/types');
+const {discoverModules}=require('./restore_seth_modules.cjs');
+const root=path.resolve(__dirname,'..');
+const original=path.join(root,'research/atg/seth2/mirror/play.godeezone1.com/egames/22020103b31b7390f07b1551e8538589b5e51967/game/cocos-js/cc.js');
+const installed='/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos';
+const vec3=path.join(installed,'core/math/vec3.ts'),node=path.join(installed,'scene-graph/node.ts');
+const sha=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const source=fs.readFileSync(original,'utf8'),old=parser.parse(source);let originalConstructor,originalSetPosition;
+traverse(old,{CallExpression(p){if(p.node.arguments[0]?.value==='Vec3'){const invocation=p.node.arguments[1];if(t.isCallExpression(invocation)&&t.isFunctionExpression(invocation.callee)){const ctor=invocation.callee.body.body.find(t.isFunctionDeclaration);originalConstructor=generate(ctor).code;}}},AssignmentExpression(p){const left=p.node.left;if(t.isMemberExpression(left)&&(left.computed?left.property.value:left.property.name)==='setPosition')originalSetPosition=generate(p.node).code;}});
+function installedMethod(file,name){let result;traverse(parser.parse(fs.readFileSync(file,'utf8'),{sourceType:'module',plugins:['typescript','decorators-legacy']}),{ClassMethod(p){const key=p.node.key.name||p.node.key.value;if(key===name)result=generate(p.node).code;}});return result;}
+const sites=[];
+for(const m of discoverModules(path.join(root,'research/atg/seth2'))){const ccIndex=m.imports.indexOf('cc');if(ccIndex<0)continue;const body=m.factory.get('body.body').find(p=>p.isReturnStatement()).get('argument.properties');const setters=body.find(p=>(p.node.key.name||p.node.key.value)==='setters')?.get('value.elements');const setter=setters?.[ccIndex];const aliases=new Map();setter?.traverse({AssignmentExpression(p){const right=p.node.right;if(t.isIdentifier(p.node.left)&&t.isMemberExpression(right))aliases.set(p.node.left.name,right.computed?right.property.value:right.property.name);}});
+ function record(p,types,kind){if(!t.isIdentifier(p.node.callee)||!types.includes(aliases.get(p.node.callee.name))||!t.isNullLiteral(p.node.arguments[0]))return;sites.push({module:m.scope+'-'+m.name,source:path.relative(root,m.file),kind,type:aliases.get(p.node.callee.name),expression:generate(p.node).code});}
+ m.factory.traverse({NewExpression(p){record(p,['Vec2','Vec3','Vec4','Quat','Color'],'constructor');},CallExpression(p){record(p,['v2','v3','v4'],'factory');}});
+}
+const report={status:'Observed engine compatibility difference; no placeholder or swallowed exception',captured:{path:path.relative(root,original),sha256:sha(original),vec3Constructor:originalConstructor,nodeSetPosition:originalSetPosition},installed:{version:'3.8.8',vec3Path:vec3,vec3Sha256:sha(vec3),vec3Constructor:installedMethod(vec3,'constructor'),nodePath:node,nodeSha256:sha(node),nodeSetPosition:installedMethod(node,'setPosition')},searchedTypes:['Vec2','Vec3','Vec4','Quat','Color','v2','v3','v4'],literalNullConstructorSites:sites,decision:'Normalize only cc.Vec3 first literal null to numeric 0. Captured original treats null as falsy numeric overload and sets x/z to 0; 3.8 mistakenly selects object-copy overload for typeof null. Keep Node.setPosition null parameters unchanged because both versions write them directly; they do not mean preserve existing axes.'};
+fs.writeFileSync(path.join(root,'research/creator-recovery/seth2-vec3-compatibility.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({sites:sites.length,modules:[...new Set(sites.map(s=>s.module))]}));

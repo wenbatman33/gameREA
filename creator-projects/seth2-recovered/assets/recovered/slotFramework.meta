@@ -1,0 +1,15 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "8f9666b0-07be-5db4-8052-6de9cc03e64e",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "slotFramework",
+    "priority": 1,
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
+}

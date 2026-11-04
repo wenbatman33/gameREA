@@ -1,0 +1,46 @@
+{
+  "__type__": "cc.Material",
+  "_name": "company-wave-adjust",
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_defines": [
+    {
+      "SAMPLE_FROM_RT": true,
+      "USE_WAVE": true,
+      "ENABLE_GAUSSIAN_BLUR": true,
+      "USE_TEXTURE": true
+    }
+  ],
+  "_props": [
+    {
+      "waveFactor": {
+        "__type__": "cc.Vec4",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 100
+      },
+      "textureSize": {
+        "__type__": "cc.Vec2",
+        "x": 720,
+        "y": 1280
+      }
+    }
+  ],
+  "_effectAsset": {
+    "__uuid__": "d75b2a36-06e1-464e-8797-9a47629af23e",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_objFlags": 0,
+  "_native": ""
+}

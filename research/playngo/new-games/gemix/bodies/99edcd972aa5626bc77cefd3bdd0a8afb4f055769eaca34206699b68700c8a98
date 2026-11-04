@@ -1,6 +1,0 @@
-@font-face {
-    font-family: 'GXGameFont';
-    font-style: normal;
-    font-weight: normal;
-    src: url('GXGameFont.woff') format('woff');
-}

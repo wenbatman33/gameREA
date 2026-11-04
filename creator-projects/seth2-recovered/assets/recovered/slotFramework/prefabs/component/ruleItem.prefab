@@ -1,0 +1,127 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "ruleItem",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "ruleItem",
+    "_layer": 33554432,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_id": "7c9b1cc5-271c-5920-934a-412aafd5346b"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "rule",
+    "_layer": 33554432,
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      }
+    ],
+    "_prefab": {
+      "__id__": 7
+    },
+    "_id": "4711f954-644b-562c-ba16-ea24b3bd154d"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 8
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1280,
+      "height": 720
+    },
+    "node": {
+      "__id__": 1
+    },
+    "_id": "80ca4525-a513-5dd2-87a9-586504bc5f00"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "47gptLKBpF+qQH3W5OKT7G",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "asset": {
+      "__id__": 0
+    },
+    "root": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "__prefab": {
+      "__id__": 9
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 36
+    },
+    "node": {
+      "__id__": 2
+    },
+    "_id": "8b3c1fc7-d517-5542-84ac-f27d3a50ac29"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "__prefab": {
+      "__id__": 10
+    },
+    "node": {
+      "__id__": 2
+    },
+    "_id": "19f0e224-c79b-597e-84f6-a29701e3160c"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "f5kQLKSlVOVqlvmQeVDR+0",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null,
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "eaRlbicIZI6Yi167wHPCvw"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "ceukICMjhNFa9/2oUC+KY5"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "52soLyeuVKyIJk8/dSr2zp"
+  }
+]

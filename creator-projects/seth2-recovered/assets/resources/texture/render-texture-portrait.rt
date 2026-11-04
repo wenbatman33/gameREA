@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.RenderTexture",
+  "_objFlags": 0,
+  "_native": "",
+  "content": {
+    "base": "2,2,0,0,0,0",
+    "w": 720,
+    "h": 1280,
+    "n": "render-texture-portrait"
+  }
+}

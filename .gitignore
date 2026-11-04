@@ -31,3 +31,34 @@ node_modules/
 
 # Static entry for GitHub Pages.
 !/index.html
+
+# Local Creator imports and full REA envelopes.
+/creator-projects/**/library/
+/creator-projects/**/temp/
+/creator-projects/**/local/
+/creator-projects/**/build/
+/creator-projects/**/previews/
+/creator-projects/**/profiles/
+/research/creator-recovery/rea/*-analysis.json
+/research/creator-recovery/rea/*-analysis.partial
+
+# Reversible Creator cache snapshots.
+/.creator-cache-backups/
+/.workspace/.creator-cache-backups/
+
+/research/creator-recovery/rea-input/
+
+/.creator-source-backups/
+
+/research/afa-recovery/rea-input/
+/research/afa-recovery/rea/*-analysis.json
+/research/afa-recovery/rea/*-analysis.partial
+
+/research/firejoker-port/rea-input/
+/research/firejoker-port/rea/*-analysis.json
+/research/firejoker-port/rea/*-analysis.partial
+
+# Large raw native-port REA envelopes; concise evidence summaries remain reviewable.
+/research/creator-ports/*/rea-input/
+/research/creator-ports/*/rea/*-analysis.json
+/research/creator-ports/*/rea/*-analysis.partial

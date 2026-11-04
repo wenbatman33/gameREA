@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.Material",
+  "_name": "fire-stroke",
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_defines": [
+    {
+      "USE_ALPHA_TEST": true,
+      "USE_TEXTURE": true
+    }
+  ],
+  "_props": [
+    {
+      "alphaThreshold": 0.8,
+      "color1": {
+        "__type__": "cc.Color",
+        "r": 241,
+        "g": 0,
+        "b": 87,
+        "a": 255
+      },
+      "color2": {
+        "__type__": "cc.Color",
+        "r": 225,
+        "g": 160,
+        "b": 255,
+        "a": 255
+      },
+      "speed1": {
+        "__type__": "cc.Vec4",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      },
+      "speed2": {
+        "__type__": "cc.Vec4",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.5
+      },
+      "noiseTex": {
+        "__uuid__": "74cbe3fb-4fba-42f0-a519-25bdc724beff@6c48a"
+      }
+    }
+  ],
+  "_effectAsset": {
+    "__uuid__": "20630711-1063-4cfd-8582-bbc5e30a1040",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_objFlags": 0,
+  "_native": ""
+}

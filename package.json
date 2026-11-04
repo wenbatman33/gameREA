@@ -2,10 +2,10 @@
   "name": "game-rea-local-lab",
   "version": "0.1.0",
   "private": true,
-  "description": "Local captured-demo research lab with fixture backends",
+  "description": "Seth2 recovery workspace with an explicitly simulated local backend",
   "scripts": {
     "start": "python3 start-local.py",
-    "verify:pp": "node research/pragmatic/verify-local.cjs"
+    "test:local": "node --experimental-vm-modules tools/seth-recovery/test-local-backend.mjs && node --experimental-vm-modules --test tools/seth-recovery/test-feature-backend.mjs && node --experimental-vm-modules tools/seth-recovery/test-feature-rules.mjs && node --experimental-vm-modules --test tools/seth-recovery/test-feature-definitions.mjs && node --experimental-vm-modules --test tools/seth-recovery/test-feature-progress.mjs && node --test tools/seth-recovery/test-local-jackpot-continuation.mjs tools/seth-recovery/test-local-presentation-compatibility.mjs"
   },
   "devDependencies": {
     "playwright": "1.58.2"

@@ -35,7 +35,7 @@ function allFiles(folder){let list=[];for(const entry of fs.readdirSync(folder,{
  await check('unknown games and unmapped resources return 404',async()=>{assert.equal((await request('v/alpha/absent/file')).status,404);assert.equal((await request('v/alpha/one/null')).status,404);});
  await check('adapter failures return readable 503',async()=>{const response=await request('v/alpha/one/throw');assert.equal(response.status,503);assert.equal((await response.json()).error,'DEMO_REQUEST_FAILED');});
  await check('uncontrolled outside-scope URL remains a network request',async()=>{assert.ok((await(await request('/ordinary-website')).text()).startsWith('FETCH https://static.example/ordinary-website'));});
- await check('exactly 20 unique provider/game identities',()=>{assert.equal(catalog.games.length,20);assert.equal(new Set(catalog.games.map(g=>g.provider+':'+g.slug)).size,20);});
+ await check('only the retained Seth2 identity is published',()=>{assert.deepEqual(catalog.games.map(g=>g.provider+':'+g.slug),['seth:seth2']);});
  await check('every referenced packaged asset exists; package below 1 GiB',()=>{
   const refs=new Set();
   function scan(value){if(typeof value==='string'&&/^assets\/[a-f\d]{64}$/.test(value))refs.add(value);else if(Array.isArray(value))value.forEach(scan);else if(value&&typeof value==='object')Object.values(value).forEach(scan);}
@@ -44,11 +44,11 @@ function allFiles(folder){let list=[];for(const entry of fs.readdirSync(folder,{
   const files=allFiles(OUTPUT),bytes=files.reduce((sum,file)=>sum+fs.statSync(file).size,0);assert.ok(bytes<1024**3,'Package is '+bytes+' bytes');assert.ok(!files.some(file=>/local-state(?:\.json|\.tmp)$/.test(file)));
   console.log('  '+refs.size+' referenced unique assets; '+bytes+' package bytes.');
  });
- await check('all 20 gallery cards have real packaged raster cover images',()=>{
+ await check('the retained gallery card have real packaged raster cover images',()=>{
   const home=fs.readFileSync(path.join(OUTPUT,'index.html'),'utf8');
-  const images=[...home.matchAll(/<img src="([^"]+)"/g)];assert.equal(images.length,20);
+  const images=[...home.matchAll(/<img src="([^"]+)"/g)];assert.equal(images.length,1);
   for(const match of images){const bytes=fs.readFileSync(path.join(OUTPUT,match[1]));assert.ok(bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))||bytes[0]===255&&bytes[1]===216,'Expected original raster cover');}
-  assert.ok(home.includes('本機隨機抽樣 · 可控中獎比例'));assert.ok(home.includes('完整玩法尚未驗收完成'));
+  assert.ok(home.includes('目前僅保留戰神賽特2'));assert.ok(!home.includes('20 款'));assert.ok(!home.includes('provider=pp'));assert.ok(!home.includes('provider=png'));assert.ok(!home.includes('provider=afa'));
  });
  await check('metadata uses local test tokens and no identifiable private launch credentials',()=>{
   function scan(value,label='catalog'){

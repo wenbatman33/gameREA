@@ -5,9 +5,12 @@ import argparse, hashlib, importlib.util, json, mimetypes, shutil, sys
 ROOT=Path(__file__).resolve().parent
 SOURCE=ROOT/'web-src'
 
-def build(output, providers=('pp','png','afa','seth'), quiet=False):
+def build(output, providers=('seth',), quiet=False):
+    if tuple(providers) != ('seth',): raise ValueError('Only Seth2 is retained in this workspace')
     output=Path(output).resolve();output.mkdir(parents=True,exist_ok=True)
     (output/'assets').mkdir(exist_ok=True)
+    for name in ['pp-worker.js','png-worker.js','afa-worker.js','png-engine.js','png-socket.js']:
+        (output/name).unlink(missing_ok=True)
     copied={}
     def put_asset(path):
         path=Path(path);data=path.read_bytes();digest=hashlib.sha256(data).hexdigest()
@@ -30,11 +33,11 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
         games.extend(rows)
         scripts.append(f'{provider}-worker.js')
         shutil.copyfile(SOURCE/f'{provider}-worker.js',output/f'{provider}-worker.js')
-    for name in ['launch.html','launch.js','png-socket.js','png-engine.js','seth-socket.js','simulation-controls.js','development-mute.js']:
+    for name in ['launch.html','launch.js','seth-socket.js','simulation-controls.js','development-mute.js']:
         source=SOURCE/name
         if source.is_file():shutil.copyfile(source,output/name)
     identity=json.dumps(dict(quiet=quiet,games=games),ensure_ascii=False,separators=(',',':'))
-    source_bytes=b''.join((SOURCE/name).read_bytes()for name in scripts+['sw.js','launch.js','png-socket.js','png-engine.js','seth-socket.js','simulation-controls.js','development-mute.js']if(SOURCE/name).is_file())
+    source_bytes=b''.join((SOURCE/name).read_bytes()for name in scripts+['sw.js','launch.js','seth-socket.js','simulation-controls.js','development-mute.js']if(SOURCE/name).is_file())
     build_id=hashlib.sha256(identity.encode()+source_bytes).hexdigest()[:20]
     sw='self.BUILD_ID='+json.dumps(build_id)+';self.PROVIDER_SCRIPTS='+json.dumps(scripts)+';\n'+(SOURCE/'sw.js').read_text()
     (output/'sw.js').write_text(sw)
@@ -51,7 +54,7 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
         status='本機隨機抽樣 · 可控中獎比例'if game.get('roundSamples')or(game.get('protocol',{}).get('samples')and any(r['win']>0 for r in game['protocol']['samples']))else statuses[game['provider']]
         href=f'launch.html?provider={game["provider"]}&amp;game={game["slug"]}'
         cards.append(f'<article>{image}<small>{html.escape(game["provider"])}</small><h2>{html.escape(game["title"])}</h2><p>{html.escape(status)}</p><a href="{href}">開啟試作 ↗</a></article>')
-    page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;background:#080b10;border-radius:6px}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>20 款研究試作，完整玩法尚未驗收完成。可直接在瀏覽器開啟，無需安裝或啟動本機服務。使用原版前端與有限回合樣本／模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>普通回合樣本仍可能重複。購買、賭倍及完整免費玩法尚未完成。</footer></main></html>'''
+    page='''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遊戲逆向研究室</title><style>*{box-sizing:border-box}body{background:#10141b;color:#f5f7fa;font:16px/1.6 system-ui;margin:0}main{max-width:1200px;margin:auto;padding:32px 24px}header p{color:#bfc9d6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}article{background:#1b222d;border:1px solid #303d4e;border-radius:12px;padding:18px}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;background:#080b10;border-radius:6px}small{color:#a2b4ca}h2{font-size:20px}a{color:#90c7ff}footer{color:#bfc9d6;margin-top:28px}</style><main><header><h1>遊戲逆向研究室</h1><p>目前僅保留戰神賽特2，其他遊戲已移除。可直接在瀏覽器開啟，無需安裝或啟動本機服務。此網頁使用原版前端與模擬資料，沒有真金交易；完整特殊玩法與原版機率尚未還原。</p></header><section class="grid">'''+''.join(cards)+'''</section><footer>此頁為瀏覽器研究版。可編輯的 Cocos Creator 工程請見 GitHub 的 creator-projects/seth2-recovered；完整原版玩法與機率尚未驗收。</footer></main></html>'''
     audio_mode='代理開發測試：強制靜音' if quiet else '使用者試玩：正常聲音（進入遊戲後可調整音效）'
     page=page.replace('</header>',f'<p data-audio-mode="{"muted" if quiet else "normal"}">{audio_mode}</p></header>')
     (output/'index.html').write_text(page)
@@ -66,5 +69,5 @@ def build(output, providers=('pp','png','afa','seth'), quiet=False):
     return games
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--output',default='web-build');parser.add_argument('--providers',default='pp,png,afa,seth');parser.add_argument('--mute',action='store_true')
+    parser=argparse.ArgumentParser();parser.add_argument('--output',default='web-build');parser.add_argument('--providers',default='seth');parser.add_argument('--mute',action='store_true')
     args=parser.parse_args();build(args.output,args.providers.split(','),args.mute)
