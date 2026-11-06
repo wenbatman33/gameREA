@@ -10,6 +10,19 @@ const fs=require('node:fs/promises');const vm=require('node:vm');const assert=re
  const source=await fs.readFile(__dirname+'/pp-worker.js','utf8');
  const boot=()=>{const context={self:{},URL,URLSearchParams,Response,atob,console,caches};vm.createContext(context);vm.runInContext(source,context);return context.self.GAME_PROVIDERS.pp.handle;};
  let handler=boot();
+ // Captured component field order must survive beyond the original launch's
+ // 48-hour window without freezing the live browser/game clock.
+ const capturedTime=1792722476499,futureTime=capturedTime+90*86400000;
+ const clockCtx={metadata:{static:{'/build.js':{mime:'application/javascript'}},context:{},serializationTime:capturedTime},
+  virtualBase:'https://example.test/gameREA/v/pp/test/',
+  text:async()=> 'function deserializeComponentRec(){return Date.now();} function liveClock(){return Date.now();}',
+  reply:(body,mime)=>new Response(body,{headers:{'Content-Type':mime}})};
+ const clockBuild=await(await handler(new Request(clockCtx.virtualBase+'build.js'),'/build.js',clockCtx)).text();
+ const clockRealm={Date:{now:()=>futureTime}};vm.createContext(clockRealm);vm.runInContext(clockBuild,clockRealm);
+ assert.equal(clockRealm.deserializeComponentRec(),capturedTime,'component decoding uses captured time after 90 days');
+ assert.equal(clockRealm.liveClock(),futureTime,'ordinary game code keeps the live clock');
+ assert.equal(clockRealm.Date.now(),futureTime,'global Date is unchanged');
+ console.log('PASS PP capture-time decoding remains isolated from the live clock after 90 days');
  let tested=0;
  for(const game of games){
   const ctx={metadata:game,base:'https://example.test/gameREA/',virtualBase:'https://example.test/gameREA/v/pp/'+game.slug+'/',clientId:'test-'+game.slug,quiet:false,
@@ -26,6 +39,8 @@ const fs=require('node:fs/promises');const vm=require('node:vm');const assert=re
   const operator=await(await handler(new Request('https://example.test'+operatorPath),operatorPath,ctx)).text();assert(!operator.includes('var useRUM = true;'),'local demos do not start third-party telemetry');
   const buildPath=Object.keys(game.static).find(p=>p.endsWith('/build.js'));
   const build=await(await handler(new Request('https://example.test'+buildPath),buildPath,ctx)).text();assert(!/win\[(?:'[^']*'\+)*'[^']*'\]=eval\(atob\(/.test(build),game.slug+' context cached expressions');
+  assert.ok(Number.isSafeInteger(game.serializationTime),game.slug+' captured timestamp');
+  assert.match(build,new RegExp('function deserializeComponentRec\\([^)]*\\)\\{var Date=\\{now:function\\(\\)\\{return '+game.serializationTime+';'),'each actual game decoder receives its own capture time');
  }
  // Terminate/recreate the entire provider realm after a winning spin, then
  // finish its pending collect and repeat that exact transport request.

@@ -40,3 +40,14 @@
 ## 一般瀏覽器載入修正
 
 在使用者內建瀏覽器與 Chrome 重現載入中段停住，錯誤為 ServerInterface.ParseConfigFile 讀取 configFile.text 失敗。確認原版 wasabiCode 欄位排列使用記錄當時的瀏覽器／hostname 上下文。保留原版欄位還原演算法，在提供 build.js 時重建其兩個私有快取字串，資料來源見 serialization-context.json。原始 body bytes 不修改，也沒有改變 navigator 或實際網路目的地。三款在內建瀏覽器均已越過載入階段；Dog House 在 Chrome 也完成載入。
+
+
+## 2026-11-06：恢復多館後 PP 載入失敗
+
+正式站 Sweet Bonanza POP 重現 `ServerInterface.ParseConfigFile` 的 `configFile.text.split` 錯誤，尚未送出 doInit；本機亦可重現。除既有 UA、hostname 上下文，原始元件解碼器也將目前時間與 launcher metadata 比較，超過 48 小時會影響欄位解碼。先前只驗首頁、資源與後端合約，漏掉過期後的完整客戶端進場檢查。
+
+`export_pp.py` 現在保存每款 doInit 紀錄的 stime，`pp-worker.js` 僅在 deserializeComponentRec 的函式作用域內提供相應擷取時間。原始擷取 body 不改動；全域 Date、回合時間及後端 stime 仍使用現在時間。另補回沙箱 CSP connect-src 的 data:，讓原版內嵌 WASM／音訊資料可經 XHR 讀取；Gates of Olympus 2500 原先會因此 abort。
+
+本機正常音量 `/gameREA/` 和獨立靜音 `/development-muted/` 均已重建。8 款 PP 在靜音入口均已實際進場、旋轉，且各至少完成一個普通回合；其中驗證到中獎連消與 doCollect 領獎。詳細請求、完成回合數與截圖見 `compatibility-2026-11-06/verification.json`。另以 90 天後時鐘啟動 POP，成功初始化及旋轉；該次中獎鏈未跑完。時鐘隔離合約也檢查 90 天後解碼與全域時間互不干擾。
+
+本次仍未驗完整特殊玩法、原版 RNG/RTP、實體手機。原版可選大廳 metadata iframe 仍有 404，未阻礙這次普通回合操作。以上是本機修正驗證紀錄；發布狀態以對應提交的 Pages 部署結果為準。

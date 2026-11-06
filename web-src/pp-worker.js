@@ -29,12 +29,18 @@
   function rewrite(raw, ctx) {
     return raw.split(UPSTREAM).join(ctx.virtualBase.replace(/\/$/, ''));
   }
-  function contextBuild(raw, context) {
-    return raw.replace(/(win\[(?:'[^']*'\+)*'[^']*'\])=eval\(atob\(([^)]*)\)\)/g, (whole,key,parts) => {
+  function contextBuild(raw, context, serializationTime) {
+    const restored = raw.replace(/(win\[(?:'[^']*'\+)*'[^']*'\])=eval\(atob\(([^)]*)\)\)/g, (whole,key,parts) => {
       const encoded=Array.from(parts.matchAll(/'([^']*)'/g),m=>m[1]).join('');
       let expression;try{expression=atob(encoded);}catch{return whole;}
       return Object.hasOwn(context,expression)?key+'='+JSON.stringify(context[expression]):whole;
     });
+    // Component field order also depends on the launcher's capture time. Keep
+    // that context local to deserialization; gameplay and the browser clock
+    // must continue to use the current time.
+    if(!Number.isSafeInteger(serializationTime)||serializationTime<=0)throw new Error('Missing captured PP serialization time');
+    return restored.replace(/function deserializeComponentRec\([^)]*\)\{/, opening =>
+      opening+'var Date={now:function(){return '+serializationTime+';}};');
   }
   function serial(key, work) {
     const prior=locks.get(key)||Promise.resolve();
@@ -62,7 +68,7 @@
         const mime=record.mime||'application/octet-stream';
         if(/javascript|json|text\/|xml/i.test(mime)) {
           let body=rewrite(await ctx.text(record),ctx);
-          if(path.endsWith('/build.js'))body=contextBuild(body,game.context);
+          if(path.endsWith('/build.js'))body=contextBuild(body,game.context,game.serializationTime);
           if(path.endsWith('/operator_logos/logo_info.js'))body=body.replace('var useRUM = true;','var useRUM = false;');
           return ctx.reply(body,mime);
         }

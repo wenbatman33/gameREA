@@ -1,0 +1,474 @@
+{
+  "date": "2026-11-06",
+  "target": "http://127.0.0.1:18768/development-muted/",
+  "publicDeploymentVerified": false,
+  "quiet": true,
+  "browser": "Chrome 156 via Playwright, muted audio and SwiftShader",
+  "games": [
+    {
+      "slug": "gates-of-olympus-2500",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "1.60",
+          "tw": "1.60"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "1.00",
+          "tw": "2.60"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.50",
+          "tw": "3.10"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "c",
+          "w": "0.00",
+          "tw": "3.10"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "100,001.10",
+          "na": "s"
+        }
+      ],
+      "spins": 4,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 1,
+      "screenshot": "play-gates-of-olympus-2500.png"
+    },
+    {
+      "slug": "the-dog-house-slot",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "c",
+          "w": "0.20",
+          "tw": "0.20"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "99,998.20",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.20",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,994.20",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        }
+      ],
+      "spins": 3,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 3,
+      "screenshot": "play-the-dog-house-slot.png"
+    },
+    {
+      "slug": "gates-of-olympus",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.00",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,994.00",
+          "na": "s",
+          "w": "0.50",
+          "tw": "0.50"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,994.00",
+          "na": "s",
+          "w": "1.60",
+          "tw": "2.10"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,994.00",
+          "na": "c",
+          "w": "0.00",
+          "tw": "2.10"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "99,996.10",
+          "na": "s"
+        }
+      ],
+      "spins": 5,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 3,
+      "screenshot": "play-gates-of-olympus.png"
+    },
+    {
+      "slug": "sugar-rush",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.00",
+          "na": "s",
+          "w": "0.40",
+          "tw": "0.40"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.00",
+          "na": "c",
+          "w": "0.00",
+          "tw": "0.40"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "99,996.40",
+          "na": "s"
+        }
+      ],
+      "spins": 3,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 2,
+      "screenshot": "play-sugar-rush.png"
+    },
+    {
+      "slug": "sweet-bonanza-pop",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.40",
+          "tw": "0.40"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "c",
+          "w": "0.00",
+          "tw": "0.40"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "99,998.40",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.40",
+          "na": "s",
+          "w": "0.80",
+          "tw": "0.80"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.40",
+          "na": "c",
+          "w": "0.00",
+          "tw": "0.80"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "99,997.20",
+          "na": "s"
+        }
+      ],
+      "spins": 4,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 2
+    },
+    {
+      "slug": "big-bass-bonanza",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "c",
+          "w": "4.00",
+          "tw": "4.00"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "100,002.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "c",
+          "w": "6.00",
+          "tw": "6.00"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "100,006.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "100,004.00",
+          "na": "c",
+          "w": "130.00",
+          "tw": "130.00"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "100,134.00",
+          "na": "s"
+        }
+      ],
+      "spins": 3,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 3,
+      "screenshot": "play-big-bass-bonanza.png"
+    },
+    {
+      "slug": "starlight-princess",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "1.00",
+          "tw": "1.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.80",
+          "tw": "1.80"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "c",
+          "w": "0.00",
+          "tw": "1.80"
+        },
+        {
+          "action": "doCollect",
+          "status": 200,
+          "balance": "99,999.80",
+          "na": "s"
+        }
+      ],
+      "spins": 3,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 1,
+      "screenshot": "play-starlight-princess.png"
+    },
+    {
+      "slug": "sweet-bonanza",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,996.00",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,994.00",
+          "na": "s",
+          "w": "0.00",
+          "tw": "0.00"
+        }
+      ],
+      "spins": 3,
+      "ok": true,
+      "settledFinal": true,
+      "completedOrdinaryRounds": 3,
+      "screenshot": "play-sweet-bonanza.png"
+    }
+  ],
+  "future90Days": [
+    {
+      "slug": "sweet-bonanza-pop",
+      "errors": [],
+      "api": [
+        {
+          "action": "doInit",
+          "status": 200,
+          "balance": "100,000.00",
+          "na": "s"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.80",
+          "tw": "0.80"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "0.40",
+          "tw": "1.20"
+        },
+        {
+          "action": "doSpin",
+          "status": 200,
+          "balance": "99,998.00",
+          "na": "s",
+          "w": "2.00",
+          "tw": "3.20"
+        }
+      ],
+      "spins": 3,
+      "ok": true,
+      "screenshot": "future-sweet-bonanza-pop.png"
+    }
+  ],
+  "limits": [
+    "Browser checks cover ordinary play only, not all special modes, RNG or RTP.",
+    "Future-date browser check confirms init and spin requests; its sampled winning chain was not run to final collection.",
+    "Optional original lobby metadata iframe still returns 404; ordinary play passed."
+  ]
+}

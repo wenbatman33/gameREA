@@ -39,6 +39,6 @@ def export(root:Path,out:Path,put_asset):
         stake=float(fields.get('c',fields.get('defc','0.1')))*int(fields.get('l','20'))
         games.append(dict(provider='pp',slug=game['slug'],title=TITLES.get(game['slug'],game['slug']),symbol=game['symbol'],entry=uri.path+'?'+uri.query,
             entryRecord=packed(folder,entry),static={path:packed(f,r)for path,(f,r)in static.items()},fixtures=fixtures,
-            roundSamples=pp_rounds(root,game['slug'],stake),allowedCoins=[float(x)for x in fields.get('cs',str(float(fields.get('c',fields.get('defc','0.1'))))).split(',')],simulation={'winRate':35},context=context,defaultCoin=float(fields.get('c',fields.get('defc','0.1'))),defaultLines=int(fields.get('l','20')),
+            roundSamples=pp_rounds(root,game['slug'],stake),allowedCoins=[float(x)for x in fields.get('cs',str(float(fields.get('c',fields.get('defc','0.1'))))).split(',')],simulation={'winRate':35},context=context,serializationTime=int(fields['stime']),defaultCoin=float(fields.get('c',fields.get('defc','0.1'))),defaultLines=int(fields.get('l','20')),
             quietScript=put_asset(new/'development-mute.js'),limitations='有限普通回合隨機抽樣；可控中獎比例與一般下注縮放；未還原原版機率與完整獎勵模式'))
     return games

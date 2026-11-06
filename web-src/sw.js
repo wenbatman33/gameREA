@@ -21,7 +21,7 @@ function virtualRoute(url) {
 }
 function response(body, mime='text/plain; charset=utf-8', status=200) {
   return new Response(body, {status, headers:{'Content-Type':mime,'Cache-Control':'no-store',
-    'Content-Security-Policy':"default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' blob:; img-src 'self' data: blob:; media-src 'self' data: blob:; font-src 'self' data:; frame-src 'self' blob:; object-src 'none'"}});
+    'Content-Security-Policy':"default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' data: blob:; img-src 'self' data: blob:; media-src 'self' data: blob:; font-src 'self' data:; frame-src 'self' blob:; object-src 'none'"}});
 }
 async function handle(event) {
   const url = new URL(event.request.url);
