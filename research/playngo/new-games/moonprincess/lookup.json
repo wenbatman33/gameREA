@@ -1,0 +1,14 @@
+{
+  "gameId": 334,
+  "gId": "moonprincess",
+  "name": "Moon Princess",
+  "gameType": "gridslot",
+  "limitsValues": [
+    "game.rtp",
+    "game.denominations",
+    "game.mysteryjackpot",
+    "game.jackpot",
+    "game.gojackpot",
+    "game.leaderboard"
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://rgs-demo.hacksawgaming.com/api/play/partnerSettings",
+    "body": {
+      "partner": "demo",
+      "currency": "EUR",
+      "gameId": 1309,
+      "usePartnerCurrency": true
+    }
+  },
+  {
+    "url": "https://rgs-demo.hacksawgaming.com/api/play/authenticate",
+    "body": {
+      "seq": 1,
+      "partner": "demo",
+      "gameId": 1309,
+      "gameVersion": "1.26.1",
+      "currency": "EUR",
+      "languageCode": "en-us",
+      "mode": 2,
+      "branding": "default",
+      "channel": 1,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "token": "123131"
+    }
+  }
+]

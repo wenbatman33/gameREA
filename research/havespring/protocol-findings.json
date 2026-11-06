@@ -1,0 +1,217 @@
+{
+  "status": "three_afa_games_local_normal_draws_playable",
+  "runtime": "Cocos Creator 3.6.3 web-mobile",
+  "selectedGames": [
+    {
+      "title": "烈焰一路發",
+      "launch": [
+        {
+          "origin": "https://lobby.queenmakergames.co",
+          "path": "/gamelauncher",
+          "publicParameters": {
+            "gcode": "flame_of_fortune",
+            "gpcode": "KMQM"
+          },
+          "queryNames": [
+            "gpcode",
+            "gcode",
+            "token",
+            "profileurl"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "草船借箭",
+      "launch": [
+        {
+          "origin": "https://game.afagaming.cc",
+          "path": "/ca2501/",
+          "publicParameters": {
+            "lang": "zh-cht",
+            "platform": "37",
+            "txGameID": "CA261119",
+            "wt": "3"
+          },
+          "queryNames": [
+            "lang",
+            "platform",
+            "token",
+            "txGameID",
+            "wt"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "血戰長坂",
+      "launch": [
+        {
+          "origin": "https://game.afagaming.cc",
+          "path": "/ca2501/",
+          "publicParameters": {
+            "lang": "zh-cht",
+            "platform": "37",
+            "txGameID": "CA261141",
+            "wt": "3"
+          },
+          "queryNames": [
+            "lang",
+            "platform",
+            "token",
+            "txGameID",
+            "wt"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "火燒赤壁",
+      "launch": [
+        {
+          "origin": "https://game.afagaming.cc",
+          "path": "/ca2501/",
+          "publicParameters": {
+            "lang": "zh-cht",
+            "platform": "37",
+            "txGameID": "CA261130",
+            "wt": "3"
+          },
+          "queryNames": [
+            "lang",
+            "platform",
+            "token",
+            "txGameID",
+            "wt"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "奧林帕斯財運",
+      "launch": [
+        {
+          "origin": "https://lobby.queenmakergames.co",
+          "path": "/gamelauncher",
+          "publicParameters": {
+            "gcode": "olympus_fortune",
+            "gpcode": "KMQM"
+          },
+          "queryNames": [
+            "gpcode",
+            "gcode",
+            "token",
+            "profileurl"
+          ]
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/assets"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/balance"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me"
+    },
+    {
+      "method": "POST",
+      "path": "/packs/play"
+    },
+    {
+      "method": "POST",
+      "path": "/packs/select"
+    },
+    {
+      "method": "POST",
+      "path": "/packs/query"
+    },
+    {
+      "method": "POST",
+      "path": "/packs/info"
+    },
+    {
+      "method": "POST",
+      "path": "/table/arcade/query"
+    },
+    {
+      "method": "POST",
+      "path": "/table/arcade/query"
+    },
+    {
+      "method": "POST",
+      "path": "/table/records"
+    },
+    {
+      "method": "POST",
+      "path": "/player/history"
+    },
+    {
+      "method": "POST",
+      "path": "/player/history/detail"
+    }
+  ],
+  "evidenceScope": "Successful authenticated initialization responses decoded from browser HAR; selected public card packs retained. Local ordinary play response is synthesized from static PlayResult/CardResult/WinResult readers, not captured real wagers.",
+  "cardPackInfo": {
+    "request": {
+      "GameIDs": [
+        "CA261119",
+        "CA261141",
+        "CA261130"
+      ]
+    },
+    "responseShapeInferred": {
+      "Packs": [
+        {
+          "PackInfo": [
+            "ID",
+            "GameID",
+            "Name",
+            "Bet",
+            "CreatedAt",
+            "ImageURL",
+            "Config",
+            "IsJackpotEnabled",
+            "MathID",
+            "Tags"
+          ],
+          "Series": [
+            "ID",
+            "Name"
+          ],
+          "Modes": "mode data map"
+        }
+      ]
+    }
+  },
+  "remoteArtFields": [
+    "PackInfo.ImageURL",
+    "Cards[].ImageURL",
+    "Cards[].PreviewImageURL"
+  ],
+  "notRecovered": [
+    "AFA special feature state transitions",
+    "Queenmaker captured successful initialization protocol and rounds"
+  ],
+  "credentialsPersisted": false,
+  "recovered": [
+    "AFA selected three card packs",
+    "85 referenced card images",
+    "AFA initialization response envelope Data/Err",
+    "AES-128-ECB PKCS7 initialization transport (token first 16 UTF8 bytes)"
+  ],
+  "queenmakerRuntimeObservation": {
+    "flame": "independent client timed out with code 3003",
+    "olympus": "authenticated lobby reached introduction screen"
+  }
+}

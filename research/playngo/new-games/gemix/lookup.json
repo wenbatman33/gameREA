@@ -1,0 +1,14 @@
+{
+  "gameId": 286,
+  "gId": "gemix",
+  "name": "Gemix",
+  "gameType": "gridslot",
+  "limitsValues": [
+    "game.rtp",
+    "game.denominations",
+    "game.mysteryjackpot",
+    "game.jackpot",
+    "game.gojackpot",
+    "game.leaderboard"
+  ]
+}

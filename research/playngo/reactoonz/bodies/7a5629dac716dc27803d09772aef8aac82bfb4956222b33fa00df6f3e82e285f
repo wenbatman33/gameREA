@@ -1,0 +1,95 @@
+{
+    "minimalAspectRatio": "1.33333",
+    "maximalAspectRatio": "1.77777",
+    "layouts": {
+        "desktop_default": {
+            "heights": "77,327,34,126",
+            "widths": "1,2,1",
+            "content": {
+                "logo": {
+                    "col": "0",
+                    "row": "0",
+                    "colSpan": "3",
+                    "rowSpan": "1",
+                    "minBound": "-450,-90,900,90",
+                    "halign": ".5",
+                    "valign": ".5",
+                    "node": "featurePreview:logo"
+                },
+                "footer": {
+                    "col": "0",
+                    "row": "3",
+                    "colSpan": "3",
+                    "rowSpan": "1",
+                    "bound": "-800, -675, 1600, 430",
+                    "halign": "0.5",
+                    "valign": "0.5",
+                    "simpleMode": "cover",
+                    "node": "featurePreview:footer"
+                },
+                "navButtons": {
+                    "col": "0",
+                    "row": "2",
+                    "colSpan": "2",
+                    "rowSpan": "1",
+                    "minBound": "150, -120, 300, 54",
+                    "halign": "0.5",
+                    "valign": "0.5",
+                    "node": "featurePreview:indicators"
+                },
+                "continueButton": {
+                    "col": "1",
+                    "row": "3",
+                    "colSpan": "1",
+                    "rowSpan": "1",
+                    "minBound": "-212,-40,750,215",
+                    "halign": "0.5",
+                    "valign": "0.5",
+                    "node": "featurePreview:continueAnim"
+                },
+                "dontShowTick": {
+                    "col": "2",
+                    "row": "3",
+                    "colSpan": "1",
+                    "rowSpan": "1",
+                    "minBound": "-40,-87, 319, 198",
+                    "halign": "0.5",
+                    "valign": "0.5",
+                    "node": "featurePreview:dontShowAgainAnim"
+                },
+                "bg": {
+                    "col": "0",
+                    "row": "0",
+                    "colSpan": "3",
+                    "rowSpan": "4",
+                    "simpleMode": "cover",
+                    "bound": "0,0,1600,900",
+                    "node": "featurePreview:bg"
+                },
+                "hitfield": {
+                    "col": "0",
+                    "row": "1",
+                    "colSpan": "3",
+                    "rowSpan": "2",
+                    "simpleMode": "cover",
+                    "bound": "0, 0, 5, 5",
+                    "halign": "0",
+                    "valign": "0",
+                    "node": "featurePreview:hitfield.eventLayer"
+                },
+                "content": {
+                    "col": "0",
+                    "row": "1",
+                    "colSpan": "3",
+                    "rowSpan": "1",
+                    "minBound": "-413, -480, 826, 570",
+                    "halign": "0.5",
+                    "valign": "0.5",
+                    "node": "featurePreview:content"
+                }
+            },
+            "visible": [],
+            "hidden": []
+        }
+    }
+}

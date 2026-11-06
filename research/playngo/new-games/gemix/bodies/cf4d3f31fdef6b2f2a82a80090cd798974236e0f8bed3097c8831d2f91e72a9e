@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Britanic_Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../../common/fonts/PNG-MINI.woff') format('woff');
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/version.json?1792722194912",
+    "file": "wanted-dead-or-a-wild/public/1067/version.json",
+    "bytes": 55,
+    "sha256": "41c387243b3f851fc8e5afeb0b5c529eeae23f05f7b76cdd88613715eaba40dd"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/index.html?language=en&channel=desktop&gameid=1067&mode=2&token=123131&lobbyurl=https%3A%2F%2Fwww.hacksawgaming.com&currency=EUR&partner=demo&env=https://rgs-demo.hacksawgaming.com/api&realmoneyenv=https://rgs-demo.hacksawgaming.com/api",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/index.html",
+    "bytes": 40566,
+    "sha256": "0f89304755d21e31a84f2afd1e8720dbfb20c549e506a2696cec5539e66fe147"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/ui/images/coljuegos.png",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/ui/images/coljuegos.png",
+    "bytes": 2206,
+    "sha256": "0f1e2c8bf32616d65a2d428c4a388094d2774225a5e2ee463f7f0d0af50c1be5"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/ui/images/juegabien.png",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/ui/images/juegabien.png",
+    "bytes": 1727,
+    "sha256": "d2db1f2fbd894d07d27da58dbb315c9668c2dc29908d5fed35017f09849ae8b9"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/vendor/promise-polyfill.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/vendor/promise-polyfill.min.js",
+    "bytes": 2883,
+    "sha256": "92af64f07491ea0e22757946d2ce62820a616374c42c8ac5668febdbae41b448"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/vendor/array-find-polyfill.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/vendor/array-find-polyfill.min.js",
+    "bytes": 463,
+    "sha256": "b7f3750691f16e4e3c3edb1ea58a801b5fa915a2f8dbea718c61345f5bbbafaf"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/ui.min.css",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/ui.min.css",
+    "bytes": 458643,
+    "sha256": "2d1cd737da9ce7e9544259eb978132f1dd0a25d41b773570e789c5f4e9d86b63"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/ui/images/promotion_button.png",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/ui/images/promotion_button.png",
+    "bytes": 6940,
+    "sha256": "577755364c67206f4c87e3d658abcf7660ed2e3f896aaa0c5aca34ed6203d9b2"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/vendor/nosleep.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/vendor/nosleep.min.js",
+    "bytes": 1315,
+    "sha256": "72bb206dc10b8d71e57e85d4f734b0e617738e8b4c7447ab0cabc8d2c03cb251"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/vendor/analytics.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/vendor/analytics.min.js",
+    "bytes": 2682,
+    "sha256": "4e5e6f45edb5e0d23c7198ed5c4d7e0a45acc4de6ef4f588bbebf9ef8cb7503d"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/vendor/reporter.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/vendor/reporter.min.js",
+    "bytes": 32043,
+    "sha256": "2293a31f91f0f7ea0fdb39fec689a29a1fce9ac336d95807cd0f2c01d7f38e68"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/ui/fonts/icons/icomoon.woff2?dbrolm",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/ui/fonts/icons/icomoon.woff2",
+    "bytes": 11208,
+    "sha256": "e5e4c5e7306924a4afa21ff44dd24d37b1b12bdaa69ada08906297e1527a2cdd"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/casino/hacksaw-casino.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/casino/hacksaw-casino.min.js",
+    "bytes": 467118,
+    "sha256": "5dc00b291cca7f9965bf487edf42de58b61560f30f2f263e5a4aeef09f662181"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/ui/hacksaw-ui.min.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/ui/hacksaw-ui.min.js",
+    "bytes": 603487,
+    "sha256": "e35cc850a61e76920d470c94ba56085e28768e5420b624ed382213e85a9e7837"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/casino/desc-locale.json",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/casino/desc-locale.json",
+    "bytes": 22284,
+    "sha256": "88668a78796d00c5bf839cdb9eb93a5ac564cc22ad1bd6543851ac0b98de4d59"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/casino/locale/en-us/en-us.json",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/casino/locale/en-us/en-us.json",
+    "bytes": 34870,
+    "sha256": "d0eb34edbb7de776d1bebc6a82de868cdf3bb1c2b2055d7cd12a956218239bfb"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/main.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/main.js",
+    "bytes": 2812170,
+    "sha256": "96fb8ef31453a5fb10cc1fada4be8a92140e972a683a2d0ef27958873bdddd1f"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1067/1.75.0/vendor/needles.umd.js",
+    "file": "wanted-dead-or-a-wild/public/1067/1.75.0/vendor/needles.umd.js",
+    "bytes": 11010,
+    "sha256": "9279fe79498141e56f9c6af65d613b6f132496fa78ecd1ead4669de6cf504408"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "title": "烈焰一路發",
+    "launch": [
+      {
+        "origin": "https://lobby.queenmakergames.co",
+        "path": "/gamelauncher",
+        "publicParameters": {
+          "gcode": "flame_of_fortune",
+          "gpcode": "KMQM"
+        },
+        "queryNames": [
+          "gpcode",
+          "gcode",
+          "token",
+          "profileurl"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "草船借箭",
+    "launch": [
+      {
+        "origin": "https://game.afagaming.cc",
+        "path": "/ca2501/",
+        "publicParameters": {
+          "lang": "zh-cht",
+          "platform": "37",
+          "txGameID": "CA261119",
+          "wt": "3"
+        },
+        "queryNames": [
+          "lang",
+          "platform",
+          "token",
+          "txGameID",
+          "wt"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "血戰長坂",
+    "launch": [
+      {
+        "origin": "https://game.afagaming.cc",
+        "path": "/ca2501/",
+        "publicParameters": {
+          "lang": "zh-cht",
+          "platform": "37",
+          "txGameID": "CA261141",
+          "wt": "3"
+        },
+        "queryNames": [
+          "lang",
+          "platform",
+          "token",
+          "txGameID",
+          "wt"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "火燒赤壁",
+    "launch": [
+      {
+        "origin": "https://game.afagaming.cc",
+        "path": "/ca2501/",
+        "publicParameters": {
+          "lang": "zh-cht",
+          "platform": "37",
+          "txGameID": "CA261130",
+          "wt": "3"
+        },
+        "queryNames": [
+          "lang",
+          "platform",
+          "token",
+          "txGameID",
+          "wt"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "奧林帕斯財運",
+    "launch": [
+      {
+        "origin": "https://lobby.queenmakergames.co",
+        "path": "/gamelauncher",
+        "publicParameters": {
+          "gcode": "olympus_fortune",
+          "gpcode": "KMQM"
+        },
+        "queryNames": [
+          "gpcode",
+          "gcode",
+          "token",
+          "profileurl"
+        ]
+      }
+    ]
+  }
+]

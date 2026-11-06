@@ -1,0 +1,1410 @@
+{
+  "game": {
+    "slug": "gates-of-olympus-2500",
+    "symbol": "vs20olympmmd"
+  },
+  "entry": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympmmd&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=en&cur=USD",
+  "finalUrl": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20olympmmd&gname=Gates%20of%20Olympus%202500&jurisdictionID=99&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+  "errors": [],
+  "records": [
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympmmd&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=en&cur=USD",
+      "method": "GET",
+      "requestBody": null,
+      "status": 302,
+      "contentType": "",
+      "resourceType": "document",
+      "error": "Error: response.body: Response body is unavailable for redirect responses"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20olympmmd&gname=Gates%20of%20Olympus%202500&jurisdictionID=99&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "document",
+      "sha256": "eb5b4bfec5ce22ff95f7a5da8906a2dc87efb5ca6e754629438c3b1ceaa39671",
+      "bytes": 95732
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/js/html5-script-external.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript",
+      "resourceType": "script",
+      "sha256": "b7592ed6b6b8e1c80eb5ca42b297c4cccfdfb1d0d8b7520b54acc38a0c4e23ab",
+      "bytes": 4357
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/customizations.info?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/bootstrap.js?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "resourceType": "script",
+      "sha256": "679aada98eb32819b687e8a2c2fbf2030eb3c38c5cb9f2c00b23df856461aa40",
+      "bytes": 103583
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/style.css?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "resourceType": "stylesheet",
+      "sha256": "d339e98f7b517291c347df66ecd331087f7195757149c73c12384c2c6d493100",
+      "bytes": 19631
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/operator_logos/logo_info.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript",
+      "resourceType": "script",
+      "sha256": "54253341fcaf8df822df7e1b22209e37e59f87877f7de9e3036dd22110bba340",
+      "bytes": 2207323
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do?mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae&channel=desktop",
+      "method": "POST",
+      "requestBody": "{\"uap\":{\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36\",\"browser\":{\"name\":\"Chrome Headless\",\"version\":\"155.0.0.0\",\"major\":\"155\"},\"engine\":{\"name\":\"Blink\",\"version\":\"155.0.0.0\"},\"os\":{\"name\":\"Mac OS\",\"version\":\"10.15.7\"},\"device\":{},\"cpu\":{}}}",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "df34378355c92ebb7b33545defccf789b1edc11751488aaaebec33b5442075df",
+      "bytes": 30
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/client/resources.json?key=29f7fe610047c4b016b5edf4ace2794e",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "1575b5cfe574641c75f6a5da8e67f2e15cd89b590428da7d0b9c3f6470ba85d7",
+      "bytes": 76737
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/client/game.json?key=1e14029b6b8674dd4aebcc80eecef690",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "cccd68c3e15c62d6b485b0359a0ecf7165a88b47e1bb70ff81e3cc9ec9e6ef62",
+      "bytes": 22283
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/build.js?key=e5ad7457305e77f91f80975184efad35",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "resourceType": "xhr",
+      "sha256": "ab30200267f5d925d5cb4fda0a1fc38835255ad55a6b6566816fdfe77c579a1c",
+      "bytes": 4811621
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI001.json?key=4f4652b54ff74d2c22cc9779e3263822",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "3125d427216797183119b863cc0f132888bd680fe943d79468026d21f4eedb7c",
+      "bytes": 1440063
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI000.json?key=8021a63cddb6745f69c50fcb835b9e7f",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "034f1d8715d3669908f69c137233694f57a3277ad948d34dce9bb72bc3a76bbf",
+      "bytes": 921990
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI002.json?key=1ce3f697d2ef5e7be3be21ed605d5e1f",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "8b30b8408accd7cafb72ed379cbefb3e4aa0f04efc536cf7da385dd1b8180d87",
+      "bytes": 654512
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI004.json?key=d1cdd79946be86ee6abf74bcb99c5e51",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "f8beb99018db32cbe3ebbdc0e11d4b7ee17df19a27df7a410a669f4680b536f5",
+      "bytes": 619623
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI003.json?key=b4d19ded933d574050ab520fe362bf8a",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "11b006c88585e3cf4e76081b42de53173f7d0adfab724ecc5c0a6cabec4d3a50",
+      "bytes": 589444
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI006.json?key=35e6a95d86447b0c1b686d25d931e2c4",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "42247868b35a1f1fc7fc22cb843bd4fe1f3684b66fe1ae473529fa54f86ebc39",
+      "bytes": 607878
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI005.json?key=60ee1b099d1010f47b92bf9962f69991",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "8ed245f5d873ee50e0819812310c764b726711d5f57cc9ce506ad9b567d7b99d",
+      "bytes": 1166865
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI_resources000.json?key=1572a8bd59e23179529723d8a56a6c31",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "0df0677e0d1b74e790f863012cae7ae48a33d0d64cd08c6e51a9dddd32d70d49",
+      "bytes": 550991
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI_resources001.json?key=5195254a24bb908eca344c4f9be4fa9a",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "ffbf6cfbc44ba13c5e99ca30a9505424807b9429a9d895fab74553076a94a9ec",
+      "bytes": 409246
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/apps/lobby/meta.html?mgckey=stylename%40generic~SESSION%4067a19506-f4a9-4114-a269-ce982b77deae&symbol=vs20olympmmd&language=en&currency=USD&region=Other&ingameLobbyApiURL=undefined&vendor=slots&currencyOriginal=USD&jurisdiction=99&mid=658704643434770968&requirements=NEWV%2CSHINT%2C%2C&stylename=generic",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/html",
+      "resourceType": "document",
+      "sha256": "9b623fce77decc92aa54514adeac6851032561795e351a1c1e895eb0c110b3d3",
+      "bytes": 20343
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/game000.json?key=e69aec54060b25f1d48cb3ab31d599d3",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "0fd410eb7dbc75803eeb0a813d05f4f46eb36cd34aa8c8074a3cf582a11952a5",
+      "bytes": 1827418
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/game002.json?key=198416adee1dd31063ef3f6bc7110500",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "47a9b811fb30b95e0f674a24988fb6647deedf7981724ceb559a90cd963ee6e4",
+      "bytes": 1477261
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/game001.json?key=3361ad686442425d9b5a1d23e9c48044",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "a015298ed7608225bcb88864de2f2ef46559a44faef4f1006bb44230931a03c8",
+      "bytes": 1894165
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/game004.json?key=f99d5fca5ec4b48b3cb9efe38aef6c0d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "e6feed9313d6b2c3a10ec62e1340f40c22c7dcf45d7b1bb7c74275a4263de1b8",
+      "bytes": 577153
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/game003.json?key=927f7329e1124820df855e1b762efbd4",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "1a114de933c5b5b77680872ef495ee468a2d155c66513aa2146f256fdd8a324c",
+      "bytes": 1423659
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources001.json?key=07922fbe85ebe72f1963923192ced127",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "253bba68df42ef6306867c63f3f0e86c412c298fe918ae301d91773f3b59eea3",
+      "bytes": 805049
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources000.json?key=5d1cd48ba7cb89ecee60d265cd023e5f",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "e2537531b46e939a9e06ac897aba0ea822536e863de59bcd0dbd3d1079e07b48",
+      "bytes": 651792
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources004.json?key=b94250e11ecedb56a03e1ce4e433e837",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "fd866e5fddbea3deb52da6d6fa09c9833f872978024723680f242a9c87693e5a",
+      "bytes": 796495
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources007.json?key=292e0a350be844e72007b391025e44b5",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "8d6306926dd8ae6c79927835697e3d8f446d3a8d9a5072d8641c0ff2bcb83409",
+      "bytes": 649150
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources008.json?key=d04ba27b0fc912bde8972c8794bcd331",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "d23e2538a73f7d8fd0566d70e3c33ea9661def71baf7021e76ff30916702fad5",
+      "bytes": 734047
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources009.json?key=d9a6867f6fc9a9291edc780ace51971d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "66a481514f64137e238ccc8072bc449f8596c93d487c31248c49ad62537c38fd",
+      "bytes": 823953
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources011.json?key=9c6f1afb51b0f83d20dc82822da8cd41",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "07aa4e7ea919f2cee9bd92969185454fb40fcce00ebfc8fd39fa43ef7b4a7940",
+      "bytes": 595607
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources010.json?key=a6a5e258e1922372109f87259f65cbc4",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "29e9dceec783e3e66ea3964fc8f1b849242ab4de5e387f71b0ace725c47942b2",
+      "bytes": 921467
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources012.json?key=7aa51cf34e2fe5fa9d7c843e15f6880f",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "800e9ec98fe99a2c664db8540341e80c28ae1ca970332ed06ee2fcd6a6de8675",
+      "bytes": 787208
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources014.json?key=d9807ca797f8174d95a9acb0a7b85be3",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "33e6a8ea4122841b5fb63cde38206159eb2967090cb8963137827b1ff22c2130",
+      "bytes": 965375
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources013.json?key=14b1b48b767a2f2c607cdc8a9d5ee798",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "61cb26beaf3d90bd5e1f9f716b3ae8a0d87f0d5787433649d16724bfb4ba1522",
+      "bytes": 546641
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources015.json?key=547aff7588d6b9a91e019286dfe84029",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "23d29565a81a186063197fe76e1174aece6917a3530bf46b3cdbd66853307117",
+      "bytes": 918477
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources005.json?key=3a3b5d86cb6ebddee147185fff297915",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "b730398451b05d63eb805f17e7368a22958ede6efa6f9d02e4b62bbb25367658",
+      "bytes": 562886
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources002.json?key=c192149a3465c86e94726d44cab69d12",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "f8f3204820ece10e98abc84a5e9091a0eb7b639b9a301fbcb7157aa653ca5a01",
+      "bytes": 1228153
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources003.json?key=740fdd83af905813e16ced3c01cfe4a1",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "c6c53de751daab33ec13f2485d126b140c92be265513291aa140dd0f7527f0a7",
+      "bytes": 1685245
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources006.json?key=2aaf9e05ca5660468d3173a941403365",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "28074af971d237b8b9a3df5d90de601b2fffd47c6cd7b53ecaf023f85607f7f5",
+      "bytes": 1152778
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources016.json?key=6b6b0808357547f02b5c79ce12d6d3d7",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "21eba1bbd4676cd85a543e6e6cb9c1726d07cb707fba950232d62a5dabe5a2f5",
+      "bytes": 719183
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources017.json?key=1205f79b221fddaa402d18b0a96a35fd",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "3c6bee85c2849c12d255fa23e9f683cbc52f4e6e4877ce52c91ace03c81afb48",
+      "bytes": 934866
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources018.json?key=6d4c256ba78751099aa5ceb9e084ca9e",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5365b5050e82f192cd6215dde7654af2a3736b81a2af6fa91be3b7c8eb9744b6",
+      "bytes": 1715040
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources019.json?key=a46272437010378470b12e7787316a68",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "01181ee15b9a20b050711f55e9f257537ce14e07dad67c6817060726bf8ec999",
+      "bytes": 707051
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources020.json?key=ba87cf172eeeb15bfb5609647e28e021",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "64e0226433ec98d8c0d07fe328ecaac7d8d41db382a8e86e8aa0039f939423c9",
+      "bytes": 920534
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources022.json?key=d3484040aa68cd40041a786f0c7acf3d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "05989f1c86d2f3033161efd01a31d23d4327a1eea2edef931068714e07dc60ba",
+      "bytes": 883797
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources023.json?key=7355a5e64a8afb689dc726fea216bf97",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "a6521523841cd0b13ae73bfc4f48ffd447ee1a9a505d686c5cd874b2beb31cf7",
+      "bytes": 566678
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources021.json?key=edfbf355abe917f9c36c5b241a3d8cb6",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "80e6324563fc3bccbfcbdc44e3e94e69609935a15e2d00f306cc0f53e93558b6",
+      "bytes": 1273894
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources025.json?key=7605b045bfcf3cf93ab41d3ea7485137",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "677c3dbef2eb19e4044ca4e6966851ff0105b523a6325694e49f0d1941978260",
+      "bytes": 679629
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources026.json?key=9793cec861ed0c5d4ed14d9835079093",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "b234d20650501590facf7e6ae9dd94a4ff23201102e093765b3904cf04f5ad93",
+      "bytes": 1012072
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources024.json?key=549f43e234d5401632837080ff1b2290",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "eca7ecd143b723e81d60d06bebc07ffd0efb65071077aba7c04142a5e669b4c8",
+      "bytes": 1815554
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources027.json?key=08b76fdf219cbf6c5350fa80fc9919dd",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "026022a32cd0d55666d3318612a9746590d05a10e638ba137d1e5a4727c5d228",
+      "bytes": 1073430
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources028.json?key=07ddc615e83fd75faa1e6d5ab373a596",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "d865548a8e2b12c611af4678fc0b3fa92c0b84614a188eebe043a346eb1c3f62",
+      "bytes": 1410359
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources030.json?key=4769b175fac3b2e836b802183ab52d38",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "298b6a03bbdf1edebbab913434d6ef497784fdd09213a2047943e55118305569",
+      "bytes": 626021
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources033.json?key=ae71d7a9c2d846c14f6e37e54f67e276",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "78ff74b8ac6ef344cf1466ea454fe170cbf196adef85878536a4e7edcb768685",
+      "bytes": 1112447
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources034.json?key=27798df696c4540a82bbee21593d3d77",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "84a04354de983bf6a853f292e365e5f65671aac8114b9dd6d281243f622c13da",
+      "bytes": 699532
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources035.json?key=95b4c9639e3478a0ec15022b2ff0daa4",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "b03bfdeeb0d04be49ec972314ad65b2d9c4b1b5456538010cacf06c20874f772",
+      "bytes": 604225
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources036.json?key=fea8222db3f1ae98bbff0c2d01617eaa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "0175c34a33bde18f4ad5db52dae76bb6d4feb3ea8fe92ac84932259939d74738",
+      "bytes": 835706
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources029.json?key=6b4f5ac5408f70dae3dc249f9d38ec53",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "819a42b67210da8580e261da82a707cb9e89fcc4117921efda666959b30b4d5e",
+      "bytes": 1869599
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources031.json?key=e975438229ec892de60eeaf682962080",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "29b68c2a63d33bf98dfa8896fe14692de1400c9ce858a26bba247530791bb2c4",
+      "bytes": 1138587
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources032.json?key=a3914295c6edd680613c6d5b1ccc73eb",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "9ccccb9585d4c1d04635b914e28b4875260c281704ca57c1e8a0de2efaeb39a4",
+      "bytes": 840363
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources037.json?key=5e1b59ca2df2aa92dc24e06cd67b607c",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "28ad580e3f34a34ce58d2a5c7a15a48b61e8373cca1c13d0596f9a20963c5686",
+      "bytes": 538317
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources042.json?key=e37c56621561fe1198708965816a9d38",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "fac436c6093311c167de611c7e6d12f480ec83dc5d60d35ae914fd736f52019d",
+      "bytes": 593284
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources045.json?key=3a783e758e6afbd76d3dd21c9b417b62",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "c461b1278605c9462c8bf48bc3648c877db850c7960fc79e76139210bf904acb",
+      "bytes": 537738
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources038.json?key=13c09ba89c050f297b2e2142c80511e4",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "d00ca56d2f14439462119d1b849593957577e5efd61f348a691448ef52106366",
+      "bytes": 1122681
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources039.json?key=e5bc2022998662940f470825b59f1b22",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "f65128427867f1108d83ac0629ad30832b8c96d5c2ba03f21eec45337850cd32",
+      "bytes": 1761329
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources040.json?key=ef9943d593ff3974178da5098bf5b8b1",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5882a70cd48ae1eba4458072d9fdcef971c8a02d7a65606b55e9126caa9ecfae",
+      "bytes": 1644505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources041.json?key=03f1380e24fd4d967c325b19b7b349bb",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "a590c460b7e9aee0bb1865f846c1fd9c2825ea427656480f614fbd7a10bcbabf",
+      "bytes": 1317810
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources043.json?key=f7f935a60fd1b0069e25819588848f62",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "f08239b35a1a96b5d6fcb29a1d1f5f0fbf447822c1f156d76ca8964da3faf130",
+      "bytes": 609341
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources044.json?key=fb04da249df7c3594567d659dff18d0d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "55dc22ee6d892831e312cadb8a9325984f4f32dfe35a3434fd2ee0bf95f6b73b",
+      "bytes": 620776
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources046.json?key=0274b1a0077ae6cfbe1def3cc4b34c10",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "02db316fb5ba327bad4008f0a4a1b5f687717665017c3ac168742414d92b5cfe",
+      "bytes": 1526881
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/main_resources047.json?key=fe1478e16afbc68182c730bcf55b5e34",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "2dd9440e4983be83be21a3198a78eb0aec4e06a82f01502fdb7838e460a2db57",
+      "bytes": 1386218
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/other_resources000.json?key=dd2191232ebe929b04cf493c81eb0472",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "fa971fa18e5bd6cabc1cb2d713b01163ea9619e7ad954d021c66de79833627ab",
+      "bytes": 1004671
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/other_resources002.json?key=c9cec9be7dd336c3acd8fa0421d01bf9",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "3771c939bb41b1169939bd1bee8a7a615aec390c6d60382c34bf5e0d5d545cbc",
+      "bytes": 939505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/other_resources004.json?key=73b4ee6e1c92078dc510d604cc1e7687",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "40b240f26adb8ad5e027ce612e89f31ad4d127c3c3987372c6114ed653d2ce3f",
+      "bytes": 144696
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/other_resources003.json?key=08fc88d14408004734ac0128d540cce0",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5c56e73a1c5153eb4d78f39c0b5a5b5a6eaf55944709029cd874a1ebcb4db0b0",
+      "bytes": 738121
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/other_resources001.json?key=7e4e528f938ae44916a3a8f96391d275",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "ae7e9f1f4f83f8c2eb8065e3d5e42c6825de5781b06106910006849f2a397df8",
+      "bytes": 1388113
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v5/gameService",
+      "method": "POST",
+      "requestBody": "action=doInit&symbol=vs20olympmmd&cver=460518&index=1&counter=1&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "2ea436ee007fbbedac576803af457cc1de875f11d1f0bb8ae1233a1299f4c518",
+      "bytes": 7744
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/announcements/unread/?symbol=vs20olympmmd&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/xml;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "e8846ae1e2bacb97e0911ef623a983f6bd74118eb0a66751a57df50d5207bbfa",
+      "bytes": 142
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "method=load&id=vs20olympmmd&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "method=load&id=vsCommon&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vs20olympmmd&settings=SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_-1;BatterySaver=false;ShowCCH=false;ShowFPH=true;CustomGameStoredData=;Volume=0.5;InitialScreen=5,11,5,11,8_3,4,9,7,3_10,11,8,7,6_8,6,5,7,5_5,6,5,11,11_10,4,10,4,10;SBPLock=true;GameSpeed=0;HapticFeedback=false;ShowPromotions=true;PromoEarMinimised=false&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "f9c067f6c3e7633a4a32df475dd1cd20220bc7b1799c9171726ece2366fd4a7f",
+      "bytes": 353
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/b3c2f2a1bfff01e4c975b67fe7df3069.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "88a47f1482d08da2d326c0f0db00892b40cda2f0de986c3eb334d57a79321859",
+      "bytes": 2470444
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/c62dd3c3f9d96df4db260047a7547969.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "95d767d709c424a2679b962205f9635011daa78b9c8be89109806d7d78bf0ffa",
+      "bytes": 2716034
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/6ccb98b5c60edf34e9e690c4451c45b1.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "a0ae3749284b22a9fc2cb8cb0cfff65e9a30ad3b8bf960eb902c1825425ec99d",
+      "bytes": 2716180
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/2f437b19da498ea4d968ca593faf4333.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "0d8dd5312b0807849c6dba7d04ffe63756f098d97549c3f88af7d402eb3c999f",
+      "bytes": 2352582
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/6f37d8cfe19d2464a9b4de55b5515169.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "238dc5c8251244a3a9b797bfbbc36bdd763d224314c1a6d5e736e52d3ff2feff",
+      "bytes": 426177
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/7f5b35003c3d3024c9ea89acd7b64207.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "672d5be1123d97052bf21f755b5b1f3df64bcad7608ad49d53bb3444b977be09",
+      "bytes": 1686077
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/76ed40688eb4cef4ea97e50f27373e2f.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "4f3322a916787010d4bb3610cf68764daa595f631f0721894148b613eb1a2805",
+      "bytes": 2617928
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/8224c747e0754344d89fc11694c9091b.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "73dd58b4157dfad97d19e50e39a9f4ce4359d836efdce7c6ed63ef5782e0d030",
+      "bytes": 1557073
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/b128e64450cefbc4f89dd68dedae5602.ktx?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "de18d5c8e1e2cb4bd49e1f3692b63519f94651e2cec0a66763d362c095207a49",
+      "bytes": 313419
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/8542b3661543c5047aedfeb1e55bf942.ktx?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "bee03eed973f94c394f2b4b80d7acf4cb8fd4735ea030e732bfbb71420c110a5",
+      "bytes": 360662
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/bc6124743cc62c44db1b69b72efd7ca1.ktx?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "485027e765f384e5666af27c21b729e1df6e05debf2a3fbe664fb779b86bb571",
+      "bytes": 277669
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/87096d14e867d7e4f8ec8ba265b3d97a.ktx?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "210397be393702aae3b003a3f7330233ef6b9bd0c44afd5872e9d5b6a3cf7a48",
+      "bytes": 408885
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/8edbeac0741d498438532989c5d49d76.ktx?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "a3f96fa842a36094f372be9fd5ac2b12d50475da77b72769afdaebdb505fe763",
+      "bytes": 381929
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/1e1689bce30b6234b90d425ad9878485.ktx?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "228daf6a21f7de07755548853c55dbc02eebe93ae9b7930b8bdd75df22437b1a",
+      "bytes": 400778
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/e91feef19ad33714ebe8736f7652bf10.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "36e7539c67eeb4ff928941792c483cba7f0e20342fd04625c67ff304b2487c6c",
+      "bytes": 372262
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/a86e498f16cc9c443ae13c27cbd4214c.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "36b9d777b41c988d609246148177127a9d2cdb54f5f3c136d6c907e8fae00c55",
+      "bytes": 616113
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/179960e729ef0224298b53b3b5c15781.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "ed49292ce157809caf02f91334797f826e9dcfde093e4b8bf9e4a312f38589be",
+      "bytes": 292559
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/67190ee5da8631a4b852832d070d2b42.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "52f1ab0ad111ea9501b9414521dd71b6dc8ffce65ae95c0afcb0214363dcb0ec",
+      "bytes": 198281
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vs20olympmmd&settings=SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_0;BatterySaver=false;ShowCCH=false;ShowFPH=false;CustomGameStoredData=;Coins=false;Volume=0.5;InitialScreen=5,11,5,11,8_3,4,9,7,3_10,11,8,7,6_8,6,5,7,5_5,6,5,11,11_10,4,10,4,10;SBPLock=true;GameSpeed=0;HapticFeedback=false;ShowPromotions=true;PromoEarMinimised=false&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "9b50b8cc04fe62aca839f15a987f5576786ffe28f76396a4082d1ee7054fdc5b",
+      "bytes": 365
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/2d3744f560d017147b7add4c859be623.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "295816eecaa18471e1e5ae8b60fc8b4d5130bfeb487fc7001dc173190888da1c",
+      "bytes": 110078
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/9a793fdb65b2f494688ba77287e30d6c.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "0a72a42e251c167c0b2f4195784f2a0d28e7b624937a1fd74cc7ee421dbeb4c8",
+      "bytes": 13555
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/c377a1c577e71e54c8841c5bac893ba5.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "4b0b1ec80190e154a597f7f6fcd22fd6776202c158e207f2140508c7c9f0eb30",
+      "bytes": 15883
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/c0805a3760d972449bc486ca9d572b7d.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "83b5adbaf516bb28803a7ea5334f4b94529003d8cc52b7aaaf3b2055001448a9",
+      "bytes": 292042
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/0f150882efb12774980de3a6a9bc8831.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "ae65ecbda604a4251b53b105c7a9b421504fd595e44c1b585cda7b1761ecaad1",
+      "bytes": 452149
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/f2301054b7fd033468a4d12ab6733654.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "046e5b24c7c18b216eea7be9c0bdb1c8e8c88cfc667ea78d4a8b54ef22922cac",
+      "bytes": 240453
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/f0fb85cbb6ecb3b44b561645fd88321b.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "d70835c958bde35aad8abf393bf8a2dc191356cfff2898a82c0d41d26a31bfd2",
+      "bytes": 577505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/f3d5d033cd2f5664e8f43a8216035bea.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "b8f6a229f9fd5719ef8923ed9f0c12a278e99aeeb0c9f7dd7cbd42a3368fc257",
+      "bytes": 171695
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/1c877b00b449c2e4e9f0897bd89061ff.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "dc2eeaadbb4ecd7aa9402cbc2850cd87607fdcce56a85f8ca5ef67a9e148f169",
+      "bytes": 160608
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/077399025f46dd840bd975ca2aa4a7dc.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "c689b6dca75eac62505005fa8fce4cf6300c995f88b195974f4908a4083eca82",
+      "bytes": 136327
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/974888700d9e0ab41a982aefcb913951.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "5aa2caca10361b0a242aedf38b031e4f7e40563b10bc8b5d5094525aaf9ea4ac",
+      "bytes": 817453
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vsCommon&settings={\"MinimizedNotificationTypes\":\"\",\"HideMetaNotifications\":\"false\"}&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "ce9d1cc7a94497e5914c24d7b9bd4a72d1bcb4ffacbf373ed37e6679d415ee41",
+      "bytes": 65
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/527ce7295c1b24946bfd763e792a83f8.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "4bdd0a17010778d822ba2e6d3522aa1b010abf2541842d239fab3bf14b5571d8",
+      "bytes": 663539
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/d9975bf2bde339945b746ae2b1a60f3b.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "274cfa30af9e8bee122e94197b894e6f86ca1ef0262b4e76e161f5417ffaa25d",
+      "bytes": 1418388
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/995c3527eaa6c6446b1c62f555a3c9a2.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "bcc9797b9a580fd4db26a7742dc26e0b9d3aca16dde06e233a879ee5ef7a25c2",
+      "bytes": 226404
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/eb7578a0a3f52fe48966044eb345f5bf.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "0b7d7d9ddb27a5bc42c2aa56e6d9e3df8a8c4fb328addc0c65e70e4e2237b2c8",
+      "bytes": 1783
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/755ba330b63b77145b2fafee25ca9f0e.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "496174a4521583710fd9f1d55f57b83f61e69989ada66c669a522ad33fef5974",
+      "bytes": 201688
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/0b3a8305a72bb474ba35a79103d30b4e.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "bba3c890bb50aef3dac3acbc44fd451c14c115f018ab3eac6ec3ab392cc1951a",
+      "bytes": 871265
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/ecb6b2540fc52eb429514a739b8ea1b8.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "bef713814d95dd2c23620918afc656a5417b16eb8bb7c658e46a7b3a329be9b0",
+      "bytes": 709755
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/efb9e473739a70e4eae8d8a2d4b833fc.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "ad272673970d1c2af7178bde67e712355291e0dec878718601d9c78ada0dd2a0",
+      "bytes": 449373
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/48119b029fa9d18489b8d33b328f9349.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "30816edf53eafd72ad70d35b0e4c151661ee74b450a000d4642cc6b8ac1b8f04",
+      "bytes": 1003609
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/0417ab601c20d8247bc86edf27f040f8.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "16f005568aa82588d1f19556d789e0de8e2987fac12b02980a552334dbd57aab",
+      "bytes": 962338
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/3fcd7d343abafe44fa5a7052dd2c2616.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "f3f035d50db6711d5648006ab3d6bc9ef76afd7cb3e034612a0d976d027d750c",
+      "bytes": 255594
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/c875aa5041145c044849caf41d9effee.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "11bebb7efc63108a04525f74fbda6326ae80ed4aef99e526c5c93fa5d9cad4d1",
+      "bytes": 1158952
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/b64b04940f3a6b94bb1b0064a4450171.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "68a0e45500a8d1a9710808a923d216c4019011ec48769f81151f75aaa6d42b89",
+      "bytes": 1902085
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/3322aafde18d8de49b5a6311d95b7090.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "9ab220cdea817e15f1753cb3b3d3fb9f4328271a991e964286f312b3884712fd",
+      "bytes": 1378850
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/7a8822a893197314cbe43022107b77f9.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "c4053b5d3a4dfb15cb15239ef5d8f8fe74133ede756ae5096292e687c49b1968",
+      "bytes": 1632201
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/0a181c09604b24141842a266c9aa9e18.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "2001f683bf19ada4d1e9b678222277e4037f8b92f6bd1c62bc9cc615e2270592",
+      "bytes": 208680
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/abebb594c90787d4cb461f748460109d.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "cbcbd5abf1fad43bdddbea3da13e98aa6f209adc64f50f67497ada1ac66cd7f4",
+      "bytes": 3583
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/res/821e429e8cdf760489c018bcdfa8ae61.png?key=83b59",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "8e7bf7f1ec2d9ee72c67919e3e757d208a6a1a86e74b48b149b94306aa0dc741",
+      "bytes": 396754
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/GUI_sounds.ogg.json?key=0bb80baeedcf38cbac96924bb27ac5b6",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "7e52f3d4180953278788918cb6f640dc49338a7150b4a52da7c994a619dbf010",
+      "bytes": 767505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vs20olympmmd&settings=SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_2;BatterySaver=false;ShowCCH=false;ShowFPH=false;CustomGameStoredData=;Coins=false;Volume=0.5;InitialScreen=5,11,5,11,8_3,4,9,7,3_10,11,8,7,6_8,6,5,7,5_5,6,5,11,11_10,4,10,4,10;SBPLock=true;GameSpeed=0;HapticFeedback=false;ShowPromotions=true;PromoEarMinimised=false&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "60e6b2519e626e79526777162a0d68b40284da3e506c903d7bba257314a397d0",
+      "bytes": 365
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympmmd/desktop/game/sounds.ogg.json?key=5605b9a29cab7059971bff4db5c8fcca",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "ec6b3506ed76a6e2eabfc9543ab3594de35fc952b2d853a645973f3373f19043",
+      "bytes": 10665493
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/reloadBalance.do?mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "eace052e49564d094070275cea21e816be573a4bfa963380118f0870fcdece18",
+      "bytes": 79
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v5/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=2&counter=3&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "a55e7c83c10e528e182630a2855d943f9d0d6fc7482187def583748869d37c5e",
+      "bytes": 381
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v5/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20olympmmd&c=0.1&l=20&sInfo=n&bl=0&index=3&counter=5&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "c9011ad32ac29f7aba731381c56d067673b657321840912f8eb7dcb6fbf132aa",
+      "bytes": 278
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v5/gameService",
+      "method": "POST",
+      "requestBody": "symbol=vs20olympmmd&action=doCollect&index=4&counter=7&repeat=0&mgckey=stylename@generic~SESSION@67a19506-f4a9-4114-a269-ce982b77deae",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "c9dbba4381914e6bb3a87057e340c7981abe357b39eab7bdb1ca36757b20ca8a",
+      "bytes": 119
+    }
+  ]
+}

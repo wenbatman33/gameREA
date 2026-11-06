@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/version.json?1792722192532",
+    "file": "le-bandit/public/1309/version.json",
+    "bytes": 55,
+    "sha256": "ac2562428acca2e55d5006d0b89dc9d7e9a64101c9b19e92512fe0b2cb9fbb66"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/index.html?language=en&channel=desktop&gameid=1309&mode=2&token=123131&lobbyurl=https%3A%2F%2Fwww.hacksawgaming.com&currency=EUR&partner=demo&env=https://rgs-demo.hacksawgaming.com/api&realmoneyenv=https://rgs-demo.hacksawgaming.com/api",
+    "file": "le-bandit/public/1309/1.26.1/index.html",
+    "bytes": 40530,
+    "sha256": "336f835ea8ef7f3e9544b54f2614252663a49a7b1d92adb2b1f98b238daa52e2"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/vendor/promise-polyfill.min.js",
+    "file": "le-bandit/public/1309/1.26.1/vendor/promise-polyfill.min.js",
+    "bytes": 2883,
+    "sha256": "92af64f07491ea0e22757946d2ce62820a616374c42c8ac5668febdbae41b448"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/vendor/array-find-polyfill.min.js",
+    "file": "le-bandit/public/1309/1.26.1/vendor/array-find-polyfill.min.js",
+    "bytes": 463,
+    "sha256": "b7f3750691f16e4e3c3edb1ea58a801b5fa915a2f8dbea718c61345f5bbbafaf"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/ui/images/juegabien.png",
+    "file": "le-bandit/public/1309/1.26.1/ui/images/juegabien.png",
+    "bytes": 1727,
+    "sha256": "d2db1f2fbd894d07d27da58dbb315c9668c2dc29908d5fed35017f09849ae8b9"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/ui/images/coljuegos.png",
+    "file": "le-bandit/public/1309/1.26.1/ui/images/coljuegos.png",
+    "bytes": 2206,
+    "sha256": "0f1e2c8bf32616d65a2d428c4a388094d2774225a5e2ee463f7f0d0af50c1be5"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/ui.min.css",
+    "file": "le-bandit/public/1309/1.26.1/ui.min.css",
+    "bytes": 457588,
+    "sha256": "7cede972501cd623a624242d30104ca1ad2f48ea55d18195d32532373704b29d"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/ui/images/promotion_button.png",
+    "file": "le-bandit/public/1309/1.26.1/ui/images/promotion_button.png",
+    "bytes": 6940,
+    "sha256": "577755364c67206f4c87e3d658abcf7660ed2e3f896aaa0c5aca34ed6203d9b2"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/vendor/nosleep.min.js",
+    "file": "le-bandit/public/1309/1.26.1/vendor/nosleep.min.js",
+    "bytes": 1315,
+    "sha256": "72bb206dc10b8d71e57e85d4f734b0e617738e8b4c7447ab0cabc8d2c03cb251"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/vendor/reporter.min.js",
+    "file": "le-bandit/public/1309/1.26.1/vendor/reporter.min.js",
+    "bytes": 32043,
+    "sha256": "2293a31f91f0f7ea0fdb39fec689a29a1fce9ac336d95807cd0f2c01d7f38e68"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/vendor/analytics.min.js",
+    "file": "le-bandit/public/1309/1.26.1/vendor/analytics.min.js",
+    "bytes": 2682,
+    "sha256": "4e5e6f45edb5e0d23c7198ed5c4d7e0a45acc4de6ef4f588bbebf9ef8cb7503d"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/ui/hacksaw-ui.min.js",
+    "file": "le-bandit/public/1309/1.26.1/ui/hacksaw-ui.min.js",
+    "bytes": 603487,
+    "sha256": "e35cc850a61e76920d470c94ba56085e28768e5420b624ed382213e85a9e7837"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/casino/hacksaw-casino.min.js",
+    "file": "le-bandit/public/1309/1.26.1/casino/hacksaw-casino.min.js",
+    "bytes": 467118,
+    "sha256": "5dc00b291cca7f9965bf487edf42de58b61560f30f2f263e5a4aeef09f662181"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/ui/fonts/icons/icomoon.woff2?dbrolm",
+    "file": "le-bandit/public/1309/1.26.1/ui/fonts/icons/icomoon.woff2",
+    "bytes": 11208,
+    "sha256": "e5e4c5e7306924a4afa21ff44dd24d37b1b12bdaa69ada08906297e1527a2cdd"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/main.js",
+    "file": "le-bandit/public/1309/1.26.1/main.js",
+    "bytes": 2682120,
+    "sha256": "eb48f3e490940bf1f43c38fcd963139d56c929493cca36adc824ab4857d9d0c1"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/casino/desc-locale.json",
+    "file": "le-bandit/public/1309/1.26.1/casino/desc-locale.json",
+    "bytes": 21579,
+    "sha256": "c9c53d23fcd82a23d3b3c3feff109c53883187550cc1e06d364a442edbf7b296"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/vendor/needles.umd.js",
+    "file": "le-bandit/public/1309/1.26.1/vendor/needles.umd.js",
+    "bytes": 11010,
+    "sha256": "9279fe79498141e56f9c6af65d613b6f132496fa78ecd1ead4669de6cf504408"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1309/1.26.1/casino/locale/en-us/en-us.json",
+    "file": "le-bandit/public/1309/1.26.1/casino/locale/en-us/en-us.json",
+    "bytes": 37051,
+    "sha256": "1ff108a9c52617a78dc4e991f927517de8f94c4080675004000f5ce357aa99fb"
+  }
+]

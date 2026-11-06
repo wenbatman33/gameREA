@@ -1,0 +1,607 @@
+{
+  "files": [
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/games/moonprincess/moonprincess_desktop.bundle.js",
+      "file": "bodies/f98654357c8aa3ed4c959b63898e3ee58f500cba13930a80af36ddc6aa09dbee",
+      "contentType": "application/javascript",
+      "bytes": 2056827,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/config_desktop.json",
+      "file": "bodies/e1833a175267815659ceafb837c776c9dedba7c7c9693bcad415f9d5425e2ba1",
+      "contentType": "application/json",
+      "bytes": 45078,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/featurepreview_bundle.json",
+      "file": "bodies/99992b2631d97d69fe02a24102635dbe5e54050f8994acedca1a1b902f28736b",
+      "contentType": "application/json",
+      "bytes": 24700,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/game_bundle.json",
+      "file": "bodies/086e5f4dd90b7cc8f8dd6d5bffc6b0bea6a5755deee1ecaa21e621c8ca8b7eab",
+      "contentType": "application/json",
+      "bytes": 568612,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/ui_desktop_bundle.json",
+      "file": "bodies/63b1298527bff48b7505b3cc2b95e1bcb92dad5903bfa68e60902707e277838b",
+      "contentType": "application/json",
+      "bytes": 116843,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/mysteryjackpot_bundle.json",
+      "file": "bodies/de2729aa6359e23b728e089299b58df3f772f519aade18c10726c72e39d65b46",
+      "contentType": "application/json",
+      "bytes": 1179,
+      "status": 200
+    },
+    {
+      "url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=moonprincess&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "file": "bodies/52853a00d50a7218e6ca1d89dd25323d2e3d6c44174cdd63eb19d804339cffe8",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 747,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/oswald_regular.css",
+      "file": "bodies/213dbae94726fbe667dbe6bc8800679f27ac186be1f99ffa3f7ed021175c5cbe",
+      "contentType": "text/css",
+      "bytes": 154,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/oswald_medium.css",
+      "file": "bodies/6b2f57fda90068ea8ca7310ac4d20eb4895ac9158f135777c059b11ca5155116",
+      "contentType": "text/css",
+      "bytes": 152,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.css",
+      "file": "bodies/c018ebfdb84d7f2d5bd527176c9abdc358f9a8153b0835e6886d87bfe2050c4f",
+      "contentType": "text/css",
+      "bytes": 175,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/ROBOTO_CONDENSED_BOLD.css",
+      "file": "bodies/9ecc50c226974dc2c28b27e342de6610403e1c6314e6f1bfe649a41418ea8df4",
+      "contentType": "text/css",
+      "bytes": 169,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/MERIENDA_ONE.css",
+      "file": "bodies/724af0e2e1ce16308ae74473b386781070a3139efc42a2b43145468a413164a1",
+      "contentType": "text/css",
+      "bytes": 153,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/PNG_VNTH.css",
+      "file": "bodies/ee3f20cb76541602b885f6ba2daceec872e4e6a2add3e9525f7b76d0ff035603",
+      "contentType": "text/css",
+      "bytes": 117,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/ARIAL_ROUNDED_BOLD.css",
+      "file": "bodies/6caf308b1afce2e7156c5d739992fb8f0826b0f87fa4621760b16b49b426ef6b",
+      "contentType": "text/css",
+      "bytes": 163,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/POPPINS_REGULAR.css",
+      "file": "bodies/cd8d63cb7c62dd370c57111a9e116acc7aad832022f14f1f1d0460ffddd47b09",
+      "contentType": "text/css",
+      "bytes": 157,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/common/common_texture0_level0.png",
+      "file": "bodies/4b63b8e47588b6c181a810ceb0aefd69f9371382dbf9271d0ec81f790d721e50",
+      "contentType": "image/png",
+      "bytes": 223308,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/common/common_texture0_level1.png",
+      "file": "bodies/c8552707ed3364d1fe5312478e72cb8e0c1098d51edd7a2b4926392c89550678",
+      "contentType": "image/png",
+      "bytes": 158811,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/common/common_texture0_level2.png",
+      "file": "bodies/3e7142077052e2f16d6f55e44a0ccbcbc0f1d2d1bbaf70bf7c790f4ce37cfe7e",
+      "contentType": "image/png",
+      "bytes": 97935,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/common/common_texture1_level0.jpg",
+      "file": "bodies/8b7ecc8a6b82715e6741afcde84b6dae335295a5dcff4b777da637214cd32329",
+      "contentType": "image/jpeg",
+      "bytes": 13704,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/common/common_texture1_level1.jpg",
+      "file": "bodies/51dd492539e627eb4006af4ca1b31be79d8bb555306a569a10f4e39b74668a68",
+      "contentType": "image/jpeg",
+      "bytes": 9368,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/common/common_texture1_level2.jpg",
+      "file": "bodies/f50b12b0e4125e82521e8116daef4fddb75b349b72c68f87e3c780a24bd6554f",
+      "contentType": "image/jpeg",
+      "bytes": 6616,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/bmpfonts/bmpfonts_texture0_level0.png",
+      "file": "bodies/365612c3f5d8e98eb29d6eeac9f9c17d0ccb5857f1dd90690c8ea842c051f81f",
+      "contentType": "image/png",
+      "bytes": 618021,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/bmpfonts/bmpfonts_texture0_level1.png",
+      "file": "bodies/365612c3f5d8e98eb29d6eeac9f9c17d0ccb5857f1dd90690c8ea842c051f81f",
+      "contentType": "image/png",
+      "bytes": 618021,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/bmpfonts/bmpfonts_texture0_level2.png",
+      "file": "bodies/365612c3f5d8e98eb29d6eeac9f9c17d0ccb5857f1dd90690c8ea842c051f81f",
+      "contentType": "image/png",
+      "bytes": 618021,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/sounds/common_sounds_desktop.ogg",
+      "file": "bodies/4a0215237dce76691ef267cd09aa914dd1e151a090e266eedea25e0f06e1e413",
+      "contentType": "audio/ogg",
+      "bytes": 25039,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/sounds/common_sounds_desktop.mp3",
+      "file": "bodies/b4447ee42b8dc43c88012ef67a22390937f86ee17dd6171bc8d1d976a9b2fb21",
+      "contentType": "audio/mpeg",
+      "bytes": 34119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/sounds/common_sounds_desktop_fb.mp3",
+      "file": "bodies/3269ae44ab68840db5a7693cd6d0cfd69c4ce4a84af8f915bcf266fd70c7ff1c",
+      "contentType": "audio/mpeg",
+      "bytes": 50990,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/sounds/sounds_desktop.ogg",
+      "file": "bodies/947de0ba3045e25f3fa0d5b076c86b33d7db9b8970b11b5b1625a8b82e55507a",
+      "contentType": "audio/ogg",
+      "bytes": 3541085,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/sounds/sounds_desktop.mp3",
+      "file": "bodies/2a3f4f56e3bc82472c7dada857465a288653d630780a65d439ddd60bb035189c",
+      "contentType": "audio/mpeg",
+      "bytes": 4587334,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/sounds/sounds_desktop_fb.mp3",
+      "file": "bodies/b050feb1377531ec1336110cdaef403720ed3582f4d44c49d2b7acc748a8d849",
+      "contentType": "audio/mpeg",
+      "bytes": 3031248,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/feature_preview/feature_preview_texture0_level0.png",
+      "file": "bodies/edc078cf33480fd1c2f5ddced3016855cbd38780579c3e66efae30f7b1ab6c20",
+      "contentType": "image/png",
+      "bytes": 848433,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/feature_preview/feature_preview_texture0_level1.png",
+      "file": "bodies/a2cbcf24c35ec17129af666b2541a13ab2f7387c081589eab6b1ba707d55cf13",
+      "contentType": "image/png",
+      "bytes": 407375,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/feature_preview/feature_preview_texture0_level2.png",
+      "file": "bodies/9bc604729e8aae30f4a6cde42134bdf6702ca680e126ee65df2315b3f23af97e",
+      "contentType": "image/png",
+      "bytes": 244408,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/feature_preview/feature_preview_texture1_level0.png",
+      "file": "bodies/651bd86ef146692cceab0f55131ff3c6cf37ac478ebef8a08dcc72cb120c8622",
+      "contentType": "image/png",
+      "bytes": 6749,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/feature_preview/feature_preview_texture1_level1.png",
+      "file": "bodies/3c92fccc7bb31fd50c805152fb94fa291d4fb2aeb7fb2f60d2682c1bdb22726c",
+      "contentType": "image/png",
+      "bytes": 3648,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/feature_preview/feature_preview_texture1_level2.png",
+      "file": "bodies/61507afa80b49e3a6a6493a2f012c8f11b7f85770d0899312cef14a6b783348f",
+      "contentType": "image/png",
+      "bytes": 1945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture0_level0.png",
+      "file": "bodies/1c5a234ef5f7efabd3d4bac232660a60c6cbdcce200266b7784d687c1cc84833",
+      "contentType": "image/png",
+      "bytes": 2417900,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture0_level1.png",
+      "file": "bodies/196775df9b9ae3bbb4a339ef91a9936993f6f1d5bd1c2ec88af563fd2a698f69",
+      "contentType": "image/png",
+      "bytes": 1640967,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture0_level2.png",
+      "file": "bodies/37bbcabfc144ebc0a6a1d46bc5c99a9a1d8b5e05f4e23a283b8397532e6c596e",
+      "contentType": "image/png",
+      "bytes": 1014926,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture1_level0.png",
+      "file": "bodies/a5bffc854cadc5b4ae0b5827c66cc88749a02cd4f39ecb7abdcc7ebca4c7c3ae",
+      "contentType": "image/png",
+      "bytes": 2347739,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture1_level1.png",
+      "file": "bodies/598cd9e63bb9ec273ee1c4864036b8f7afe9237ade8ced0a43efc6ef976646b7",
+      "contentType": "image/png",
+      "bytes": 1517513,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture1_level2.png",
+      "file": "bodies/cbe97e75b7cdb0c4d5d591f089390d330bf95e97605445bc837b09112645c2c6",
+      "contentType": "image/png",
+      "bytes": 932305,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture2_level0.png",
+      "file": "bodies/4a622c59ad8de74189087aec62f6c1283f79b0d91d7facb80c9755d31feef138",
+      "contentType": "image/png",
+      "bytes": 1379733,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture2_level1.png",
+      "file": "bodies/5af72ccf15f75b70b12a23a793b4e5ddfc1108843303fb84b3235d93c8b25c66",
+      "contentType": "image/png",
+      "bytes": 640042,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture2_level2.png",
+      "file": "bodies/7036a10bef027713f6f9fef0f07492ddee98eb287be442d74958c60c8b51a059",
+      "contentType": "image/png",
+      "bytes": 392847,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture3_level0.jpg",
+      "file": "bodies/d5764960248357f6c5b2872446fd18d5262ce6643f5e85a920e1598fcb5bb362",
+      "contentType": "image/jpeg",
+      "bytes": 242327,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture3_level1.jpg",
+      "file": "bodies/df954867a7fd9171f5f49d82a0f9f8f6e6e7da3d2b52d873cf32f832f86ffa24",
+      "contentType": "image/jpeg",
+      "bytes": 174169,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture3_level2.jpg",
+      "file": "bodies/9a7a98bcc6022c5e27b15bafe302140404841a2a5a41c0ef108ea17484b7ed54",
+      "contentType": "image/jpeg",
+      "bytes": 118807,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture4_level0.jpg",
+      "file": "bodies/a708e99c075986be86ec3d8a59aafc7c7043ffbef39c78580ecf144c124ce295",
+      "contentType": "image/jpeg",
+      "bytes": 142735,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture4_level1.jpg",
+      "file": "bodies/abeae99d7f59cbb2fa76d4f900160a81a83f55f4e843989402c253220f5bb436",
+      "contentType": "image/jpeg",
+      "bytes": 97938,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture4_level2.jpg",
+      "file": "bodies/7a1aa65efdb28b3b78048a998123b4191ac7a442c5035588c8c983cd28539335",
+      "contentType": "image/jpeg",
+      "bytes": 65631,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture5_level0.png",
+      "file": "bodies/f1f68b7a688dd1b7cf8f2d12857c76f2af88f18d394553ebc1e2337e58b475e4",
+      "contentType": "image/png",
+      "bytes": 2415759,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture5_level1.png",
+      "file": "bodies/0ce53e8e3e3462fff92a4d3a0026b17f4a6afad94f4c38a69c915bf4979504d6",
+      "contentType": "image/png",
+      "bytes": 1104224,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/skin/skin_texture5_level2.png",
+      "file": "bodies/1425f969ea75ec027340f1165c8e4afdcd07087ec52b3921bae2ff41db2a960d",
+      "contentType": "image/png",
+      "bytes": 672287,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/menu/menu_texture0_level0.png",
+      "file": "bodies/35713252fc690c70d94da33a86d70152f3cb9ac0c10d74ae745cb6f324f0db65",
+      "contentType": "image/png",
+      "bytes": 2020577,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/menu/menu_texture0_level1.png",
+      "file": "bodies/0e35fcb888351a25ec18525f8f381d4872118346d1af26033bef612bfb04aabe",
+      "contentType": "image/png",
+      "bytes": 1021581,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/menu/menu_texture0_level2.png",
+      "file": "bodies/d5b6cb28fbdd829b2532d6bb9175e6585d4fae80278f8c2d2eaca530da2f19fe",
+      "contentType": "image/png",
+      "bytes": 607539,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level0.png",
+      "file": "bodies/5ad91ddee6c4008bf48577e3784c71c5984a8cf92ecde62143e9a4d81d907f00",
+      "contentType": "image/png",
+      "bytes": 66681,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level1.png",
+      "file": "bodies/2ece7444295bf05755811719f0742bae67e845d9db1b39a5b3420146aee32fdb",
+      "contentType": "image/png",
+      "bytes": 52938,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level2.png",
+      "file": "bodies/c345fe8386b1032cf5558fcc3606d75c76cd27046824045bfe91329b19a8989e",
+      "contentType": "image/png",
+      "bytes": 36068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/ui/desktop/statusbar/statusbar_texture0_level0.png",
+      "file": "bodies/4cfb88e3d112693900d6079094f74e1b5112efe6a82bae6d98e488e231ba8d72",
+      "contentType": "image/png",
+      "bytes": 11391,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/ui/desktop/statusbar/statusbar_texture0_level1.png",
+      "file": "bodies/e894ad1821e3ffa68075700c63cb31de06b0dd8a03c550b5d5fd091cc7908315",
+      "contentType": "image/png",
+      "bytes": 7605,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/ui/desktop/statusbar/statusbar_texture0_level2.png",
+      "file": "bodies/988950a30e0ea2a5ef30f40e95b9f43fa4a894bae60db96ec6ea837f542ff50b",
+      "contentType": "image/png",
+      "bytes": 4068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/hyperspineffect/hyperspineffect_texture0_level0.png",
+      "file": "bodies/674bcf4e00d8f3d42471340036b89c95f79bb5afabbb4bb5fca233b6164fe707",
+      "contentType": "image/png",
+      "bytes": 173287,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/hyperspineffect/hyperspineffect_texture0_level1.png",
+      "file": "bodies/49f21460d1dcbd50681a5ebe096a2f6f7c916917028e340bb23de6301256d901",
+      "contentType": "image/png",
+      "bytes": 74137,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/hyperspineffect/hyperspineffect_texture0_level2.png",
+      "file": "bodies/3a47f61f15eb2b30236040bc013e6341af17cd2a40caad34241577d9a2ef2cbb",
+      "contentType": "image/png",
+      "bytes": 44490,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.ogg",
+      "file": "bodies/e05a2f488ba80fa478b201e676f89905bb41555b461db719f91029ea728036b0",
+      "contentType": "audio/ogg",
+      "bytes": 127668,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.mp3",
+      "file": "bodies/b9f90f27921dc3826d90317fcb555d6f7a166668615b2b9f08f5b0aba3057c51",
+      "contentType": "audio/mpeg",
+      "bytes": 157546,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop_fb.mp3",
+      "file": "bodies/711aebb2c4648cda8a1711f111a723d0525e978e1876516f4063c014297055fc",
+      "contentType": "audio/mpeg",
+      "bytes": 142314,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot_style.json",
+      "file": "bodies/99f6255fe210c2f0c8c76e45a6426d2316aceaaf881615d9999116d9dba6b30c",
+      "contentType": "application/json",
+      "bytes": 1952,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/mysteryjackpot.json",
+      "file": "bodies/bef3710616a8e9c9cb3e9a8c2803b8450ae2ad2914e6b02df0bdf0cf129def64",
+      "contentType": "application/json",
+      "bytes": 49146,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/games/gridslot/moonprincess/layout_mysteryjackpot_desktop.json",
+      "file": "bodies/a26dba2c8fe0b6cdd2ccddc9f16a678ea98af2eb986ed9c6c83405cc7edb2b82",
+      "contentType": "application/json",
+      "bytes": 589,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/hera/hera-1.46.0.29/container-launcher/ContainerLauncher_bundle.js",
+      "file": "bodies/af445cfba70e84c719498c585c09ccd6210064054ed614d3fce420fa7e430a35",
+      "contentType": "application/javascript",
+      "bytes": 361857,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/main.js",
+      "file": "bodies/59558ef7d7054397628e684d2d63a12a4411ec2b9832d9ab1502b42f48143f86",
+      "contentType": "application/javascript",
+      "bytes": 40524,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/css/game_history_styles.css",
+      "file": "bodies/ce6a789b3b94252eec4ce36e36e40bfd155fd3a169fecb2894aab60dfe852b99",
+      "contentType": "text/css",
+      "bytes": 9166,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/help.css",
+      "file": "bodies/1f8bc3af2db93e35857cf24eaa0e7e4221987eb7f2d56fefe4b0bf26f39b2897",
+      "contentType": "text/css",
+      "bytes": 2624,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/template3.css",
+      "file": "bodies/647f52facdd5dc7a87b785ac15b78fe8ce084c92f55bd81969aedf82fbe9d0a8",
+      "contentType": "text/css",
+      "bytes": 2554,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/OSWALD-REGULAR.woff",
+      "file": "bodies/c04d481e62e3e19fd151171df3366128fd4b24482810eb96b132f0559bec3967",
+      "contentType": "font/woff",
+      "bytes": 151733,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/OSWALD-MEDIUM.woff",
+      "file": "bodies/de474436f8484e668ee442938136ff8d4619fcc41af8a3b4fa97cb644a1a507c",
+      "contentType": "font/woff",
+      "bytes": 107945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.woff",
+      "file": "bodies/fe233bd33b58cb76eae1bd15098bdd052e705762aa277915f65a63af4164f20a",
+      "contentType": "font/woff",
+      "bytes": 109929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/ROBOTO_CONDENSED_BOLD.woff",
+      "file": "bodies/de19d3ed40dda1ff72f31cc0cbbd3ad9cfc380f45851173365755eadde145807",
+      "contentType": "font/woff",
+      "bytes": 109277,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/MERIENDA_ONE.woff",
+      "file": "bodies/c438bd8f5920f2dfdc691ec96f59e6e148423df79f8355debb27c9c49522cb6c",
+      "contentType": "font/woff",
+      "bytes": 20360,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/PNG_VNTH.woff",
+      "file": "bodies/9fce30ce49873208b850ffffd292cd2315b17fcdea4a69362a08a8e49b614abd",
+      "contentType": "font/woff",
+      "bytes": 184481,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/ARIAL_ROUNDED_BOLD.woff",
+      "file": "bodies/e8faa09d926deb7d5a0fd1a30c1d197a40f8d929e10d3cdf1080f9f9c866e84d",
+      "contentType": "font/woff",
+      "bytes": 27300,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/common/fonts/POPPINS_REGULAR.woff",
+      "file": "bodies/0d205c202c811f9c82aa8878901757b7a683312bea86ec90d2b1ecdc13424c9d",
+      "contentType": "font/woff",
+      "bytes": 73600,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.4.1-moonprincess.378/resources/lang/en_GB/locale.json",
+      "file": "bodies/7a0bd04e9bc287f289a8afb09caf9f1ec7229edbe8cc8210e867bf40ea79ad56",
+      "contentType": "application/json",
+      "bytes": 1636911,
+      "status": 200
+    }
+  ],
+  "failed": []
+}

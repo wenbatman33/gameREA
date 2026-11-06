@@ -1,0 +1,41 @@
+{
+  "accountType": "R",
+  "currency": "USD",
+  "currencyOriginal": "USD",
+  "datapath": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20olympgate/",
+  "umpcEnabled": false,
+  "lcEnabled": false,
+  "gameService": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+  "lang": "en",
+  "vendor": "T",
+  "showRealCash": "1",
+  "clock": "0",
+  "mgckey": "stylename@generic~SESSION@b3a47f95-bba8-4cd9-9201-e098b4e67bce",
+  "styleName": "generic",
+  "extend_events": "1",
+  "REGULATION": "https://demogamesfree.pragmaticplay.net/gs2c/regulation/process.do?symbol=vs20olympgate",
+  "statisticsURL": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do",
+  "jurisdiction": "99",
+  "langSelectorEnabled": "0",
+  "cid": "11111",
+  "demoMode": "1",
+  "manualPayout": [
+    "MRC",
+    "TMC",
+    "TMFS",
+    "MRFS"
+  ],
+  "announcementsUpdateSeconds": 120,
+  "announcementsUpdateSecondsDefault": 120,
+  "LOGOUT": "/gs2c/logout.do",
+  "RELOAD_BALANCE": "/gs2c/reloadBalance.do",
+  "RELOAD_JACKPOT": "/gs2c/jackpot/reload.do",
+  "SETTINGS": "/gs2c/saveSettings.do",
+  "CLOSE_GAME": "/gs2c/closeGame.do?symbol=vs20olympgate",
+  "region": "Other",
+  "sessionKeyV2": [
+    "RjgBmEDVyNFo2XKNhBEbdzuHzU00mwhMYiplc5TIFHa5E5BDS7+6pQpgvnmPnnGfinlu2DMOtuIDCfb+/0Eeoh57HYo9oG2KYy7mrsLwbJVOogJUV7LnI7H5cGUtSVOWAR2Q+t6PRBY9qJo0jenHQUoM090bLtBg7kphm4mJoSU=",
+    "VPwb2AnaDRoOlfVgN00lo+n3cKg8ljRgAul4qCBGXlo4MjkoHus3SlEM4ijhFBAUaIPihUowXnCdL77lA2Eyh2TE9DNb2hfhmSV637bfoSqq0ssjad8668nZttmNj6uQG4mNJSCpLrNihneNBSQKiU6gqL+YnGE1Rm9vEl1zufE="
+  ],
+  "mid": "7111181893664308041"
+}

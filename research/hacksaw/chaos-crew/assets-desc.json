@@ -1,0 +1,2557 @@
+{
+   "path": "assets",
+   "name": "assets",
+   "children": [
+      {
+         "path": "assets/default",
+         "name": "default",
+         "children": [
+            {
+               "path": "assets/default/common",
+               "name": "common",
+               "children": [
+                  {
+                     "path": "assets/default/common/atlas",
+                     "name": "atlas",
+                     "children": [
+                        {
+                           "path": "assets/default/common/atlas/bonus.atlas",
+                           "name": "bonus.atlas",
+                           "size": 2549,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/bonus.ktx2",
+                           "name": "bonus.ktx2",
+                           "size": 1248853,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/brush.atlas",
+                           "name": "brush.atlas",
+                           "size": 1626,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/brush.ktx2",
+                           "name": "brush.ktx2",
+                           "size": 79122,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/chars_fs.atlas",
+                           "name": "chars_fs.atlas",
+                           "size": 1614,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/chars_fs.ktx2",
+                           "name": "chars_fs.ktx2",
+                           "size": 89673,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/chars_main.atlas",
+                           "name": "chars_main.atlas",
+                           "size": 1619,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/chars_main.ktx2",
+                           "name": "chars_main.ktx2",
+                           "size": 89695,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/chars_small.atlas",
+                           "name": "chars_small.atlas",
+                           "size": 1293,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/chars_small.ktx2",
+                           "name": "chars_small.ktx2",
+                           "size": 42834,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/fs.atlas",
+                           "name": "fs.atlas",
+                           "size": 4847,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/fs.ktx2",
+                           "name": "fs.ktx2",
+                           "size": 293482,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_1.atlas",
+                           "name": "high_1.atlas",
+                           "size": 3181,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_1.ktx2",
+                           "name": "high_1.ktx2",
+                           "size": 87892,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_2.atlas",
+                           "name": "high_2.atlas",
+                           "size": 2657,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_2.ktx2",
+                           "name": "high_2.ktx2",
+                           "size": 871863,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_3.atlas",
+                           "name": "high_3.atlas",
+                           "size": 2625,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_3.ktx2",
+                           "name": "high_3.ktx2",
+                           "size": 167180,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_4.atlas",
+                           "name": "high_4.atlas",
+                           "size": 2661,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/high_4.ktx2",
+                           "name": "high_4.ktx2",
+                           "size": 113633,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_1.atlas",
+                           "name": "low_1.atlas",
+                           "size": 3379,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_1.ktx2",
+                           "name": "low_1.ktx2",
+                           "size": 161197,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_2.atlas",
+                           "name": "low_2.atlas",
+                           "size": 3385,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_2.ktx2",
+                           "name": "low_2.ktx2",
+                           "size": 260127,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_3.atlas",
+                           "name": "low_3.atlas",
+                           "size": 3384,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_3.ktx2",
+                           "name": "low_3.ktx2",
+                           "size": 241270,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_4.atlas",
+                           "name": "low_4.atlas",
+                           "size": 3372,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_4.ktx2",
+                           "name": "low_4.ktx2",
+                           "size": 292713,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_5.atlas",
+                           "name": "low_5.atlas",
+                           "size": 3372,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/low_5.ktx2",
+                           "name": "low_5.ktx2",
+                           "size": 251735,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/misc.atlas",
+                           "name": "misc.atlas",
+                           "size": 509,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/misc.ktx2",
+                           "name": "misc.ktx2",
+                           "size": 1400939,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_10.atlas",
+                           "name": "multi_10.atlas",
+                           "size": 5136,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_10.ktx2",
+                           "name": "multi_10.ktx2",
+                           "size": 299106,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_2.atlas",
+                           "name": "multi_2.atlas",
+                           "size": 5096,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_2.ktx2",
+                           "name": "multi_2.ktx2",
+                           "size": 295408,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_20.atlas",
+                           "name": "multi_20.atlas",
+                           "size": 5151,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_20.ktx2",
+                           "name": "multi_20.ktx2",
+                           "size": 304563,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_3.atlas",
+                           "name": "multi_3.atlas",
+                           "size": 5105,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_3.ktx2",
+                           "name": "multi_3.ktx2",
+                           "size": 297028,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_5.atlas",
+                           "name": "multi_5.atlas",
+                           "size": 5105,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/multi_5.ktx2",
+                           "name": "multi_5.ktx2",
+                           "size": 295837,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_1.atlas",
+                           "name": "plus_1.atlas",
+                           "size": 5057,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_1.ktx2",
+                           "name": "plus_1.ktx2",
+                           "size": 264233,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_10.atlas",
+                           "name": "plus_10.atlas",
+                           "size": 4989,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_10.ktx2",
+                           "name": "plus_10.ktx2",
+                           "size": 260822,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_2.atlas",
+                           "name": "plus_2.atlas",
+                           "size": 5057,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_2.ktx2",
+                           "name": "plus_2.ktx2",
+                           "size": 264482,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_20.atlas",
+                           "name": "plus_20.atlas",
+                           "size": 4994,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_20.ktx2",
+                           "name": "plus_20.ktx2",
+                           "size": 264793,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_5.atlas",
+                           "name": "plus_5.atlas",
+                           "size": 5057,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/plus_5.ktx2",
+                           "name": "plus_5.ktx2",
+                           "size": 265870,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/spinning_coin_1.atlas",
+                           "name": "spinning_coin_1.atlas",
+                           "size": 1236,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/spinning_coin_1.ktx2",
+                           "name": "spinning_coin_1.ktx2",
+                           "size": 54609,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/spinning_coin_2.atlas",
+                           "name": "spinning_coin_2.atlas",
+                           "size": 1240,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/spinning_coin_2.ktx2",
+                           "name": "spinning_coin_2.ktx2",
+                           "size": 54922,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/splash.atlas",
+                           "name": "splash.atlas",
+                           "size": 401,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/splash.ktx2",
+                           "name": "splash.ktx2",
+                           "size": 1729189,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/spraycan.atlas",
+                           "name": "spraycan.atlas",
+                           "size": 2365,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/spraycan.ktx2",
+                           "name": "spraycan.ktx2",
+                           "size": 94087,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/symbols.atlas",
+                           "name": "symbols.atlas",
+                           "size": 2269,
+                           "type": "file",
+                           "extension": ".atlas"
+                        },
+                        {
+                           "path": "assets/default/common/atlas/symbols.ktx2",
+                           "name": "symbols.ktx2",
+                           "size": 594820,
+                           "type": "file",
+                           "extension": ".ktx2"
+                        }
+                     ],
+                     "size": 11132308,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/default/common/font",
+                     "name": "font",
+                     "children": [
+                        {
+                           "path": "assets/default/common/font/baloo_regular.ttf",
+                           "name": "baloo_regular.ttf",
+                           "size": 626144,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/fontconfig.json",
+                           "name": "fontconfig.json",
+                           "size": 340,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/default/common/font/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/default/common/font/localized/ar-ar",
+                                 "name": "ar-ar",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ar-ar/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17769,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ar-ar/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 145107,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162876,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/bg-bg",
+                                 "name": "bg-bg",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/bg-bg/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 69943,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/bg-bg/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 196347,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 266290,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/da-dk",
+                                 "name": "da-dk",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/da-dk/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18183,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/da-dk/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 151790,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 169973,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/de-de",
+                                 "name": "de-de",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/de-de/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18323,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/de-de/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 152872,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 171195,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/el-gr",
+                                 "name": "el-gr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/el-gr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 24108,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/el-gr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 264468,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 288576,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/en-us",
+                                 "name": "en-us",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/en-us/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17769,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/en-us/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 145107,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162876,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/es-es/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18753,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/es-es/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 155585,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 174338,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/fi-fi",
+                                 "name": "fi-fi",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/fi-fi/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17912,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/fi-fi/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 147807,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 165719,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/fr-fr",
+                                 "name": "fr-fr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/fr-fr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18743,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/fr-fr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 157460,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 176203,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/hr-hr",
+                                 "name": "hr-hr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/hr-hr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 62523,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/hr-hr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 153144,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 215667,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/hu-hu",
+                                 "name": "hu-hu",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/hu-hu/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 105003,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/hu-hu/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 167903,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 272906,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/id-id",
+                                 "name": "id-id",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/id-id/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17626,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/id-id/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 142616,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 160242,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/it-it",
+                                 "name": "it-it",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/it-it/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17768,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/it-it/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 145003,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162771,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ja-jp",
+                                 "name": "ja-jp",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ja-jp/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 30487,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ja-jp/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 395817,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 426304,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ko-kr",
+                                 "name": "ko-kr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ko-kr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 32605,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ko-kr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 376277,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 408882,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/lt-lt",
+                                 "name": "lt-lt",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/lt-lt/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 102867,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/lt-lt/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 165100,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 267967,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/lv-lv",
+                                 "name": "lv-lv",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/lv-lv/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19030,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/lv-lv/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 160320,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 179350,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/nl-nl",
+                                 "name": "nl-nl",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/nl-nl/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18045,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/nl-nl/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 149002,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 167047,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/no-no",
+                                 "name": "no-no",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/no-no/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17773,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/no-no/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 144372,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162145,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/pl-pl",
+                                 "name": "pl-pl",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/pl-pl/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19033,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/pl-pl/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 163383,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 182416,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/pt-br",
+                                 "name": "pt-br",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-br/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19149,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-br/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 166062,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 185211,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/pt-pt",
+                                 "name": "pt-pt",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-pt/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18604,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/pt-pt/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 155528,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 174132,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ro-ro",
+                                 "name": "ro-ro",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ro-ro/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18882,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ro-ro/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 159055,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 177937,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/ru-ru",
+                                 "name": "ru-ru",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/ru-ru/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 23885,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/ru-ru/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 247065,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 270950,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/sl-si",
+                                 "name": "sl-si",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/sl-si/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 67255,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/sl-si/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 154172,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 221427,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/sv-se",
+                                 "name": "sv-se",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/sv-se/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18178,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/sv-se/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 153191,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 171369,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/th-th",
+                                 "name": "th-th",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/th-th/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 93461,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/th-th/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 205019,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 298480,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/tr-tr",
+                                 "name": "tr-tr",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/tr-tr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19022,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/tr-tr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 162404,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 181426,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/vi-vn",
+                                 "name": "vi-vn",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/vi-vn/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 24918,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/vi-vn/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 316803,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 341721,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/default/common/font/localized/zh-cn",
+                                 "name": "zh-cn",
+                                 "children": [
+                                    {
+                                       "path": "assets/default/common/font/localized/zh-cn/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 29066,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/default/common/font/localized/zh-cn/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 305986,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 335052,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 6701448,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/default/common/font/notosansblack.ttf",
+                           "name": "notosansblack.ttf",
+                           "size": 492052,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/pridi.ttf",
+                           "name": "pridi.ttf",
+                           "size": 201320,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/rubik_black.ttf",
+                           "name": "rubik_black.ttf",
+                           "size": 139164,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/sawarabigothic.ttf",
+                           "name": "sawarabigothic.ttf",
+                           "size": 2054280,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/sourcehansans_hwj_bold.ttf",
+                           "name": "sourcehansans_hwj_bold.ttf",
+                           "size": 17869588,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/default/common/font/zcool.ttf",
+                           "name": "zcool.ttf",
+                           "size": 6402068,
+                           "type": "file",
+                           "extension": ".ttf"
+                        }
+                     ],
+                     "size": 34486404,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/default/common/sound",
+                     "name": "sound",
+                     "children": [
+                        {
+                           "path": "assets/default/common/sound/ambient_ambience.mp4",
+                           "name": "ambient_ambience.mp4",
+                           "size": 245399,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/ambient_ambience.webm",
+                           "name": "ambient_ambience.webm",
+                           "size": 228632,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_add_epic_landed.mp4",
+                           "name": "fx_add_epic_landed.mp4",
+                           "size": 10031,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_add_epic_landed.webm",
+                           "name": "fx_add_epic_landed.webm",
+                           "size": 10971,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_add_landed.mp4",
+                           "name": "fx_add_landed.mp4",
+                           "size": 8902,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_add_landed.webm",
+                           "name": "fx_add_landed.webm",
+                           "size": 8257,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_add_reveal.mp4",
+                           "name": "fx_add_reveal.mp4",
+                           "size": 4751,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_add_reveal.webm",
+                           "name": "fx_add_reveal.webm",
+                           "size": 4283,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_betlevel.mp4",
+                           "name": "fx_betlevel.mp4",
+                           "size": 1989,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_betlevel.webm",
+                           "name": "fx_betlevel.webm",
+                           "size": 1618,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_bleed.mp4",
+                           "name": "fx_bleed.mp4",
+                           "size": 7856,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_bleed.webm",
+                           "name": "fx_bleed.webm",
+                           "size": 8642,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_bonus_number_move.mp4",
+                           "name": "fx_bonus_number_move.mp4",
+                           "size": 6589,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_bonus_number_move.webm",
+                           "name": "fx_bonus_number_move.webm",
+                           "size": 6231,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_brush.mp4",
+                           "name": "fx_brush.mp4",
+                           "size": 5123,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_brush.webm",
+                           "name": "fx_brush.webm",
+                           "size": 4515,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_current_1.mp4",
+                           "name": "fx_current_1.mp4",
+                           "size": 15343,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_current_1.webm",
+                           "name": "fx_current_1.webm",
+                           "size": 17217,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_drop_in.mp4",
+                           "name": "fx_drop_in.mp4",
+                           "size": 7005,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_drop_in.webm",
+                           "name": "fx_drop_in.webm",
+                           "size": 6889,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_drop_out.mp4",
+                           "name": "fx_drop_out.mp4",
+                           "size": 6121,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_drop_out.webm",
+                           "name": "fx_drop_out.webm",
+                           "size": 6607,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_freespin_landed.mp4",
+                           "name": "fx_freespin_landed.mp4",
+                           "size": 2411,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_freespin_landed.webm",
+                           "name": "fx_freespin_landed.webm",
+                           "size": 2685,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_freespin_triggered.mp4",
+                           "name": "fx_freespin_triggered.mp4",
+                           "size": 10960,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_freespin_triggered.webm",
+                           "name": "fx_freespin_triggered.webm",
+                           "size": 11246,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_fs_landed.mp4",
+                           "name": "fx_fs_landed.mp4",
+                           "size": 10939,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_fs_landed.webm",
+                           "name": "fx_fs_landed.webm",
+                           "size": 8380,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_fs_triggered.mp4",
+                           "name": "fx_fs_triggered.mp4",
+                           "size": 11826,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_fs_triggered.webm",
+                           "name": "fx_fs_triggered.webm",
+                           "size": 12287,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_glitch_1.mp4",
+                           "name": "fx_glitch_1.mp4",
+                           "size": 2651,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_glitch_1.webm",
+                           "name": "fx_glitch_1.webm",
+                           "size": 5658,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_glitch_2.mp4",
+                           "name": "fx_glitch_2.mp4",
+                           "size": 3057,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_glitch_2.webm",
+                           "name": "fx_glitch_2.webm",
+                           "size": 6454,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_glitch_3.mp4",
+                           "name": "fx_glitch_3.mp4",
+                           "size": 6159,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_glitch_3.webm",
+                           "name": "fx_glitch_3.webm",
+                           "size": 5823,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_health_bar_down.mp4",
+                           "name": "fx_health_bar_down.mp4",
+                           "size": 3730,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_health_bar_down.webm",
+                           "name": "fx_health_bar_down.webm",
+                           "size": 3282,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_health_bar_up.mp4",
+                           "name": "fx_health_bar_up.mp4",
+                           "size": 5443,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_health_bar_up.webm",
+                           "name": "fx_health_bar_up.webm",
+                           "size": 5633,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_1.mp4",
+                           "name": "fx_line_win_1.mp4",
+                           "size": 7276,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_1.webm",
+                           "name": "fx_line_win_1.webm",
+                           "size": 7574,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_2.mp4",
+                           "name": "fx_line_win_2.mp4",
+                           "size": 7268,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_2.webm",
+                           "name": "fx_line_win_2.webm",
+                           "size": 7597,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_3.mp4",
+                           "name": "fx_line_win_3.mp4",
+                           "size": 7235,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_3.webm",
+                           "name": "fx_line_win_3.webm",
+                           "size": 7636,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_4.mp4",
+                           "name": "fx_line_win_4.mp4",
+                           "size": 7290,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_4.webm",
+                           "name": "fx_line_win_4.webm",
+                           "size": 7810,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_5.mp4",
+                           "name": "fx_line_win_5.mp4",
+                           "size": 7260,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_5.webm",
+                           "name": "fx_line_win_5.webm",
+                           "size": 7602,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_6.mp4",
+                           "name": "fx_line_win_6.mp4",
+                           "size": 7261,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_line_win_6.webm",
+                           "name": "fx_line_win_6.webm",
+                           "size": 7526,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_mult_epic_landed.mp4",
+                           "name": "fx_mult_epic_landed.mp4",
+                           "size": 13834,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_mult_epic_landed.webm",
+                           "name": "fx_mult_epic_landed.webm",
+                           "size": 12595,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_multiplier_inc.mp4",
+                           "name": "fx_multiplier_inc.mp4",
+                           "size": 1501,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_multiplier_inc.webm",
+                           "name": "fx_multiplier_inc.webm",
+                           "size": 1479,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_multiplier_landed.mp4",
+                           "name": "fx_multiplier_landed.mp4",
+                           "size": 7745,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_multiplier_landed.webm",
+                           "name": "fx_multiplier_landed.webm",
+                           "size": 6790,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_multiplier_reveal.mp4",
+                           "name": "fx_multiplier_reveal.mp4",
+                           "size": 4438,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_multiplier_reveal.webm",
+                           "name": "fx_multiplier_reveal.webm",
+                           "size": 4113,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_spin.mp4",
+                           "name": "fx_spin.mp4",
+                           "size": 1942,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_spin.webm",
+                           "name": "fx_spin.webm",
+                           "size": 1621,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_symbol_land_1.mp4",
+                           "name": "fx_symbol_land_1.mp4",
+                           "size": 3032,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_symbol_land_1.webm",
+                           "name": "fx_symbol_land_1.webm",
+                           "size": 2695,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_count.mp4",
+                           "name": "fx_win_count.mp4",
+                           "size": 2169,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_count.webm",
+                           "name": "fx_win_count.webm",
+                           "size": 2021,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_end.mp4",
+                           "name": "fx_win_end.mp4",
+                           "size": 5932,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_end.webm",
+                           "name": "fx_win_end.webm",
+                           "size": 6345,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_end_mid.mp4",
+                           "name": "fx_win_end_mid.mp4",
+                           "size": 8700,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_end_mid.webm",
+                           "name": "fx_win_end_mid.webm",
+                           "size": 8047,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_end_small.mp4",
+                           "name": "fx_win_end_small.mp4",
+                           "size": 5933,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/fx_win_end_small.webm",
+                           "name": "fx_win_end_small.webm",
+                           "size": 5650,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_fs_level_0.mp4",
+                           "name": "music_fs_level_0.mp4",
+                           "size": 349205,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_fs_level_0.webm",
+                           "name": "music_fs_level_0.webm",
+                           "size": 363347,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_0.mp4",
+                           "name": "music_level_0.mp4",
+                           "size": 348806,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_0.webm",
+                           "name": "music_level_0.webm",
+                           "size": 415953,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_1.mp4",
+                           "name": "music_level_1.mp4",
+                           "size": 175155,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_1.webm",
+                           "name": "music_level_1.webm",
+                           "size": 208052,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_2.mp4",
+                           "name": "music_level_2.mp4",
+                           "size": 196825,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_2.webm",
+                           "name": "music_level_2.webm",
+                           "size": 200054,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_3.mp4",
+                           "name": "music_level_3.mp4",
+                           "size": 221305,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_3.webm",
+                           "name": "music_level_3.webm",
+                           "size": 236694,
+                           "type": "file",
+                           "extension": ".webm"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_4.mp4",
+                           "name": "music_level_4.mp4",
+                           "size": 351427,
+                           "type": "file",
+                           "extension": ".mp4"
+                        },
+                        {
+                           "path": "assets/default/common/sound/music_level_4.webm",
+                           "name": "music_level_4.webm",
+                           "size": 355869,
+                           "type": "file",
+                           "extension": ".webm"
+                        }
+                     ],
+                     "size": 4360204,
+                     "type": "directory"
+                  }
+               ],
+               "size": 49978916,
+               "type": "directory"
+            }
+         ],
+         "size": 49978916,
+         "type": "directory"
+      },
+      {
+         "path": "assets/social",
+         "name": "social",
+         "children": [
+            {
+               "path": "assets/social/common",
+               "name": "common",
+               "children": [
+                  {
+                     "path": "assets/social/common/config",
+                     "name": "config",
+                     "children": [
+                        {
+                           "path": "assets/social/common/config/gameconfig.json",
+                           "name": "gameconfig.json",
+                           "size": 2846,
+                           "type": "file",
+                           "extension": ".json"
+                        }
+                     ],
+                     "size": 2846,
+                     "type": "directory"
+                  },
+                  {
+                     "path": "assets/social/common/font",
+                     "name": "font",
+                     "children": [
+                        {
+                           "path": "assets/social/common/font/baloo_regular.ttf",
+                           "name": "baloo_regular.ttf",
+                           "size": 626144,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/fontconfig.json",
+                           "name": "fontconfig.json",
+                           "size": 340,
+                           "type": "file",
+                           "extension": ".json"
+                        },
+                        {
+                           "path": "assets/social/common/font/localized",
+                           "name": "localized",
+                           "children": [
+                              {
+                                 "path": "assets/social/common/font/localized/ar-ar",
+                                 "name": "ar-ar",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ar-ar/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17769,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ar-ar/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 145107,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162876,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/bg-bg",
+                                 "name": "bg-bg",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/bg-bg/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 69943,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/bg-bg/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 196347,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 266290,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/da-dk",
+                                 "name": "da-dk",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/da-dk/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18183,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/da-dk/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 151790,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 169973,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/de-de",
+                                 "name": "de-de",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/de-de/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18323,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/de-de/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 152872,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 171195,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/el-gr",
+                                 "name": "el-gr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/el-gr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 24108,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/el-gr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 264468,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 288576,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/en-us",
+                                 "name": "en-us",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/en-us/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17769,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/en-us/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 145107,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162876,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/es-es",
+                                 "name": "es-es",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/es-es/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18753,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/es-es/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 155585,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 174338,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/fi-fi",
+                                 "name": "fi-fi",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/fi-fi/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17912,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/fi-fi/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 147807,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 165719,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/fr-fr",
+                                 "name": "fr-fr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/fr-fr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18743,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/fr-fr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 157460,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 176203,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/hr-hr",
+                                 "name": "hr-hr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/hr-hr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 62523,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/hr-hr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 153144,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 215667,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/hu-hu",
+                                 "name": "hu-hu",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/hu-hu/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 105003,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/hu-hu/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 167903,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 272906,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/id-id",
+                                 "name": "id-id",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/id-id/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17626,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/id-id/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 142616,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 160242,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/it-it",
+                                 "name": "it-it",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/it-it/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17768,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/it-it/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 145003,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162771,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ja-jp",
+                                 "name": "ja-jp",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ja-jp/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 30487,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ja-jp/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 395817,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 426304,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ko-kr",
+                                 "name": "ko-kr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ko-kr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 32605,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ko-kr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 376277,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 408882,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/lt-lt",
+                                 "name": "lt-lt",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/lt-lt/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 102867,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/lt-lt/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 165100,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 267967,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/lv-lv",
+                                 "name": "lv-lv",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/lv-lv/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19030,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/lv-lv/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 160320,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 179350,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/nl-nl",
+                                 "name": "nl-nl",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/nl-nl/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18045,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/nl-nl/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 149002,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 167047,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/no-no",
+                                 "name": "no-no",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/no-no/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 17773,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/no-no/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 144372,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 162145,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/pl-pl",
+                                 "name": "pl-pl",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/pl-pl/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19033,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/pl-pl/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 163383,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 182416,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/pt-br",
+                                 "name": "pt-br",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-br/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19149,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-br/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 166062,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 185211,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/pt-pt",
+                                 "name": "pt-pt",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-pt/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18604,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/pt-pt/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 155528,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 174132,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ro-ro",
+                                 "name": "ro-ro",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ro-ro/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18882,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ro-ro/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 159055,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 177937,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/ru-ru",
+                                 "name": "ru-ru",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/ru-ru/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 23885,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/ru-ru/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 247065,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 270950,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/sl-si",
+                                 "name": "sl-si",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/sl-si/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 67255,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/sl-si/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 154172,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 221427,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/sv-se",
+                                 "name": "sv-se",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/sv-se/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 18178,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/sv-se/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 153191,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 171369,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/th-th",
+                                 "name": "th-th",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/th-th/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 93461,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/th-th/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 205019,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 298480,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/tr-tr",
+                                 "name": "tr-tr",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/tr-tr/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 19022,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/tr-tr/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 162404,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 181426,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/vi-vn",
+                                 "name": "vi-vn",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/vi-vn/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 24918,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/vi-vn/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 316803,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 341721,
+                                 "type": "directory"
+                              },
+                              {
+                                 "path": "assets/social/common/font/localized/zh-cn",
+                                 "name": "zh-cn",
+                                 "children": [
+                                    {
+                                       "path": "assets/social/common/font/localized/zh-cn/baloo_regular.fnt",
+                                       "name": "baloo_regular.fnt",
+                                       "size": 29066,
+                                       "type": "file",
+                                       "extension": ".fnt"
+                                    },
+                                    {
+                                       "path": "assets/social/common/font/localized/zh-cn/baloo_regular.png",
+                                       "name": "baloo_regular.png",
+                                       "size": 305986,
+                                       "type": "file",
+                                       "extension": ".png"
+                                    }
+                                 ],
+                                 "size": 335052,
+                                 "type": "directory"
+                              }
+                           ],
+                           "size": 6701448,
+                           "type": "directory"
+                        },
+                        {
+                           "path": "assets/social/common/font/notosansblack.ttf",
+                           "name": "notosansblack.ttf",
+                           "size": 492052,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/pridi.ttf",
+                           "name": "pridi.ttf",
+                           "size": 201320,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/rubik_black.ttf",
+                           "name": "rubik_black.ttf",
+                           "size": 139164,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/sawarabigothic.ttf",
+                           "name": "sawarabigothic.ttf",
+                           "size": 2054280,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/sourcehansans_hwj_bold.ttf",
+                           "name": "sourcehansans_hwj_bold.ttf",
+                           "size": 17869588,
+                           "type": "file",
+                           "extension": ".ttf"
+                        },
+                        {
+                           "path": "assets/social/common/font/zcool.ttf",
+                           "name": "zcool.ttf",
+                           "size": 6402068,
+                           "type": "file",
+                           "extension": ".ttf"
+                        }
+                     ],
+                     "size": 34486404,
+                     "type": "directory"
+                  }
+               ],
+               "size": 34489250,
+               "type": "directory"
+            }
+         ],
+         "size": 34489250,
+         "type": "directory"
+      }
+   ],
+   "size": 84468166,
+   "type": "directory"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "reactoonz",
+    "errors": 0,
+    "failed": 0,
+    "external": 0,
+    "websockets": [
+      {
+        "url": "ws://127.0.0.1:8766/reactoonz/o/ascflyp.playngonetwork.com//gamehub",
+        "sent": 6,
+        "received": 6
+      }
+    ],
+    "observed_balances": [
+      "25000.00",
+      "24999.00",
+      "24998.00"
+    ]
+  },
+  {
+    "slug": "bookofdead",
+    "errors": 0,
+    "failed": 0,
+    "external": 0,
+    "websockets": [
+      {
+        "url": "ws://127.0.0.1:8766/bookofdead/o/ascflyp.playngonetwork.com//gamehub",
+        "sent": 6,
+        "received": 6
+      }
+    ],
+    "observed_balances": [
+      "25000.00",
+      "24999.00",
+      "24998.00"
+    ]
+  },
+  {
+    "slug": "wrappinmoregold",
+    "errors": 0,
+    "failed": 0,
+    "external": 0,
+    "websockets": [
+      {
+        "url": "ws://127.0.0.1:8766/wrappinmoregold/o/ascflyp.playngonetwork.com//gamehub",
+        "sent": 6,
+        "received": 6
+      }
+    ],
+    "observed_balances": [
+      "25000.00",
+      "24999.00",
+      "24998.00"
+    ]
+  }
+]

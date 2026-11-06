@@ -1,0 +1,908 @@
+[
+  {
+    "path": "afa-public/application.6b4f5.js",
+    "source": "https://game.afagaming.cc/ca2501/application.6b4f5.js",
+    "bytes": 2429,
+    "sha256": "af3e1eec22f15721457d1a41482434993db0cae2164379868af3fd571ad6f3f6"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/cconlist.961b2.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/cconlist.961b2.json",
+    "bytes": 10414,
+    "sha256": "5d56d4fe910a06aa25c55f2a0dc0cfd089e634f7bc8a566c7a11060a32854a1b"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/config.961b2.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/config.961b2.json",
+    "bytes": 1391,
+    "sha256": "54c14f24250a9e7f758627e40ea691c30bc60d6e196e5771917f3385a57aa1c7"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/import/01/0118e0b6c.2c587.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/import/01/0118e0b6c.2c587.json",
+    "bytes": 9994,
+    "sha256": "c3ea023033860c21cafab6c85b96141848a8370032ae8da75a865023da65f6c6"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/index.961b2.js",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/index.961b2.js",
+    "bytes": 621,
+    "sha256": "f891edceb758078b40b674d88a2af2b73c773090491b0a9185b26e17e8ca74d2"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/native/15/155bc16ff.6c19d.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/15/155bc16ff.6c19d.webp",
+    "bytes": 7126,
+    "sha256": "0dbe663e90e09cf102e4d33c15cb6cde71e17858eb6a90cab8c1a6d0b9a01355"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/native/76/76852c16-f6b6-48fe-b503-f9d902fc52b8.81f4f.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/76/76852c16-f6b6-48fe-b503-f9d902fc52b8.81f4f.webp",
+    "bytes": 1480,
+    "sha256": "9d2c8a18dc929daa44984368969151c71e36cc408e7144ac4471cf34dfdf3f36"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/native/86/86f25d5c-9de5-454f-a5f9-ee16603e6701.06fad.plist",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/86/86f25d5c-9de5-454f-a5f9-ee16603e6701.06fad.plist",
+    "bytes": 3483,
+    "sha256": "d635a8702895dbffedfd9ee5558f5c4b9f51d7ad7d488657e5f3d50f8dc0e6d4"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/native/bc/bc7dab02-6b0a-4b55-aa63-c7b13e967ee6.383b0.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/bc/bc7dab02-6b0a-4b55-aa63-c7b13e967ee6.383b0.webp",
+    "bytes": 4918,
+    "sha256": "77f322698a967b97fa6bd68c07bb121dd9a9bad12d355b3037798df52463d23e"
+  },
+  {
+    "path": "afa-public/assets/DEFAULT_UI/native/f2/f2944ab3-6a19-4a9b-983b-6832bd4ba55f.65cd3.mp4",
+    "source": "https://game.afagaming.cc/ca2501/assets/DEFAULT_UI/native/f2/f2944ab3-6a19-4a9b-983b-6832bd4ba55f.65cd3.mp4",
+    "bytes": 609736,
+    "sha256": "c1e4d2923178352dc2f33b67168a5fc6b3b3eeef3233e4366e1ef0172a666443"
+  },
+  {
+    "path": "afa-public/assets/internal/cconlist.3a982.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/internal/cconlist.3a982.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "afa-public/assets/internal/config.3a982.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/internal/config.3a982.json",
+    "bytes": 2895,
+    "sha256": "53ea9fe803fd3ce91fe5ac79811c635b6bdc85c08c83061ec2216f11880048b5"
+  },
+  {
+    "path": "afa-public/assets/internal/import/02/02e4946a7.53d2c.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/internal/import/02/02e4946a7.53d2c.json",
+    "bytes": 987936,
+    "sha256": "6a51a3115539db3954b403a685a6efb68fde1fd5eec1d209f0ed4f149db89095"
+  },
+  {
+    "path": "afa-public/assets/internal/index.3a982.js",
+    "source": "https://game.afagaming.cc/ca2501/assets/internal/index.3a982.js",
+    "bytes": 615,
+    "sha256": "e86163be08e0bf5414618f882d9d9b449aa6bb21f31eeaacd4a0e752d8bff47c"
+  },
+  {
+    "path": "afa-public/assets/main/cconlist.f8304.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/cconlist.f8304.json",
+    "bytes": 316716,
+    "sha256": "0e722cce90cea648e47eb1ed1ad9458f3d5cc06864f26c6c25804f0c21010cca"
+  },
+  {
+    "path": "afa-public/assets/main/config.f8304.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/config.f8304.json",
+    "bytes": 20852,
+    "sha256": "299ba3d435acbbd6971083be86bcbf5c3d8bf318303656a668c07ec31221b5fd"
+  },
+  {
+    "path": "afa-public/assets/main/import/0c/0c933cc2d.d3c08.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/import/0c/0c933cc2d.d3c08.json",
+    "bytes": 2111487,
+    "sha256": "87cd6abb1320b7226fe6159598dfd36303846483002b5c98dde831e90dc1e790"
+  },
+  {
+    "path": "afa-public/assets/main/index.f8304.js",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/index.f8304.js",
+    "bytes": 1466981,
+    "sha256": "c064ed38cad33fb735b8a8a576e18f41e5759d86d6e960702332e675a6f4129d"
+  },
+  {
+    "path": "afa-public/assets/main/native/02/02113936-2dcc-495a-87f0-c68b5913f0ef.d5fc1.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/02/02113936-2dcc-495a-87f0-c68b5913f0ef.d5fc1.webp",
+    "bytes": 113076,
+    "sha256": "494049557bb41828e915f21297692d6b14f92912ffda36749e0972a76a4e0c2a"
+  },
+  {
+    "path": "afa-public/assets/main/native/03/0397c47e-fe3d-43c0-8dcf-d7821b66ab36.73d71.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/03/0397c47e-fe3d-43c0-8dcf-d7821b66ab36.73d71.webp",
+    "bytes": 2458,
+    "sha256": "143d2732e373114168119f6213c2924f8cc0f4f685dff64dd456b9f897a0943e"
+  },
+  {
+    "path": "afa-public/assets/main/native/0a/0a2fd5cc-f7c9-438c-bd96-855ab0abb373.c650f.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/0a/0a2fd5cc-f7c9-438c-bd96-855ab0abb373.c650f.webp",
+    "bytes": 400,
+    "sha256": "4c9874fadd7883fc5e186c678eb3850191f56484f6e0dafaa320bf783557fc5c"
+  },
+  {
+    "path": "afa-public/assets/main/native/0b/0b406851-5919-4281-8a67-d1812e8c1b52.d7bc8.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/0b/0b406851-5919-4281-8a67-d1812e8c1b52.d7bc8.webp",
+    "bytes": 86528,
+    "sha256": "aa205642ae99db64b146c7ed6af1b4199928724b5045553ccec02ede44ebb7dc"
+  },
+  {
+    "path": "afa-public/assets/main/native/0d/0d4e6be5-12bd-435f-af56-d34110baccbe.d3b19.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/0d/0d4e6be5-12bd-435f-af56-d34110baccbe.d3b19.webp",
+    "bytes": 151558,
+    "sha256": "e8651e109210b6b6a83d8495cd1a39505573e8c133b0b222b3343a631bd5ba6c"
+  },
+  {
+    "path": "afa-public/assets/main/native/15/156f94d43.09593.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/15/156f94d43.09593.webp",
+    "bytes": 2702,
+    "sha256": "a8c2b955c7dd22741bdde2f52b7c9633c099122c2cb6f3abea35655a726294eb"
+  },
+  {
+    "path": "afa-public/assets/main/native/19/190e2284c.5cdeb.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/19/190e2284c.5cdeb.webp",
+    "bytes": 74066,
+    "sha256": "9fa46df1ab2a0618bff71a632cb86af11c9c1cbc5df75a9ce26a95e75ae0d4bf"
+  },
+  {
+    "path": "afa-public/assets/main/native/1a/1a2eefe16.dd13d.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/1a/1a2eefe16.dd13d.webp",
+    "bytes": 912382,
+    "sha256": "e04af4df01b853a6c63838c8d6757cd475e207c129b57a405d26a28b208600b4"
+  },
+  {
+    "path": "afa-public/assets/main/native/1a/1ae8aed5-ea66-4839-b983-3a0f788e67d0.c5fee.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/1a/1ae8aed5-ea66-4839-b983-3a0f788e67d0.c5fee.webp",
+    "bytes": 58974,
+    "sha256": "6ab506d1a57ba244b4a944e1ffb0c792d262db6a6b89c0a4a7762107f3fc3669"
+  },
+  {
+    "path": "afa-public/assets/main/native/2d/2ddb9b29-724b-4ab1-b0fe-2769e235503e.bf583.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/2d/2ddb9b29-724b-4ab1-b0fe-2769e235503e.bf583.webp",
+    "bytes": 30620,
+    "sha256": "1671ce7cc9019084f5d64d9ce377db47f31c3a8014207dbe9f5ce30e5d64a701"
+  },
+  {
+    "path": "afa-public/assets/main/native/35/35fe687a-012f-4d90-8633-ffb0131e7cb5.2956d.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/35/35fe687a-012f-4d90-8633-ffb0131e7cb5.2956d.webp",
+    "bytes": 208516,
+    "sha256": "9e51e5db49740697b5dd25285a0dfb001bf51e956079b9b8dc681635cc17010b"
+  },
+  {
+    "path": "afa-public/assets/main/native/3c/3c9b563a-9c09-414d-b645-5c6b42212d20.1f9db.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/3c/3c9b563a-9c09-414d-b645-5c6b42212d20.1f9db.webp",
+    "bytes": 15742,
+    "sha256": "18ce67a469cfee4881ddf16296d18af907a20659f2f57e3d818b5f6324835e4b"
+  },
+  {
+    "path": "afa-public/assets/main/native/3f/3f6ae278-5d24-4ed5-ab94-a704f904c3b1.c9be4.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/3f/3f6ae278-5d24-4ed5-ab94-a704f904c3b1.c9be4.webp",
+    "bytes": 3062,
+    "sha256": "2b2e251be1dac12b85fad1ab1a68df27d0997f887ce4f326057d317876e880e4"
+  },
+  {
+    "path": "afa-public/assets/main/native/3f/3f785366-61d5-463b-b540-608ffb28397b.89a6c.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/3f/3f785366-61d5-463b-b540-608ffb28397b.89a6c.webp",
+    "bytes": 65846,
+    "sha256": "fb3871c68d94b3fb17e49ec8f32c96e8a5d0ee1e081ca2950bf3e2f782ad854a"
+  },
+  {
+    "path": "afa-public/assets/main/native/46/46f09250-840f-4828-aa11-c0fad2c4bf6a.a8297.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/46/46f09250-840f-4828-aa11-c0fad2c4bf6a.a8297.webp",
+    "bytes": 31544,
+    "sha256": "eaef0c3f42ee81e2111203e1ba465a6f9080c962b537cc99bb84d9fdd5309ad7"
+  },
+  {
+    "path": "afa-public/assets/main/native/49/49b14777-aed9-4bc9-84a3-328be378cd4b.ac85b.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/49/49b14777-aed9-4bc9-84a3-328be378cd4b.ac85b.webp",
+    "bytes": 6522,
+    "sha256": "18ccb524f5fbb6937311c5100e054118195806c09c6c4856204aac41e54119f4"
+  },
+  {
+    "path": "afa-public/assets/main/native/4e/4e2f3bd7-6182-4463-804a-59b21e29a505.60c85.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/4e/4e2f3bd7-6182-4463-804a-59b21e29a505.60c85.webp",
+    "bytes": 158280,
+    "sha256": "9166efc4f6791b5e627b3984b0683bd0517211d3b32f5d931dd8d9c9e71de9d4"
+  },
+  {
+    "path": "afa-public/assets/main/native/51/51a2a90a-8e58-4031-be86-a88de3a6e4b8.94505.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/51/51a2a90a-8e58-4031-be86-a88de3a6e4b8.94505.webp",
+    "bytes": 19762,
+    "sha256": "ef357f7064620d37eff4ac7a359a0ab7f6b7bb4024a51aa5f6714d79ad8872f8"
+  },
+  {
+    "path": "afa-public/assets/main/native/53/534ac999-79fa-4365-af22-10ebab43ecc6.fe2c9.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/53/534ac999-79fa-4365-af22-10ebab43ecc6.fe2c9.webp",
+    "bytes": 270,
+    "sha256": "890d9c0718bb47a204a2438361ab7309a064a65e4615f676c5d7e8a0d3faca4b"
+  },
+  {
+    "path": "afa-public/assets/main/native/5a/5a844e20-97a7-4a24-89b5-42341ef72f8d.c196f.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/5a/5a844e20-97a7-4a24-89b5-42341ef72f8d.c196f.webp",
+    "bytes": 50310,
+    "sha256": "b342614a11b1b0e3c055456a183f1a66bc14b3a5cc9b6c94a7562062e2068e49"
+  },
+  {
+    "path": "afa-public/assets/main/native/61/6109b95d-b9fd-4397-8bb5-38d97fb131e1.d4284.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/61/6109b95d-b9fd-4397-8bb5-38d97fb131e1.d4284.webp",
+    "bytes": 13710,
+    "sha256": "4dab18e35ec4a81f2de7c640ef5d9bbec41c18d7cbc8d356a877b21f335066ba"
+  },
+  {
+    "path": "afa-public/assets/main/native/68/68e6f0fd-9eb8-4d3f-9e50-107b949cc965.aabc2.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/68/68e6f0fd-9eb8-4d3f-9e50-107b949cc965.aabc2.webp",
+    "bytes": 3286,
+    "sha256": "2dd4c749aab72711edae100b023be933dbfa49c2a1816326e2d77a9b937dc5dc"
+  },
+  {
+    "path": "afa-public/assets/main/native/69/699be36c-9e36-4b2e-b702-968c1b7b290a.ed167.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/69/699be36c-9e36-4b2e-b702-968c1b7b290a.ed167.webp",
+    "bytes": 30950,
+    "sha256": "51bbbf1c41a339531f18985a3c0aa04068f582bf988aebd034a77f0bb35ac19a"
+  },
+  {
+    "path": "afa-public/assets/main/native/6e/6e8041ea-baa9-445a-821f-834388583086.3d76f.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/6e/6e8041ea-baa9-445a-821f-834388583086.3d76f.webp",
+    "bytes": 324672,
+    "sha256": "43482afeaab61faa24f01122739ae6282ee7fe4004190880a4cbd87f2bf8603c"
+  },
+  {
+    "path": "afa-public/assets/main/native/70/70b57e83-0c15-4610-8554-cad78f8a0ebf.64fca.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/70/70b57e83-0c15-4610-8554-cad78f8a0ebf.64fca.webp",
+    "bytes": 1688,
+    "sha256": "1d0c8a8ca2b3a4c2393d284257660dabebee856893d838eecb5933642c55d8c3"
+  },
+  {
+    "path": "afa-public/assets/main/native/72/72cbcfae-281f-4b2c-986c-a2ff83cf3694.becd8.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/72/72cbcfae-281f-4b2c-986c-a2ff83cf3694.becd8.webp",
+    "bytes": 7948,
+    "sha256": "d36616a768eb2a92b1f816bfbae66d6cd84c5a274ae45ba4a632eaeb557b26ef"
+  },
+  {
+    "path": "afa-public/assets/main/native/73/734ef0e1-1de4-4507-b1c3-420d8fa526e5.f54fb.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/73/734ef0e1-1de4-4507-b1c3-420d8fa526e5.f54fb.webp",
+    "bytes": 44050,
+    "sha256": "90cec85d46a46b344fa1460ca9311f3cc0d314bcb518b3dd0fefef7bae9f5d68"
+  },
+  {
+    "path": "afa-public/assets/main/native/75/75497b7b-cd11-490c-a462-06ad369b8b11.4d971.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/75/75497b7b-cd11-490c-a462-06ad369b8b11.4d971.webp",
+    "bytes": 9106,
+    "sha256": "d3a5397c8978ec0d2016635659f7638a8012812d71fefe8c0d598c92676d1294"
+  },
+  {
+    "path": "afa-public/assets/main/native/80/80e7ab89-1826-43d4-9271-a41abe8498e9.bd81a.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/80/80e7ab89-1826-43d4-9271-a41abe8498e9.bd81a.webp",
+    "bytes": 9274,
+    "sha256": "de66cd28e72387f81ca062aa19db6cf71f116fcba8ef54455683eeb8f8db6bc7"
+  },
+  {
+    "path": "afa-public/assets/main/native/88/88a8bf32-0443-421f-8065-2f76c8312954.1405a.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/88/88a8bf32-0443-421f-8065-2f76c8312954.1405a.webp",
+    "bytes": 3696,
+    "sha256": "62b8566957d47a11cb5a0832026de7994b5052ac6788239f6ac23fac79c403be"
+  },
+  {
+    "path": "afa-public/assets/main/native/89/8942a4a3-099d-4d3b-ae05-fee1bb049310.444c1.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/89/8942a4a3-099d-4d3b-ae05-fee1bb049310.444c1.webp",
+    "bytes": 4638,
+    "sha256": "7d50bd51a8df00ce572e5a1a4cf5b990ef77b0bedcb92f076e4113522ce06d34"
+  },
+  {
+    "path": "afa-public/assets/main/native/8a/8a2af1aa-b918-47bb-833e-2324d446c732.d2046.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/8a/8a2af1aa-b918-47bb-833e-2324d446c732.d2046.webp",
+    "bytes": 76662,
+    "sha256": "24d78a75b3f3b59804031692898b9681a4cdb8ccc737611da566e6a775f13d1f"
+  },
+  {
+    "path": "afa-public/assets/main/native/90/907f0f0d-db1f-4844-854a-1e1399f09427.d3961.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/90/907f0f0d-db1f-4844-854a-1e1399f09427.d3961.webp",
+    "bytes": 282,
+    "sha256": "32b4f3346254b57bb8909dafb514c89c058d134ca58377232d30397fcf084861"
+  },
+  {
+    "path": "afa-public/assets/main/native/91/9121edaa-acba-4e0b-8eb3-df38a3694382.5dc59.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/91/9121edaa-acba-4e0b-8eb3-df38a3694382.5dc59.webp",
+    "bytes": 6842,
+    "sha256": "6b038c776219c65e3d113559158dad2fa732e3bce7dd4046164d5bff894575a1"
+  },
+  {
+    "path": "afa-public/assets/main/native/95/95296aac-538f-4002-ba85-1efa91b2c263.76e28.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/95/95296aac-538f-4002-ba85-1efa91b2c263.76e28.webp",
+    "bytes": 12302,
+    "sha256": "5da55ceb256590800b43ab7b04f19f9d00ec77232b4a9eacf6b8fe9fc5d77257"
+  },
+  {
+    "path": "afa-public/assets/main/native/97/97ca22e8-31c0-4e62-bb36-34cf060c2ad4.c77d6.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/97/97ca22e8-31c0-4e62-bb36-34cf060c2ad4.c77d6.webp",
+    "bytes": 50006,
+    "sha256": "1507315e221ba9a68ad704da1e15a0630b29dea8d02d19cffc499b974043d0d5"
+  },
+  {
+    "path": "afa-public/assets/main/native/a2/a2f5c41c-0a81-41db-9e0c-7802ce3b4724.81e36.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/a2/a2f5c41c-0a81-41db-9e0c-7802ce3b4724.81e36.webp",
+    "bytes": 22136,
+    "sha256": "a6e96144cfd523f25c49cfb34c0c97947cc8108e984ac21a41e39141c14dc041"
+  },
+  {
+    "path": "afa-public/assets/main/native/a5/a5645531-a5c3-40e1-9e6e-d988f7a81c72.43ba5.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/a5/a5645531-a5c3-40e1-9e6e-d988f7a81c72.43ba5.webp",
+    "bytes": 354,
+    "sha256": "b4837b77040333d61f557ceb0e5beacde25d008f16558992818234d88088382e"
+  },
+  {
+    "path": "afa-public/assets/main/native/a9/a9eb2eab-83be-48df-9680-314c3c968ffb.7ac90.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/a9/a9eb2eab-83be-48df-9680-314c3c968ffb.7ac90.webp",
+    "bytes": 15210,
+    "sha256": "9d85b156802e3e37d0975e297236e6b2b82d25d0d8acf1fa71acdef5b293eede"
+  },
+  {
+    "path": "afa-public/assets/main/native/ac/acba65e2-6f04-4405-b3b5-965bebdb0dfe.683ac.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/ac/acba65e2-6f04-4405-b3b5-965bebdb0dfe.683ac.webp",
+    "bytes": 3772,
+    "sha256": "19ff33fe02d52a7adc836279dc2cc1705c0276b77d0a2929f8b1f41dd4da00f2"
+  },
+  {
+    "path": "afa-public/assets/main/native/b4/b451c30c-1783-4fa0-8b1e-6b283d07448f.ae13e.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/b4/b451c30c-1783-4fa0-8b1e-6b283d07448f.ae13e.webp",
+    "bytes": 6574,
+    "sha256": "f3aa363f76113f254d7693d60a8625fa7bf91d3871b9a673d3127c319d7518b2"
+  },
+  {
+    "path": "afa-public/assets/main/native/b5/b5b27ab1-e740-4398-b407-848fc2b2c897.fe95e.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/b5/b5b27ab1-e740-4398-b407-848fc2b2c897.fe95e.webp",
+    "bytes": 1920,
+    "sha256": "db7153d0dd0b1b05dca328c1be3ce723df3662b70fdd4c64a678ca877964cc49"
+  },
+  {
+    "path": "afa-public/assets/main/native/be/bea48097-7e56-4137-be21-eaef07f17e63.6f628.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/be/bea48097-7e56-4137-be21-eaef07f17e63.6f628.webp",
+    "bytes": 6534,
+    "sha256": "2f4c51de230eb02899b4c93193fe9642f7b9cf33aab4ecbaa7b94a81714ede81"
+  },
+  {
+    "path": "afa-public/assets/main/native/c8/c8969b54-68c2-4b7b-9735-6a31e0f605f4.ed2a1.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/c8/c8969b54-68c2-4b7b-9735-6a31e0f605f4.ed2a1.webp",
+    "bytes": 12220,
+    "sha256": "1b6baec04baddcfe3754fd4d214b20ad9cf8f77c6e862f85d50ba5c75add141e"
+  },
+  {
+    "path": "afa-public/assets/main/native/cc/ccc4e1ec-c31a-4138-967c-b67ecb2f7b40.54c18.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/cc/ccc4e1ec-c31a-4138-967c-b67ecb2f7b40.54c18.webp",
+    "bytes": 22356,
+    "sha256": "7a7ba2d39899ad9cb51721335b3233a04abb5344edc0f67831e02ff4e1dead04"
+  },
+  {
+    "path": "afa-public/assets/main/native/cf/cff640b5-7de9-4f4f-b3a9-6ec752ac9ec7.59be4.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/cf/cff640b5-7de9-4f4f-b3a9-6ec752ac9ec7.59be4.webp",
+    "bytes": 6774,
+    "sha256": "3b1d9fdc3bfd0462c22fad332ed8cb48e993799d95038846720ab4bc6129df5a"
+  },
+  {
+    "path": "afa-public/assets/main/native/d0/d00500ce-a1e4-46d2-a64a-96ad804f633d.e3072.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/d0/d00500ce-a1e4-46d2-a64a-96ad804f633d.e3072.webp",
+    "bytes": 7230,
+    "sha256": "3b0c7459d0ab90a918d352c9651f8f18783a7400d9c5afd20fdf341b4cf0b473"
+  },
+  {
+    "path": "afa-public/assets/main/native/d5/d552f22b-1804-4eeb-a360-fe059c1eeac5.9a270.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/d5/d552f22b-1804-4eeb-a360-fe059c1eeac5.9a270.webp",
+    "bytes": 37902,
+    "sha256": "3a2c9bf52faaaf6f2352f8b3c389e48e4334f99e31ac690a10922a307854ec05"
+  },
+  {
+    "path": "afa-public/assets/main/native/da/dac34095-47e5-403a-8ab1-c8eac77f2b17.fe651.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/da/dac34095-47e5-403a-8ab1-c8eac77f2b17.fe651.webp",
+    "bytes": 3978,
+    "sha256": "c075793cbf83bf92be9fd267a25f8cbce8eae8f626f33ae686456724e67b09b9"
+  },
+  {
+    "path": "afa-public/assets/main/native/dc/dc7e06c8-5db3-41b8-9fd1-1c0ffec31158.28e9f.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/dc/dc7e06c8-5db3-41b8-9fd1-1c0ffec31158.28e9f.webp",
+    "bytes": 13996,
+    "sha256": "76538dc968b4346eb479a622cd8e913d073a228910820e43d78b39600fd76104"
+  },
+  {
+    "path": "afa-public/assets/main/native/df/df59cb0a-d68e-4247-afeb-ad6c934525a5.af095.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/df/df59cb0a-d68e-4247-afeb-ad6c934525a5.af095.webp",
+    "bytes": 20840,
+    "sha256": "536070fc92d7d63cdb190a7c9d17186cf018e1c4ed2d0c68157a92b922817c2a"
+  },
+  {
+    "path": "afa-public/assets/main/native/e1/e1e5fa07-7448-4fec-b3b2-5f8117618724.a4522.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/e1/e1e5fa07-7448-4fec-b3b2-5f8117618724.a4522.webp",
+    "bytes": 102850,
+    "sha256": "44775d065e5c8443040c47030e77d0504bc79eb70d3aa6fed34871544f6d1b24"
+  },
+  {
+    "path": "afa-public/assets/main/native/e3/e3a69fcd-ca08-4f25-a90d-0111acd2e2cc.b5b0a.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/e3/e3a69fcd-ca08-4f25-a90d-0111acd2e2cc.b5b0a.webp",
+    "bytes": 100110,
+    "sha256": "e2dec8f9a4e05f466536c74bb2d93125521e7e1fc57ab1fb7d30d6d38b66d269"
+  },
+  {
+    "path": "afa-public/assets/main/native/e5/e550b941-a44f-42af-bedf-70d860658d36.d65a3.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/e5/e550b941-a44f-42af-bedf-70d860658d36.d65a3.webp",
+    "bytes": 5146,
+    "sha256": "3ff8b20cd35928a39968a703fd33bcb380b07292b0572920b1279a1f14a0658c"
+  },
+  {
+    "path": "afa-public/assets/main/native/e8/e8e67deb-9445-4792-996c-4257cd331db8.2350e.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/e8/e8e67deb-9445-4792-996c-4257cd331db8.2350e.webp",
+    "bytes": 13702,
+    "sha256": "1f93a39abb0227bfdf4126c299a9c20c1e7187459a5177b98399e84db832d95e"
+  },
+  {
+    "path": "afa-public/assets/main/native/f1/f14ef5a8-eb1b-4d3a-bbcc-5ff9da78b6f6.41652.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/f1/f14ef5a8-eb1b-4d3a-bbcc-5ff9da78b6f6.41652.webp",
+    "bytes": 29418,
+    "sha256": "f6e89b90db03fe288d496bbd80082911b090875424716dd81574a7c1ffd849ba"
+  },
+  {
+    "path": "afa-public/assets/main/native/f2/f2da9df0-fa8d-4592-b861-1e0382c0efaf.a8146.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/f2/f2da9df0-fa8d-4592-b861-1e0382c0efaf.a8146.webp",
+    "bytes": 516,
+    "sha256": "da1d31822b793d97c4680b932d769ba097ca32359aaa5afe38cc2e18cb008d91"
+  },
+  {
+    "path": "afa-public/assets/main/native/f6/f6c4e647-c5ed-4501-88a1-b8a564f51165.c9869.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/f6/f6c4e647-c5ed-4501-88a1-b8a564f51165.c9869.webp",
+    "bytes": 9370,
+    "sha256": "accc48037a7f919472514fb34b22f13c1a564f62dbeae5390a91ca70b03285ac"
+  },
+  {
+    "path": "afa-public/assets/main/native/f6/f6ec491e-3c65-4b05-9811-1540baf9c526.f56bc.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/f6/f6ec491e-3c65-4b05-9811-1540baf9c526.f56bc.webp",
+    "bytes": 45150,
+    "sha256": "301a43070030c633e40b43277feb4301e8783b23788ec3093fd4f199b734465f"
+  },
+  {
+    "path": "afa-public/assets/main/native/fa/fa10c0b3-2f2c-4e0f-801a-4e9b0c0b79b9.726e5.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/fa/fa10c0b3-2f2c-4e0f-801a-4e9b0c0b79b9.726e5.webp",
+    "bytes": 342,
+    "sha256": "f18fc879193d44eaf17326d504d324565170f67c8227ad964dd8d1b89e5bc776"
+  },
+  {
+    "path": "afa-public/assets/main/native/fc/fc66f937-0afe-41f9-a7ba-f324bdd12b74.b80e8.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/fc/fc66f937-0afe-41f9-a7ba-f324bdd12b74.b80e8.webp",
+    "bytes": 38986,
+    "sha256": "b82ed43b1a5ddf39a8c6e06bfdf92d45154989ad64da41ca58ac23afe6d7db4f"
+  },
+  {
+    "path": "afa-public/assets/main/native/fe/fe7d88bd-00dd-40a4-b426-a19cff228691.0a4df.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/main/native/fe/fe7d88bd-00dd-40a4-b426-a19cff228691.0a4df.webp",
+    "bytes": 19378,
+    "sha256": "ec4d608a2f10d86dfba92913002a38351e04c0ea7a3b06dc3c20c19241714c00"
+  },
+  {
+    "path": "afa-public/assets/resources/cconlist.27093.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/cconlist.27093.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "afa-public/assets/resources/config.27093.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/config.27093.json",
+    "bytes": 3881,
+    "sha256": "75af4d5dfda36cefbc687ef8b3227d0549ea910f58ed4ccf126419ce336155df"
+  },
+  {
+    "path": "afa-public/assets/resources/import/0d/0dbe74145.2a308.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/import/0d/0dbe74145.2a308.json",
+    "bytes": 10367,
+    "sha256": "68f14a6b1e4f6c75871522336a3fc8b494c1a0b7eccfe90bbc562889f1390eab"
+  },
+  {
+    "path": "afa-public/assets/resources/index.27093.js",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/index.27093.js",
+    "bytes": 618,
+    "sha256": "f61acfd36194a0e5bcfeb48ac0cc5fc8c3d58fe21990f0d0e2194e5a4ab34784"
+  },
+  {
+    "path": "afa-public/assets/resources/native/01/016b38b3-c9b9-4777-b3b9-3958bf2830ea.9b898.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/01/016b38b3-c9b9-4777-b3b9-3958bf2830ea.9b898.mp3",
+    "bytes": 12416,
+    "sha256": "2d967c521aa682f0515fa95040a0e1b258915bf848cd318c386e1c4ad72d3699"
+  },
+  {
+    "path": "afa-public/assets/resources/native/03/037d5293-c601-4c40-9ee5-11bea3ad8677.839cb.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/03/037d5293-c601-4c40-9ee5-11bea3ad8677.839cb.mp3",
+    "bytes": 38876,
+    "sha256": "4a6a6482b7469120c0b6f76bf77ecbf27334652942a18305c5a7ce4ed9d26018"
+  },
+  {
+    "path": "afa-public/assets/resources/native/07/079d68aa-f17a-4fe5-bd84-7b1515724958.b5202.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/07/079d68aa-f17a-4fe5-bd84-7b1515724958.b5202.mp3",
+    "bytes": 25520,
+    "sha256": "49c23c7f8eea87f88d367a881c217e3fa81af722f6a8789860734490fad61efe"
+  },
+  {
+    "path": "afa-public/assets/resources/native/08/08690e91-30fd-4085-a343-7bd8860dd6db.9c482.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/08/08690e91-30fd-4085-a343-7bd8860dd6db.9c482.mp3",
+    "bytes": 30812,
+    "sha256": "db69bdf189ede34e17aa9a4e892c4d2ec4b294c8b4e20a3032596cced53f3182"
+  },
+  {
+    "path": "afa-public/assets/resources/native/0b/0b08a41d-bd49-4a53-bbbb-8efe09447e3d.0f117.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/0b/0b08a41d-bd49-4a53-bbbb-8efe09447e3d.0f117.mp3",
+    "bytes": 5000,
+    "sha256": "3efd6ce33233fda06e6fedd83fa2caa1fed2965ffdaf6baac06916dbb0bd22ad"
+  },
+  {
+    "path": "afa-public/assets/resources/native/0e/0eb66144-1e1f-401a-bc7f-697d2f7ecf4d.b89fc.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/0e/0eb66144-1e1f-401a-bc7f-697d2f7ecf4d.b89fc.mp3",
+    "bytes": 38408,
+    "sha256": "dc48f675782cdc29529ed69558b095aabfef1c5e6d0d9554666882f4fedb31c9"
+  },
+  {
+    "path": "afa-public/assets/resources/native/10/109d57b8-f7a5-4704-8b3b-cad2efd348b4.5e2e3.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/10/109d57b8-f7a5-4704-8b3b-cad2efd348b4.5e2e3.mp3",
+    "bytes": 101588,
+    "sha256": "e22eb597d1148faf9bf92e4586001bcf22c55c21f0fef41efb043505d86e9458"
+  },
+  {
+    "path": "afa-public/assets/resources/native/13/13360b52-0e53-4f39-b86e-253efa4cb3f7.b751f.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/13/13360b52-0e53-4f39-b86e-253efa4cb3f7.b751f.mp3",
+    "bytes": 8600,
+    "sha256": "be25de873e8b1aa6589ed53a680cf9b5fa37d0c300c5bccb090ce7ee1b6bf37e"
+  },
+  {
+    "path": "afa-public/assets/resources/native/1a/1adffab0-5d4e-4c43-aef3-12129691b0a9.79c10.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/1a/1adffab0-5d4e-4c43-aef3-12129691b0a9.79c10.mp3",
+    "bytes": 45320,
+    "sha256": "ed4526ef934a76b6aa21fb1be7f49c2830c075f00d4aec956cf570e2f2ed412e"
+  },
+  {
+    "path": "afa-public/assets/resources/native/1b/1b5504df-11d9-453f-8c63-b3d791824f05.1a660.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/1b/1b5504df-11d9-453f-8c63-b3d791824f05.1a660.mp3",
+    "bytes": 22460,
+    "sha256": "185695a3268b46e4d1b4c556dd3bd5bd7e218a6c29257c81ecad0893a6c326b1"
+  },
+  {
+    "path": "afa-public/assets/resources/native/1b/1bc59274-5f20-4932-9177-6a4f6bbb7f7c.36fac.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/1b/1bc59274-5f20-4932-9177-6a4f6bbb7f7c.36fac.mp3",
+    "bytes": 50576,
+    "sha256": "f6dc21c823017d89355f85da96b8a810d27d23ce4a42fb7ddb05a1ee0968051d"
+  },
+  {
+    "path": "afa-public/assets/resources/native/20/2047b098-1b73-4c1a-a8ff-94075da9e97a.1b742.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/20/2047b098-1b73-4c1a-a8ff-94075da9e97a.1b742.mp3",
+    "bytes": 5216,
+    "sha256": "c037ae0088588965bb6bb5d45df96cc49f35d97a37279a8542ff15c636147d01"
+  },
+  {
+    "path": "afa-public/assets/resources/native/28/2811c392-30f2-496e-a674-4815de4e4854.9a8d4.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/28/2811c392-30f2-496e-a674-4815de4e4854.9a8d4.mp3",
+    "bytes": 59468,
+    "sha256": "1f1a563e9154593aca5abfec8a8a1ef93f58e9f4f80d00b5fd78fe2cb55dbcf5"
+  },
+  {
+    "path": "afa-public/assets/resources/native/2c/2caa59ab-ee7a-41b3-8d27-99f5308d281f.a4d9e.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/2c/2caa59ab-ee7a-41b3-8d27-99f5308d281f.a4d9e.mp3",
+    "bytes": 48776,
+    "sha256": "642a0901e098eac4a67e66d94526ec9595a68d587c14c9ac16e886e5d5821917"
+  },
+  {
+    "path": "afa-public/assets/resources/native/32/320cd469-d915-4daa-993a-7613fa1dcb8e.1e869.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/32/320cd469-d915-4daa-993a-7613fa1dcb8e.1e869.mp3",
+    "bytes": 35816,
+    "sha256": "858484e1ecfcd5c341f1601860e5a5acafe782be6db923141d045e7950a02e6f"
+  },
+  {
+    "path": "afa-public/assets/resources/native/49/497942c2-8ef3-41d3-95ea-a17a9780a654.91303.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/49/497942c2-8ef3-41d3-95ea-a17a9780a654.91303.mp3",
+    "bytes": 14864,
+    "sha256": "b6848ad6bddd10d6d30ffb92f232b9ef36e9601c3fe7ea320f44521f5a6ff71d"
+  },
+  {
+    "path": "afa-public/assets/resources/native/50/50ce1c56-17d4-4ae6-8ecb-612067b7bfe1.5b826.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/50/50ce1c56-17d4-4ae6-8ecb-612067b7bfe1.5b826.mp3",
+    "bytes": 12776,
+    "sha256": "21ac8049233932da3c981fc1f2ecede7fd8ddba596ab1d97b892260002933ba1"
+  },
+  {
+    "path": "afa-public/assets/resources/native/61/6112d276-e86a-4265-9020-bb7aa710a407.0c68d.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/61/6112d276-e86a-4265-9020-bb7aa710a407.0c68d.mp3",
+    "bytes": 15800,
+    "sha256": "fc4527b333d1725b649170672b2bcb2807de4db4f30ee58e4ecc271c58a4a5d1"
+  },
+  {
+    "path": "afa-public/assets/resources/native/69/69750eb3-7b4b-42ab-b957-69dde746916f.d57ee.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/69/69750eb3-7b4b-42ab-b957-69dde746916f.d57ee.mp3",
+    "bytes": 51404,
+    "sha256": "ff2a4e4c44dc732a1661d4f096e131ca5b0907da8cd2c8a3c9d11e20411929e0"
+  },
+  {
+    "path": "afa-public/assets/resources/native/6d/6d0188e2-b204-4511-9989-3c56466388d1.3f4d6.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/6d/6d0188e2-b204-4511-9989-3c56466388d1.3f4d6.mp3",
+    "bytes": 47984,
+    "sha256": "5a3e354bb4483bacbfd3395bd9a2bdb093a033dc07ae1a1aac9f2c8c2d5187d6"
+  },
+  {
+    "path": "afa-public/assets/resources/native/6f/6fd6d7d8-b45b-438c-9df6-44b49742f082.bf509.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/6f/6fd6d7d8-b45b-438c-9df6-44b49742f082.bf509.mp3",
+    "bytes": 16232,
+    "sha256": "8e7411fd4c1d3efdfb8c33f1fcb9033f49a551fc84b4c3398f9038e2bdcdd6e4"
+  },
+  {
+    "path": "afa-public/assets/resources/native/74/741acf76-3c05-4683-a856-c3cec6bc2930.275dd.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/74/741acf76-3c05-4683-a856-c3cec6bc2930.275dd.mp3",
+    "bytes": 378824,
+    "sha256": "17c2e4c6676666c5aaa7037128e6e5e8efdff3091767151486a6d9fab48bc6ce"
+  },
+  {
+    "path": "afa-public/assets/resources/native/83/830275ef-341e-4da1-8d37-9b0504bd38c2.6809b.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/83/830275ef-341e-4da1-8d37-9b0504bd38c2.6809b.mp3",
+    "bytes": 35960,
+    "sha256": "7f9906c915e4dc63ccf01d0692b6fb8c17165163606fe43aa413ab1018ef8ad0"
+  },
+  {
+    "path": "afa-public/assets/resources/native/85/854f97c7-016c-4cc9-ac33-04932bcd25df.bcc73.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/85/854f97c7-016c-4cc9-ac33-04932bcd25df.bcc73.mp3",
+    "bytes": 32504,
+    "sha256": "b6d84ea56a86028b27b2ba17024b114d4fa3bb637ae0b242be1efb147e329b28"
+  },
+  {
+    "path": "afa-public/assets/resources/native/96/965a3769-c502-40cc-becd-97358f4361c4.e7945.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/96/965a3769-c502-40cc-becd-97358f4361c4.e7945.mp3",
+    "bytes": 6908,
+    "sha256": "fae921731f55fd44397d9e8a0bd667224c6e0aa415e7d5b48d9dd5805744ecf8"
+  },
+  {
+    "path": "afa-public/assets/resources/native/96/96db0ab6-3115-4e13-be29-d1b58f2dbc8c.59a89.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/96/96db0ab6-3115-4e13-be29-d1b58f2dbc8c.59a89.mp3",
+    "bytes": 13208,
+    "sha256": "5c24bb72b70b62b0f28cc2379936f5a75e079eb2ebb1f54fb5bd8eb063489625"
+  },
+  {
+    "path": "afa-public/assets/resources/native/98/98564daa-56ac-4459-9f34-0e8cd9e8c2d7.fd064.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/98/98564daa-56ac-4459-9f34-0e8cd9e8c2d7.fd064.mp3",
+    "bytes": 5144,
+    "sha256": "abf91d0af4c1d6bb68937edfb1eabffbae12d2c938d8620f8527ff145541e76a"
+  },
+  {
+    "path": "afa-public/assets/resources/native/9a/9a6500b4-dbd0-4cc0-9b4e-70c8524a07af.e85d7.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/9a/9a6500b4-dbd0-4cc0-9b4e-70c8524a07af.e85d7.mp3",
+    "bytes": 42116,
+    "sha256": "687f4ac7cb6117d01401338f9ab7f66d4012b9cf9e7ce4755c31cbb258c09be5"
+  },
+  {
+    "path": "afa-public/assets/resources/native/9c/9cdabd4c-a439-400a-9741-6e6d60d052c8.976e4.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/9c/9cdabd4c-a439-400a-9741-6e6d60d052c8.976e4.mp3",
+    "bytes": 41792,
+    "sha256": "81cec9f0396eb6da39b7628af5448a69b089de0f01b74a24f42b022626abf0cf"
+  },
+  {
+    "path": "afa-public/assets/resources/native/9d/9db55fe3-ddb2-43e4-8289-61a5acce10ca.0bc65.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/9d/9db55fe3-ddb2-43e4-8289-61a5acce10ca.0bc65.mp3",
+    "bytes": 12272,
+    "sha256": "63ff11bd991cc9d22f461d34b56b4aa24c19a6f8617a886de3550702eb0eab55"
+  },
+  {
+    "path": "afa-public/assets/resources/native/a3/a30e025a-017c-4edf-820f-c1455a2e565e.3275a.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/a3/a30e025a-017c-4edf-820f-c1455a2e565e.3275a.mp3",
+    "bytes": 35456,
+    "sha256": "9002e50eea67834b42b937777cde877f30bb5f433cc992e70ee975463b371fdd"
+  },
+  {
+    "path": "afa-public/assets/resources/native/a3/a3e4564c-d744-42dc-be95-bb2ea77ce024.20ea0.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/a3/a3e4564c-d744-42dc-be95-bb2ea77ce024.20ea0.mp3",
+    "bytes": 37544,
+    "sha256": "4eeb6d2be0b3418ea4269ff85326ba4d1277c26bc11306d8d83339b228e47959"
+  },
+  {
+    "path": "afa-public/assets/resources/native/a8/a8202b6d-e5e6-43ee-8dcb-a29e05717307.8da4d.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/a8/a8202b6d-e5e6-43ee-8dcb-a29e05717307.8da4d.mp3",
+    "bytes": 32216,
+    "sha256": "0d49309971d7d331398daa6ee8a3fef6d923ba19f67d0a2f867ba5860ae16c6d"
+  },
+  {
+    "path": "afa-public/assets/resources/native/b1/b14ab493-4dc6-474f-a6b1-60782c8c5fce.1c233.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/b1/b14ab493-4dc6-474f-a6b1-60782c8c5fce.1c233.mp3",
+    "bytes": 24836,
+    "sha256": "c0929afe33d8123c892c3c506cd17a49567a5e1058d28860135273aeea40952c"
+  },
+  {
+    "path": "afa-public/assets/resources/native/b6/b6f9910f-7828-439d-930a-f52affc7eb01.3637f.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/b6/b6f9910f-7828-439d-930a-f52affc7eb01.3637f.mp3",
+    "bytes": 26420,
+    "sha256": "130fc24284c5bbc5f1bea67ec6717a688051e792e10d404a83423e3c2d535999"
+  },
+  {
+    "path": "afa-public/assets/resources/native/b8/b8b49641-46f1-4a22-bfba-a55781a56244.a6858.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/b8/b8b49641-46f1-4a22-bfba-a55781a56244.a6858.mp3",
+    "bytes": 14180,
+    "sha256": "646f75431c631931b2ebaa114bfc8dd63ddc3e85a4f55b9df369338a770e5831"
+  },
+  {
+    "path": "afa-public/assets/resources/native/bc/bca1a2f8-c03d-4cb4-97b3-4c84758aaca0.d54c1.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/bc/bca1a2f8-c03d-4cb4-97b3-4c84758aaca0.d54c1.mp3",
+    "bytes": 25880,
+    "sha256": "4b69beeba82c60d865f14531033c621459ce108ce6c6bbba0635ab1409cb9d24"
+  },
+  {
+    "path": "afa-public/assets/resources/native/c3/c3467fc9-9ea2-4861-a4ca-d14b77ef1011.62025.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/c3/c3467fc9-9ea2-4861-a4ca-d14b77ef1011.62025.mp3",
+    "bytes": 10400,
+    "sha256": "1a827cd99691324f45d436ce6c4f3b120557fb3f2e28b228fe55a331cbaabc3a"
+  },
+  {
+    "path": "afa-public/assets/resources/native/d3/d3f13c7a-d702-495b-ad79-cf94d5b4cdc8.579d7.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/d3/d3f13c7a-d702-495b-ad79-cf94d5b4cdc8.579d7.mp3",
+    "bytes": 58208,
+    "sha256": "f975de3e25f6b15183c2318eda63de5bf985d512f3319275c798ea7b53b0f1f7"
+  },
+  {
+    "path": "afa-public/assets/resources/native/d4/d464bbe7-cf82-4777-b86e-36534cd4b7dc.8cfea.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/d4/d464bbe7-cf82-4777-b86e-36534cd4b7dc.8cfea.mp3",
+    "bytes": 353624,
+    "sha256": "661d3e7b242d7d92f4b01b9d0fdac726b6dee3b500e431c87c736d7e4c2547a9"
+  },
+  {
+    "path": "afa-public/assets/resources/native/dc/dcb84806-c285-4df2-a44b-f69e602c497a.92409.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/dc/dcb84806-c285-4df2-a44b-f69e602c497a.92409.mp3",
+    "bytes": 18032,
+    "sha256": "41e3be02e9bfaa82d3a88a37a4b3c4b3a0c8127c73b2d52185a0e5db294dbb8d"
+  },
+  {
+    "path": "afa-public/assets/resources/native/dd/dd013f70-9648-4151-9956-855a430a24ec.da232.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/dd/dd013f70-9648-4151-9956-855a430a24ec.da232.mp3",
+    "bytes": 456044,
+    "sha256": "675b01b42b8d98a75e0d4eab036867d9fc9f4b631dc6ad39d71e3e4374d40eec"
+  },
+  {
+    "path": "afa-public/assets/resources/native/ee/ee6abb41-299c-4c77-92b4-eb56a97c7f5c.be7b6.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/ee/ee6abb41-299c-4c77-92b4-eb56a97c7f5c.be7b6.mp3",
+    "bytes": 54752,
+    "sha256": "e41ed10e13fbdfe97147d680fe39e5a3112dcc97d2dc905fb634d4bee9d334b7"
+  },
+  {
+    "path": "afa-public/assets/resources/native/f5/f53c7d7e-35d5-448f-ba0c-1921e0bff771.0b464.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/f5/f53c7d7e-35d5-448f-ba0c-1921e0bff771.0b464.mp3",
+    "bytes": 6584,
+    "sha256": "81d0e65028eb3f1741abd8b68707c227a60642705778e9c4d976bd6e6d5dd72b"
+  },
+  {
+    "path": "afa-public/assets/resources/native/f8/f89f0305-c621-4061-bd2d-84cc681d3454.deeed.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/f8/f89f0305-c621-4061-bd2d-84cc681d3454.deeed.mp3",
+    "bytes": 26384,
+    "sha256": "eff068ff4e79473117a026a99a1226cd3871ceb3c1f2e8e5ccd20ec6d260fc51"
+  },
+  {
+    "path": "afa-public/assets/resources/native/fd/fd97390e-e697-468d-b33a-9bb688ab2789.159ab.mp3",
+    "source": "https://game.afagaming.cc/ca2501/assets/resources/native/fd/fd97390e-e697-468d-b33a-9bb688ab2789.159ab.mp3",
+    "bytes": 18212,
+    "sha256": "c0652ac7dbe2fc82ef4ee11a3be498e3699f7eea8355642ee49eb01b6e4c88d1"
+  },
+  {
+    "path": "afa-public/assets/tch/cconlist.1c2d6.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/tch/cconlist.1c2d6.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "afa-public/assets/tch/config.1c2d6.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/tch/config.1c2d6.json",
+    "bytes": 1016,
+    "sha256": "051cfe90dc0cd12d472c3cbc6e4b79409ec7e9bd742fd27eb39379477a2e6246"
+  },
+  {
+    "path": "afa-public/assets/tch/import/07/07828554f.a5555.json",
+    "source": "https://game.afagaming.cc/ca2501/assets/tch/import/07/07828554f.a5555.json",
+    "bytes": 11622,
+    "sha256": "ed7b4872eeaa80f1c86c0239a8623e1e982a08d8d612b988ad4d1518d070b6fb"
+  },
+  {
+    "path": "afa-public/assets/tch/index.1c2d6.js",
+    "source": "https://game.afagaming.cc/ca2501/assets/tch/index.1c2d6.js",
+    "bytes": 600,
+    "sha256": "7fc7e4e1dc0a1551a9d30f0814aa9d8eceebeec6efc3f2335fa17d85f448c826"
+  },
+  {
+    "path": "afa-public/assets/tch/native/14/14be758e5.e9544.webp",
+    "source": "https://game.afagaming.cc/ca2501/assets/tch/native/14/14be758e5.e9544.webp",
+    "bytes": 111698,
+    "sha256": "98bb536f987068b7bccb3ff29977216bd69053708cf0770c0b4cdfcf77e1cf55"
+  },
+  {
+    "path": "afa-public/brand/brand.css",
+    "source": "https://game.afagaming.cc/ca2501/brand/brand.css",
+    "bytes": 477,
+    "sha256": "87d2cce366ef47b782a2e6160cf5751d572cc2e12344b2bf6b98d36182e62c43"
+  },
+  {
+    "path": "afa-public/cocos-js/assets/bullet.wasm-c98527b6.wasm",
+    "source": "https://game.afagaming.cc/ca2501/cocos-js/assets/bullet.wasm-c98527b6.wasm",
+    "bytes": 418321,
+    "sha256": "7659f5fc9f828c0401fa5463f12f4db0380d0e40e5de46cf0fe689a1fa6d8c5f"
+  },
+  {
+    "path": "afa-public/cocos-js/bullet.wasm-35725efa.js",
+    "source": "https://game.afagaming.cc/ca2501/cocos-js/bullet.wasm-35725efa.js",
+    "bytes": 152,
+    "sha256": "7e7e67ff037f7b18674f557cd75461a1205f51d339ca001dd087694a35663861"
+  },
+  {
+    "path": "afa-public/cocos-js/cc.66575.js",
+    "source": "https://game.afagaming.cc/ca2501/cocos-js/cc.66575.js",
+    "bytes": 1176084,
+    "sha256": "395e459fa0c3cf686fd68485c1028f03520f6743a6d5a5a1c20275ff6836a75c"
+  },
+  {
+    "path": "afa-public/cocos-js/instantiated-0e2a838c.js",
+    "source": "https://game.afagaming.cc/ca2501/cocos-js/instantiated-0e2a838c.js",
+    "bytes": 1465496,
+    "sha256": "1f70c3bb050205b13a510d567f15e8ca1e1ef7397e75b9e70dc821fc65722f4d"
+  },
+  {
+    "path": "afa-public/favicon.ico",
+    "source": "https://game.afagaming.cc/ca2501/favicon.ico",
+    "bytes": 7479,
+    "sha256": "54a2580c4d98928309ca22f214225c52148876f0dbadf65dc95467261490d1c7"
+  },
+  {
+    "path": "afa-public/index.html",
+    "source": "https://game.afagaming.cc/ca2501/index.html",
+    "bytes": 14837,
+    "sha256": "45e9593aafa8242bcea7e18c0891f0d5b5b21426df1b62e1ebb4bb8540288fdc"
+  },
+  {
+    "path": "afa-public/iosGesture/IOSGesture.css",
+    "source": "https://game.afagaming.cc/ca2501/iosGesture/IOSGesture.css",
+    "bytes": 993,
+    "sha256": "99cd71381973ae7b4c63a739df1706b639e8d38633685386b9e23538da4b6efb"
+  },
+  {
+    "path": "afa-public/iosGesture/btn_close.png",
+    "source": "https://game.afagaming.cc/ca2501/iosGesture/btn_close.png",
+    "bytes": 1002,
+    "sha256": "6bd23f81df8df9fcf5eb38d83d1b027c82d64b219553a4ca94edadd112a5e661"
+  },
+  {
+    "path": "afa-public/iosGesture/icon_gesture.png",
+    "source": "https://game.afagaming.cc/ca2501/iosGesture/icon_gesture.png",
+    "bytes": 24899,
+    "sha256": "71e2cc017d2aecf4b9b09003f7e186611fe445f9f2c090ef45ef8a5ac0ce978b"
+  },
+  {
+    "path": "afa-public/src/chunks/bundle.9ad11.js",
+    "source": "https://game.afagaming.cc/ca2501/src/chunks/bundle.9ad11.js",
+    "bytes": 124196,
+    "sha256": "cefa7ae9819c4347cde80d0c3245b5b8b8e11b5afbdd83d5e85a420e4e4a1128"
+  },
+  {
+    "path": "afa-public/src/internal/plugins/4.2.36bfc.js",
+    "source": "https://game.afagaming.cc/ca2501/src/internal/plugins/4.2.36bfc.js",
+    "bytes": 162070,
+    "sha256": "94824c7e4db60018953a3683ef4204ae3bbf11dbec979ce648bf9bc0ee43e9f3"
+  },
+  {
+    "path": "afa-public/src/polyfills.bundle.5adbf.js",
+    "source": "https://game.afagaming.cc/ca2501/src/polyfills.bundle.5adbf.js",
+    "bytes": 14750,
+    "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+  },
+  {
+    "path": "afa-public/src/settings.dffed.json",
+    "source": "https://game.afagaming.cc/ca2501/src/settings.dffed.json",
+    "bytes": 3303,
+    "sha256": "463c580881fd9345f2926b30876ea743768af16bb8969b0f7e07f385d7ebad2a"
+  },
+  {
+    "path": "afa-public/src/system.bundle.692e9.js",
+    "source": "https://game.afagaming.cc/ca2501/src/system.bundle.692e9.js",
+    "bytes": 12028,
+    "sha256": "f2c184ae5bfab28d52006d71c514f194360c18f51f32de916818973f7e680b07"
+  },
+  {
+    "path": "afa-public/style.3c663.css",
+    "source": "https://game.afagaming.cc/ca2501/style.3c663.css",
+    "bytes": 1093,
+    "sha256": "f20c8b13d7eb9443b678bce5f769803f556fdd3633b882b15239424521a040af"
+  }
+]

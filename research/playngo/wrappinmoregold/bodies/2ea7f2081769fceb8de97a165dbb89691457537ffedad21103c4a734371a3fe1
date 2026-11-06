@@ -1,0 +1,15 @@
+{
+  "gameId": 1001,
+  "gId": "wrappinmoregold",
+  "name": "Wrappin' More Gold",
+  "gameType": "videoslot",
+  "limitsValues": [
+    "game.rtp",
+    "game.denominations",
+    "game.mysteryjackpot",
+    "game.jackpot",
+    "game.gojackpot",
+    "game.leaderboard",
+    "game.disablebetbooster"
+  ]
+}

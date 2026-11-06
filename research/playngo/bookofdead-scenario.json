@@ -1,0 +1,84 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true
+  },
+  "start_url": {
+    "url": "https://released.playngonetwork.com/casino/ContainerLauncher",
+    "query": [
+      {
+        "name": "pid",
+        "value": {
+          "source": "literal",
+          "value": "2"
+        }
+      },
+      {
+        "name": "gid",
+        "value": {
+          "source": "literal",
+          "value": "bookofdead"
+        }
+      },
+      {
+        "name": "lang",
+        "value": {
+          "source": "literal",
+          "value": "en_GB"
+        }
+      },
+      {
+        "name": "practice",
+        "value": {
+          "source": "literal",
+          "value": "1"
+        }
+      },
+      {
+        "name": "channel",
+        "value": {
+          "source": "literal",
+          "value": "desktop"
+        }
+      },
+      {
+        "name": "demo",
+        "value": {
+          "source": "literal",
+          "value": "2"
+        }
+      }
+    ]
+  },
+  "actions": [
+    {
+      "step_id": "load_demo",
+      "action": "wait_for_timeout",
+      "duration_ms": 12000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "url",
+      "dom",
+      "accessibility",
+      "screenshot"
+    ],
+    "events": [
+      "network",
+      "console",
+      "page-errors",
+      "frames"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    },
+    "limits": {
+      "max_network_body_bytes": 524288,
+      "max_total_event_allocation_bytes": 33554432
+    }
+  }
+}

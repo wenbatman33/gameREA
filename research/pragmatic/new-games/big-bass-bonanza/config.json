@@ -1,0 +1,41 @@
+{
+  "accountType": "R",
+  "currency": "USD",
+  "currencyOriginal": "USD",
+  "datapath": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs10bbbonanza/",
+  "umpcEnabled": false,
+  "lcEnabled": false,
+  "gameService": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+  "lang": "en",
+  "vendor": "T",
+  "showRealCash": "1",
+  "clock": "0",
+  "mgckey": "stylename@generic~SESSION@56e33564-170c-4469-abb7-e38a6bb6e527",
+  "styleName": "generic",
+  "extend_events": "1",
+  "REGULATION": "https://demogamesfree.pragmaticplay.net/gs2c/regulation/process.do?symbol=vs10bbbonanza",
+  "statisticsURL": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do",
+  "jurisdiction": "99",
+  "langSelectorEnabled": "0",
+  "cid": "11111",
+  "demoMode": "1",
+  "manualPayout": [
+    "MRC",
+    "TMC",
+    "TMFS",
+    "MRFS"
+  ],
+  "announcementsUpdateSeconds": 120,
+  "announcementsUpdateSecondsDefault": 120,
+  "LOGOUT": "/gs2c/logout.do",
+  "RELOAD_BALANCE": "/gs2c/reloadBalance.do",
+  "RELOAD_JACKPOT": "/gs2c/jackpot/reload.do",
+  "SETTINGS": "/gs2c/saveSettings.do",
+  "CLOSE_GAME": "/gs2c/closeGame.do?symbol=vs10bbbonanza",
+  "region": "Other",
+  "sessionKeyV2": [
+    "G451Xrs8JY0hLQWevjKFwJXuIpcNSWL+f6bEzldp614Y0n0nNvuvSchZI6b+tzOZQF7nuNK+tbkhNWY8xS+qLlgUYtkCNByqJ32oaKW9xpEBObRQKR9uVaFn/mConbkoSdSTe5NPLL60f0PZYYAu2KOVOwqZU+nMv5cdnsFHzsM=",
+    "lJ7i5BKlp3XWip4QW+PsI9aMNXjtPEEnR04zRQgP2OlwHzFXqUauYC41IXdz30h2lfW+RV7C6i4kurkyLhWpZxlQo7ilWFflzHOg1VpxUvC60j3o+bFNhFt/JGKbI/w8isUh3BJ7z4HH91EDcMDJpEgBB7mKWRh+RV/lBgJYjl0="
+  ],
+  "mid": "4494490866063976542"
+}

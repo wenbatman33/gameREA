@@ -1,0 +1,540 @@
+{
+  "page": "https://www.havespring.com.tw/",
+  "assets": [
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/cdn-cgi/speculation",
+      "name": "speculation"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/entry.6YjT3hO1.css",
+      "name": "entry.6YjT3hO1.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/entry.BHqFjPCP.js",
+      "name": "entry.BHqFjPCP.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BJ-vdVr6.js",
+      "name": "index.BJ-vdVr6.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/workbox-window.prod.es5.CwtvwXb3.js",
+      "name": "workbox-window.prod.es5.CwtvwXb3.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/_nuxt/builds/meta/v1.0.25-000.json",
+      "name": "v1.0.25-000.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CQBFNS6H.js",
+      "name": "index.CQBFNS6H.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/tracking.CAKwxvKX.js",
+      "name": "tracking.CAKwxvKX.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/vant-toast.D3IUsKMn.js",
+      "name": "vant-toast.D3IUsKMn.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/new-game-store.Ck_txGav.js",
+      "name": "new-game-store.Ck_txGav.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/vant-toast.BNww6ZV9.css",
+      "name": "vant-toast.BNww6ZV9.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/member.1AOgpb5V.js",
+      "name": "member.1AOgpb5V.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/deposit.CYCU2rX4.js",
+      "name": "deposit.CYCU2rX4.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/water-skill-store.ZwOP6J_e.js",
+      "name": "water-skill-store.ZwOP6J_e.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/promotion.DklB0Yra.js",
+      "name": "promotion.DklB0Yra.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/member-store.wjXw-HkI.js",
+      "name": "member-store.wjXw-HkI.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/interval.BzLCLO6P.js",
+      "name": "interval.BzLCLO6P.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/layout2.DAHMCAeO.js",
+      "name": "layout2.DAHMCAeO.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/client-only.FosusgRI.js",
+      "name": "client-only.FosusgRI.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/cdn-cgi/rum",
+      "name": "rum"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.DDB82SMc.js",
+      "name": "index.DDB82SMc.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/vue3-lottie.es.DfG7_Xvn.js",
+      "name": "vue3-lottie.es.DfG7_Xvn.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/manifest.webmanifest",
+      "name": "manifest.webmanifest"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BfYe7Qkb.js",
+      "name": "index.BfYe7Qkb.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/auth.B0WTFJgL.js",
+      "name": "auth.B0WTFJgL.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.WS7CBjam.js",
+      "name": "index.WS7CBjam.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.Cf2dNY6H.js",
+      "name": "index.Cf2dNY6H.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BhuJizsS.js",
+      "name": "index.BhuJizsS.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.aAuQsOKW.js",
+      "name": "index.aAuQsOKW.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.vlM6S1Ti.css",
+      "name": "index.vlM6S1Ti.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CdhmmK0M.css",
+      "name": "index.CdhmmK0M.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/copy.Ccnr0yBz.js",
+      "name": "copy.Ccnr0yBz.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/draggable.BSzdoVE0.js",
+      "name": "draggable.BSzdoVE0.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.C6q6uAuJ.js",
+      "name": "index.C6q6uAuJ.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.DXSJGpcQ.css",
+      "name": "index.DXSJGpcQ.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CVb44OQ3.js",
+      "name": "index.CVb44OQ3.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CDCO0uxn.js",
+      "name": "index.CDCO0uxn.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/NuxtImg.Bk3YHnL6.js",
+      "name": "NuxtImg.Bk3YHnL6.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.DJPLr_C9.js",
+      "name": "index.DJPLr_C9.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.13-_sP7a.css",
+      "name": "index.13-_sP7a.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/member-model.D5EiKA4W.js",
+      "name": "member-model.D5EiKA4W.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/default.BccplxfC.js",
+      "name": "default.BccplxfC.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CSMFBnD7.css",
+      "name": "index.CSMFBnD7.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.zFahpUO0.js",
+      "name": "index.zFahpUO0.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.Dkwmj52C.css",
+      "name": "index.Dkwmj52C.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/default.Dr1Pk9jO.css",
+      "name": "default.Dr1Pk9jO.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/floating-button-store.Ib2om7LH.js",
+      "name": "floating-button-store.Ib2om7LH.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.2rb76Uqo.js",
+      "name": "index.2rb76Uqo.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/api/home/bootstrap",
+      "name": "bootstrap"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/layout2.Cvsl7xDh.js",
+      "name": "layout2.Cvsl7xDh.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.chaVJlIi.css",
+      "name": "index.chaVJlIi.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.C3XMc3-m.js",
+      "name": "index.C3XMc3-m.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.8AQ2DqJS.js",
+      "name": "index.8AQ2DqJS.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.Bot_Gm1t.css",
+      "name": "index.Bot_Gm1t.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/layout2.6iN3kjcr.css",
+      "name": "layout2.6iN3kjcr.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/useDeferredSwiper.DFK26fNV.js",
+      "name": "useDeferredSwiper.DFK26fNV.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/vue-virtual-scroller.BYUhYwkU.css",
+      "name": "vue-virtual-scroller.BYUhYwkU.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/vue-virtual-scroller.BYPOsZLj.js",
+      "name": "vue-virtual-scroller.BYPOsZLj.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/home-swiper.Dg9V5GSw.js",
+      "name": "home-swiper.Dg9V5GSw.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/swiper-vue.BiEk7v8n.css",
+      "name": "swiper-vue.BiEk7v8n.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/swiper-vue.BX30jJ4l.js",
+      "name": "swiper-vue.BX30jJ4l.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CY38tr9u.js",
+      "name": "index.CY38tr9u.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BmpFKLqL.css",
+      "name": "index.BmpFKLqL.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/layout2.CAlmssKY.js",
+      "name": "layout2.CAlmssKY.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/floatingButtons.KZmVWXf-.css",
+      "name": "floatingButtons.KZmVWXf-.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/layout2.CC_-xwIv.css",
+      "name": "layout2.CC_-xwIv.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/floatingButtons.xWyBV-po.js",
+      "name": "floatingButtons.xWyBV-po.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.K8QFMUoS.js",
+      "name": "index.K8QFMUoS.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.aypmYV2n.js",
+      "name": "index.aypmYV2n.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.CY7PwM80.css",
+      "name": "index.CY7PwM80.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BU1WRVUN.css",
+      "name": "index.BU1WRVUN.css"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BeoKhwGG.css",
+      "name": "index.BeoKhwGG.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.DMeGjaz1.js",
+      "name": "index.DMeGjaz1.js"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BpkWViOj.css",
+      "name": "index.BpkWViOj.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.C1fQCnZJ.js",
+      "name": "index.C1fQCnZJ.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/api/_nuxt_icon/my-icon.json",
+      "name": "my-icon.json"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/popup-deep-link.BewbWYqh.js",
+      "name": "popup-deep-link.BewbWYqh.js"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/header/layout2/headerbg_left.png",
+      "name": "headerbg_left.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/header/layout2/hederbg_right.png",
+      "name": "hederbg_right.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/header/layout2/gold_coin.webp",
+      "name": "gold_coin.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/header/layout2/header_exp_right.png",
+      "name": "header_exp_right.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/header/layout2/header_exp_left.png",
+      "name": "header_exp_left.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/header/layout2/bag_h5.webp",
+      "name": "bag_h5.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/common/layout2/full_screen.webp",
+      "name": "full_screen.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/common/layout2/rotate.webp",
+      "name": "rotate.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/chat/layout2/radar.webp",
+      "name": "radar.webp"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/api/_nuxt_icon/my-icon.json",
+      "name": "my-icon.json"
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.havespring.com.tw/static/spine/spine-player.css",
+      "name": "spine-player.css"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/static/spine/spine-player.js",
+      "name": "spine-player.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BmdtSWOh.js",
+      "name": "index.BmdtSWOh.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/index.BXPyjTou.js",
+      "name": "index.BXPyjTou.js"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.havespring.com.tw/_nuxt/Button.Sz30fxYa.js",
+      "name": "Button.Sz30fxYa.js"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/api/_nuxt_icon/my-icon.json",
+      "name": "my-icon.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_80x80/static/img/common/layout2/close.webp",
+      "name": "close.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/common/layout2/arrow.png",
+      "name": "arrow.png"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/common/gold-coin-hs.webp",
+      "name": "gold-coin-hs.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/t011_2XAqnjE6/game/2534_game_h5_31fe85.webp",
+      "name": "2534_game_h5_31fe85.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/game/layout2/game_tag_hot.webp",
+      "name": "game_tag_hot.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/game/layout2/game_tag_new.webp",
+      "name": "game_tag_new.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/game/atg/golden-seth.webp",
+      "name": "golden-seth.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/HS/game/3625_game_h5_b38ce8.webp",
+      "name": "3625_game_h5_b38ce8.webp"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.havespring.com.tw/api/_nuxt_icon/my-icon.json",
+      "name": "my-icon.json"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/static/img/game/layout2/game_tag_promotion.webp",
+      "name": "game_tag_promotion.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/HS/game/3671_game_h5_c5c822.webp",
+      "name": "3671_game_h5_c5c822.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/HS/game/3605_game_h5_f9bf6f.webp",
+      "name": "3605_game_h5_f9bf6f.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/HS/game/3675_game_h5_e70976.webp",
+      "name": "3675_game_h5_e70976.webp"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.havespring.com.tw/_ipx/s_200x200/https://st8hs.com/storage/HS/game/32602_game_h5_860072.webp",
+      "name": "32602_game_h5_860072.webp"
+    }
+  ]
+}

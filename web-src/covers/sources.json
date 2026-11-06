@@ -1,0 +1,42 @@
+{
+  "gates-of-olympus": {
+    "path": "web-src/covers/gates-of-olympus.png",
+    "source": "https://www.pragmaticplay.com/wp-content/uploads/2021/02/GOOL_EN_339x180.png",
+    "kind": "official cover"
+  },
+  "sweet-bonanza": {
+    "path": "web-src/covers/sweet-bonanza.png",
+    "source": "https://www.pragmaticplay.com/wp-content/uploads/2019/03/Sweet-Bonanza™_Thumb_339x180-3.png",
+    "kind": "official cover"
+  },
+  "starlight-princess": {
+    "path": "web-src/covers/starlight-princess.png",
+    "source": "https://www.pragmaticplay.com/wp-content/uploads/2021/08/Starlight-Princess_EN_339x180_01.png",
+    "kind": "official cover"
+  },
+  "big-bass-bonanza": {
+    "path": "web-src/covers/big-bass-bonanza.png",
+    "source": "https://www.pragmaticplay.com/wp-content/uploads/2020/11/Big-Bass-Bonanza™_EN_339x180_04.png",
+    "kind": "official cover"
+  },
+  "sugar-rush": {
+    "path": "web-src/covers/sugar-rush.png",
+    "source": "https://www.pragmaticplay.com/wp-content/uploads/2022/06/Sugar_Rush_EN_339x180.png",
+    "kind": "official cover"
+  },
+  "moonprincess": {
+    "path": "web-src/covers/moonprincess.png",
+    "kind": "original game introduction screenshot",
+    "source": "captured local original client; introduction only, not full gameplay verification"
+  },
+  "gemix": {
+    "path": "web-src/covers/gemix.png",
+    "kind": "original game introduction screenshot",
+    "source": "captured local original client; introduction only, not full gameplay verification"
+  },
+  "riseofolympus": {
+    "path": "web-src/covers/riseofolympus.png",
+    "kind": "original game introduction screenshot",
+    "source": "captured local original client; introduction only, not full gameplay verification"
+  }
+}

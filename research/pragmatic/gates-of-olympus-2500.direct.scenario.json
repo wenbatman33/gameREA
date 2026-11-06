@@ -1,0 +1,45 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true
+  },
+  "start_url": {
+    "url": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympmmd&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=en&cur=USD"
+  },
+  "environment": {
+    "locale": "en-US",
+    "timezone": "Asia/Taipei"
+  },
+  "actions": [
+    {
+      "step_id": "load",
+      "action": "wait_for_timeout",
+      "duration_ms": 8000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "url",
+      "screenshot",
+      "dom"
+    ],
+    "events": [
+      "network",
+      "console"
+    ],
+    "network": {
+      "response_body": false,
+      "request_body": true,
+      "header_values": false
+    },
+    "limits": {
+      "max_events": 40000,
+      "max_event_allocation_bytes": 16777216,
+      "max_total_event_allocation_bytes": 268435456,
+      "max_network_body_bytes": 12582912,
+      "max_network_body_allocation_bytes": 201326592,
+      "max_network_transactions": 3000
+    }
+  }
+}

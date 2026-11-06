@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-23",
+  "scope": "Local synthetic ordinary draws only; no real-account wagers performed.",
+  "backendTests": {
+    "command": "python3 research/havespring/test_backend.py",
+    "passed": 3
+  },
+  "polyfillTest": {
+    "command": "node research/havespring/test_polyfills.cjs",
+    "passed": true,
+    "reproduction": "AMD loader present; original runtime undefined, served classic wrapper initializes runtime"
+  },
+  "browser": {
+    "tool": "CUA Chrome",
+    "games": [
+      {
+        "game": "CA261119",
+        "name": "草船借箭",
+        "ordinaryRounds": 2,
+        "cardsPerRound": 1,
+        "visibleBalances": [
+          25000,
+          24970,
+          24940
+        ],
+        "javascriptErrors": 0,
+        "screenshot": "grass-boat-local-after.png",
+        "observedExternalAssetURLs": [],
+        "observedAssetCount": 238
+      },
+      {
+        "game": "CA261141",
+        "name": "血戰長坂",
+        "ordinaryRounds": 2,
+        "cardsPerRound": 10,
+        "visibleBalances": [
+          25000,
+          24712,
+          24439
+        ],
+        "javascriptErrorsDuringSuccessfulRounds": 0,
+        "screenshot": "blood-battle-local-after.png"
+      },
+      {
+        "game": "CA261130",
+        "name": "火燒赤壁",
+        "ordinaryRounds": 2,
+        "cardsPerRound": 1,
+        "visibleBalances": [
+          25000,
+          24970,
+          24940
+        ],
+        "javascriptErrors": 0,
+        "observedExternalAssetURLs": [],
+        "observedAssetCount": 240,
+        "screenshot": "red-cliffs-local-after.png"
+      }
+    ]
+  },
+  "assets": {
+    "sharedStaticFiles": 151,
+    "cardImageFiles": 85,
+    "hashesVerified": true
+  },
+  "home": {
+    "galleryCards": 14,
+    "screenshotResourcesHTTP200": 14,
+    "staticPreviewHTTP200": true
+  },
+  "limitations": [
+    "Special feature state transitions and original RTP are not reconstructed.",
+    "Earlier development restarts caused connection failures; only successful runs are reported as passes.",
+    "Page asset inventory and CSP checks do not equal full network interception."
+  ]
+}

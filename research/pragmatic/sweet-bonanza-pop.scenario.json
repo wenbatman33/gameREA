@@ -1,0 +1,38 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true
+  },
+  "start_url": {
+    "url": "https://www.pragmaticplay.com/en/games/sweet-bonanza-pop/?cur=USD&gamelang=en"
+  },
+  "environment": {
+    "locale": "en-US",
+    "timezone": "Asia/Taipei"
+  },
+  "actions": [
+    {
+      "step_id": "settle",
+      "action": "wait_for_timeout",
+      "duration_ms": 10000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "url",
+      "dom",
+      "screenshot",
+      "accessibility"
+    ],
+    "events": [
+      "network",
+      "console"
+    ],
+    "network": {
+      "response_body": true,
+      "request_body": true,
+      "header_values": false
+    }
+  }
+}

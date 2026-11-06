@@ -2,7 +2,7 @@
   "name": "game-rea-local-lab",
   "version": "0.1.0",
   "private": true,
-  "description": "Seth2 recovery workspace with an explicitly simulated local backend",
+  "description": "20-game local research lab with explicitly simulated browser backends and a Seth2 Creator project",
   "scripts": {
     "start": "python3 start-local.py",
     "test:local": "node --experimental-vm-modules tools/seth-recovery/test-local-backend.mjs && node --experimental-vm-modules --test tools/seth-recovery/test-feature-backend.mjs && node --experimental-vm-modules tools/seth-recovery/test-feature-rules.mjs && node --experimental-vm-modules --test tools/seth-recovery/test-feature-definitions.mjs && node --experimental-vm-modules --test tools/seth-recovery/test-feature-progress.mjs && node --test tools/seth-recovery/test-local-jackpot-continuation.mjs tools/seth-recovery/test-local-presentation-compatibility.mjs"

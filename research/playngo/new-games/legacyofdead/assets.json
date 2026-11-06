@@ -1,0 +1,698 @@
+{
+  "files": [
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/games/legacyofdead/legacyofdead_desktop.bundle.js",
+      "file": "bodies/cb2c019691e6f5fd1e7d2d45abefdab00ae7d1a536396731fb840ac34afc21b1",
+      "contentType": "application/javascript",
+      "bytes": 1849836,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/config_desktop.json",
+      "file": "bodies/e8f0d3749f5d13bbce26ea95b2348146a8414b17833948178a06529333fbfec0",
+      "contentType": "application/json",
+      "bytes": 99014,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/featurepreview_bundle.json",
+      "file": "bodies/3ee9f55267e1163eb3c9a2da351cf40c68e69173bba2fae8368f0b66cd378f77",
+      "contentType": "application/json",
+      "bytes": 11903,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/game_bundle.json",
+      "file": "bodies/4889fcfd9362e30f68321d023429d2998620351b7b11e91276bea03daf30adaa",
+      "contentType": "application/json",
+      "bytes": 236543,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/ui_desktop_bundle.json",
+      "file": "bodies/5887db5b5ed27462636469e94d94920ea665f8f74138b48c439819f0c2653d93",
+      "contentType": "application/json",
+      "bytes": 108740,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/mysteryjackpot_bundle.json",
+      "file": "bodies/4881258ba282ddf984e80745b5d94e61da9f3738f761f54dbc21d9bc97833ee7",
+      "contentType": "application/json",
+      "bytes": 3827,
+      "status": 200
+    },
+    {
+      "url": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=legacyofdead&lang=en_GB&practice=1&channel=desktop&demo=2",
+      "file": "bodies/38cdb18b18154eef8c5b4d7be8365f3cc9e1848e87db9ee9a85cc32508b24368",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 747,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/oswald_regular.css",
+      "file": "bodies/213dbae94726fbe667dbe6bc8800679f27ac186be1f99ffa3f7ed021175c5cbe",
+      "contentType": "text/css",
+      "bytes": 154,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/oswald_medium.css",
+      "file": "bodies/6b2f57fda90068ea8ca7310ac4d20eb4895ac9158f135777c059b11ca5155116",
+      "contentType": "text/css",
+      "bytes": 152,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/png_mini.css",
+      "file": "bodies/7dff56ff2501b0b85b2d7cc8fb8e87952df69596cfc39db251d8ad0b369705c4",
+      "contentType": "text/css",
+      "bytes": 140,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/FLANKER_GRIFFO.css",
+      "file": "bodies/75ceda23ad9316537bf3276bd868aaee4bf4753470d38edb9179f6d62f9bf66d",
+      "contentType": "text/css",
+      "bytes": 129,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/BRITANNIC_BOLD.css",
+      "file": "bodies/e1e4f163c0ccf81d385a68aa5dbc02a2ed7e78949820e6c7d136098419394e3f",
+      "contentType": "text/css",
+      "bytes": 157,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.css",
+      "file": "bodies/c018ebfdb84d7f2d5bd527176c9abdc358f9a8153b0835e6886d87bfe2050c4f",
+      "contentType": "text/css",
+      "bytes": 175,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/ROBOTO_CONDENSED_BOLD.css",
+      "file": "bodies/9ecc50c226974dc2c28b27e342de6610403e1c6314e6f1bfe649a41418ea8df4",
+      "contentType": "text/css",
+      "bytes": 169,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/ARIAL_ROUNDED_BOLD.css",
+      "file": "bodies/6caf308b1afce2e7156c5d739992fb8f0826b0f87fa4621760b16b49b426ef6b",
+      "contentType": "text/css",
+      "bytes": 163,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/POPPINS_REGULAR.css",
+      "file": "bodies/cd8d63cb7c62dd370c57111a9e116acc7aad832022f14f1f1d0460ffddd47b09",
+      "contentType": "text/css",
+      "bytes": 157,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/PNG_VNTH.css",
+      "file": "bodies/ee3f20cb76541602b885f6ba2daceec872e4e6a2add3e9525f7b76d0ff035603",
+      "contentType": "text/css",
+      "bytes": 117,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/background/background_texture0_level0.jpg",
+      "file": "bodies/5bdaf0471fd8d6d4b5d39b0ea90043f0bcc4492d749011e2368140e04d09cf10",
+      "contentType": "image/jpeg",
+      "bytes": 2337040,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/background/background_texture0_level1.jpg",
+      "file": "bodies/5bdaf0471fd8d6d4b5d39b0ea90043f0bcc4492d749011e2368140e04d09cf10",
+      "contentType": "image/jpeg",
+      "bytes": 2337040,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/background/background_texture0_level2.jpg",
+      "file": "bodies/b0f7ea0e48c3ce8303d24a10487956c14f2825081937ef919ecc582c3c6307c0",
+      "contentType": "image/jpeg",
+      "bytes": 893009,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/background/background_texture1_level0.png",
+      "file": "bodies/ceefa12c8f64060ecd7c997daddafe13322c912ca0aeae6f1411c16943279a15",
+      "contentType": "image/png",
+      "bytes": 344701,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/background/background_texture1_level1.png",
+      "file": "bodies/ceefa12c8f64060ecd7c997daddafe13322c912ca0aeae6f1411c16943279a15",
+      "contentType": "image/png",
+      "bytes": 344701,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/background/background_texture1_level2.png",
+      "file": "bodies/66935020a4bd50eca3986c258623e7fd24e3fd5a28307e0339db5ea0ce38fef4",
+      "contentType": "image/png",
+      "bytes": 159286,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/logo/logo_texture0_level0.png",
+      "file": "bodies/37433d5b1f61ed7abb35a95d3fa7e403f4e1a176d5038f54d25a3fdfc39e0c1a",
+      "contentType": "image/png",
+      "bytes": 77447,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/logo/logo_texture0_level1.png",
+      "file": "bodies/1fc169a7281dbde30071f5e473b39faa992094a148f0a6dfa6f6dd324d9d0b64",
+      "contentType": "image/png",
+      "bytes": 35330,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/logo/logo_texture0_level2.png",
+      "file": "bodies/9346a4021c6a360ac497f0658ecfc5fcfbd2120d32f59dc26d9519e79f427e4e",
+      "contentType": "image/png",
+      "bytes": 15504,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/features/features_texture0_level0.png",
+      "file": "bodies/666d3eb928aa503cdffcf8f3c32452cf26d2f18499326f4ae7f26090bece8ae4",
+      "contentType": "image/png",
+      "bytes": 1117714,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/features/features_texture0_level1.png",
+      "file": "bodies/76b6a248e5d99ef1f653acf4d12e42372a4031bbb8e7d8524f7767a7ef243ccf",
+      "contentType": "image/png",
+      "bytes": 739942,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/features/features_texture0_level2.png",
+      "file": "bodies/180eb51b1b2c46fad2a5226ef1f71f97706edc1c2f458f0192a2a0c1046f12e5",
+      "contentType": "image/png",
+      "bytes": 441803,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/bmpfonts/bmpfonts_texture0_level0.png",
+      "file": "bodies/9fa100bfbce53833b829b1d928bb26e0e6f7812fc57c7d2c6436fc6504cef824",
+      "contentType": "image/png",
+      "bytes": 297265,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/bmpfonts/bmpfonts_texture0_level1.png",
+      "file": "bodies/9fa100bfbce53833b829b1d928bb26e0e6f7812fc57c7d2c6436fc6504cef824",
+      "contentType": "image/png",
+      "bytes": 297265,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/bmpfonts/bmpfonts_texture0_level2.png",
+      "file": "bodies/9fa100bfbce53833b829b1d928bb26e0e6f7812fc57c7d2c6436fc6504cef824",
+      "contentType": "image/png",
+      "bytes": 297265,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/sounds/sounds_desktop.ogg",
+      "file": "bodies/89b98d42cfcd73e3f79714fa986962e7b413126f99ab56d5345cd3dbd6a3c433",
+      "contentType": "audio/ogg",
+      "bytes": 3770142,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/sounds/sounds_desktop.mp3",
+      "file": "bodies/b40cfb24d2728e5ffec3609388d0cea1bfddd093cbc568f674cba8a3f4a5aba0",
+      "contentType": "audio/mpeg",
+      "bytes": 4236784,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/sounds/sounds_desktop_fb.mp3",
+      "file": "bodies/4f3e34f607c8634c2c92da79685ee1bb0ace02f846b1b070ec6c6b31f835e10c",
+      "contentType": "audio/mpeg",
+      "bytes": 3140962,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/sounds/common_sounds_desktop.ogg",
+      "file": "bodies/4a0215237dce76691ef267cd09aa914dd1e151a090e266eedea25e0f06e1e413",
+      "contentType": "audio/ogg",
+      "bytes": 25039,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/sounds/common_sounds_desktop.mp3",
+      "file": "bodies/b4447ee42b8dc43c88012ef67a22390937f86ee17dd6171bc8d1d976a9b2fb21",
+      "contentType": "audio/mpeg",
+      "bytes": 34119,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/sounds/common_sounds_desktop_fb.mp3",
+      "file": "bodies/3269ae44ab68840db5a7693cd6d0cfd69c4ce4a84af8f915bcf266fd70c7ff1c",
+      "contentType": "audio/mpeg",
+      "bytes": 50990,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/wincounter/wincounter_texture1_level0.png",
+      "file": "bodies/138d6e2abf2565b21f417ce013a088d84bac8929f116a63ed300f5e589962558",
+      "contentType": "image/png",
+      "bytes": 167117,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/wincounter/wincounter_texture1_level1.png",
+      "file": "bodies/f8984948e75bb8b5f1ee1d29d65ac3167d9e59aa39e3268b557eba759f32a12d",
+      "contentType": "image/png",
+      "bytes": 141031,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/wincounter/wincounter_texture1_level2.png",
+      "file": "bodies/2006aaae52fb690140e835a052f9cbb734beaaeb5d162c29174c5715803eb36e",
+      "contentType": "image/png",
+      "bytes": 93179,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/feature_preview/feature_preview_texture0_level0.png",
+      "file": "bodies/671cc25e310cf2cecc53a276f5752cee3cdb81120ca69cb1758653ef81ac0fb3",
+      "contentType": "image/png",
+      "bytes": 1052196,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/feature_preview/feature_preview_texture0_level1.png",
+      "file": "bodies/954903d03ec12881e16c73f99ef7b4f163487c62fc36354e29fb2393181522a9",
+      "contentType": "image/png",
+      "bytes": 461732,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/feature_preview/feature_preview_texture0_level2.png",
+      "file": "bodies/7e724a09ac44d0f3adf8610589e6562e53252ec8cf16810a973bbcb441d3e41e",
+      "contentType": "image/png",
+      "bytes": 173391,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/feature_preview/feature_preview_texture1_level0.png",
+      "file": "bodies/b024a33ac7dcb4161226fedf8041607a1d3dc50530b43f1d72b5dac389553318",
+      "contentType": "image/png",
+      "bytes": 13763,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/feature_preview/feature_preview_texture1_level1.png",
+      "file": "bodies/b024a33ac7dcb4161226fedf8041607a1d3dc50530b43f1d72b5dac389553318",
+      "contentType": "image/png",
+      "bytes": 13763,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/feature_preview/feature_preview_texture1_level2.png",
+      "file": "bodies/3e7c06616dd77731d64ea4125b55af4923b7b1f3b20452800a9a52d5fa4249d7",
+      "contentType": "image/png",
+      "bytes": 4789,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture0_level0.png",
+      "file": "bodies/5dfef214e94ccfbf388679826ca7a1cc4d04aa20ba48cdfca8c6ea031bf30c7a",
+      "contentType": "image/png",
+      "bytes": 1244184,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture0_level1.png",
+      "file": "bodies/1fc18c014bd850eae89dadd7080e54df0eb8aeec16b072af38b3575ff5aac76b",
+      "contentType": "image/png",
+      "bytes": 752476,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture0_level2.png",
+      "file": "bodies/cd07d7eb0ebb7c0a9d7cbf48ead0d7c53d15ca3b2c0f9626cce196591702973d",
+      "contentType": "image/png",
+      "bytes": 453176,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture1_level0.png",
+      "file": "bodies/644376667db8132cb79c9b9e04feeda8c805b75ee1578cfeb9e28000f38c7b5e",
+      "contentType": "image/png",
+      "bytes": 1000851,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture1_level1.png",
+      "file": "bodies/f058e03afcf28971e6db5ccccb03ccdc26329ca1baa0db2015a2a639bd6fed0f",
+      "contentType": "image/png",
+      "bytes": 622958,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture1_level2.png",
+      "file": "bodies/b7a2cf57c63bfd97be38e3ebae06c7c4a2b6c1a6f9af26a2804ee467147e8ffe",
+      "contentType": "image/png",
+      "bytes": 388742,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture2_level0.png",
+      "file": "bodies/5f40fa4114d550ee6de68db22e2c74a8bc600c660b1fe70cf31e5e19dd40d9f2",
+      "contentType": "image/png",
+      "bytes": 1404304,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture2_level1.png",
+      "file": "bodies/47e3e849b0c46e0f736115a6f0b15edffb10f604966d60bf80f075794a341d56",
+      "contentType": "image/png",
+      "bytes": 934327,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture2_level2.png",
+      "file": "bodies/c4a23f822bb2aa0247c046bd81b999829cd6babf1cd0ffd48a05219797708ad0",
+      "contentType": "image/png",
+      "bytes": 563626,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture3_level0.png",
+      "file": "bodies/ba55debba0f114114e2e2d05d7c62bff2387c1180124b6ee6313b1dc9ee1c436",
+      "contentType": "image/png",
+      "bytes": 2139702,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture3_level1.png",
+      "file": "bodies/f299ff5b86f7bfee27e7b648da27bfe9f367df6a694c5c609256d9d2d22e96e2",
+      "contentType": "image/png",
+      "bytes": 1340236,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture3_level2.png",
+      "file": "bodies/e3b56ed6f4827bfecd672d683e3cf10ea34f1a00e8f909940bd6d0f304c48374",
+      "contentType": "image/png",
+      "bytes": 799375,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture4_level0.png",
+      "file": "bodies/73ae01f7672220f53367c668a59ef51357b2a30b3c82778eb72ed55b2eb86042",
+      "contentType": "image/png",
+      "bytes": 992001,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture4_level1.png",
+      "file": "bodies/ce72621670bf0b08ad54f73317d8a2e010bd40b77f73bab906c05430f3fcb974",
+      "contentType": "image/png",
+      "bytes": 650617,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/skin/skin_texture4_level2.png",
+      "file": "bodies/6e05316af27438865fa5f8672d9fe103bbc721f90b74bd6dc9ca4a1707171e8c",
+      "contentType": "image/png",
+      "bytes": 390107,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/menu/menu_texture0_level0.png",
+      "file": "bodies/48fb34ffc6746aa8d62d3be7f9a46073c2a0f12c3b99e9ec1f663c9843728dca",
+      "contentType": "image/png",
+      "bytes": 1215240,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/menu/menu_texture0_level1.png",
+      "file": "bodies/614bbe876ab6630308f84094f271120fc6a6f873cc53334cec2fa59d844dfaa5",
+      "contentType": "image/png",
+      "bytes": 765930,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/menu/menu_texture0_level2.png",
+      "file": "bodies/3995172ebffb776f61f2192f56086883685cd0e55325a46a708b0249bf61700c",
+      "contentType": "image/png",
+      "bytes": 454125,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/menu/menu_texture1_level0.png",
+      "file": "bodies/8306760eb8b85aee5702b6b20fc0689142a62c7327e001e116414e4415019db5",
+      "contentType": "image/png",
+      "bytes": 346115,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/menu/menu_texture1_level1.png",
+      "file": "bodies/0a87063357c0cf3cdd680f9fe6014144997e8dfc3b02a05caeb75bb03a5cff08",
+      "contentType": "image/png",
+      "bytes": 236838,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/menu/menu_texture1_level2.png",
+      "file": "bodies/3ce738f1342c1e11916ea13a01e97a1f171481da5deb777b82479120fe513958",
+      "contentType": "image/png",
+      "bytes": 145865,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level0.png",
+      "file": "bodies/5ad91ddee6c4008bf48577e3784c71c5984a8cf92ecde62143e9a4d81d907f00",
+      "contentType": "image/png",
+      "bytes": 66681,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level1.png",
+      "file": "bodies/2ece7444295bf05755811719f0742bae67e845d9db1b39a5b3420146aee32fdb",
+      "contentType": "image/png",
+      "bytes": 52938,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/videoslot_popup/videoslot_popup_texture0_level2.png",
+      "file": "bodies/c345fe8386b1032cf5558fcc3606d75c76cd27046824045bfe91329b19a8989e",
+      "contentType": "image/png",
+      "bytes": 36068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/ui/desktop/statusbar/statusbar_texture0_level0.png",
+      "file": "bodies/4cfb88e3d112693900d6079094f74e1b5112efe6a82bae6d98e488e231ba8d72",
+      "contentType": "image/png",
+      "bytes": 11391,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/ui/desktop/statusbar/statusbar_texture0_level1.png",
+      "file": "bodies/e894ad1821e3ffa68075700c63cb31de06b0dd8a03c550b5d5fd091cc7908315",
+      "contentType": "image/png",
+      "bytes": 7605,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/ui/desktop/statusbar/statusbar_texture0_level2.png",
+      "file": "bodies/988950a30e0ea2a5ef30f40e95b9f43fa4a894bae60db96ec6ea837f542ff50b",
+      "contentType": "image/png",
+      "bytes": 4068,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/hyperspineffect/hyperspineffect_texture0_level0.png",
+      "file": "bodies/2246f45f7eb8e97104e5e223eb265df1c6141316a05b91d9507d2f60daaa0c66",
+      "contentType": "image/png",
+      "bytes": 3526072,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/hyperspineffect/hyperspineffect_texture0_level1.png",
+      "file": "bodies/5c54b571f2cd0eaf997bce00d0e7d951efbd73a6f008b8502cfa24f5a43bf1f8",
+      "contentType": "image/png",
+      "bytes": 970942,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/games/videoslot/legacyofdead/hyperspineffect/hyperspineffect_texture0_level2.png",
+      "file": "bodies/c59215acd0796205c505c135c537e52d9a5621f2b2d056728a0b2f40982812ab",
+      "contentType": "image/png",
+      "bytes": 608022,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.json",
+      "file": "bodies/553fbfbe3ad3d86308bd90467d7a4397373a4abfaa5e3a99d63a511c94ec5176",
+      "contentType": "application/json",
+      "bytes": 878,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot_style.json",
+      "file": "bodies/99f6255fe210c2f0c8c76e45a6426d2316aceaaf881615d9999116d9dba6b30c",
+      "contentType": "application/json",
+      "bytes": 1952,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/mysteryjackpot.json",
+      "file": "bodies/bef3710616a8e9c9cb3e9a8c2803b8450ae2ad2914e6b02df0bdf0cf129def64",
+      "contentType": "application/json",
+      "bytes": 49146,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/hera/hera-1.46.0.29/container-launcher/ContainerLauncher_bundle.js",
+      "file": "bodies/af445cfba70e84c719498c585c09ccd6210064054ed614d3fce420fa7e430a35",
+      "contentType": "application/javascript",
+      "bytes": 361857,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/main.js",
+      "file": "bodies/59558ef7d7054397628e684d2d63a12a4411ec2b9832d9ab1502b42f48143f86",
+      "contentType": "application/javascript",
+      "bytes": 40524,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/megaton_modules/game-history_2.4.11.1/css/game_history_styles.css",
+      "file": "bodies/ce6a789b3b94252eec4ce36e36e40bfd155fd3a169fecb2894aab60dfe852b99",
+      "contentType": "text/css",
+      "bytes": 9166,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/help.css",
+      "file": "bodies/1f8bc3af2db93e35857cf24eaa0e7e4221987eb7f2d56fefe4b0bf26f39b2897",
+      "contentType": "text/css",
+      "bytes": 2624,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/gamehelp/4816/styles/template5.css",
+      "file": "bodies/876f57b79e90de1807101a5d8fa46fcbf6d1a72ad585c2c778d5b24598a89f9c",
+      "contentType": "text/css",
+      "bytes": 3960,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/OSWALD-REGULAR.woff",
+      "file": "bodies/c04d481e62e3e19fd151171df3366128fd4b24482810eb96b132f0559bec3967",
+      "contentType": "font/woff",
+      "bytes": 151733,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/OSWALD-MEDIUM.woff",
+      "file": "bodies/de474436f8484e668ee442938136ff8d4619fcc41af8a3b4fa97cb644a1a507c",
+      "contentType": "font/woff",
+      "bytes": 107945,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/PNG-MINI.woff",
+      "file": "bodies/20682ef345e500ca4f0ef5d3ac0a62204700b53f5e198f0c058dc257b82c23ca",
+      "contentType": "font/woff",
+      "bytes": 114732,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/FLANKER_GRIFFO.woff",
+      "file": "bodies/039ada39117b4e63c7638558fcda50df67ef17695f8b61cc8923236fb3540768",
+      "contentType": "font/woff",
+      "bytes": 195501,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/BRITANNIC_BOLD.woff",
+      "file": "bodies/236583a3ca57543d6c440b2f1947f3c5d9eb0b2e12d9fcf26399a5241bcafcdd",
+      "contentType": "font/woff",
+      "bytes": 23605,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/ROBOTO_CONDENSED_REGULAR.woff",
+      "file": "bodies/fe233bd33b58cb76eae1bd15098bdd052e705762aa277915f65a63af4164f20a",
+      "contentType": "font/woff",
+      "bytes": 109929,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/ROBOTO_CONDENSED_BOLD.woff",
+      "file": "bodies/de19d3ed40dda1ff72f31cc0cbbd3ad9cfc380f45851173365755eadde145807",
+      "contentType": "font/woff",
+      "bytes": 109277,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/ARIAL_ROUNDED_BOLD.woff",
+      "file": "bodies/e8faa09d926deb7d5a0fd1a30c1d197a40f8d929e10d3cdf1080f9f9c866e84d",
+      "contentType": "font/woff",
+      "bytes": 27300,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/POPPINS_REGULAR.woff",
+      "file": "bodies/0d205c202c811f9c82aa8878901757b7a683312bea86ec90d2b1ecdc13424c9d",
+      "contentType": "font/woff",
+      "bytes": 73600,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/common/fonts/PNG_VNTH.woff",
+      "file": "bodies/9fce30ce49873208b850ffffd292cd2315b17fcdea4a69362a08a8e49b614abd",
+      "contentType": "font/woff",
+      "bytes": 184481,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.ogg",
+      "file": "bodies/e05a2f488ba80fa478b201e676f89905bb41555b461db719f91029ea728036b0",
+      "contentType": "audio/ogg",
+      "bytes": 127668,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop.mp3",
+      "file": "bodies/b9f90f27921dc3826d90317fcb555d6f7a166668615b2b9f08f5b0aba3057c51",
+      "contentType": "audio/mpeg",
+      "bytes": 157546,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/gamelibs/videoslot/desktop/mysteryjackpot/common/mysteryjackpot/sounds/mj_sounds_desktop_fb.mp3",
+      "file": "bodies/711aebb2c4648cda8a1711f111a723d0525e978e1876516f4063c014297055fc",
+      "contentType": "audio/mpeg",
+      "bytes": 142314,
+      "status": 200
+    },
+    {
+      "url": "https://cdn.playngonetwork.com/9.8.1-legacyofdead.537/resources/lang/en_GB/locale.json",
+      "file": "bodies/7a0bd04e9bc287f289a8afb09caf9f1ec7229edbe8cc8210e867bf40ea79ad56",
+      "contentType": "application/json",
+      "bytes": 1636911,
+      "status": 200
+    }
+  ],
+  "failed": []
+}

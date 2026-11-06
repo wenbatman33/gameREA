@@ -1,0 +1,489 @@
+{
+  "game": {
+    "slug": "sweet-bonanza",
+    "symbol": "vs20fruitsw"
+  },
+  "entry": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20fruitsw&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lobby_url=https%3A%2F%2Fwww.pragmaticplay.com%2Fen%2F&lang=en&cur=USD",
+  "finalUrl": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20fruitsw&gname=Sweet%20Bonanza&jurisdictionID=99&mgckey=stylename@generic~SESSION@982a8eae-69ab-40ae-b8c4-4705a1c2ce55",
+  "errors": [],
+  "records": [
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20fruitsw&gname=Sweet%20Bonanza&jurisdictionID=99&mgckey=stylename@generic~SESSION@982a8eae-69ab-40ae-b8c4-4705a1c2ce55",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/html",
+      "sha256": "a2f8378efccbcc042658543420c6c9432cc109022169e5064da3f0fe80a4943e",
+      "bytes": 95722
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/bootstrap.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "449d0ede7c7841edbfccb59809e8944d3cf8e75d63fe82ca395856f6809ed937",
+      "bytes": 101153
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/build.js?key=94ecc788662c1de1e0c1b82efa3704d3",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "7168fcaec61e9cbdff239878986e68e65f4f11eb5d997891574fc89f54ce492e",
+      "bytes": 3123695
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doInit&symbol=vs20fruitsw&cver=445945&index=1&counter=1&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "e5f823a8d190ef5fc074dd0ad3f0a05eac4d57db2e98140236b639e9b1a461e2",
+      "bytes": 6665
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=2&counter=3&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "b52606081522ca5c388ccc27934549f7191a4db6878a7785eed92aba52c758ad",
+      "bytes": 290
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=3&counter=5&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "1393655ac2eb607aae81d310930aac882e4bd0331b6daa40bc02d8084a8feb91",
+      "bytes": 289
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=4&counter=7&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "cd50eb5877171a4d4a37b09466971aa794a89493f1f558f9378e5592b45513f7",
+      "bytes": 492
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=5&counter=9&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "9bb12d187214501e525c22b915f2d0faece24fb4e12fafe0a0465040a1c0ec6d",
+      "bytes": 427
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=6&counter=11&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "9884a57f57e359bad271452197a68397ca05860e161a8527f033218f27b524df",
+      "bytes": 331
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doCollect&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=7&counter=13&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "f1e43d219b8ea2bf8d3af64a91bb76fa2a947bf239b29e223560825590d00bfa",
+      "bytes": 120
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=8&counter=15&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "cc34bf89db2faf74ebb65a156bd21631a724010f9854d4e32e9eab4a162d6e81",
+      "bytes": 289
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=9&counter=17&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "44b9e13cb904cbd9fec762147d00bf9291e572c2f7918c7c7ef9db3e65d33e1f",
+      "bytes": 289
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=10&counter=19&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "51eefd2f8c58511c4b47c0fcfaca802cd3d9fc22bc71c73bbf8b7c9a91d24592",
+      "bytes": 288
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20fruitsw&c=0.10&l=20&sInfo=n&bl=0&index=11&counter=21&repeat=0&mgckey=stylename%40generic~SESSION%40e18117f9-4d57-4b8c-ad53-bbca9ab4687d",
+      "status": 200,
+      "contentType": "text/plain",
+      "sha256": "7663d5087bc926db1daca3a94e6557e1d7ab59b7661e480279b405746cb7ff98",
+      "bytes": 440
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources007.json?key=b1601cf55cae7f4505e17e4724325aaf",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "83e461fa9e7ec9fe190e72287ab705800f5ceecb9d05f649e3433320dbe1f9cb",
+      "bytes": 832235
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI005.json?key=3db7570b69f9ea6599fe30b75ab8ba00",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "936d2c71efd07497aa455cd2c08ad93874034885b69c2a81639e727e0bb07c5e",
+      "bytes": 1164265
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources012.json?key=a56c511dbdba7ced77551bf3e144da9f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0b83432f6a5c02c26b0de62290b1b53c160e4a2370224c33ba525ff81828b7d6",
+      "bytes": 27912
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources009.json?key=be104a10c0506b2d020b24b7096a4ce9",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "b445f6ed00feafcc976d475e8d088884567311f9873cf4e564792a6099833352",
+      "bytes": 613486
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/other_resources001.json?key=6b10035764b9accd1b28263f316884e6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "40e018c79f14cb2d9144ba1a87146cd9177b63f660dea00d41bc4ca6221e8236",
+      "bytes": 46515
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI000.json?key=adb69914a1e499e40fea22f93aa02c49",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "9dcf03da975bb440a906f2d8cc5b1de23800a72e7aa6ede162afce291462ccbf",
+      "bytes": 918104
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/game000.json?key=9e0eb50663a9fb6a6437335333cbae1e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "62acedaf4ae8ad5281e7e837ce7d99d7dff6b6ad460f2ac3c194e560338dad34",
+      "bytes": 1080304
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources004.json?key=a2421e2c3dae7a0f86b1a7d4f58c6725",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a1c2427650cc4d9a51e138d03f5a89fadb8130bd69b7f35b5ccdd7af523038a3",
+      "bytes": 942095
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/other_resources000.json?key=a019d36c0ec927dd99b6b9d56dad60e6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "5cd295fe9f5c8fbca64eea86a535b52e561e3dca38d5d0c67a8345a9501c5597",
+      "bytes": 535410
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources002.json?key=aa9a420805c2a1492960ac4141178474",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "8625e1e3b945178cf65ade80bbd033ce62f36c7c04be27f7df6e14d4ff87d9e6",
+      "bytes": 748575
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources006.json?key=cad8983431d16ce1af536a6c14776179",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "d109ce972864a0965b863aed72374a7b28b419c8d24fc05a2f493a05e9c1e811",
+      "bytes": 685313
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources000.json?key=d84cba613d53d7a6a48bdb02032cd2f1",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "9ffde766082ece921cda1b6f079bde0a4c046e83d62ad0519f8df75a42fba48c",
+      "bytes": 630950
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/game001.json?key=07beab23532c62cee5b4d8ee8ec96789",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "687706d322e272576a2dfd841330c72e4fa77f94b3b87f1c9d5e69d119a81fe1",
+      "bytes": 1635257
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources001.json?key=25311588687723276323bf6240536e30",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "7809535c9a4b7c3be375d18b93fb1147acbba235d114d0ae073a83d763aac137",
+      "bytes": 606672
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources005.json?key=3e18b5dcb73185c71c8d2212b6ee0178",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e9203a2b2e1d3144916d8fb54c1ad0e0f8248a5d2b4d46c2a1b5d42e92bcf789",
+      "bytes": 1255850
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources003.json?key=99939553f158387b87fbc4570d21bb76",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "bf17f428ec92659ffa3a6fc2e39c162b6a7c0b949397b0cb4b5aa75d76b19594",
+      "bytes": 547454
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI002.json?key=569b288aef3326b7a8ccbbb93fb3fc08",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "815be09d65bec8d901d3c4cb4b5aa5e3f902f28d5d01cb8a708334263a50bed8",
+      "bytes": 654380
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI001.json?key=2dfd3b15cbd3aaf8b4ba7b139a6ab8bd",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6860bd92c0f6d70bfcac03ad5b84df30ed5f4a9f7ad5be969cf765e61a421e25",
+      "bytes": 1438475
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/game003.json?key=0054f157c33be0af8818f71429a52860",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "378c1aa18995323be22d4d72de7ee4764d1b9e75c68d92637e2dc1db66952569",
+      "bytes": 691031
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI_resources000.json?key=1572a8bd59e23179529723d8a56a6c31",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0df0677e0d1b74e790f863012cae7ae48a33d0d64cd08c6e51a9dddd32d70d49",
+      "bytes": 550991
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources011.json?key=3dcfbcb5f9298eaa6525987e8fe8667e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "a559fc3451b65b080a191ec68c8be046ab70a1baba70c2b729a94582feb518e2",
+      "bytes": 937142
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI_resources001.json?key=03c3c15dd0c9d3818317bfd01a1a3c1f",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "912120a9d83a8d4a0fa24fa6d166481d22ad5341ba342697cfe2242f54151736",
+      "bytes": 429534
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/client/resources.json?key=29f7fe610047c4b016b5edf4ace2794e",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "1575b5cfe574641c75f6a5da8e67f2e15cd89b590428da7d0b9c3f6470ba85d7",
+      "bytes": 76737
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI006.json?key=885725276d0978241696b0000a80f93c",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "10999c02be726186db6e75f842ab8063cadb8088d9e4332f9d6b23647b77517c",
+      "bytes": 605910
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/MDL_Jackpot.json?key=000c28490ded7b2982f1995019d8e480",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "3e8e0900ab689ba3a4a0618241989b095ba9be749a4905c982a33df5715288cc",
+      "bytes": 3569725
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI003.json?key=b3c3667c5777897f21d7e2c8fa1876cd",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "6dc6db608d8d59e910281cf1ed94f5ada4f5e02c7383f2102d5bd0d8851ac49a",
+      "bytes": 589443
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources008.json?key=2b0f73095083928f530c3a41f38c42e8",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "08a235807133b0cd76a2173ace96c8c833e7b7b86bd6a40efccb64ee3e76634a",
+      "bytes": 716123
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/game002.json?key=25a1bba71a738711ceb1935851db57aa",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "0067e6dabd503e2391ee67009ae65036ab84f24b8f2854ffe6230e8783cd638f",
+      "bytes": 1375179
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/client/game.json?key=70c817752ddf1d0b1a552cbc8b1f406a",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "04414837b3b158687e78f7f8487e03aa95cefb7036ffadbe16c75c2843f27bf1",
+      "bytes": 22287
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI004.json?key=30e661a133457f5809e985da1c784fe0",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "fafd934c4254d7f3f14fd6e730e4fc2352bcf2a6e52775ff438353697254649b",
+      "bytes": 619617
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/main_resources010.json?key=400d752c1441bef7af37c3e261577c69",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "eb6127216f778c7c6f2254856ce3dc2c055829782ecd870c8db0824b50ef5327",
+      "bytes": 776455
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/customizations.info",
+      "method": "GET",
+      "status": 200,
+      "contentType": "binary/octet-stream",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/sounds.ogg.json?key=28d00889ca1261666abbc37c4ae717f4",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "add315264c0539d9637b3d8dcd623e0417058d9fb4bffbf6ed09b296a53208eb",
+      "bytes": 8764177
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI_sounds.mp3.json?key=235d05b5fdafb207148b030c9ad7da3b",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "4d36dc3d051648ab636164d4adcd88d2ad184b709406cab1bc0a5e5894009de2",
+      "bytes": 736317
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/MDL_Jackpot_sounds.mp3.json?key=fbfb85595809a047fd5b8cb7bf03a4d6",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "c5513c58d0d2467338fac3c2dfe087cf139bbb404dc483f7f828f1109e04e3d9",
+      "bytes": 708237
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/style.css",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/css",
+      "sha256": "d339e98f7b517291c347df66ecd331087f7195757149c73c12384c2c6d493100",
+      "bytes": 19631
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/MDL_Jackpot_sounds.ogg.json?key=e540f62875cd2053e005f2764a0ec847",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e287ddd5296fb492bcab40d661b4f771100a0a0ea4ac0b4faab62b7902134b40",
+      "bytes": 748301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/GUI_sounds.ogg.json?key=6fed485c6178c9d70e39f6ac91e943d2",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "e1cab0ca0b5d6d28140ec3d721818ce387652046939f72dd2e10d18dbc23a237",
+      "bytes": 767505
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/sounds.mp3.json?key=7390f061da5b611e8567860640df6e22",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json",
+      "sha256": "52da5ee259f817271282210f1176c768a7e229f75093652a411f22a4bd5dc5da",
+      "bytes": 8444005
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/res/037a0b67a4fbb9b4a9c8855756d83577.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "06fe22c2832b00abf1d3867a307a89375a983863df827807f41041fc27c22400",
+      "bytes": 1001875,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/res/9ab5ffc0c035cac4aa616e1b3d14f7dc.jpg",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "sha256": "7249351c6688abd17e4e18aaa8106915dfe2ceab093409ac298b59ab02087690",
+      "bytes": 175920,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/res/821e429e8cdf760489c018bcdfa8ae61.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "8e7bf7f1ec2d9ee72c67919e3e757d208a6a1a86e74b48b149b94306aa0dc741",
+      "bytes": 396754,
+      "source": "actual image referenced by acquired package"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20fruitsw/desktop/game/res/95ccbd1ba88f38d4fbbaab13d68dbcb9.png",
+      "method": "GET",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "7f8adfd49f01c293be8cea86c4a318698f91c223874fce94ea6dab08ae1dcea7",
+      "bytes": 992017,
+      "source": "actual image referenced by acquired package"
+    }
+  ],
+  "verification": "HTTP virtual demo fixtures acquired; browser playability unverified",
+  "launcherContext": {
+    "win[\"navigator\"][\"userAgent\"]": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "win[\"location\"][\"hostname\"]": "demogamesfree.pragmaticplay.net"
+  }
+}

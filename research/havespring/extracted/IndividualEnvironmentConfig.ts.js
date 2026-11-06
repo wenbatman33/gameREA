@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/IndividualEnvironmentConfig.ts",["cc","./OrientationManager.ts"],(function(t){"use strict";var n,i;return{setters:[function(t){n=t.cclegacy},function(t){i=t.Orientation}],execute:function(){n._RF.push({},"af899XGpuFEKL3Cd8Tlp2E1","IndividualEnvironmentConfig",void 0);t("default",{gameID:"CA2501",gameVersion:"1.4.8.patch2",orientationConfig:{default:i.Portrait,supportRotation:!1}});n._RF.pop()}}}));
+

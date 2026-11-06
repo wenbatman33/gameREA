@@ -1,0 +1,1390 @@
+{
+  "game": {
+    "slug": "the-dog-house-slot",
+    "symbol": "vs20doghouse"
+  },
+  "entry": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20doghouse&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=en&cur=USD",
+  "finalUrl": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20doghouse&gname=The%20Dog%20House&jurisdictionID=99&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+  "errors": [],
+  "records": [
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20doghouse&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=en&cur=USD",
+      "method": "GET",
+      "requestBody": null,
+      "status": 302,
+      "contentType": "",
+      "resourceType": "document",
+      "error": "Error: response.body: Response body is unavailable for redirect responses"
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/html5Game.do?extGame=1&symbol=vs20doghouse&gname=The%20Dog%20House&jurisdictionID=99&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "document",
+      "sha256": "bd9ec3a1bb6fcbe9ab61b9139c03be68793eb7108012519aa50feadb9c672bed",
+      "bytes": 95725
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/js/html5-script-external.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript",
+      "resourceType": "script",
+      "sha256": "b7592ed6b6b8e1c80eb5ca42b297c4cccfdfb1d0d8b7520b54acc38a0c4e23ab",
+      "bytes": 4357
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/operator_logos/logo_info.js",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript",
+      "resourceType": "script",
+      "sha256": "54253341fcaf8df822df7e1b22209e37e59f87877f7de9e3036dd22110bba340",
+      "bytes": 2207323
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/bootstrap.js?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "resourceType": "script",
+      "sha256": "753863244c779d203c73f77a4a9291a6649f7e921033266b71f72ba41362f642",
+      "bytes": 101777
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/customizations.info?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "binary/octet-stream",
+      "resourceType": "xhr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/style.css?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/css",
+      "resourceType": "stylesheet",
+      "sha256": "d339e98f7b517291c347df66ecd331087f7195757149c73c12384c2c6d493100",
+      "bytes": 19631
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/build.js?key=2c8378a091d24f4f6b1576a98dc87325",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "resourceType": "xhr",
+      "sha256": "7d8eea972f0004842df4ff94daedb261b67582dfeee33382bf9b5b8ef282860d",
+      "bytes": 3131544
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do?mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28&channel=desktop",
+      "method": "POST",
+      "requestBody": "{\"uap\":{\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36\",\"browser\":{\"name\":\"Chrome Headless\",\"version\":\"155.0.0.0\",\"major\":\"155\"},\"engine\":{\"name\":\"Blink\",\"version\":\"155.0.0.0\"},\"os\":{\"name\":\"Mac OS\",\"version\":\"10.15.7\"},\"device\":{},\"cpu\":{}}}",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "df34378355c92ebb7b33545defccf789b1edc11751488aaaebec33b5442075df",
+      "bytes": 30
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/client/resources.json?key=29f7fe610047c4b016b5edf4ace2794e",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "1575b5cfe574641c75f6a5da8e67f2e15cd89b590428da7d0b9c3f6470ba85d7",
+      "bytes": 76737
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/client/game.json?key=70c817752ddf1d0b1a552cbc8b1f406a",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "04414837b3b158687e78f7f8487e03aa95cefb7036ffadbe16c75c2843f27bf1",
+      "bytes": 22287
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI000.json?key=281fc8e7412a53f3486f9737fe9b4406",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "e3aa4aa73e475e6a4c712aa2e9dc99ecf4d03e1c4e3f65b00af176abce9035ab",
+      "bytes": 918092
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI002.json?key=0ae6c06b17be19876546c08437aa4903",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "533747f26d0ac114ce1785a4a01c225d600b6f851b1233af6e349d742d27654f",
+      "bytes": 654370
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI003.json?key=4cc2f832670f89052fda7f9a04c1a749",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "0968de0a3edf781e005433fde59cf17a99711de5e86b10d4bc076299f2ec678d",
+      "bytes": 589451
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI004.json?key=8e55f98fa90324fba285dbb89b2674b2",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "d0002d9bda425390d0755cc026898d51442d443725b3331112e3f6d6a54a838e",
+      "bytes": 619620
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI006.json?key=586a84fe34c91cdcc091d1a7490e196a",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5c72bc3536ca836a1f28fe6c6e212c23c53fb32cfcb01ed48e21958e40f2fbf6",
+      "bytes": 605926
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI001.json?key=826d8da6a342fd51b8393b6d5e2eba8d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "6f3768b25ef862eefe3b57fb6768b9aa0e9813c068d6d28a72ee280ae2f656f6",
+      "bytes": 1438484
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI005.json?key=f5f2bc96d4d2a499ea0973f403393d11",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5034b32576ae91b025ec9ae7c8e08be14f536e9a140201750525127cf42b5e6f",
+      "bytes": 1164296
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI_resources000.json?key=1572a8bd59e23179529723d8a56a6c31",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "0df0677e0d1b74e790f863012cae7ae48a33d0d64cd08c6e51a9dddd32d70d49",
+      "bytes": 550991
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI_resources001.json?key=698178026af94c41d18a1f42de715158",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "815bb4f6a616f4ed5efe00eb4f5115a7fe095643d20eaadd1226cfea213e51fb",
+      "bytes": 429534
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/apps/lobby/meta.html?mgckey=stylename%40generic~SESSION%40f29b19fc-3d0b-41b9-8446-16dda6d1ba28&symbol=vs20doghouse&language=en&currency=USD&region=Other&ingameLobbyApiURL=undefined&vendor=slots&currencyOriginal=USD&jurisdiction=99&mid=1070235141950680172&requirements=NEWV%2CSHINT%2C%2C&stylename=generic",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/html",
+      "resourceType": "document",
+      "sha256": "9b623fce77decc92aa54514adeac6851032561795e351a1c1e895eb0c110b3d3",
+      "bytes": 20343
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/game003.json?key=d8d746061bfeb4697b02e8395efb18ae",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "328e5853b6f9dcc97a800b2b8378e0673a75e86b6be0bc5524cf410e3ccc8526",
+      "bytes": 300023
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/game000.json?key=e0da803ec38b1b1989922e4d80ea7fb9",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "6a751125a5d4491d81893a4f0cc98874842aa2568fc88a8734f4a0f6993d12ed",
+      "bytes": 1921621
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/game001.json?key=2f69b6f3d9022b72d8b52ae8869654ff",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5fa742a5cf9db55c2471f2c9b31cebac375a3592e8d21d7e55a9732f1c24f9d2",
+      "bytes": 1482684
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources000.json?key=b4fc1468d8f818667aed9065d3e0239d",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "c286c75f5a548bc28e7b333bcc8c424faab31ca3dd2ef7f7a4ee179984611a21",
+      "bytes": 597128
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/game002.json?key=152146e2eec0614574ca425fe535d712",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "a424b606d2e286b89778f38b444e30c74859811558c8a4e7c2cf0180fc04f560",
+      "bytes": 2336833
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources001.json?key=50c42d808aef32cf272e08679c49afa9",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "19f5a45fd7f82e2f9ccd720f36ad060701f5b4db0a64d10256dca440308ac2dc",
+      "bytes": 649542
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources002.json?key=cf957b0fafeca0807fede7b240d7f9ae",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "b682456d88c6e16e40b1cfc2ce5708c94f47ad24536f7c2abf2d7d8264230004",
+      "bytes": 1763301
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources003.json?key=529a5f6c5e94afebc4b137bea9b33941",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "35e8294472a6ef1910ebe86be269f9c9ed5d521be4b16f5b1042bf253ce77753",
+      "bytes": 1016190
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources004.json?key=bae678c1e74deb58a69261874312ed9b",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "fb9e2c1ccff8871c9d9e458896270bdefeab9d8b426e619c2aae8cdda11a1c59",
+      "bytes": 1121262
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources005.json?key=f425499ba455f8e6d799408c5a61f366",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "4455ad21a2c701465d3342c4e992d67e8d18678cd05012d6851d7334bab6e144",
+      "bytes": 654545
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources006.json?key=83b646e4e43f561e46999f0e5ea868f7",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "1be39d9dbb603e93dc78aca1a289af23de942323113c2128d86861cc889a7d77",
+      "bytes": 758889
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources007.json?key=497c7c5ce81037836abc3ec6d4821437",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "9c26df3e40e1a26f8cd764359d6d92e53b9b8bc65458998f28a2344065f50fe5",
+      "bytes": 569833
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources008.json?key=5ac5478237cc41d02e0b0a8fff767639",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "bbd24e1c3fb4d403229119718d3da34d4c1fb47fd3af270e5d2d367919036f1f",
+      "bytes": 1471621
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources009.json?key=3d0cf166fa146a1f04d30d58870bcc98",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "14502d77c3d4644d0debcf5c1f9dc341484cb068bd836ad4fae1dabf0f410a9a",
+      "bytes": 1735337
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources010.json?key=d11596cd0598a420f81dbaf888c61937",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "02985bda464f1734e334c1ff9f87ece344f359a0e87338928e696681dac7a20a",
+      "bytes": 1272201
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources013.json?key=f3c1547a9105295bdabf1f1d26dc56d5",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "56e2c5b3fc4f3d48a83dd874f8499c9d7fab83ecc518e108fb21b5f3009ba962",
+      "bytes": 738657
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources011.json?key=3c6edc969da5979744b9ecc253ccc07e",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "d89a2521fd3e71d3c69e8ab19707fa6701ea2cb62573de82c7012f64f79ba73f",
+      "bytes": 1395337
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources012.json?key=a2d237f4076bb4f6055a019f417de6c4",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "96671bdcdc71fcf37a5cd01053ba18b664b751bd76b270310feaf06cfc8c345b",
+      "bytes": 822225
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources015.json?key=be61d1ea7c317309d770826e31ee5d9c",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "663a6ad5e56c281ce1d4f0d821c10a2376015930a01b35d04673f28f0cb04abd",
+      "bytes": 568778
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources014.json?key=d591378d119834e18d827842a3fa6ccf",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "5c9796606b719a4bf70bc9c611daf326de28fc7f647689859abbf598a167c687",
+      "bytes": 647302
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources016.json?key=7c1e65821277a752b7044c2d61a3ec99",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "04601eb1d5e94efe92a18a89ea68d2f0ca9e10634c04014bec723b645f720452",
+      "bytes": 634510
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources017.json?key=f352e14e005a206b4f2b8916a154e489",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "aaed8a875f260b5196cf63ffd1754fdc8dd4339118dfafaeedf62c3dc0907be8",
+      "bytes": 650992
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources018.json?key=bba62cef29f0244f03116d57948828e7",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "eb7ac754a753e187dc86d416b6afc0d0452475e5bd9bcd1800a158cedfe5ec27",
+      "bytes": 599876
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources019.json?key=8bc339eadc74d9e9836458e591e750de",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "93bf6740e47ac6635ef0f19fb6eb743b4b0f34c88a22b176d1be99434ebfe39f",
+      "bytes": 548596
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources020.json?key=67e1fe369bb3eee11ba1a7609e90b2fe",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "1596cbe2df16e1038251c96d01e5fc780cee24f59e71dc295c865b0971de6be6",
+      "bytes": 697791
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources021.json?key=aeb53e0337bed1a1a40d7dde0472b238",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "7f92517dbdc2261f62ece1c5cdfdf48bd503eef935ca513694e8334a8df2cd6c",
+      "bytes": 706531
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/main_resources022.json?key=c524a189ceecf5a21845cefeab9f64ff",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "25a130bb36829aa478a013d905e71f128c9f968bdaa6428e8aa025abf1717883",
+      "bytes": 395114
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/other_resources001.json?key=30e30d0631e96347e77b6aad90c882ac",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "2fcf82af5fe191aeae4af38790018cec2aa3f603a4518d430ef078570a010e2d",
+      "bytes": 452580
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/other_resources000.json?key=5193caf2ba9c634628af21fb0ab0c4f1",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "61f8ea95a49393343b7d3a32c03eb3af488c0a8e17b5ba97acac92708d2462e9",
+      "bytes": 1037753
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doInit&symbol=vs20doghouse&cver=442773&index=1&counter=1&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "534935ad936ece8eab5d095667d3f684cd4854c89804b6755fa6a6fd6e6705ba",
+      "bytes": 1360
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/announcements/unread/?symbol=vs20doghouse&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/xml;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "e8846ae1e2bacb97e0911ef623a983f6bd74118eb0a66751a57df50d5207bbfa",
+      "bytes": 142
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "method=load&id=vs20doghouse&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "method=load&id=vsCommon&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vs20doghouse&settings=SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_-1;BatterySaver=false;ShowCCH=false;ShowFPH=true;CustomGameStoredData=;Volume=0.5;InitialScreen=9,10,9_3,4,3_2,1,2_3,4,3_9,10,9;SBPLock=true;GameSpeed=0;HapticFeedback=false;ShowPromotions=true;PromoEarMinimised=false&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "97729cf1479923cc01861938c9e4040f9ae1a5d38de2664a4a939aa6ac5f7a3d",
+      "bytes": 316
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/d0d5d790695e100438cae351d0a9a38f.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "f4c825ca0b9f410c3dd55037d2c629b695dc4ddb6097765952b4525e27e48e53",
+      "bytes": 593044
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/ba063860063733543ae2540f7e239d0f.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "aa8fac81bbe53b8a928bc4638de287d2e6cf07f3ee3f51e0e6a5798b8c014b80",
+      "bytes": 315067
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/c7b2d6f782d299342beec5426939a17e.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "dbce06b332ecaf05ea1318cb1009f1231f9bb7e4b113567393ce1f1a3520e2be",
+      "bytes": 81623
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/02fc5ee470df84746bad0118d811bafa.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "98d87557b40ce91d75a1bba00296e7dea3e2b6411f3bf692542e106f34c2c447",
+      "bytes": 89645
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/e3813d9e4a8cf9445b910cd5ee8d2630.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "1ce2f1dc700ae88e377f2562e7b8e4e3cb2a6b5e12edd43833682b994e33e85f",
+      "bytes": 7192
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/628dc6592a9d4df469d30c1dec7e0155.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "a791f02c3b64ca5b91b07241fb42d37dde8d4d76b1cdb77364ed346a6105d960",
+      "bytes": 205171
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/7d026e5522a489c45a9e6424b04dd2d3.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "8f68b5777db097895bba7456ebe2e2022baa99a3e765c37ea304e4858591d690",
+      "bytes": 359772
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/4404ae52f1295a646bb0832921e06820.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "9efc7c731739b1992a6c8cee93c61104c00f636c061cad02bd74813c77946ae1",
+      "bytes": 204400
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/0fdb4dba035a539479d91b8d0c1602aa.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "bb0a22bfdcc5da40458820a980bf721c449bb3470a1ba756cb07d3924b05b86a",
+      "bytes": 59918
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f856ac82068fb2b4fb14cd4708444337.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "2c6e1e8d81d12aaacdd6fac0047c512aac4d12316cc640d058cfd0313be1d287",
+      "bytes": 396997
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/6edb9cc8f1a5ef1479b6d9a062a43239.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "65fd5512a1188eb5555b44d128a4a83e81cad61384abd28139d5d170292e400f",
+      "bytes": 232670
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f3f668375747dde4188d549c40f4b4a8.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "4ec7335bcee88cc1bc024d6d95b6c15ad5c42ae4db4fbf8bc9d24c646c4d63dd",
+      "bytes": 77577
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/85142fd6d0aae2c41a91c0f0a96bcb36.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "7147db7e34dcdbcf41fe7bb857a184d41377661454b5cfa39c6016be509a539c",
+      "bytes": 537484
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f20744c361954a9409890c49a893915f.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "8c44102f5892bd59586d042511e7a6ed59b5ef2993f5fedb7674c3f51bf9efae",
+      "bytes": 288522
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/1df6993330dc3fc4a9847616f4f0bf91.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "78d5196dc4e0c4df6831a7f79d528215355cd8f7953c8fd3c686469eb6c2a6bd",
+      "bytes": 97750
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/ec9f22b012d123c4a851b10a5036e6ad.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "77c537022982819402556cb9d6121bd49e7d26bde15fc54793f25fa43c54d2d8",
+      "bytes": 964076
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/31b41b73efb95784fa95a8e6966a8305.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "6ed74164b2c92b2381625439507cd9117fa7b2d991ccf2a2ea3a6ef21a56e332",
+      "bytes": 445875
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/5f174df6cf707a2478d13611e2369093.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "f3dc51c06a4c17ac219a63b1fef3048c758ef7d42c9935b23bb6311c94921319",
+      "bytes": 122351
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/8b383d9761ebbce43ae6263905e90f5b.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "86d6683ac3c4709d2cf38a3a7aa98cb115ac21daef363f54c42437beee9e31fc",
+      "bytes": 211903
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/b6693dc2434ae02419716f2a6e587500.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "b942ffaf73a8bdc05c03535d73f8523e06d51434db7d271b8a9783a3a4546470",
+      "bytes": 210214
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/98b25affc55d72f49b2ef49c0d21f094.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "41d948721a114f96de071da9936da7e11af3534de9b505d21e86ddf9f029606b",
+      "bytes": 174330
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/9f4d36c90ad41a8428213577194fdb49.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "00411b575138f94ef44061b46f915bd589993afec9ae582a8d82dead314600a3",
+      "bytes": 145961
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/9bed12df329e75540a07dea0a91be7fb.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "7ad541f7e851a84fde6beec851c7df907537c1e7352b98dea6e2ba6d5262feee",
+      "bytes": 127267
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/c93de8de8b1e463408579fcdc0ff7091.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "7f2087c8e3571b797242b28628274867a005930a682057f4d8737adb9947d6a3",
+      "bytes": 113645
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/be075af95452ff6469b80e840d529d57.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "7e286ef96a4bc36de7e9f3ddcf88a024076b5adf6ca8dde4c566a2b5f1ddf27f",
+      "bytes": 39909
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/9293348ace21b1d44a3e9a15ae0ea45b.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "03d5ef435871c226f166780fe68455a0c079466f7faaf5f3346a3319d7b1fa1e",
+      "bytes": 289809
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/dd14d598c3d0084499fbf7e4637b121c.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "ad5140e136668d2ecc828241ed8d921a6340feaf92521b14b7d8999a14bd51e8",
+      "bytes": 196441
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/6dd278bbcf3aa20449e84ec78cd78d09.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "395f7114f4d61133da9a66955baa0860386ca093258c803b3c462b1520d4d470",
+      "bytes": 169571
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/756a076e4d8f07247a848058f144e634.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "be6c490fe65450909c1a514cafb8d70f8ee6d8deec028f638aa7536b57121ab4",
+      "bytes": 143735
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/ec9140dd1dab6ef46ae64a2ffddff9a3.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "afa476f1508aaf0e8b3a37c237ee8d067b5dbe9382e7bacaba293e398f4d8cf8",
+      "bytes": 71280
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/bead56919a3e65b48b80409ff3924926.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "4c5519e747105f7e2df4271da2a4ef64fb23f9c2a1d9d3b26dbbf3218e153ec6",
+      "bytes": 138630
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/ebaa9af403729c54c9f581cb88b1e42a.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "d0ccab7b60540c10586c22dd0bec00cdf8fbc13bbc92e2fbf307535a15c10fc9",
+      "bytes": 16121
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/86e6edeac9eefc849a06c73f1215a6bb.jpg?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "resourceType": "xhr",
+      "sha256": "df2b7744e04e7c1c628d155beb25ccd2a052ee581a64d3631ab84f5bca1911a5",
+      "bytes": 130944
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/7084f7e5d2bec94459a44eb895835d64.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "f376d6cd7f03c743f002f725dd594d9f278b822a192eb4e168bd76828edd4305",
+      "bytes": 604518
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/89b9e276079ecfd4aa5d82dcd6bdb398.jpg?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "resourceType": "xhr",
+      "sha256": "7e65f39395a1a82341fe8826ecf7d301a9e65811229f9c1fb770c55cffe5ec6d",
+      "bytes": 54888
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/1cdb34e7d65095541802d55f5ae7c40d.jpg?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "resourceType": "xhr",
+      "sha256": "79f1fb6509a89cdf0921ac9a73efc508acf65b213221278a70c538295ceb5ca1",
+      "bytes": 112716
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/a0823b63e3247454da0bf3bc0401c1b2.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "0f058c080f529cd9700873d11d9308d9c6d855ba30adb52f648ed9628586eba7",
+      "bytes": 1061396
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/ca8a8451606b5f44388471c7bf313ffe.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "19937bfd1ca06e454ae7c159382204d7cc186d69878ad8d6d7aa43d3b0f09283",
+      "bytes": 832924
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/60c84c625343c524abdffb48c8cdaf61.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "6a676acb2e56443112b7477c9c10a02f5818d38e3cd4e9480f894dbcaa175123",
+      "bytes": 613529
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/c522d334c2ef5684994d25c8d46d2b1c.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "772f8b076b427744c3bdb674967d431c8d74152dcc793387a307dd090f0183dc",
+      "bytes": 103830
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/ea58138eac3053343a277255cabcc60e.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "dd4680c63e818c6e8718e3506b57de50d217ea125ae3403b91fb34c5c8b05d3c",
+      "bytes": 166347
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f6081be087103ba498681099adcaafcd.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "d6ff1daa63d96018b275f785cf1a30310d5b0558695f2155cbc1b8fbc0b974a1",
+      "bytes": 277278
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/4e5c361a95d7dd043b2242baa7c64399.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "6a3460b342ce0244796203b79f69e2bfbbf1ea736591465cb725ccbdbc1b040c",
+      "bytes": 367815
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/88fda99c0226984458b3f8e40d34596c.jpg?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "resourceType": "xhr",
+      "sha256": "a837c887a44096a30e2ebcbcc0890412ed36cacc5bbbc41dd4d27ea0aa5f1849",
+      "bytes": 166841
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/3761dd20489ed5b40ac98e2fe37c4247.jpg?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "resourceType": "xhr",
+      "sha256": "42c64df4d04e06e5c76506c5b59baa42a74a0c194e8fc5de40ad0280b395cdf0",
+      "bytes": 165815
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/d4d3a293495d5234b9ff6abb370f1aec.jpg?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "resourceType": "xhr",
+      "sha256": "25ad0283f716d5e8150c3a5305d692630d031c02deb861a34adbb05fa902e052",
+      "bytes": 193926
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f0e421efa7d8273458e67bc6187af6ed.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "fd1a73cd8d49e28a55b3602d3fa9b1e00c7795c2cd46c02dc04a13bd38fe2226",
+      "bytes": 395637
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/5c5ec9155b211794590ddc12aba8dffb.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "ce325c5b450021e1eb59d6670caf8a9be9594d97bd1f1a8f1f72b212cc76de25",
+      "bytes": 334473
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/d8bbe079cd67a1a4dbd72caff940885b.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "e6086b1a118eb76a752a011ac682293222e3a252a071661f04dc02ba9b0b77b7",
+      "bytes": 237082
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/8a5eae7cc1e294843a6f8a21f97f9516.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "66a7596ff0f47d423e5025ada337b99ac9a0355cdb5325261263e70319d6327d",
+      "bytes": 125119
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/79bde4924afedc64d8001622e091748e.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "f94f89fd37304ecf3a1099e1d6d0cb6ae8be2bc2762315479755f66629a12fc1",
+      "bytes": 44340
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/d244efd168d513b4c9fa1a83867dde27.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "e14a644a0a5e797fc82ab464b94c25bcf55941b877fa2a6b8533ae163251a708",
+      "bytes": 527455
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/15966da8d409fe141a990441c2576390.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "1f94b467b04c2869433130b850c9f6fe0b768faeb39e390662257358a9a98afb",
+      "bytes": 35976
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/9cf28e28e0287af4392919e428d2c9d5.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "8bde757b9fe72e05c6c42fe87b910aa98be06ab262412b93677649b471ac5002",
+      "bytes": 83739
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/2d9ebe2b5c8bfa94e9211fab7a94f443.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "cc6d2fb7fa0ae620eb50e02ebd37456b205aa66ff2f6c06027e3b5eb3b8def61",
+      "bytes": 107927
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/fd4779dadb6d2004f840e092be40e167.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "df92ffe20ea7f4193b3311f12f7b1fa7a37995f5b7ad043c0dc8851d127fd232",
+      "bytes": 371022
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vs20doghouse&settings=SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_0;BatterySaver=false;ShowCCH=false;ShowFPH=false;CustomGameStoredData=;Coins=false;Volume=0.5;InitialScreen=9,10,9_3,4,3_2,1,2_3,4,3_9,10,9;SBPLock=true;GameSpeed=0;HapticFeedback=false;ShowPromotions=true;PromoEarMinimised=false&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "ae70b3ca209cdb7b05dc1f3efd3994d19e9437ea11f3405a2e0f305d3a42fed8",
+      "bytes": 328
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vsCommon&settings={\"MinimizedNotificationTypes\":\"\",\"HideMetaNotifications\":\"false\"}&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "ce9d1cc7a94497e5914c24d7b9bd4a72d1bcb4ffacbf373ed37e6679d415ee41",
+      "bytes": 65
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f3fe540cb8c5abf4583b93f701a68aa8.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "5109f32d5ff845c3ab6280fdcda2622a05bcccd9e54f3e407e46922b3e9431db",
+      "bytes": 795797
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/1f1c6b36288e10848a0cbe65d7f60943.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "0e36a8a59aa9bb6290a4c92686c0400b617aa4b15668ff3fa7b75dc19cb157bb",
+      "bytes": 1306827
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/24c59bf3950babc4192b03887ff5bf30.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "d465e49d2247f4411c87aa03bf52517432fb7d4774bd95893c987df830c44fd8",
+      "bytes": 338557
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/76552bfbc2083094fa4fd5e1a16f1116.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "e6fa2ad9901f0dd1af4f690cf1df1aed8640c54272f6303eb46ac1e9f80cb75b",
+      "bytes": 1339409
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/eea5ae94cbbce5d49a6b171e722b4adb.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "c575d1904e292a928d44a106683a875b37f7a528e332be51c5db47f0decf9598",
+      "bytes": 434524
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/6d401d872eb5d444a93e8d051d450cfe.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "4fb87ada4406e980ba0f3aff2ccaecbd095cbcd404b45f5794118c57d922bc46",
+      "bytes": 416967
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/e469a62b91eacb44dbdc9596ff71d082.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "5ab00daebc9a691c3ca0d4487c3a3651a32721b03905f30c5754a9e61f34fcf2",
+      "bytes": 154269
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/5bcc0067b1a5d8a468a0f862f02c5b08.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "622c4d7d452370256ba470bb9a728b2985b5193fedc07fc09fbcfcd862de8c66",
+      "bytes": 173266
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/58a54fc16609536439f7a0f9e244986f.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "6f219995c87647e45343f9b95494ce85773744d02caaaae5348fbe20b2301129",
+      "bytes": 164077
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/9ed3653d0df4bf843adb237efed2712f.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "e0a3f8fc69d1ff8115ee1445b8f6389ee3fef955f11a38e6949388930f95844b",
+      "bytes": 167206
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/65494aebbe9f1bb49bd06a0b1f753be0.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "956abf041cb9443cab027e3024ccc09130e7ea19f87d0b9d800ad67d2a6c46ca",
+      "bytes": 145185
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/34c4fa76771f88b40bc75078d06bcaf8.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "5d7229c9b219d83c6b62126d5458838bd187ab1a6e2d102feec154d220258865",
+      "bytes": 160207
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/af298617cdd298e46a1e7c3f6f62fb9e.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "c0642aa68d1077cd39dbc59cf3af877ec26dc6d945a40cc2b2a284267f34657a",
+      "bytes": 124109
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/f6cac41ee2c91de42b1ef851ffa46fd9.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "99fc0b4a895b5f5565e0ee2dc61d9c8fddf21d0275954b9e83eaf1bf295dac79",
+      "bytes": 91759
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/e20a07b68c08a224690aa0307f54699c.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "eaaabfff1d38f9af016ec8a0e34eeb38ffd1f583d5766de9ba987c4094d7b032",
+      "bytes": 214877
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/c72b9557dd4355e40822f8eaa30409a2.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "2370f726676d6fca942e05e6e78fe211b080f0da5c01f4441f83829a710957b1",
+      "bytes": 230650
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/48ee09ef91f2fec42899efd6002d9dd1.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "7e47c599777a80818532504ff00b8dfd6aa13a229fce495dcf682b1c084c4f08",
+      "bytes": 128905
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/2d5249d70d11b3c4daa0c54a71eb3b9b.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "ebabcfe29cb882b5c8f234ea4934f58ed1e6f591924d1dd96c46952559473db5",
+      "bytes": 29227
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/res/821e429e8cdf760489c018bcdfa8ae61.png?key=880aa",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "image/png",
+      "resourceType": "xhr",
+      "sha256": "3657f3b0b9b900d5e967fc64ca03a6fb1a0e41d124ef5eeb183fe771882c84f7",
+      "bytes": 223683
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/GUI_sounds.ogg.json?key=bd36d85c8fe2f28e15a01a8faf2f04cb",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "1381ba6e51a8138eccb68b312eb7340c59bfa2a7698ec1242e23dbfdb5cc8a4f",
+      "bytes": 745561
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20doghouse/desktop/game/sounds.ogg.json?key=bf9d00e505aab1f4bb694f57d9fb37dd",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "application/json",
+      "resourceType": "xhr",
+      "sha256": "25a41e9868c326641b3e4bc4b009bdb14a0534aa14d5399ac189053a8bd25060",
+      "bytes": 4070725
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/saveSettings.do",
+      "method": "POST",
+      "requestBody": "id=vs20doghouse&settings=SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_2;BatterySaver=false;ShowCCH=false;ShowFPH=false;CustomGameStoredData=;Coins=false;Volume=0.5;InitialScreen=9,10,9_3,4,3_2,1,2_3,4,3_9,10,9;SBPLock=true;GameSpeed=0;HapticFeedback=false;ShowPromotions=true;PromoEarMinimised=false&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "resourceType": "xhr",
+      "sha256": "bb8ce4c649368b3aa8c3d757607015262b9394621e48c8303120dac6900af62a",
+      "bytes": 328
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/reloadBalance.do?mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "method": "GET",
+      "requestBody": null,
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "497f882ff85dad58371e25c600a3fef8e90fd422275094ce1fa4b2bfe5e035ff",
+      "bytes": 79
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "action=doSpin&symbol=vs20doghouse&c=0.1&l=20&sInfo=n&index=2&counter=3&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "43f81a0d7bc65036acdcb35a32ea2fbef0374ce960145f75c2e186397c8a398d",
+      "bytes": 303
+    },
+    {
+      "url": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v3/gameService",
+      "method": "POST",
+      "requestBody": "symbol=vs20doghouse&action=doCollect&index=3&counter=5&repeat=0&mgckey=stylename@generic~SESSION@f29b19fc-3d0b-41b9-8446-16dda6d1ba28",
+      "status": 200,
+      "contentType": "text/plain;charset=ISO-8859-1",
+      "resourceType": "xhr",
+      "sha256": "6fe7d89debe65e0fff6ba2d7941e9068a5225a47ba427037c9d07e030ce8fecd",
+      "bytes": 119
+    }
+  ]
+}

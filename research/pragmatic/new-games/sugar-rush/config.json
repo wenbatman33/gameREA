@@ -1,0 +1,41 @@
+{
+  "accountType": "R",
+  "currency": "USD",
+  "currencyOriginal": "USD",
+  "datapath": "https://demogamesfree.pragmaticplay.net/gs2c/common/v3/games-html5/games/vs/vs20sugarrush/",
+  "umpcEnabled": false,
+  "lcEnabled": false,
+  "gameService": "https://demogamesfree.pragmaticplay.net/gs2c/ge/v4/gameService",
+  "lang": "en",
+  "vendor": "T",
+  "showRealCash": "1",
+  "clock": "0",
+  "mgckey": "stylename@generic~SESSION@c5598be6-bf03-4c4c-a0b3-bac369ca6323",
+  "styleName": "generic",
+  "extend_events": "1",
+  "REGULATION": "https://demogamesfree.pragmaticplay.net/gs2c/regulation/process.do?symbol=vs20sugarrush",
+  "statisticsURL": "https://demogamesfree.pragmaticplay.net/gs2c/stats.do",
+  "jurisdiction": "99",
+  "langSelectorEnabled": "0",
+  "cid": "11111",
+  "demoMode": "1",
+  "manualPayout": [
+    "MRC",
+    "TMC",
+    "TMFS",
+    "MRFS"
+  ],
+  "announcementsUpdateSeconds": 120,
+  "announcementsUpdateSecondsDefault": 120,
+  "LOGOUT": "/gs2c/logout.do",
+  "RELOAD_BALANCE": "/gs2c/reloadBalance.do",
+  "RELOAD_JACKPOT": "/gs2c/jackpot/reload.do",
+  "SETTINGS": "/gs2c/saveSettings.do",
+  "CLOSE_GAME": "/gs2c/closeGame.do?symbol=vs20sugarrush",
+  "region": "Other",
+  "sessionKeyV2": [
+    "i7rgY2AU6u9L2jGh5OBQLO70CswjETyywH8SSE4ohGQqnDI7oQTV15GEUYV+dLpaebI125csqxEoOEBKDsW1POTCjgmkX3lCSrbPeohwwveUXDFYj+jzDJN8HHjZTcm+LhetXZBso3l/7+I2rd3sXlIaxFfyu/WrwKbpKornYV4=",
+    "Za0SANdyJC6pwRaTcglHJ4Uo7Xh0nXM9R7gkgc0Jd+OtECCNairlKLYKLfJCn+t88lFNYkH1ZXErr/O3u26xpCuG0pcb8TOpq7kbaz0R6oC6wiabm7o7y15vrwK8wVFNGuEl7zvuqvwjtFn9kYmmMoY6jg9ybM1AVW5nZG0nTmw="
+  ],
+  "mid": "5878131340675178442"
+}

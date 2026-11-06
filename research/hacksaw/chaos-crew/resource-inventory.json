@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/version.json?1792722197356",
+    "file": "chaos-crew/public/1059/version.json",
+    "bytes": 55,
+    "sha256": "03e4dca9072a85841c04355c334b9e685776a50646919579cf3d7908579ddfef"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/index.html?language=en&channel=desktop&gameid=1059&mode=2&token=123131&lobbyurl=https%3A%2F%2Fwww.hacksawgaming.com&currency=EUR&partner=demo&env=https://rgs-demo.hacksawgaming.com/api&realmoneyenv=https://rgs-demo.hacksawgaming.com/api",
+    "file": "chaos-crew/public/1059/1.67.1/index.html",
+    "bytes": 40242,
+    "sha256": "a6af0a5811e20827b9162894f755b4bc4407d14ef913b5b08f789b6b5f4c036e"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/vendor/array-find-polyfill.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/vendor/array-find-polyfill.min.js",
+    "bytes": 463,
+    "sha256": "b7f3750691f16e4e3c3edb1ea58a801b5fa915a2f8dbea718c61345f5bbbafaf"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/ui/images/juegabien.png",
+    "file": "chaos-crew/public/1059/1.67.1/ui/images/juegabien.png",
+    "bytes": 1727,
+    "sha256": "d2db1f2fbd894d07d27da58dbb315c9668c2dc29908d5fed35017f09849ae8b9"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/ui/images/coljuegos.png",
+    "file": "chaos-crew/public/1059/1.67.1/ui/images/coljuegos.png",
+    "bytes": 2206,
+    "sha256": "0f1e2c8bf32616d65a2d428c4a388094d2774225a5e2ee463f7f0d0af50c1be5"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/ui/images/promotion_button.png",
+    "file": "chaos-crew/public/1059/1.67.1/ui/images/promotion_button.png",
+    "bytes": 6940,
+    "sha256": "577755364c67206f4c87e3d658abcf7660ed2e3f896aaa0c5aca34ed6203d9b2"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/vendor/promise-polyfill.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/vendor/promise-polyfill.min.js",
+    "bytes": 2883,
+    "sha256": "92af64f07491ea0e22757946d2ce62820a616374c42c8ac5668febdbae41b448"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/ui.min.css",
+    "file": "chaos-crew/public/1059/1.67.1/ui.min.css",
+    "bytes": 406676,
+    "sha256": "4c8fcfce5f43c534478f8f4d41549eff66bd0506d4edc9d15797ca1f8aec1193"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/vendor/analytics.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/vendor/analytics.min.js",
+    "bytes": 2682,
+    "sha256": "4e5e6f45edb5e0d23c7198ed5c4d7e0a45acc4de6ef4f588bbebf9ef8cb7503d"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/vendor/nosleep.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/vendor/nosleep.min.js",
+    "bytes": 13823,
+    "sha256": "f49dc6fe1fc4f07408b01db0c9f07a1929ba1e41cfd21f11159313bc409ce714"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/casino/hacksaw-casino.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/casino/hacksaw-casino.min.js",
+    "bytes": 467383,
+    "sha256": "a17dd40c466c069d5da9ce8c0030fea71728e1a7409d3bb5cf3d59a46528c46f"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/ui/hacksaw-ui.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/ui/hacksaw-ui.min.js",
+    "bytes": 560923,
+    "sha256": "54af2e2fae7ea9f90954bfc06b22281379dc4498b6ea1f71c8541a808dbbd469"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/main.js",
+    "file": "chaos-crew/public/1059/1.67.1/main.js",
+    "bytes": 2666265,
+    "sha256": "31b6498a91bb00598cb5f0f387eb66cf58f7c34b1d516347a299844ddf994d3e"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/ui/fonts/icons/icomoon.woff2?dbrolm",
+    "file": "chaos-crew/public/1059/1.67.1/ui/fonts/icons/icomoon.woff2",
+    "bytes": 9080,
+    "sha256": "9fc50dfe78317468c1cc0c25bc0fe0e6c12ef16ad43564a346f3f31341f8c835"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/casino/locale/en-us/en-us.json",
+    "file": "chaos-crew/public/1059/1.67.1/casino/locale/en-us/en-us.json",
+    "bytes": 31621,
+    "sha256": "8194b1eb84344b7ef4c4c3db5502813042daac75effcfd3513519f8e5ed81d5a"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/vendor/reporter.min.js",
+    "file": "chaos-crew/public/1059/1.67.1/vendor/reporter.min.js",
+    "bytes": 32043,
+    "sha256": "2293a31f91f0f7ea0fdb39fec689a29a1fce9ac336d95807cd0f2c01d7f38e68"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/casino/desc-locale.json",
+    "file": "chaos-crew/public/1059/1.67.1/casino/desc-locale.json",
+    "bytes": 18657,
+    "sha256": "f023efc7df84c323cb098d04a15ef5c8e78268fc96582ad42485fd8fdc84bae8"
+  },
+  {
+    "url": "https://static-live.hacksawgaming.com/1059/1.67.1/vendor/needles.umd.js",
+    "file": "chaos-crew/public/1059/1.67.1/vendor/needles.umd.js",
+    "bytes": 11010,
+    "sha256": "9279fe79498141e56f9c6af65d613b6f132496fa78ecd1ead4669de6cf504408"
+  }
+]

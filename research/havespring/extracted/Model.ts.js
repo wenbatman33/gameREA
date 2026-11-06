@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/Model.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(e){"use strict";var t,r,c,n,u,s;return{setters:[function(e){t=e.inherits,r=e.createSuper,c=e.classCallCheck,n=e.createClass},function(e){u=e.cclegacy,s=e.EventTarget}],execute:function(){u._RF.push({},"2a41ejoIJdNM4ucCcWTLPr0","Model",void 0);e("default",function(e){t(s,e);var u=r(s);function s(){return c(this,s),u.apply(this,arguments)}return n(s)}(s));u._RF.pop()}}}));
+

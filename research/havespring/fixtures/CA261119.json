@@ -1,0 +1,913 @@
+{
+  "PackInfo": {
+    "ID": 1419,
+    "Name": [
+      {
+        "Value": "Arrow Fleet",
+        "Lang": "en",
+        "Default": false
+      },
+      {
+        "Value": "草船借箭 ",
+        "Lang": "zh-cht",
+        "Default": false
+      }
+    ],
+    "GameID": "CA261119",
+    "MathID": "standardpack",
+    "Ratio": 15,
+    "Config": {
+      "Multipliers": [
+        1,
+        3,
+        5,
+        10,
+        15,
+        20,
+        30,
+        50,
+        100
+      ]
+    },
+    "Bet": 300000,
+    "SeriesID": 3,
+    "Tags": [],
+    "Status": "enabled",
+    "CreatedAt": "2026-10-08T06:35:09.267308Z",
+    "UpdatedAt": "2026-10-20T07:03:35.804598Z",
+    "ActiveAt": "2026-10-20T07:03:35.802904Z",
+    "ImageURL": "https://storge.afagaming.cc/card/a415f533-1912-4611-a4bc-8949cc898638.jpg",
+    "PlayerLimit": 10,
+    "IsJackpotEnabled": false
+  },
+  "Series": {
+    "ID": 3,
+    "Name": [
+      {
+        "Value": "三國志",
+        "Lang": "en",
+        "Default": false
+      }
+    ],
+    "MythicalBeastsID": 1,
+    "MythicalBeasts": {
+      "ID": 0,
+      "Name": null,
+      "ImageURL": ""
+    }
+  },
+  "Modes": {
+    "normal": {
+      "Cards": [
+        {
+          "UID": "N_057",
+          "Name": [
+            {
+              "Value": "40 Imperial Seal",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "40 玉璽",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 0,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/d940d2fa-5760-4160-9c96-2cc3835254bb.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/641d51fa-54f7-485e-8017-69b10445cc14.jpg",
+          "Weight": 609900,
+          "Probability": 60.99
+        },
+        {
+          "UID": "N_058",
+          "Name": [
+            {
+              "Value": "39 Dragon Blade",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "39 青龍偃月刀",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 30000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/920c0b05-e6c9-466a-812b-db65b50231f7.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/e0785c40-8074-47d5-b30f-64aec301acea.jpg",
+          "Weight": 100000,
+          "Probability": 10
+        },
+        {
+          "UID": "N_060",
+          "Name": [
+            {
+              "Value": "38 Red Hare",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "38 赤兔馬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 60000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/f718273c-2de4-44bc-9096-129c352d563c.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/4137d120-cc82-445d-846b-aea035df83f9.jpg",
+          "Weight": 50000,
+          "Probability": 5
+        },
+        {
+          "UID": "N_061",
+          "Name": [
+            {
+              "Value": "37 War Strategy",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "37 三略六韜",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 90000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/531ad2c7-516d-4ffe-a10b-70cabc6e53a7.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/0151f303-d125-4cf9-8733-2a3bf9d5122d.jpg",
+          "Weight": 50000,
+          "Probability": 5
+        },
+        {
+          "UID": "R_083",
+          "Name": [
+            {
+              "Value": "33 Madam Fan",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "33 樊氏",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 300000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/b9d9cd0e-b61e-44f4-908c-a4b765938b06.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/a1b06c35-9b61-458b-93f7-e42ef75ad243.jpg",
+          "Weight": 45000,
+          "Probability": 4.5
+        },
+        {
+          "UID": "N_063",
+          "Name": [
+            {
+              "Value": "36 Stone Maze",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "36 八陣圖",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 120000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/68afc356-a3d4-4552-8cfc-c0d8b71f652f.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/4da9d98a-32ac-437b-a13e-68338aaf0ae4.jpg",
+          "Weight": 20000,
+          "Probability": 2
+        },
+        {
+          "UID": "N_064",
+          "Name": [
+            {
+              "Value": "35 Seven-Star Dagger",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "35 七星寶刀",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 150000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/dd1fd3b6-563d-45a2-813a-98f2655f78f8.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/ee2f2a93-d2a3-450a-a303-0c5dc61bae8f.jpg",
+          "Weight": 20000,
+          "Probability": 2
+        },
+        {
+          "UID": "R_084",
+          "Name": [
+            {
+              "Value": "32 Lady Bu",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "32 步練師",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 360000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/3b5a08c7-6c3a-4661-ba90-d66b63512b83.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/a6fa465d-4c3f-4347-859d-53878c2a6df1.jpg",
+          "Weight": 20000,
+          "Probability": 2
+        },
+        {
+          "UID": "N_066",
+          "Name": [
+            {
+              "Value": "34 鄒氏",
+              "Lang": "zh-cht",
+              "Default": false
+            },
+            {
+              "Value": "34 Madam Zou",
+              "Lang": "en",
+              "Default": false
+            }
+          ],
+          "Level": "N",
+          "WinAmount": 240000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/4c38f7bf-33e1-46d3-84be-8db46288da98.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/1fde5738-9e68-4b46-87f8-b07d294e2aed.jpg",
+          "Weight": 20000,
+          "Probability": 2
+        },
+        {
+          "UID": "SR_102",
+          "Name": [
+            {
+              "Value": "26 Princess Sun",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "26 孫尚香",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 1500000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/9662bb4c-1625-437e-aaa3-d556ba6a252a.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/00330caa-4d42-41ef-b32d-818860b5bf16.jpg",
+          "Weight": 11500,
+          "Probability": 1.15
+        },
+        {
+          "UID": "R_085",
+          "Name": [
+            {
+              "Value": "31 Xianying",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "31 辛憲英",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 450000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/2c617527-6b6e-4d8d-a6ed-3f49bc7feb39.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/0c0c403a-d775-45ca-be5a-9708e55446fe.jpg",
+          "Weight": 10000,
+          "Probability": 1
+        },
+        {
+          "UID": "R_086",
+          "Name": [
+            {
+              "Value": "30 Cai Wenji",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "30 蔡文姬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 600000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/a1cedd44-2a28-4113-b46e-318717ae9cc8.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/4c854979-47ae-4147-9168-1cb142f3643d.jpg",
+          "Weight": 10000,
+          "Probability": 1
+        },
+        {
+          "UID": "R_089",
+          "Name": [
+            {
+              "Value": "27 Younger Qiao",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "27 小喬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 1200000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/d94bea1e-0591-4396-ae99-43d920a1039b.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/c69ec780-7478-4efb-8c6c-8164c36dd7fe.jpg",
+          "Weight": 5000,
+          "Probability": 0.5
+        },
+        {
+          "UID": "R_087",
+          "Name": [
+            {
+              "Value": "29 Yuanji",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "29 王元姬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 750000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/999ea7b0-7e4b-40ff-ab4c-5e26d2e8115b.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/ee3ab1cc-0c3a-4f39-8a0a-e13903ab3dac.jpg",
+          "Weight": 5000,
+          "Probability": 0.5
+        },
+        {
+          "UID": "R_088",
+          "Name": [
+            {
+              "Value": "28 Elder Qiao",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "28 大喬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "R",
+          "WinAmount": 900000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/9ba4b90c-9c90-4997-897e-055a3b28529b.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/5e51f674-7dae-4eed-beb4-75c5f34e5f47.jpg",
+          "Weight": 5000,
+          "Probability": 0.5
+        },
+        {
+          "UID": "SR_103",
+          "Name": [
+            {
+              "Value": "25 Fire Lady",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "25 祝融夫人",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 1800000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/9683927a-39bb-4fd2-b79b-56f7893643cb.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/81dfbd7e-65f2-4918-bec4-8f0989abd90e.jpg",
+          "Weight": 5000,
+          "Probability": 0.5
+        },
+        {
+          "UID": "SR_104",
+          "Name": [
+            {
+              "Value": "24 Yinpin Guan",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "24 關銀屏",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 2400000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/2272ca27-fcc1-47fd-8e67-7a6bf00e2a7e.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/036fd8e2-333f-4300-964e-65c418b3c349.jpg",
+          "Weight": 2000,
+          "Probability": 0.2
+        },
+        {
+          "UID": "SR_105",
+          "Name": [
+            {
+              "Value": "23 Lady Mi",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "23 糜夫人",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 3000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/7e3b28c9-071b-4e49-9cc9-d82ddad6a655.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/29a51152-2b00-4ef5-b3cf-b5cf4c34074b.jpg",
+          "Weight": 2000,
+          "Probability": 0.2
+        },
+        {
+          "UID": "SR_106",
+          "Name": [
+            {
+              "Value": "22 Lady Zhen",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "22 甄姬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 4500000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/2e75d6d7-7a2e-4784-a401-07cd941e3823.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/423f47c2-16b3-4e5e-a8db-39d878235445.jpg",
+          "Weight": 2000,
+          "Probability": 0.2
+        },
+        {
+          "UID": "SSR_119",
+          "Name": [
+            {
+              "Value": "17 Heaven Master",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "17 張角",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 15000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/0900326f-778f-4920-9385-b6a54f7a86bf.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/3c1a5613-a080-4552-a7c7-1f3e6f451546.jpg",
+          "Weight": 1950,
+          "Probability": 0.195
+        },
+        {
+          "UID": "SR_107",
+          "Name": [
+            {
+              "Value": "21 Genius Wife",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "21 黃月英",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 6000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/c8342dfa-6ed2-443c-8718-138049d8ca98.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/202b1133-bb11-4647-8b1a-457c7a16450a.jpg",
+          "Weight": 1000,
+          "Probability": 0.1
+        },
+        {
+          "UID": "SSR_120",
+          "Name": [
+            {
+              "Value": "16 The Tyrant",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "16 董卓",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 18000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/84e6fd65-a9ad-4b6c-a6ea-e7a899be82e6.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/a7f8a548-4ae7-41de-800f-d41f00e0fb33.jpg",
+          "Weight": 1000,
+          "Probability": 0.1
+        },
+        {
+          "UID": "SR_108",
+          "Name": [
+            {
+              "Value": "20 Siren Diaochan",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "20 貂蟬",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 7500000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/c7bbb2f2-979e-48ec-8d22-3f38f4e7d589.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/2d2d6185-78c3-4370-9d18-0219e3cca11f.jpg",
+          "Weight": 500,
+          "Probability": 0.05
+        },
+        {
+          "UID": "SR_109",
+          "Name": [
+            {
+              "Value": "19 Little Conqueror",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "19 孫策",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 9000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/a91edece-3aee-49d2-b5cf-9ba9d554f873.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/25c70aab-e95b-427e-966a-3d5a25e42561.jpg",
+          "Weight": 500,
+          "Probability": 0.05
+        },
+        {
+          "UID": "SR_110",
+          "Name": [
+            {
+              "Value": "18 Scholar General",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "18 陸遜",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SR",
+          "WinAmount": 12000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/5bdee421-3aea-47d4-9414-e99b1449511a.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/32d24f4f-1c17-4dd8-9892-61718483d2a9.jpg",
+          "Weight": 500,
+          "Probability": 0.05
+        },
+        {
+          "UID": "SSR_121",
+          "Name": [
+            {
+              "Value": "15 張飛",
+              "Lang": "zh-cht",
+              "Default": false
+            },
+            {
+              "Value": "15 Tiger Zhang",
+              "Lang": "en",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 24000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/72f5a821-e840-48cc-bda6-cdd436d08642.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/c2d3adbd-a2fb-4a08-8e3d-f8e9588679a1.jpg",
+          "Weight": 500,
+          "Probability": 0.05
+        },
+        {
+          "UID": "SSR_122",
+          "Name": [
+            {
+              "Value": "14 關羽",
+              "Lang": "zh-cht",
+              "Default": false
+            },
+            {
+              "Value": "14 God of War",
+              "Lang": "en",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 30000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/6999ad29-2078-4429-a37f-180e56160aa0.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/1f74782c-305d-40a4-bcdc-699fd6d30090.jpg",
+          "Weight": 500,
+          "Probability": 0.05
+        },
+        {
+          "UID": "SSR_123",
+          "Name": [
+            {
+              "Value": "13 Dragon Zhao",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "13 趙雲",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 36000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/e03227c1-bb46-4d3f-8092-1da5d5c50aba.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/79f99954-d83b-4cf0-8ebb-71ca2897d2c5.jpg",
+          "Weight": 500,
+          "Probability": 0.05
+        },
+        {
+          "UID": "SSR_124",
+          "Name": [
+            {
+              "Value": "12 The Strategist",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "12 周瑜",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 45000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/66052ed9-f86d-4eda-9384-409e9dac8824.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/123d125d-af95-46e6-a29f-5dede53e9ad8.jpg",
+          "Weight": 200,
+          "Probability": 0.02
+        },
+        {
+          "UID": "SSR_125",
+          "Name": [
+            {
+              "Value": "11 Flying General",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "11 呂布",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 60000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/71942f06-a233-4346-b234-f0b3b72c84e2.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/151482f7-f5fe-48eb-b807-91802a741e45.jpg",
+          "Weight": 200,
+          "Probability": 0.02
+        },
+        {
+          "UID": "SSR_126",
+          "Name": [
+            {
+              "Value": "10 The Shadow",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "10 司馬懿",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 90000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/c36d9330-7fee-4a1e-9232-368c7ec5c83f.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/9fcb11dd-9c2c-4813-880d-768187f9fe02.jpg",
+          "Weight": 100,
+          "Probability": 0.01
+        },
+        {
+          "UID": "UR_127",
+          "Name": [
+            {
+              "Value": "08 Tiger Lord",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "08 孫權",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 150000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/7ead80b0-4c1f-47a8-a853-2b6bdf8bc098.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/43d546c6-84ec-43c0-bc35-5f3d67823f37.jpg",
+          "Weight": 56,
+          "Probability": 0.0056
+        },
+        {
+          "UID": "SSR_127",
+          "Name": [
+            {
+              "Value": "09 諸葛亮",
+              "Lang": "zh-cht",
+              "Default": false
+            },
+            {
+              "Value": "09 The Dragon",
+              "Lang": "en",
+              "Default": false
+            }
+          ],
+          "Level": "SSR",
+          "WinAmount": 135000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/25fbec3e-9b1d-47f7-82dc-ee67802a1170.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/561066dd-f90f-46f1-be7e-61b77f64d9ae.jpg",
+          "Weight": 50,
+          "Probability": 0.005
+        },
+        {
+          "UID": "UR_128",
+          "Name": [
+            {
+              "Value": "07 Lord of Virtue",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "07 劉備",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 225000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/af57fbc1-3e33-447b-bf67-fee8a4021dad.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/103277c8-4fa2-4c56-bb55-3d1201296390.jpg",
+          "Weight": 20,
+          "Probability": 0.002
+        },
+        {
+          "UID": "UR_129",
+          "Name": [
+            {
+              "Value": "06 Chaos Hero",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "06 曹操",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 300000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/c22ff0c7-7bc4-42bd-855c-0c2b770a016d.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/b2982b38-7bbe-47d8-a39c-9a67a8e0450d.jpg",
+          "Weight": 10,
+          "Probability": 0.001
+        },
+        {
+          "UID": "UR_130",
+          "Name": [
+            {
+              "Value": "05 Lu Bu End",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "05 呂布：白門樓",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 450000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/f28291d2-aed9-4c27-b2bb-31ec3edaa489.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/8b6eb88f-c261-40b5-b887-6c3f97ed7b4b.jpg",
+          "Weight": 5,
+          "Probability": 0.0005
+        },
+        {
+          "UID": "UR_131",
+          "Name": [
+            {
+              "Value": "04 Red Cliff Fire",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "04 周瑜：火燒赤壁",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 600000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/47809068-b795-4cb9-b28c-618c3ec7933d.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/6b5dc60d-51a5-47c6-89c1-e94b3e69ad5e.jpg",
+          "Weight": 4,
+          "Probability": 0.0004
+        },
+        {
+          "UID": "UR_132",
+          "Name": [
+            {
+              "Value": "03 The Solo Ride",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "03 關羽：千里獨行",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 750000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/6332471c-6250-48a1-aee2-fb6a80f6ab60.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/c4da05ab-440b-4cfe-a58a-1ca8ed6ed29c.jpg",
+          "Weight": 2,
+          "Probability": 0.0002
+        },
+        {
+          "UID": "UR_133",
+          "Name": [
+            {
+              "Value": "02 Guandu Victory",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "02 曹操：官渡之戰",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 1200000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/adfa791a-1196-4b81-9f9d-7a914b143daf.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/72a5d1bc-7739-4663-aed3-620ed9c1477a.jpg",
+          "Weight": 2,
+          "Probability": 0.0002
+        },
+        {
+          "UID": "UR_134",
+          "Name": [
+            {
+              "Value": "01 Final Prayer",
+              "Lang": "en",
+              "Default": false
+            },
+            {
+              "Value": "01 諸葛亮：五丈原",
+              "Lang": "zh-cht",
+              "Default": false
+            }
+          ],
+          "Level": "UR",
+          "WinAmount": 1500000000,
+          "PreviewImageURL": "https://storge.afagaming.cc/card/61388e33-6f5e-4340-9a8b-b499bb386671.jpg",
+          "ImageURL": "https://storge.afagaming.cc/card/c3b740c6-9b02-4e1d-ae60-3bdab72b87d5.jpg",
+          "Weight": 1,
+          "Probability": 0.0001
+        }
+      ],
+      "TotalWeight": 1000000,
+      "RarityRates": {
+        "N": 86.99,
+        "R": 10,
+        "SR": 2.5,
+        "SSR": 0.5,
+        "UR": 0.01
+      }
+    }
+  }
+}

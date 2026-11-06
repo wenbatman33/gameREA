@@ -1,0 +1,2 @@
+System.register("chunks:///_virtual/TigerCityI18nAssetLoadingConfig.ts",["cc","./UIConfig.ts"],(function(e){"use strict";var t,i;return{setters:[function(e){t=e.cclegacy},function(e){i=e.UIBundleName}],execute:function(){t._RF.push({},"873f8sgH8FEy65yPhoUlFvu","TigerCityI18nAssetLoadingConfig",void 0);e("default",{bundleName:i.TIGER_CITY_UI,prefix:"i18n",path:{spriteFrame:{tigerCityBrandLogo:"img_logo"}}});t._RF.pop()}}}));
+
